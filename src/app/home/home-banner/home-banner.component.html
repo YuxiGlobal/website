@@ -1,0 +1,18 @@
+<section class="home-banner">
+  <div class="info-banner">
+    <h2 class="banner-tittle">{{info.title | uppercase }}</h2>
+    <div class="line"></div>
+    <h5 class="banner-description">{{info.subtitle}}</h5>
+    <div class="home-button-wrapper">
+      <app-button
+        type="primary"
+        size="small"
+      >
+        Learn more
+      </app-button>
+    </div>
+  </div>
+  <div class="first-image-banner">
+    <img width="100%" [src]="info.image"/>
+  </div>
+</section>

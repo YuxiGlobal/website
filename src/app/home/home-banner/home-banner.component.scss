@@ -1,0 +1,69 @@
+@import '~styles/variables';
+@import "~fullpage.js/dist/jquery.fullpage.css";
+.home-banner {
+    height: 100vh;
+    background: $rusianViolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-image: url('../../../assets/images/DINAMIC_BANNERS_MOBILE_IPHONE5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 50px;
+    @media only screen and (orientation : landscape) {
+      flex-direction: row;
+      padding-top: 0;
+    }
+  }
+  // .first-banner img{
+  //   width: 300px;
+  //   text-align: center;
+  // }
+  
+.banner-tittle{
+  font-family: $fontFamilyPrimary;
+  color: $white;  
+  word-spacing: 100vw;
+  margin-bottom: 10px;
+}
+
+.banner-description {
+  font-family: $fontFamilySecondary;
+  color: $white;
+  font-weight: 400;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 10px;
+}
+
+.line {
+  width: 45px;   
+  border-bottom: 2px solid $white;  
+  margin: auto;
+}
+
+.home-button-wrapper {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+
+  // @media (min-width: 1024px) {
+  //   width: 15%;
+  // }
+}
+
+.first-image-banner {  
+  animation-name: first-image-banner;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes first-image-banner {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}

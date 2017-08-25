@@ -1,0 +1,18 @@
+<div
+  class="button"
+  [class.primaryButton]="type === 'primary'"
+>
+  <div
+    class="inner-button"
+    [class.primaryInnerBackground]="type === 'primary'"
+    [class.secondaryInnerBackground]="type === 'secondary'"
+  >
+    <h5
+      [class.large]="size === 'large'"
+      [class.medium]="size === 'medium'"
+      [class.small]="size === 'small'"
+    >
+      <ng-content></ng-content>
+    </h5>
+  </div>
+</div>

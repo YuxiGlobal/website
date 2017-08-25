@@ -1,0 +1,88 @@
+@import '~styles/variables';
+
+.primaryButton {
+  background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+  padding: 3px;
+  border-radius: 10px;
+  background-size: 200% 200%;
+  
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 84%}
+      50%{background-position:100% 17%}
+      100%{background-position:0% 84%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 84%}
+      50%{background-position:100% 17%}
+      100%{background-position:0% 84%}
+  }
+  @keyframes AnimationName { 
+      0%{background-position:0% 84%}
+      50%{background-position:100% 17%}
+      100%{background-position:0% 84%}
+  }
+}
+
+.primaryInnerBackground {
+  background: $rusianViolet;
+  color: $white;
+    &:hover {
+      background: $turquoiseBlue;
+      color: $rusianViolet;
+    }
+}
+
+.secondaryInnerBackground {
+  background: $turquoiseBlue;
+  color: #000;
+}
+
+.inner-button {
+  border-radius: 10px;
+  padding: 16px 16px;
+  font-family: $fontFamilyPrimary;
+  font-weight: bold;
+
+    h5 {
+      margin: 0;
+    }
+}
+
+// .button {
+//   background: $white;
+//   border: 1px solid $rusianViolet;
+//   border-radius: 5px;
+//   color: $rusianViolet;
+//   transition: all .2s ease;
+//   display: block;
+//   transition: 2s;
+
+//   &:hover {
+//     background: $rusianViolet;
+//     color: $white;
+//     cursor: pointer;
+//   }
+// }
+
+.large {
+  font-size: 1.3rem;
+}
+
+.medium {
+  font-size: 1rem;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        // display: none;
+    }
+}
+
