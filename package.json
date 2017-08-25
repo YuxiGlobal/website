@@ -7,12 +7,12 @@
     "start": "ng serve",
     "build:ghpages": "ng build --prod --base-href https://angelitaooo.github.io/YuxiGlobal-NewSite/",
     "ghpages:github": "gh-pages -d dist -o github",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "npm run build:ghpages && npm run ghpages:github",
-    "ngrok": "ngrok http --host-header=rewrite 4200"
+    "ngrok": "ngrok http --host-header=rewrite 4200",
+    "build": "ng build --prod --aot -bh ./"
   },
   "private": true,
   "dependencies": {
