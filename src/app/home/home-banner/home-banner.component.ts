@@ -16,7 +16,7 @@ export class HomeBannerComponent implements OnInit {
 
   ngOnInit() {
     this.detectedWidth(window.screen.width)
-    // this.fullpageService.destroy('all');
+    this.fullpageService.destroy('all');
 
     //this.fullpageService.setAutoScrolling(false);
     //this.fullpageService.setFitToSection(false);
