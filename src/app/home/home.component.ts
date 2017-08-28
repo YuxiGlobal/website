@@ -30,6 +30,28 @@ export class HomeComponent implements OnInit {
       video:'https://thumb1.shutterstock.com/display_pic_with_logo/4295143/603333428/stock-vector-vector-realistic-basketball-ball-isolated-on-transparent-background-603333428.jpg'
     }
   ]
+
+  servicesInfo = [
+    {
+      id: 1,
+      logo:'assets/icons/staff_augmentation.svg',
+      title:'staff augmentation',
+      subtitle: 'Overcome challenges and deadlines with our specialized personnel.'
+    },
+    {
+      id: 2,
+      logo:'assets/icons/specialized_projects.svg',
+      title:'specialized projects',
+      subtitle: 'R&D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.'
+    },
+    {
+      id: 3,
+      logo:'assets/icons/product_development.svg',
+      title:'product development',
+      subtitle: 'Short-cycle MVP’s for rapid market validation and feature implementation.'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit() {

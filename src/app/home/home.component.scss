@@ -1,4 +1,9 @@
-
+@import '~styles/variables';
 .home-component {
     text-align:center;
-}   
+    background-color: $japaneseViolet;
+    font-family: $fontFamilyPrimary;
+    color: $white;  
+} 
+
+
