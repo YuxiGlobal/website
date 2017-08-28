@@ -1,3 +1,4 @@
+import { MnFullpageOptions } from 'ngx-fullpage';
 import { Component, OnInit } from '@angular/core';
 
 
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  fullPageOptions: MnFullpageOptions;
+  
   bannerInfo = [
     {
       id: 1,
@@ -31,30 +34,34 @@ export class HomeComponent implements OnInit {
     }
   ]
 
-  servicesInfo = [
-    {
-      id: 1,
-      logo:'assets/icons/staff_augmentation.svg',
-      title:'staff augmentation',
-      subtitle: 'Overcome challenges and deadlines with our specialized personnel.'
-    },
-    {
-      id: 2,
-      logo:'assets/icons/specialized_projects.svg',
-      title:'specialized projects',
-      subtitle: 'R&D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.'
-    },
-    {
-      id: 3,
-      logo:'assets/icons/product_development.svg',
-      title:'product development',
-      subtitle: 'Short-cycle MVP’s for rapid market validation and feature implementation.'
-    }
-  ]
 
-  constructor() { }
+  constructor() { 
+    this.fullPageOptions = new MnFullpageOptions({
+        navigation: true,
+        keyboardScrolling: true,
+        afterSlideLoad: this.afterSlideLoad 
+    });
+
+
+  }
 
   ngOnInit() {
+  }
+
+  afterSlideLoad(anchorLink: string, index: number, slideAnchor: string, slideIndex: number) : void{
+    console.log("SlideLoad", {
+      anchorLink: anchorLink,
+      index: index,
+      slideAnchor: slideAnchor,
+      slideIndex: slideIndex
+    });
+
+
+  }
+
+  handle(){
+    console.log("fired");
+    
   }
 
 }

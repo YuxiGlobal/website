@@ -16,17 +16,22 @@ export class HomeBannerComponent implements OnInit {
 
   ngOnInit() {
     this.detectedWidth(window.screen.width)
-    this.fullpageService.destroy('all');
+    // this.fullpageService.destroy('all');
+
+    //this.fullpageService.setAutoScrolling(false);
+    //this.fullpageService.setFitToSection(false);
   }
   detectedWidth(size){
+    
     
     console.log(size)
     if(size > 1024){
         this.ShowMedia = 'image'
-       }else{
+    } else {
         this.ShowMedia = 'image'
-     }
-      return this.ShowMedia ;
+    }
+    
+    return this.ShowMedia ;
   }
 
 }
