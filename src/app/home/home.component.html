@@ -6,12 +6,12 @@
   [mnFullpageNavigation]="true"
   [mnFullpageKeyboardScrolling]="true"
   [mnFullpageSlidesNavigation]="true"
-  mnFullpageScrollOverflow="false">
+  >
     <section app-home-banner 
       [info]="bannerInfo[0]"
       class="section fp-section fp-table">
     </section >
-    <section app-home-banner 
+    <section app-home-banner   
       [info]="bannerInfo[1]"
       class="section fp-section fp-table">
     </section >
@@ -19,10 +19,15 @@
       [info]="bannerInfo[2]"
       class="section fp-section fp-table">
     </section >
+    
+  
   </div>
-  <section class="services-title">
-    Welcome to!!
-  </section>
-
+  <div>
+    <section class="services-title">
+      Welcome to!!
+      
+      <app-services></app-services>
+    </section>
+  </div>
   <app-footer></app-footer>
 </div>

@@ -1,4 +1,4 @@
-<section class="home-banner">
+<section class="home-banner" (window:resize)="detectedWidth($event.target.innerWidth)">
   <div class="info-banner">
     <h2 class="banner-tittle">{{info.title | uppercase }}</h2>
     <div class="line"></div>
@@ -13,6 +13,9 @@
     </div>
   </div>
   <div class="first-image-banner">
-    <img width="100%" [src]="info.image"/>
+      <div [ngSwitch]="ShowMedia">
+          <img *ngSwitchCase="'image'" width="100%" [src]="info.image"/>
+          <img *ngSwitchCase="'video'" width="100%" [src]="info.video"/>
+      </div> 
   </div>
 </section>
