@@ -1,3 +1,4 @@
+import { IServiceInfo } from 'app/shared/iservices-info';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -6,6 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent {
-  @Input() info;  
+  @Input() info: IServiceInfo;  
 
 }
