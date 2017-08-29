@@ -1,6 +1,6 @@
-import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
+import { IBannerInfo } from 'app/shared/ibanner-info';
+import { Component, OnInit, Input, ViewEncapsulation, OnChanges } from '@angular/core';
 import { MnFullpageService } from "ngx-fullpage";
-import { MnFullpageOptions } from 'ngx-fullpage';
 
 @Component({
   encapsulation: ViewEncapsulation.None,
@@ -9,29 +9,28 @@ import { MnFullpageOptions } from 'ngx-fullpage';
   styleUrls: ['./home-banner.component.scss']
 })
 export class HomeBannerComponent implements OnInit {
-  @Input()
-  info;
-  ShowMedia: string ='image';
-  constructor(private fullpageService: MnFullpageService) { }
+
+  readonly CHANGE_TYPE_BREAKPOINT: number = 1024;
+  readonly IMAGE_TYPE: string = 'image';
+  readonly VIDEO_TYPE: string = 'video';
+  @Input() info: IBannerInfo;
+  showMedia: string;
+
+  constructor(private fullpageService: MnFullpageService) {
+    this.detectedWidth();
+  }
 
   ngOnInit() {
-    this.detectedWidth(window.screen.width)
     this.fullpageService.destroy('all');
-
-    //this.fullpageService.setAutoScrolling(false);
-    //this.fullpageService.setFitToSection(false);
   }
-  detectedWidth(size){
-    
-    
-    console.log(size)
-    if(size > 1024){
-        this.ShowMedia = 'image'
+
+  detectedWidth() {
+    if (window.innerWidth < this.CHANGE_TYPE_BREAKPOINT) {
+      this.showMedia = this.IMAGE_TYPE;
     } else {
-        this.ShowMedia = 'image'
+      this.showMedia = this.VIDEO_TYPE;
     }
-    
-    return this.ShowMedia ;
+    return this.showMedia;
   }
 
 }
