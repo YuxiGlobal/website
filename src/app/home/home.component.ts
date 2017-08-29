@@ -1,4 +1,8 @@
+import { BANNERS_INFO, SERVICES_INFO } from './../shared/website-info';
+import { MnFullpageOptions } from 'ngx-fullpage';
 import { Component, OnInit } from '@angular/core';
+import { IBannerInfo } from 'app/shared/ibanner-info';
+import { IServiceInfo } from 'app/shared/iservices-info';
 
 
 @Component({
@@ -7,29 +11,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  bannerInfo = [
-    {
-      id: 1,
-      title: 'discover real innovation',
-      subtitle: 'Find out more about our software development services.',
-      image: 'assets/images/DINAMIC_BANNERS_CELLPHONE.png'
-    },
-    {
-      id: 2,
-      title: 'explore inventive technologies',
-      subtitle: 'see how our solutions can get you ahead of your competition',
-      image: 'assets/images/DINAMIC_BANNERS_GOGGLES.png'
-    },
-    {
-      id: 3,
-      title: 'devise groundbreaking inprovements',
-      subtitle: 'lear how your company can evolve via digital transformation',
-      image: 'assets/images/DINAMIC_BANNERS_ROBOT.png'
-    }
-  ]
-  constructor() { }
+  fullPageOptions: MnFullpageOptions;
+  bannersInfo: IBannerInfo[];
+  servicesInfo: IServiceInfo[];
+
+  constructor() {
+    this.bannersInfo = BANNERS_INFO;  
+    this.servicesInfo = SERVICES_INFO;
+
+    this.fullPageOptions = new MnFullpageOptions({
+      navigation: true,
+      keyboardScrolling: true,
+      afterSlideLoad: this.afterSlideLoad
+    });
+
+  }
 
   ngOnInit() {
+  }
+
+  afterSlideLoad(anchorLink: string, index: number, slideAnchor: string, slideIndex: number): void {
+    console.log("SlideLoad", {
+      anchorLink: anchorLink,
+      index: index,
+      slideAnchor: slideAnchor,
+      slideIndex: slideIndex
+    });
   }
 
 }

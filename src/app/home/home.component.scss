@@ -1,4 +1,14 @@
-
+@import '~styles/variables';
 .home-component {
     text-align:center;
-}   
+    background-color: $japaneseViolet;
+    font-family: $fontFamilyPrimary;
+    color: $white;  
+} 
+
+.services-container h2 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+
