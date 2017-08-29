@@ -5,23 +5,32 @@
   <div mnFullpage  
   [mnFullpageNavigation]="true"
   [mnFullpageKeyboardScrolling]="true"
-  [mnFullpageSlidesNavigation]="true">
+  [mnFullpageSlidesNavigation]="true"
+  [mnFullpage]="fullPageOptions"
+  [mnFullpageOnSlideLeave]="handle"
+  >
     <section app-home-banner 
-      [info]="bannerInfo[0]"
+      [info]="bannersInfo[0]"
+      class="section fp-section fp-table">
+    </section >
+    <section app-home-banner   
+      [info]="bannersInfo[1]"
       class="section fp-section fp-table">
     </section >
     <section app-home-banner 
-      [info]="bannerInfo[1]"
+      [info]="bannersInfo[2]"
       class="section fp-section fp-table">
-    </section >
-    <section app-home-banner 
-      [info]="bannerInfo[2]"
-      class="section fp-section fp-table">
-    </section >
+    </section >  
   </div>
-  <section class="services-title">
-    Welcome to!!
+ 
+  <section class="services-container">
+    <h2>SERVICES</h2>      
+    <app-services 
+      *ngFor="let service of servicesInfo"
+      [info]="service">
+    </app-services>
   </section>
-
+  
+ 
   <app-footer></app-footer>
 </div>
