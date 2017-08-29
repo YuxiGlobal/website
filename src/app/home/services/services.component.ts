@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
   @Input()
-  servicesInfo;
+  info;
   constructor() { }
 
   ngOnInit() {

@@ -1,49 +1,10 @@
-<section class="services-container">
-  <h2>SERVICES</h2> 
-  <div class="service-item">
-  <div class="service staff-augmentation">
-      <img src="assets/icons/staff_augmentation.svg" alt="">
-      <h2>staff augmentation</h2>
-      <p>Overcome challenges and deadlines with our specialized personnel.  </p>
-      <div class="home-button-wrapper">
-          <app-button
-            type="secondary"
-            size="small"
-          >
-            Learn more
-          </app-button>
-        </div>
-    </div>
-  
-    <div class="service specialized-projects">
-      <img src="assets/icons/specialized_projects.svg" alt="">
-      <h2>specialized projects</h2>
-      <p>R&D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.</p>
-      <div class="home-button-wrapper">
-          <app-button
-            type="secondary"
-            size="small"
-          >
-            Learn more
-          </app-button>
-        </div>
-    </div>
-  
-    <div class="service product-development">
-      <img src="assets/icons/product_development.svg" alt="">
-      <h2>product development</h2>
-      <p>Short-cycle MVP’s for rapid market validation and feature implementation.</p>
-      <div class="home-button-wrapper">
-          <app-button
-            type="secondary"
-            size="small"
-          >
-            Learn more
-          </app-button>
-        </div>
-    </div>
+<div class="service">
+  <img width="100px" [src]="info.icon" alt="">
+  <h4>{{info.title | uppercase}}</h4>
+  <h5 class="subtitle">{{info.subtitle}}</h5>
+  <div class="service-button-wrapper">
+    <app-button type="secondary" size="small">
+      Learn more
+    </app-button>
   </div>
- 
-</section>
-
-
+</div>

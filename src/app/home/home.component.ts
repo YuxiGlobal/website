@@ -34,6 +34,27 @@ export class HomeComponent implements OnInit {
     }
   ]
 
+  servicesInfo = [
+    {
+      id: 1,
+      icon: 'assets/icons/icono1-01.svg',
+      title: 'staff augmentation',
+      subtitle: 'Overcome challenges and deadlines with our specialized personnel.'
+    },
+    {
+      id: 2,
+      icon: 'assets/icons/icono2_services.svg',
+      title: 'specialized projects',
+      subtitle: 'R&D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.'
+    },
+    {
+      id: 3,
+      icon: 'assets/icons/icono3_services.svg',
+      title: 'product development',
+      subtitle: 'Short-cycle MVP’s for rapid market validation and feature implementation.'
+    }
+  ]
+
 
   constructor() { 
     this.fullPageOptions = new MnFullpageOptions({

@@ -23,8 +23,13 @@
     </section >  
   </div>
  
-        
-  <app-services></app-services>
+  <section class="services-container">
+    <h2>SERVICES</h2>      
+    <app-services 
+      *ngFor="let service of servicesInfo"
+      [info]="service">
+    </app-services>
+  </section>
   
  
   <app-footer></app-footer>
