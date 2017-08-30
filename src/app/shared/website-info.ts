@@ -45,3 +45,28 @@ export const BANNERS_INFO = [
       subtitle: 'Short-cycle MVP’s for rapid market validation and feature implementation.'
     }
   ];
+
+  export const ADVANTAGES_INFO = [
+    {
+      id: 1,
+      icon: 'assets/icons/icono_advantages.svg',
+      title: 'location',
+      subtitle: 'UTC-5:00, direct flights, and a US-based support office.',
+      class: 'icon-1'
+    },
+    {
+      id: 2,
+      icon: 'assets/icons/icono2_advantages.svg',
+      title: 'cultural fit',
+      subtitle: 'Western culture, mentality, and bilingualism.',
+      class: 'icon-2'
+    },
+    {
+      id: 3,
+      icon: 'assets/icons/icono3_advantages.svg',
+      title: 'flexibility',
+      subtitle: 'Expertise in diverse languages, databases, and frameworks.',
+      class: 'icon-3'
+    },
+
+  ]
