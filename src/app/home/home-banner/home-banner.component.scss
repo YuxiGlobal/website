@@ -12,6 +12,7 @@
     background-position: center;
     background-size: 100%;
     padding-top: 50px;
+    overflow: hidden;
     @media only screen and (orientation : landscape) {
       flex-direction: row;
       padding-top: 0;
@@ -76,10 +77,22 @@
     position: static;
     right: 0;
   }
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.banner-video {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
 }
 
 @keyframes first-image-banner {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }
+    from { transform: translate(0,  10px); }
+    65%  { transform: translate(0, 25px); }
+    to   { transform: translate(0, 10px); }
 }

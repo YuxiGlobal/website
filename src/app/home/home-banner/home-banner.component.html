@@ -1,4 +1,4 @@
-<div class="home-banner" (window:resize)="detectedWidth()">
+<div class="home-banner">
   <div class="info-banner">
     <h2 class="banner-tittle">{{info.title | uppercase }}</h2>
     <div class="line"></div>
@@ -13,9 +13,7 @@
     </div>
   </div>
   <div class="first-image-banner">
-      <div [ngSwitch]="showMedia">
-          <img class="banner-image" *ngSwitchCase="this.IMAGE_TYPE" width="100%" [src]="info.image"/>
-          <img class="banner-video" *ngSwitchCase="this.VIDEO_TYPE" width="100%" [src]="info.video"/>
-      </div>
+      <img class="banner-image" width="100%" [src]="info.image"/>
+      <img class="banner-video" width="100%" [src]="info.video"/>
   </div>
 </div>
