@@ -1,4 +1,4 @@
-import { IAdvantagesInfo } from './../shared/iadvantages-info';
+import { IAdvantagesInfo } from 'app/shared/iadvantages-info';
 import { BANNERS_INFO, SERVICES_INFO, ADVANTAGES_INFO } from './../shared/website-info';
 import { MnFullpageOptions } from 'ngx-fullpage';
 import { Component, OnInit } from '@angular/core';

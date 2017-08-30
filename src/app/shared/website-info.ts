@@ -67,6 +67,6 @@ export const BANNERS_INFO = [
       title: 'flexibility',
       subtitle: 'Expertise in diverse languages, databases, and frameworks.',
       class: 'icon-3'
-    },
+    }
 
   ]
