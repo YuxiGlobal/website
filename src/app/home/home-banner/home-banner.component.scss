@@ -16,12 +16,15 @@
     @media only screen and (orientation : landscape) {
       flex-direction: row;
       padding-top: 0;
+      text-align: left;
+      padding-left: 10%;
     }
   }
   // .first-banner img{
   //   width: 300px;
   //   text-align: center;
   // }
+
 
 .banner-tittle{
   font-family: $fontFamilyPrimary;
@@ -37,18 +40,30 @@
   margin-left: 14%;
   margin-right: 14%;
   margin-top: 10px;
+  @media only screen and (orientation : landscape) {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }
 
 .line {
   width: 45px;
   border-bottom: 2px solid $white;
   margin: auto;
+  @media only screen and (orientation : landscape) {
+    margin: 0;
+  }
 }
 
 .home-button-wrapper {
   max-width: 150px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  @media only screen and (orientation : landscape) {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   // @media (min-width: 1024px) {
   //   width: 15%;
@@ -85,6 +100,7 @@
 
 .banner-image-3 {
   right: 0px;
+  margin-top: 14%;
 }
 
 .banner-video {
