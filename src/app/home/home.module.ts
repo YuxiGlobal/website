@@ -6,6 +6,7 @@ import { SharedModule } from './../shared/shared.module';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { MnFullpageModule } from 'ngx-fullpage';
 import { ServicesComponent } from './services/services.component';
+import { AdvantagesComponent } from './advantages/advantages.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,7 @@ import { ServicesComponent } from './services/services.component';
     BrowserModule,
     MnFullpageModule.forRoot() 
   ],
-  declarations: [HomeComponent, HomeBannerComponent, ServicesComponent],
+  declarations: [HomeComponent, HomeBannerComponent, ServicesComponent, AdvantagesComponent],
   exports: [HomeComponent]
 })
 export class HomeModule { }

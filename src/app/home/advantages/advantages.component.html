@@ -1,0 +1,12 @@
+<div class="advantages" [ngClass]="info.class">
+    <div>
+        <img width="90px" [src]="info.icon" alt="">
+    </div>
+    <div class="advantages-data">
+      <h4>{{info.title | uppercase}}</h4>
+      <h5 class="subtitle">{{info.subtitle}}</h5>
+    </div>
+    <div class="advantages-button">
+      <div class="inner-circle"></div>
+    </div>
+</div>
