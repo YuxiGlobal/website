@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
   bannersInfo: IBannerInfo[];
   servicesInfo: IServiceInfo[];
   advantagesInfo: IAdvantagesInfo[];
+  test: string = 'test';
 
   constructor() {
     this.bannersInfo = BANNERS_INFO;  
