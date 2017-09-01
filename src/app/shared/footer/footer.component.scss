@@ -1,0 +1,43 @@
+@import '~styles/variables';
+footer {
+    height: 95px;
+    background: $rusianViolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $white;
+}
+li {
+    display: inline;
+}
+.white-yuxi-logo {
+    width: 40%;
+}
+.media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+
+    p {
+        height: 30px;
+        border-right: 1px solid;
+    }
+}
+.media-items {
+   display: inline-block;
+}
+
+.terms {
+    font-family: $fontFamilySecondary;
+    font-size: 0.5rem;
+    a {
+        text-decoration: none;
+        color: $white;
+        margin: 5px;
+    }
+    
+}
+
