@@ -25,15 +25,13 @@
     }
 }
 
-.inner-circle{
-    width: 30px;
-    height: 30px;
+.advantages-button {
     margin-right: 10px;
-    border-radius: 100%;
+}
+
+.inner-circle {
+    transform: scale(0.8);
     background: $turquoiseBlue;
-    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.40);
-    -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.40);
-    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.40);
 }
 
 .icon-1:hover {
