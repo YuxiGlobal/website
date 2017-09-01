@@ -9,9 +9,7 @@ footer {
     text-align: center;
     color: $white;
 }
-li {
-    display: inline;
-}
+
 .white-yuxi-logo {
     width: 40%;
 }
@@ -28,6 +26,11 @@ li {
 }
 .media-items {
    display: inline-block;
+   margin-left: 20px;
+}
+.media-icon {
+    width: 35px;
+    
 }
 
 .terms {
@@ -41,3 +44,13 @@ li {
     
 }
 
+.in-touch{
+    position: absolute;
+    margin-top: -52px;
+    color: pink;
+    border: 2px solid white;
+    border-radius: 9%;
+    margin-left: 34%;
+    padding: 2%;
+    background: $rusianViolet;
+}
