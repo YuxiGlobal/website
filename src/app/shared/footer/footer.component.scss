@@ -26,7 +26,8 @@ footer {
 }
 .media-items {
    display: inline-block;
-   margin-left: 20px;
+   margin-left: 16px;
+   margin-top: 9px;
 }
 .media-icon {
     width: 35px;
@@ -36,6 +37,7 @@ footer {
 .terms {
     font-family: $fontFamilySecondary;
     font-size: 0.5rem;
+    margin: 5px;
     a {
         text-decoration: none;
         color: $white;
