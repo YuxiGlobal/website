@@ -1,6 +1,6 @@
 @import '~styles/variables';
 footer {
-    height: 95px;
+    height: 125px;
     background: $rusianViolet;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,16 @@ footer {
     justify-content: center;
     text-align: center;
     color: $white;
+    position: relative;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 3px;
+        width: 100%;
+        background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+    }
 }
 
 .white-yuxi-logo {
@@ -48,11 +58,21 @@ footer {
 
 .in-touch{
     position: absolute;
-    margin-top: -52px;
+    top: -27px;
+    right: 20px;
     color: pink;
     border: 2px solid white;
-    border-radius: 9%;
-    margin-left: 34%;
-    padding: 2%;
+    border-radius: 5px;   
+    padding: 8px 0;
     background: $rusianViolet;
+    width: 90px;
+    p {
+        margin: 0;
+        color: $brightLilac;
+        background: linear-gradient(90deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+        background-size: 80%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
