@@ -20,7 +20,7 @@ export class HomeBannerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.fullpageService.destroy('all');
+    // this.fullpageService.destroy('all');
   }
 
 
