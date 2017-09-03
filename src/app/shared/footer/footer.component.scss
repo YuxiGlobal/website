@@ -8,6 +8,7 @@ footer {
   text-align: center;
   color: $white;
   position: relative;
+  padding: 40px 0 20px 0;
 
   &:before {
     content: '';
@@ -21,7 +22,7 @@ footer {
 }
 
 .white-yuxi-logo {
-  width: 40%;
+  width: 70px;
 }
 
 .media {
@@ -29,26 +30,30 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  p {
-    height: 30px;
-    border-right: 1px solid;
-  }
 }
 
 .media-items {
+  border-left: 2px solid #fff;
   display: inline-block;
   margin-left: 16px;
-  margin-top: 9px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+  a {
+    display: inline-block;
+    width: 25px;
+  }
 }
 
 .media-icon {
-  width: 35px;
+  width: 100%;
 }
 
 .terms {
   font-family: $fontFamilySecondary;
   font-size: 0.5rem;
-  margin: 5px;
+  margin-top: 15px;
   a {
     text-decoration: none;
     color: $white;
