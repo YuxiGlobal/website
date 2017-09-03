@@ -1,6 +1,5 @@
 @import '~styles/variables';
 footer {
-  height: 125px;
   background: $rusianViolet;
   display: flex;
   flex-direction: column;
@@ -9,6 +8,7 @@ footer {
   text-align: center;
   color: $white;
   position: relative;
+
   &:before {
     content: '';
     display: block;
