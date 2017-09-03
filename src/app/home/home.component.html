@@ -2,52 +2,57 @@
 <!-- *ngFor="let banner of bannerInfo" -->
 <div class="home-component">
   <app-nav-bar></app-nav-bar>
-  <div mnFullpage  
+  <div mnFullpage
   [mnFullpageNavigation]="true"
   [mnFullpageKeyboardScrolling]="true"
   [mnFullpageSlidesNavigation]="true"
   >
-    <section app-home-banner 
+    <section app-home-banner
       [info]="bannersInfo[0]"
       class="section fp-section fp-table">
     </section >
-    <section app-home-banner   
+    <section app-home-banner
       [info]="bannersInfo[1]"
       class="section fp-section fp-table">
     </section >
-    <section app-home-banner 
+    <section app-home-banner
       [info]="bannersInfo[2]"
       class="section fp-section fp-table">
-    </section >  
+    </section >
   </div>
- 
+
   <section class="home-content">
-    <h2>SERVICES</h2>  
+    <h2>SERVICES</h2>
     <div class="load-dot-container">
       <div class="dot load-dot-1"></div>
       <div class="dot load-dot-2"></div>
       <div class="dot load-dot-3"></div>
       <div class="dot load-dot-4"></div>
-    </div>    
-    <app-services 
-      *ngFor="let service of servicesInfo"
-      [info]="service">
-    </app-services>
+    </div>
+    <section class="home-content-subsection">
+      <app-services
+        class="home-content-subsection"
+        *ngFor="let service of servicesInfo"
+        [info]="service">
+      </app-services>
+    </section>
   </section>
 
   <section class="home-content">
-      <h2>ADVANTAGES</h2>  
+      <h2>ADVANTAGES</h2>
       <div class="load-dot-container">
         <div class="dot load-dot-1"></div>
         <div class="dot load-dot-2"></div>
         <div class="dot load-dot-3"></div>
         <div class="dot load-dot-4"></div>
-      </div>  
-      <app-advantages
-        *ngFor="let advantage of advantagesInfo"
-        [info]="advantage">
-      </app-advantages>    
-  </section>  
- 
+      </div>
+      <section class="home-content-subsection">
+        <app-advantages
+          *ngFor="let advantage of advantagesInfo"
+          [info]="advantage">
+        </app-advantages>
+      </section>
+  </section>
+
   <app-footer></app-footer>
 </div>
