@@ -1,0 +1,85 @@
+@import '~styles/variables';
+footer {
+  background: $rusianViolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: $white;
+  position: relative;
+  padding: 40px 0 20px 0;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+  }
+}
+
+.white-yuxi-logo {
+  width: 80px;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-items {
+  border-left: 2px solid #fff;
+  display: inline-block;
+  margin-left: 16px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+  a {
+    display: inline-block;
+    width: 25px;
+  }
+}
+
+.media-icon {
+  width: 100%;
+}
+
+.terms {
+  font-family: $fontFamilySecondary;
+  font-size: 0.5rem;
+  margin-top: 15px;
+  a {
+    text-decoration: none;
+    color: $white;
+    margin: 5px;
+  }
+}
+
+.in-touch {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  color: pink;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: $rusianViolet;
+  width: 90px;
+
+  a {
+    display: block;
+    padding: 8px 0;
+    margin: 0;
+    color: $brightLilac;
+    background: linear-gradient(90deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+    background-size: 80%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

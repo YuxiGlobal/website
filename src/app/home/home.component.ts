@@ -16,31 +16,20 @@ export class HomeComponent implements OnInit {
   bannersInfo: IBannerInfo[];
   servicesInfo: IServiceInfo[];
   advantagesInfo: IAdvantagesInfo[];
-  test: string = 'test';
 
   constructor() {
-    this.bannersInfo = BANNERS_INFO;  
+    this.bannersInfo = BANNERS_INFO;
     this.servicesInfo = SERVICES_INFO;
     this.advantagesInfo = ADVANTAGES_INFO;
 
     this.fullPageOptions = new MnFullpageOptions({
       navigation: true,
-      keyboardScrolling: true,
-      afterSlideLoad: this.afterSlideLoad
+      keyboardScrolling: true
     });
 
   }
 
   ngOnInit() {
-  }
-
-  afterSlideLoad(anchorLink: string, index: number, slideAnchor: string, slideIndex: number): void {
-    console.log("SlideLoad", {
-      anchorLink: anchorLink,
-      index: index,
-      slideAnchor: slideAnchor,
-      slideIndex: slideIndex
-    });
   }
 
 }
