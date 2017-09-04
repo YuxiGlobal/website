@@ -7,6 +7,9 @@
 }
 
 .home-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding-top: 55px;
 
   h1 {
