@@ -28,21 +28,29 @@
 
 .banner-tittle{
   font-family: $fontFamilyPrimary;
+  font-size: 1.5rem;
   color: $white;
   word-spacing: 100vw;
   margin-bottom: 10px;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .banner-description {
   font-family: $fontFamilySecondary;
   color: $white;
   font-weight: 400;
+  font-size: 0.82rem;
   margin-left: 14%;
   margin-right: 14%;
   margin-top: 10px;
   @media only screen and (orientation : landscape) {
     margin-left: 0%;
     margin-right: 0%;
+  }
+  @media (min-width: 768px) {
+    font-size: 1rem;
   }
 }
 
