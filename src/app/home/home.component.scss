@@ -1,16 +1,15 @@
 @import '~styles/variables';
 .home-component {
-  text-align: center;
   background-color: $japaneseViolet;
-  font-family: $fontFamilyPrimary;
   color: $white;
+  font-family: $fontFamilyPrimary;
+  text-align: center;
 }
 
 .home-content {
   display: flex;
   flex-direction: column;
   padding-top: 55px;
-
   h1 {
     font-size: 1.5rem;
     margin-top: 0;
@@ -19,16 +18,19 @@
       font-size: 2rem;
     }
   }
-
 }
 
-
 .dot {
-  width: 6px;
-  height: 6px;
   border-radius: 100%;
   display: inline-block;
+  width: 6px;
+  height: 6px;
   margin: 3px;
+  @media (min-width: 768px) {
+    height: 11px;
+    margin: 7px;
+    width: 11px;
+  }
 }
 
 .home-content-subsection {
@@ -50,7 +52,6 @@
 .load-dot-4 {
   background-color: #00FFF7;
 }
-
 
 //Media queries
 @media (min-width: 768px) {
