@@ -23,6 +23,9 @@
       width: 100px;
     }
   }
+  @media (min-width: 1024px) {
+    border-radius: 13px;
+  } 
 }
 
 .title {
@@ -43,5 +46,9 @@
     font-size: 0.9rem;
     margin-left: 30%;
     margin-right: 30%;
+  }
+  @media (min-width: 1024px) {
+    margin-left: 19%;
+    margin-right: 19%;
   }
 }

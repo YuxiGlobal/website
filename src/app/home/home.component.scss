@@ -35,6 +35,16 @@
 
 .home-content-subsection {
   margin-top: 55px;
+  @media (min-width: 1024px) {
+    display: flex;
+    width: 1000px;
+    margin-top: 55px;
+    align-self: center;
+
+    app-services, app-advantages {
+      margin: 0 5px;
+    }
+  }
 }
 
 .load-dot-1 {
