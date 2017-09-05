@@ -8,13 +8,29 @@
   color: $rusianViolet;
   align-items: center;
   justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    @media (min-width: 768px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    img {
+      width: 70px;
+      @media (min-width: 768px) {
+        width: 90px;
+      }
+    }
 }
 
 .subtitle {
   font-family: $fontFamilySecondary;
   font-weight: 400;
   margin-top: 0;
-  font-size: 0.75rem
+  font-size: 0.75rem;
+    @media (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+
 }
 
 .advantages-data {
@@ -22,6 +38,9 @@
   width: 50%;
   h4 {
     margin-bottom: 5px;
+    @media (min-width: 768px) {
+      font-size: 1.3rem;
+    }
   }
 }
 
@@ -32,6 +51,9 @@
 .inner-circle {
   transform: scale(0.8);
   background: $turquoiseBlue;
+  @media (min-width: 768px) {
+    transform: scale(1);
+  }
 }
 
 .location:hover {
