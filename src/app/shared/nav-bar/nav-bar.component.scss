@@ -13,6 +13,9 @@
   position: fixed;
   z-index: 3;
   justify-content: space-between;
+  @media (min-width: 768px) {
+    padding-top: 15px;
+  }
 
   a {
     text-decoration: none;
@@ -22,6 +25,9 @@
 
 .logo-wrapper {
   width: 80px;
+  @media (min-width: 768px) {
+    width: 100px;
+  }
 }
 
 .white-yuxi-logo {
@@ -41,6 +47,10 @@
 .hot-stuff {
   display: flex;
   align-items: center;
+  @media (min-width: 768px) {
+    transform: scale(1.2);
+  }
+ 
 }
 
 .hot-stuff-text {
