@@ -34,29 +34,41 @@
   background: $turquoiseBlue;
 }
 
-.icon-1:hover {
+.location:hover {
   background-color: #3fa0f7;
 }
 
-.icon-2:hover {
+.cultural-fit:hover {
   background-color: #9b4bf9;
 }
 
-.icon-3:hover {
+.flexibility:hover {
   background-color: #f45efc;
 }
 
-.icon-1,
-.icon-2,
-.icon-3 {
+.location,
+.cultural-fit,
+.flexibility {
   transition: background-color 0.2s ease-in-out;
-
   &:hover {
     color: $white;
-
     .inner-circle {
       cursor: pointer;
       color: $rusianViolet;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .location,
+  .cultural-fit,
+  .flexibility {
+
+  }
+  .location {
+    border-radius: 15px 15px 0 0;
+  }
+  .flexibility {
+    border-radius: 0 0 15px 15px;
   }
 }
