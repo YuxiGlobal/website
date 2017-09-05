@@ -19,7 +19,9 @@
       font-size: 2rem;
     }
   }
+
 }
+
 
 .dot {
   width: 6px;
@@ -47,4 +49,13 @@
 
 .load-dot-4 {
   background-color: #00FFF7;
+}
+
+
+//Media queries
+@media (min-width: 768px) {
+  .advantages-section {
+    align-items: center;
+    padding-bottom: 70px;
+  }
 }
