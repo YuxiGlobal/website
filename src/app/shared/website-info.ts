@@ -52,21 +52,21 @@ export const BANNERS_INFO = [
       icon: 'assets/icons/icono_advantages.svg',
       title: 'location',
       subtitle: 'UTC-5:00, direct flights, and a US-based support office.',
-      class: 'icon-1'
+      class: 'location'
     },
     {
       id: 2,
       icon: 'assets/icons/icono2_advantages.svg',
       title: 'cultural fit',
       subtitle: 'Western culture, mentality, and bilingualism.',
-      class: 'icon-2'
+      class: 'cultural-fit'
     },
     {
       id: 3,
       icon: 'assets/icons/icono3_advantages.svg',
       title: 'flexibility',
       subtitle: 'Expertise in diverse languages, databases, and frameworks.',
-      class: 'icon-3'
+      class: 'flexibility'
     }
 
   ]
