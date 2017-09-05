@@ -76,17 +76,19 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  overflow: hidden;
-  margin-top: -20px;
+  // overflow: hidden;
+  margin-top: -40px;
   @media only screen and (orientation: landscape) {
     margin-top: 0;
     min-width: 90vh;
+    margin-right: 80px;
   }
 }
 
 .banner-image {
   position: relative;
-  right: -70px;
+  right: -70px;  
+  top: -15px;
   @media only screen and (orientation: landscape) {
     position: static;
     right: 0;
@@ -98,7 +100,7 @@
 
 .banner-image-3 {
   right: 0px;
-  margin-top: 14%;
+  margin-top: 40px;
 }
 
 .banner-video {
