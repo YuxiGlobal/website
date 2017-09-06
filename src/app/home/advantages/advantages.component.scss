@@ -6,10 +6,9 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  height: 124px;
   justify-content: space-around;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   @media (min-width: 768px) {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -19,6 +18,12 @@
     @media (min-width: 768px) {
       width: 90px;
     }
+  }
+  @media (min-width: 1024px) {    
+    flex-direction: column;
+    width: 332px; 
+    padding-top: 75px;
+    padding-bottom: 75px;  
   }
 }
 
@@ -35,16 +40,24 @@
 .advantages-data {
   text-align: left;
   width: 50%;
+  @media (min-width: 1024px) {
+    text-align: center;
+    width: 65%;
+  }
   h4 {
     margin-bottom: 5px;
     @media (min-width: 768px) {
       font-size: 1.3rem;
     }
+    
   }
 }
 
 .advantages-button {
   margin-right: 10px;
+  @media (min-width: 1204px) {
+    display: none;
+  }
 }
 
 .inner-circle {
@@ -86,5 +99,21 @@
   }
   .flexibility {
     border-radius: 0 0 15px 15px;
+  }
+}
+@media (min-width: 1204px) {
+  .location {
+    border-radius: 15px 0 0 15px;
+  }
+  .flexibility {
+    border-radius: 0 15px 15px 0;
+  }
+  .service-button-wrapper {
+    display: block;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto; // @media (min-width: 1024px) {
+    //   width: 15%;
+    // }
   }
 }
