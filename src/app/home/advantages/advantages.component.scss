@@ -59,6 +59,14 @@
     display: none;
   }
 }
+.advantages-button-wrapper {
+  display: none;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto; // @media (min-width: 1024px) {
+  //   width: 15%;
+  // }
+}
 
 .inner-circle {
   transform: scale(0.8);
@@ -108,7 +116,7 @@
   .flexibility {
     border-radius: 0 15px 15px 0;
   }
-  .service-button-wrapper {
+  .advantages-button-wrapper {
     display: block;
     max-width: 150px;
     margin-left: auto;
