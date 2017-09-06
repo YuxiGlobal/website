@@ -8,8 +8,8 @@
   background: $rusianViolet;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  // padding-top: 50px;
+  height: 100%;
+  justify-content: center;
   overflow: hidden;
   @media only screen and (orientation: landscape) {
     flex-direction: row;
@@ -91,7 +91,7 @@
 
 .banner-image {
   position: relative;
-  right: -70px;  
+  right: -70px;
   top: -15px;
   width: 70%;
   @media only screen and (orientation: landscape) {
