@@ -9,8 +9,9 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
   overflow: hidden;
+
   @media only screen and (orientation: landscape) {
     flex-direction: row;
     padding-top: 0;
@@ -22,6 +23,9 @@
 //   text-align: center;
 // }
 
+.info-banner {
+  margin-top: 60px;
+}
 
 .banner-tittle {
   font-family: $fontFamilyPrimary;
@@ -74,26 +78,28 @@
   // }
 }
 
-.first-image-banner {
-  animation-name: first-image-banner;
+.image-banner-container {
+  animation-name: image-banner-container;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  // overflow: hidden;
-  margin-top: -40px;
-  width: 300px;
+  max-height: 200px;
+  max-width: 100%;
+
   @media only screen and (orientation: landscape) {
     margin-top: 0;
     min-width: 90vh;
-    margin-right: 80px;
+    margin-right: 10px;
+  }
+
+  &.banner-image-3 {
+    width: 70%;
   }
 }
 
 .banner-image {
-  position: relative;
-  right: -70px;
-  top: -15px;
-  width: 70%;
+  width: 100%;
+
   @media only screen and (orientation: landscape) {
     position: static;
     right: 0;
@@ -103,11 +109,6 @@
   }
 }
 
-.banner-image-3 {
-  right: 0px;
-  margin-top: 40px;
-}
-
 .banner-video {
   display: none;
   @media (min-width: 1024px) {
@@ -115,7 +116,7 @@
   }
 }
 
-@keyframes first-image-banner {
+@keyframes image-banner-container {
   from {
     transform: translate(0, 10px);
   }
