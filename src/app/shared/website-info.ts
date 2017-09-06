@@ -28,19 +28,19 @@ export const BANNERS_INFO = [
   export const SERVICES_INFO = [
     {
       id: 1,
-      icon: 'assets/icons/icono1-01.svg',
+      icon: 'assets/icons/staff_augmentation.svg',
       title: 'staff augmentation',
       subtitle: 'Overcome challenges and deadlines with our specialized personnel.'
     },
     {
       id: 2,
-      icon: 'assets/icons/icono2_services.svg',
+      icon: 'assets/icons/specialized_projects.svg',
       title: 'specialized projects',
       subtitle: 'R&D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.'
     },
     {
       id: 3,
-      icon: 'assets/icons/icono3_services.svg',
+      icon: 'assets/icons/product_development.svg',
       title: 'product development',
       subtitle: 'Short-cycle MVP’s for rapid market validation and feature implementation.'
     }
@@ -49,24 +49,24 @@ export const BANNERS_INFO = [
   export const ADVANTAGES_INFO = [
     {
       id: 1,
-      icon: 'assets/icons/icono_advantages.svg',
+      icon: 'assets/icons/location.svg',
       title: 'location',
       subtitle: 'UTC-5:00, direct flights, and a US-based support office.',
-      class: 'icon-1'
+      class: 'location'
     },
     {
       id: 2,
-      icon: 'assets/icons/icono2_advantages.svg',
+      icon: 'assets/icons/cultural_fit.svg',
       title: 'cultural fit',
       subtitle: 'Western culture, mentality, and bilingualism.',
-      class: 'icon-2'
+      class: 'cultural-fit'
     },
     {
       id: 3,
-      icon: 'assets/icons/icono3_advantages.svg',
+      icon: 'assets/icons/flexibility.svg',
       title: 'flexibility',
       subtitle: 'Expertise in diverse languages, databases, and frameworks.',
-      class: 'icon-3'
+      class: 'flexibility'
     }
 
   ]

@@ -1,30 +1,50 @@
 @import '~styles/variables';
 .home-component {
-  text-align: center;
   background-color: $japaneseViolet;
-  font-family: $fontFamilyPrimary;
   color: $white;
+  font-family: $fontFamilyPrimary;
+  text-align: center;
 }
 
 .home-content {
+  display: flex;
+  flex-direction: column;
   padding-top: 55px;
-
-  h2 {
+  h1 {
+    font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
   }
 }
 
 .dot {
-  width: 6px;
-  height: 6px;
   border-radius: 100%;
   display: inline-block;
+  width: 6px;
+  height: 6px;
   margin: 3px;
+  @media (min-width: 768px) {
+    height: 11px;
+    margin: 7px;
+    width: 11px;
+  }
 }
 
 .home-content-subsection {
   margin-top: 55px;
+  @media (min-width: 1024px) {
+    display: flex;
+    width: 1000px;
+    margin-top: 55px;
+    align-self: center;
+
+    app-services, app-advantages {
+      margin: 0 5px;
+    }
+  }
 }
 
 .load-dot-1 {
@@ -41,4 +61,12 @@
 
 .load-dot-4 {
   background-color: #00FFF7;
+}
+
+//Media queries
+@media (min-width: 768px) {
+  .advantages-section {
+    align-items: center;
+    padding-bottom: 70px;
+  }
 }

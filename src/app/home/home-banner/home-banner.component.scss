@@ -1,48 +1,58 @@
 @import '~styles/variables';
 @import "~fullpage.js/dist/jquery.fullpage.css";
-
 .home-banner {
-    height: 100vh;
-    background: $rusianViolet;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // background-image: url('../../../assets/images/DINAMIC_BANNERS_MOBILE_IPHONE5.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    padding-top: 50px;
-    overflow: hidden;
-    @media only screen and (orientation : landscape) {
-      flex-direction: row;
-      padding-top: 0;
-      text-align: left;
-      padding-left: 10%;
-    }
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background: $rusianViolet;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  overflow: hidden;
+
+  @media only screen and (orientation: landscape) {
+    flex-direction: row;
+    padding-top: 0;
+    text-align: left;
+    padding-left: 10%;
   }
-  // .first-banner img{
-  //   width: 300px;
-  //   text-align: center;
-  // }
+} // .first-banner img{
+//   width: 300px;
+//   text-align: center;
+// }
 
+.info-banner {
+  margin-top: 60px;
+}
 
-.banner-tittle{
+.banner-tittle {
   font-family: $fontFamilyPrimary;
+  font-size: 1.5rem;
   color: $white;
   word-spacing: 100vw;
   margin-bottom: 10px;
+  margin-top: 0;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .banner-description {
   font-family: $fontFamilySecondary;
   color: $white;
   font-weight: 400;
+  font-size: 0.82rem;
   margin-left: 14%;
   margin-right: 14%;
   margin-top: 10px;
-  @media only screen and (orientation : landscape) {
+  @media only screen and (orientation: landscape) {
     margin-left: 0%;
     margin-right: 0%;
+  }
+  @media (min-width: 768px) {
+    font-size: 1rem;
   }
 }
 
@@ -50,7 +60,7 @@
   width: 45px;
   border-bottom: 2px solid $white;
   margin: auto;
-  @media only screen and (orientation : landscape) {
+  @media only screen and (orientation: landscape) {
     margin: 0;
   }
 }
@@ -60,59 +70,64 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  @media only screen and (orientation : landscape) {
+  @media only screen and (orientation: landscape) {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  // @media (min-width: 1024px) {
+  } // @media (min-width: 1024px) {
   //   width: 15%;
   // }
 }
 
-.first-image-banner {
-  animation-name: first-image-banner;
+.image-banner-container {
+  animation-name: image-banner-container;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;  
-  overflow: hidden;
-  margin-top: -20px;
+  animation-timing-function: ease-in-out;
+  max-height: 200px;
+  max-width: 100%;
 
-  @media only screen and (orientation : landscape) {
+  @media only screen and (orientation: landscape) {
     margin-top: 0;
     min-width: 90vh;
+    margin-right: 10px;
+  }
+
+  &.banner-image-3 {
+    width: 70%;
+    position: relative;
+    right: 30px;
   }
 }
 
 .banner-image {
+  width: 100%;
   position: relative;
-  right: -70px;
+  right: -30px;
 
-  @media only screen and (orientation : landscape) {
+  @media only screen and (orientation: landscape) {
     position: static;
     right: 0;
   }
-
   @media (min-width: 1024px) {
     display: none;
   }
 }
 
-.banner-image-3 {
-  right: 0px;
-  margin-top: 14%;
-}
-
 .banner-video {
   display: none;
-
   @media (min-width: 1024px) {
     display: block;
   }
 }
 
-@keyframes first-image-banner {
-    from { transform: translate(0,  10px); }
-    65%  { transform: translate(0, 25px); }
-    to   { transform: translate(0, 10px); }
+@keyframes image-banner-container {
+  from {
+    transform: translate(0, 10px);
+  }
+  65% {
+    transform: translate(0, 25px);
+  }
+  to {
+    transform: translate(0, 10px);
+  }
 }

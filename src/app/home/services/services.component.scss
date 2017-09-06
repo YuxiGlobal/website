@@ -1,32 +1,65 @@
 @import '~styles/variables';
-
 .service-button-wrapper {
-    max-width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-  
-    // @media (min-width: 1024px) {
-    //   width: 15%;
-    // }
-  }
-  
-  .service {
-    align-self: center; 
-    width: 100%;
-    height: 319px;
-    background: linear-gradient(60deg, $fandango, $ciberGrape);      
-    opacity: 0.3;
-    padding-top: 5%; 
-      &:hover {
-        opacity: 1;
-      }
-  }
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto; // @media (min-width: 1024px) {
+  //   width: 15%;
+  // }
+}
 
-  .subtitle{
-    font-family: $fontFamilySecondary;
-    color: $white;
-    font-weight: 400;
-    margin-left: 14%;
-    margin-right: 14%;
-    margin-top: 10px;
+.service {
+  align-self: center;
+  width: 100%;
+  background: linear-gradient(60deg, $fandango, $ciberGrape);
+  opacity: 0.3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  &:hover {
+    opacity: 1;
+    @media (min-width: 1024px) {
+      transform: scale(1.1);
+      z-index: 3;
+      position: relative;
+    } 
   }
+  img {
+    width: 70px;
+    @media (min-width: 768px) {
+      width: 100px;
+    }
+    @media (min-width: 1024px) {
+      width: 70px;
+    }
+  }
+  @media (min-width: 1024px) {
+    border-radius: 13px;
+    -webkit-box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.71);
+    box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.71);
+  } 
+}
+
+.title {
+  word-spacing: 100vw;
+  @media (min-width: 768px) {
+    font-size: 1.3rem;
+  }
+}
+
+.subtitle {
+  font-family: $fontFamilySecondary;
+  color: $white;
+  font-weight: 400;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 10px;
+  @media (min-width: 768px) {
+    font-size: 0.9rem;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  @media (min-width: 1024px) {
+    margin-left: 19%;
+    margin-right: 19%;
+  }
+}
