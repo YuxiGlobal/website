@@ -33,6 +33,7 @@
     &:hover {
       background: $turquoiseBlue;
       color: $rusianViolet;
+      transition: background 0.2s ease-in-out
     }
 }
 
@@ -42,7 +43,6 @@
   &:hover {
     background: linear-gradient(60deg, $turquoiseBlue, $brightLilac);
     color: $rusianViolet;
-    // transition: 0.2s ease-in-out;
   }
 }
 
