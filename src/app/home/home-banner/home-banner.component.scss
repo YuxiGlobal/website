@@ -94,11 +94,15 @@
 
   &.banner-image-3 {
     width: 70%;
+    position: relative;
+    right: 30px;
   }
 }
 
 .banner-image {
   width: 100%;
+  position: relative;
+  right: -30px;
 
   @media only screen and (orientation: landscape) {
     position: static;
