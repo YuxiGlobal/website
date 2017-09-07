@@ -55,7 +55,7 @@
 
 .advantages-button {
   margin-right: 10px;
-  @media (min-width: 1204px) {
+  @media (min-width: 1024px) {
     display: none;
   }
 }
@@ -109,7 +109,7 @@
     border-radius: 0 0 15px 15px;
   }
 }
-@media (min-width: 1204px) {
+@media (min-width: 1024px) {
   .location {
     border-radius: 15px 0 0 15px;
   }
