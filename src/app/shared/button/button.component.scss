@@ -33,12 +33,17 @@
     &:hover {
       background: $turquoiseBlue;
       color: $rusianViolet;
+      transition: background 0.2s ease-in-out
     }
 }
 
 .secondaryInnerBackground {
   background: $turquoiseBlue;
   color: $rusianViolet;
+  &:hover {
+    background: linear-gradient(60deg, $turquoiseBlue, $brightLilac);
+    color: $rusianViolet;
+  }
 }
 
 .inner-button {
@@ -53,6 +58,9 @@
     h5 {
       margin: 0;
     }
+  @media (min-width: 1024px) {
+    padding: 16px 30px;
+  }
 }
 
 // .button {
