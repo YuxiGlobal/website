@@ -1,0 +1,44 @@
+#fp-nav {
+  $dotSize: 12px;
+
+  opacity: 1;
+  transition: opacity .4s ease;
+
+  li {
+    margin-bottom: 35px !important;
+
+    &:last-child {
+      span {
+        background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+        height: $dotSize + 2px !important;
+        width: $dotSize + 2px !important;
+        border: none !important;
+      }
+    }
+  }
+
+  span {
+    border: 1px solid #fff !important;
+    background-color: #fff !important;
+    height: $dotSize !important;
+    width: $dotSize !important;
+    margin: 0 !important;
+  }
+
+  .active {
+    span {
+      border-radius: 50% !important;
+      background-color: transparent !important;
+    }
+  }
+}
+
+.fp-viewing-3 #fp-nav {
+  opacity: 0;
+}
+
+.menu-open {
+  #fp-nav {
+    z-index: 0;
+  }
+}
