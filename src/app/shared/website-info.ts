@@ -12,7 +12,7 @@ export const BANNERS_INFO = [
       title: 'explore inventive technologies.',
       subtitle: 'see how our solutions can get you ahead of your competition.',
       image: 'assets/images/GOGGLES.png',
-      video: 'https://thumb1.shutterstock.com/display_pic_with_logo/4295143/603333428/stock-vector-vector-realistic-basketball-ball-isolated-on-transparent-background-603333428.jpg',
+      video: '',
       class: 'banner-image-2'
     },
     {
@@ -20,7 +20,7 @@ export const BANNERS_INFO = [
       title: 'devise groundbreaking inprovements.',
       subtitle: 'lear how your company can evolve via digital transformation.',
       image: 'assets/images/ROBOT.png',
-      video: 'https://thumb1.shutterstock.com/display_pic_with_logo/4295143/603333428/stock-vector-vector-realistic-basketball-ball-isolated-on-transparent-background-603333428.jpg',
+      video: '',
       class: 'banner-image-3'
     }
   ];
