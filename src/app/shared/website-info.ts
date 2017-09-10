@@ -4,7 +4,7 @@ export const BANNERS_INFO = [
       title: 'discover real innovation.',
       subtitle: 'Find out more about our software development services.',
       image: 'assets/images/CELLPHONE.png',
-      video: 'http://img.freepik.com/free-vector/background-with-abstract-shapes_1128-339.jpg?size=338&ext=jpg',
+      video: 'assets/videos/goggles1.gif',
       class: 'banner-image-1'
     },
     {

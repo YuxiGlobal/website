@@ -15,7 +15,10 @@
     </div>
     <div class="image-banner-container" [ngClass]="info.class">
         <img class="banner-image" [ngClass]="info.class" [src]="info.image"/>
-        <img class="banner-video" width="100%" [src]="info.video"/>
+        <img [src]="info.video"/>
+        <!--<video autoplay="autoplay">
+          <source src="{{info.video}}" type="video/gif" />
+        </video>-->
     </div>
   </div>
 </div>
