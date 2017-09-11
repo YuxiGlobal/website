@@ -3,15 +3,15 @@ export const BANNERS_INFO = [
       id: 1,
       title: 'discover real innovation.',
       subtitle: 'Find out more about our software development services.',
-      image: 'assets/images/CELLPHONE.png',
-      video: 'assets/videos/goggles1.gif',
+      image: 'assets/images/cellphone.png',
+      video: '',
       class: 'banner-image-1'
     },
     {
       id: 2,
       title: 'explore inventive technologies.',
       subtitle: 'see how our solutions can get you ahead of your competition.',
-      image: 'assets/images/GOGGLES.png',
+      image: 'assets/images/goggles.png',
       video: '',
       class: 'banner-image-2'
     },
@@ -19,7 +19,7 @@ export const BANNERS_INFO = [
       id: 3,
       title: 'devise groundbreaking inprovements.',
       subtitle: 'lear how your company can evolve via digital transformation.',
-      image: 'assets/images/ROBOT.png',
+      image: 'assets/images/robot.png',
       video: '',
       class: 'banner-image-3'
     }
