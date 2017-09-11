@@ -1,0 +1,66 @@
+@import '~styles/variables';
+.menu {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;  
+      ul {
+        margin: 0;
+        list-style: none;
+        font-size: 1.8rem;
+        padding: 0; 
+        
+        li {
+          margin-bottom: 15px;
+          position: relative;
+          overflow: hidden;
+          cursor: pointer;
+          &:hover:before {
+            left: 0;
+          }
+          &:before {
+            content: '';
+            height: 3px;
+            width: 100%;
+            left: -100%;
+            position: absolute;
+            top: 50%;
+            display: block;
+            transition: left 0.4s ease-out;
+            margin-top: -2px;
+            background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+          }
+        }
+      }
+  }
+  
+  .languages {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 10px; 
+    p {
+      margin: 0 4px;
+    }  
+  }
+  
+  .media-items { 
+    display: inline-block;
+    margin: 5px;
+    img {
+      width: 25px;
+    }
+  }
+  .info-site {
+    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
+    a {
+      font-size: 0.8rem;
+      font-family: $fontFamilySecondary;
+      font-weight: 400;
+      color: $white;
+      text-decoration: none;
+    }
+  }
