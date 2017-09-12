@@ -45,10 +45,6 @@
 .hot-stuff {
   display: flex;
   align-items: center;
-  @media (min-width: 768px) {
-    transform: scale(1.2);
-  }
-
 }
 .white-hot-stuff {
   width: 50px;
@@ -76,7 +72,10 @@
   width: 30px;
   height: 30px;
   display: inline-block;
-
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .hot-stuff-wrapper {
