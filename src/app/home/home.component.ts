@@ -16,6 +16,8 @@ export class HomeComponent implements OnInit {
   bannersInfo: IBannerInfo[];
   servicesInfo: IServiceInfo[];
   advantagesInfo: IAdvantagesInfo[];
+  mouseWheelDir: string = '';
+  showNav: boolean = false;
 
   constructor() {
     this.bannersInfo = BANNERS_INFO;
@@ -30,6 +32,17 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  mouseWheelUpFunc() {
+    this.mouseWheelDir = 'upwardDirection';
+    this.showNav = false;
+  }
+
+  mouseWheelDownFunc() {
+    this.mouseWheelDir = 'downwardDirection';
+     console.log(this.mouseWheelDir);
+     this.showNav = true;
   }
 
 }
