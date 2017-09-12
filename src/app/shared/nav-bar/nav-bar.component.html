@@ -1,9 +1,16 @@
 <nav class="container">
-  <a href="#" class="logo-wrapper">
+  <a
+    href="#"
+    class="logo-wrapper"
+    [ngClass]="{ hidden: showOverlay }"
+  >
     <img class="white-yuxi-logo" src="assets/icons/YUXI_LOGO_WHITE.svg">
   </a>
   <div class="hot-stuff">
-    <div class="hot-stuff-wrapper">
+    <div
+      class="hot-stuff-wrapper"
+      [ngClass]="{ hidden: showOverlay }"
+    >
       <span class="hot-stuff-text">
         h<span>o</span>t stuff
       </span>
@@ -11,6 +18,12 @@
         <span class="pulsating-circle"></span>
       </div>
     </div>
-    <app-burger-menu></app-burger-menu>
+    <app-burger-menu (click)="handleMenuClick()"></app-burger-menu>
   </div>
 </nav>
+<div
+  class="overlay"
+  [ngClass]="{ active: showOverlay}"
+>
+  <app-menu></app-menu>  
+</div>

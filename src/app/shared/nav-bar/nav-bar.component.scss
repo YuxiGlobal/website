@@ -26,6 +26,7 @@
 
 .logo-wrapper {
   width: 80px;
+
   @media (min-width: 768px) {
     width: 100px;
   }
@@ -137,3 +138,33 @@
     transform: scale(.8);
   }
 }
+
+// Overlay Logic
+.hot-stuff-wrapper,
+.logo-wrapper {
+  opacity: 1;
+  transition: opacity .5s ease;
+
+  &.hidden {
+    opacity: 0.2;
+    pointer-events: none;
+  }
+}
+
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(60deg, $fandango, $ciberGrape);
+  opacity: 0;
+  transition: opacity .5s ease;
+  display: none;
+
+  &.active {
+    opacity: 0.95;
+    z-index: 1;
+    display: block;
+  }
+}
+
+

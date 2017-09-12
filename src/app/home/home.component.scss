@@ -75,13 +75,13 @@ $move-distance: 23%;
 .dot {
   animation: move 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
   transform: translateY(-$move-distance);
-  
-  
+
+
   @for $i from 1 through 4 {
     &:nth-child(#{$i}) {
-      
+
       animation-delay: $i * 0.15s;
-      
+
     }
   }
 }
@@ -90,11 +90,11 @@ $move-distance: 23%;
   0% {
     transform: translateY(-$move-distance);
   }
-  
+
   50% {
     transform: translateY($move-distance);
   }
-  
+
   100% {
     transform: translateY(-$move-distance);
   }

@@ -2,6 +2,7 @@
 @import 'variables';
 @import '~normalize.css/normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Muli|Poppins:700');
+@import 'dots';
 
 .body {
   font-family: $fontFamilySecondary;
@@ -9,6 +10,3 @@
   margin: 0;
   background: $rusianViolet;
 }
-
-
-
