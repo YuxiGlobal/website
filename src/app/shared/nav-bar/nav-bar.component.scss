@@ -41,10 +41,6 @@
   padding-right: 8px;
 }
 
-.white-hot-stuff {
-  width: 50px;
-}
-
 //hot stuff
 .hot-stuff {
   display: flex;
@@ -54,7 +50,12 @@
   }
 
 }
-
+.white-hot-stuff {
+  width: 50px;
+}
+.hot-stuff-wrapper{
+  margin-right: 8px;
+}
 .hot-stuff-text {
   margin-right: 10px;
   font-size: 0.8125rem;
