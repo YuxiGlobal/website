@@ -37,7 +37,7 @@
   @media (min-width: 768px) {
     font-size: 2rem;
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1028px) {
     font-size: 3rem;
   }
 }
@@ -105,10 +105,10 @@
     width: 70%;
     position: relative;
     right: 30px;
-    @media screen and ( min-height: 850px ){
+    @media (min-width: 1024px) and ( min-height: 900px ){
       margin-top: -20%;
       right: 0px;
-    }
+     }
   }
 }
 
@@ -121,14 +121,17 @@
     position: static;
     right: 0;
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1028px) {
     display: none;
   }
 }
 
 .banner-video {
   display: none;
-  @media (min-width: 1024px) {
+  @media only screen and (orientation: landscape) {
+    display: none;
+  }
+  @media (min-width: 1028px) {
     display: block;
   }
 }
