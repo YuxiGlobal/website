@@ -1,4 +1,10 @@
-<nav class="container">
+<nav
+  class="container"
+  appNavScrolling
+  [ngClass]="{ hide: hideNav }"
+  (mouseWheelUp)="mouseWheelUpFunc($event)"
+  (mouseWheelDown)="mouseWheelDownFunc($event)"
+>
   <a
     href="#"
     class="logo-wrapper"
@@ -25,5 +31,5 @@
   class="overlay"
   [ngClass]="{ active: showOverlay}"
 >
-  <app-menu></app-menu>  
+  <app-menu></app-menu>
 </div>

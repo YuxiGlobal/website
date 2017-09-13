@@ -18,7 +18,7 @@ import { MdIconModule } from '@angular/material';
     BrowserModule,
     MdButtonModule,
     MdIconModule,
-    MnFullpageModule.forRoot() 
+    MnFullpageModule.forRoot()
   ],
   declarations: [HomeComponent, HomeBannerComponent, ServicesComponent, AdvantagesComponent],
   exports: [HomeComponent]

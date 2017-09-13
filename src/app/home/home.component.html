@@ -1,12 +1,12 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <!-- *ngFor="let banner of bannerInfo" -->
-<div class="home-component" appNavScrolling (mouseWheelUp)="mouseWheelUpFunc($event)" (mouseWheelDown)="mouseWheelDownFunc($event)">
-  <app-nav-bar [hidden]="showNav"></app-nav-bar>
+<div class="home-component">
+  <app-nav-bar></app-nav-bar>
   <div mnFullpage
-  [mnFullpageNavigation]="true"
-  [mnFullpageKeyboardScrolling]="true"
-  [mnFullpageSlidesNavigation]="true"
-  [mnFullpageScrollOverflow]="true"
+    [mnFullpageNavigation]="true"
+    [mnFullpageKeyboardScrolling]="true"
+    [mnFullpageSlidesNavigation]="true"
+    [mnFullpageScrollOverflow]="true"
   >
     <section app-home-banner
       [info]="bannersInfo[0]"

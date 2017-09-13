@@ -1,18 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.scss']
 })
-export class NavBarComponent implements OnInit {
+export class NavBarComponent {
 
   showOverlay = false;
+  hideNav = false;
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
   handleMenuClick() {
     this.showOverlay = !this.showOverlay;
@@ -23,6 +21,14 @@ export class NavBarComponent implements OnInit {
     } else {
       document.body.classList.remove('menu-open');
     }
+  }
+
+  mouseWheelUpFunc() {
+    this.hideNav = false;
+  }
+
+  mouseWheelDownFunc() {
+    this.hideNav = true;
   }
 
 }
