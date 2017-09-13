@@ -37,18 +37,20 @@
     width: 100px;
   }
 }
-.icon-LOGO_BLANCO-01:before {
-  font-size: 79px;
-  content: "\e900";
-  color: #fff;
-  @media (min-width: 768px) {
-    font-size: 100px;
-  }
-}
+//icon logo yuxi font
 
-// .white-yuxi-logo {
-//   width: 100%;
+// .icon-LOGO_BLANCO-01:before {
+//   font-size: 79px;
+//   content: "\e900";
+//   color: #fff;
+//   @media (min-width: 768px) {
+//     font-size: 100px;
+//   }
 // }
+
+.white-yuxi-logo {
+  width: 100%;
+}
 
 .burger-menu-white {
   width: 48px;
