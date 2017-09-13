@@ -5,20 +5,19 @@
   [ngClass]="{ hide: hideNav }"
   (mouseWheelUp)="mouseWheelUpFunc($event)"
   (mouseWheelDown)="mouseWheelDownFunc($event)"
+  [class.menu-visible]="showOverlay"
 >
   <a
     href="#"
     class="logo-wrapper"
-    [ngClass]="{ hidden: showOverlay }"
+    [class.hidden]="showOverlay"
   >
     <img class="white-yuxi-logo" src="assets/icons/YUXI_LOGO_WHITE.svg"> 
     <!-- <span id="logo-yuxi" class="icon-LOGO_BLANCO-01"></span> -->
   </a>
   <div class="hot-stuff">
-    <div
-      class="hot-stuff-wrapper"
-      [ngClass]="{ hidden: showOverlay }"
-    >
+    <div class="hot-stuff-wrapper"
+    [class.hidden]="showOverlay">
       <span id="hot-stuff-text" class="hot-stuff-text">
         h<span>o</span>t stuff
       </span>
@@ -33,5 +32,5 @@
   class="overlay"
   [ngClass]="{ active: showOverlay}"
 >
-  <app-menu></app-menu>
+  <app-menu *ngIf="showOverlay"></app-menu>
 </div>

@@ -4,6 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SharedModule } from 'app/shared/shared.module';
 import { HomeModule } from './home/home.module';
+import { RouterModule, Routes } from '@angular/router';
+import { ServicesModule } from './services/services.module';
+import { ServicesComponent } from './home/services/services.component';
+
+const routes: Routes = [
+  { path: 'services', component: ServicesComponent}
+]
 
 @NgModule({
   declarations: [
@@ -12,7 +19,8 @@ import { HomeModule } from './home/home.module';
   imports: [
     BrowserModule,
     SharedModule,
-    HomeModule
+    HomeModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

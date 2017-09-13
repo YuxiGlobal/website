@@ -33,5 +33,20 @@
   }
   
 }
+.fp-viewing-3 #navigation.menu-visible {
+  background: transparent;
+  #menu-button {
+    background: #FFF;
+  }
+  #menu-line1,
+  #menu-line2,
+  #menu-line3 {
+    background: #2F1A45;
+  }
+  #menu-circle1,
+  #menu-circle2 {    
+    border: solid 1px #FFF;
+  }
+}
 
 

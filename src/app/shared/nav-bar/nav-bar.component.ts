@@ -14,20 +14,18 @@ export class NavBarComponent {
 
   handleMenuClick() {
     this.showOverlay = !this.showOverlay;
-
-    if (this.showOverlay) {
-      // Overlay is showing
-      document.body.classList.add('menu-open');
-    } else {
-      document.body.classList.remove('menu-open');
-    }
+    // this.hideNav = true;
   }
 
   mouseWheelUpFunc() {
-    this.hideNav = false;
+    if (!this.showOverlay) {
+      this.hideNav = false;
+    }
   }
 
   mouseWheelDownFunc() {
-    this.hideNav = true;
+    if (!this.showOverlay) {
+      this.hideNav = true;
+    }
   }
 }
