@@ -30,5 +30,4 @@ export class NavBarComponent {
   mouseWheelDownFunc() {
     this.hideNav = true;
   }
-
 }
