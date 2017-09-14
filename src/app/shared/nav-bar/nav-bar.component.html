@@ -2,10 +2,9 @@
   id="navigation"
   class="container"
   appNavScrolling
-  [ngClass]="{ hide: hideNav }"
+  [ngClass]="navbarCssClasses"
   (mouseWheelUp)="mouseWheelUpFunc($event)"
   (mouseWheelDown)="mouseWheelDownFunc($event)"
-  [class.menu-visible]="showOverlay"
 >
   <a
     href="#"

@@ -7,23 +7,23 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
-  showOverlay = false;
-  hideNav = false;
+  showOverlay: boolean = false;
+  hideNav: boolean = false;
+  navbarCssClasses: {} = { 'hide': this.hideNav, 'menu-visible': this.showOverlay }
 
-  constructor() { }
 
   handleMenuClick() {
     this.showOverlay = !this.showOverlay;
     // this.hideNav = true;
   }
 
-  mouseWheelUpFunc() {
+  mouseWheelUpFunc(event: any) {
     if (!this.showOverlay) {
       this.hideNav = false;
     }
   }
 
-  mouseWheelDownFunc() {
+  mouseWheelDownFunc(event: any) {
     if (!this.showOverlay) {
       this.hideNav = true;
     }
