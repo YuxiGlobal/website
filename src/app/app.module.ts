@@ -1,3 +1,4 @@
+import { HomeComponent } from './home/home.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -9,7 +10,13 @@ import { ServicesModule } from './services/services.module';
 import { ServicesComponent } from './home/services/services.component';
 
 const routes: Routes = [
-  { path: 'services', component: ServicesComponent}
+  { path: 'home', component: HomeComponent},
+  { path: 'services', component: ServicesComponent},
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  }
 ]
 
 @NgModule({
