@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 
 @Component({
   selector: 'app-services',
@@ -8,10 +7,7 @@ import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 })
 export class ServicesComponent implements OnInit {
 
-  constructor(
-    private route: ActivatedRoute,
-    private location: Location
-  ) { }
+  constructor() { }
 
   ngOnInit() {
   }

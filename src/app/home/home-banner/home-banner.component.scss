@@ -89,8 +89,6 @@
   max-height: 200px;
   max-width: 100%;
 
-
-
   @media only screen and (orientation: landscape) {
     margin-top: 0;
     min-width: 90vh;
@@ -99,6 +97,7 @@
   @media (min-width: 1024px) {
       min-width: 70%;
       margin-top: -40%;
+      animation-name: none;
   }
 
   &.banner-image-3 {
