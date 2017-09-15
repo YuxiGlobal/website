@@ -9,12 +9,9 @@ export class NavBarComponent {
 
   showOverlay: boolean = false;
   hideNav: boolean = false;
-  navbarCssClasses: {} = { 'hide': this.hideNav, 'menu-visible': this.showOverlay }
-
 
   handleMenuClick() {
     this.showOverlay = !this.showOverlay;
-    // this.hideNav = true;
   }
 
   mouseWheelUpFunc(event: any) {
