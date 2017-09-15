@@ -1,0 +1,53 @@
+@import 'variables';
+.fp-viewing-0 #navigation,
+.fp-viewing-1 #navigation,
+.fp-viewing-2 #navigation {
+  transform: translateY(0);
+}
+
+.fp-viewing-3 #navigation {
+  background-color: $white;
+  #hot-stuff-button {
+    background: #2F1A45;
+    border: 2px solid #2F1A45;   
+  }
+
+  #menu-button {
+    background: #2F1A45;
+  }
+  #menu-line1,
+  #menu-line2,
+  #menu-line3 {
+    background: #fff;
+  }
+  #menu-circle1,
+  #menu-circle2 {    
+    border: solid 1px #2F1A45;
+  }
+
+  #hot-stuff-text {
+    color: #2F1A45;
+  }
+
+  #logo-yuxi:before{
+    color: #2F1A45;
+  }
+  
+}
+.fp-viewing-3 #navigation.menu-visible {
+  background: transparent;
+  #menu-button {
+    background: #FFF;
+  }
+  #menu-line1,
+  #menu-line2,
+  #menu-line3 {
+    background: #2F1A45;
+  }
+  #menu-circle1,
+  #menu-circle2 {    
+    border: solid 1px #FFF;
+  }
+}
+
+

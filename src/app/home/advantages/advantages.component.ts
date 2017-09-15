@@ -8,6 +8,4 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AdvantagesComponent {
   @Input() info: IAdvantagesInfo;
- 
-
 }

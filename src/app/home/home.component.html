@@ -1,12 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<!-- *ngFor="let banner of bannerInfo" -->
+<!-- *ngFor="let banner of bannerInfo"  [mnFullpageAutoScrolling]="false"-->
 <div class="home-component">
-  <app-nav-bar></app-nav-bar>
   <div mnFullpage
-  [mnFullpageNavigation]="true"
-  [mnFullpageKeyboardScrolling]="true"
-  [mnFullpageSlidesNavigation]="true"
-  [mnFullpageScrollOverflow]="true"
+    [mnFullpageNavigation]="true"
+    [mnFullpageKeyboardScrolling]="true"
+    [mnFullpageSlidesNavigation]="true"
+    [mnFullpageScrollOverflow]="true"
   >
     <section app-home-banner
       [info]="bannersInfo[0]"
@@ -37,7 +36,7 @@
               </app-services>
             </section>
           </section>
-  
+
           <section class="home-content advantages-section">
             <h1>ADVANTAGES</h1>
             <div class="load-dot-container">
@@ -51,7 +50,7 @@
               </app-advantages>
             </section>
           </section>
-        </section>        
+        </section>
 
         <app-footer></app-footer>
       </div>

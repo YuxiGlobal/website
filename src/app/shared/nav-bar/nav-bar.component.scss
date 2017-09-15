@@ -11,8 +11,9 @@
   align-items: center;
   font-family: $fontFamilySecondary;
   position: fixed;
-  z-index: 3;
+  z-index: 102;
   justify-content: space-between;
+  transition: transform .3s ease-in-out;
 
   @media (min-width: 768px) {
     padding-top: 15px;
@@ -22,7 +23,12 @@
     text-decoration: none;
     color: white;
   }
+
+  &.hide {
+    transform: translateY(-100%);
+  }
 }
+
 
 .logo-wrapper {
   width: 80px;
@@ -31,6 +37,16 @@
     width: 100px;
   }
 }
+//icon logo yuxi font
+
+// .icon-LOGO_BLANCO-01:before {
+//   font-size: 79px;
+//   content: "\e900";
+//   color: #fff;
+//   @media (min-width: 768px) {
+//     font-size: 100px;
+//   }
+// }
 
 .white-yuxi-logo {
   width: 100%;
@@ -41,20 +57,17 @@
   padding-right: 8px;
 }
 
-.white-hot-stuff {
-  width: 50px;
-}
-
 //hot stuff
 .hot-stuff {
   display: flex;
   align-items: center;
-  @media (min-width: 768px) {
-    transform: scale(1.2);
-  }
-
 }
-
+.white-hot-stuff {
+  width: 50px;
+}
+.hot-stuff-wrapper{
+  margin-right: 8px;
+}
 .hot-stuff-text {
   margin-right: 10px;
   font-size: 0.8125rem;
@@ -75,7 +88,10 @@
   width: 30px;
   height: 30px;
   display: inline-block;
-
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .hot-stuff-wrapper {
@@ -162,7 +178,7 @@
 
   &.active {
     opacity: 0.95;
-    z-index: 1;
+    z-index: 101;
     display: block;
   }
 }

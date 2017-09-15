@@ -12,7 +12,6 @@ import { IServiceInfo } from 'app/shared/iservices-info';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  fullPageOptions: MnFullpageOptions;
   bannersInfo: IBannerInfo[];
   servicesInfo: IServiceInfo[];
   advantagesInfo: IAdvantagesInfo[];
@@ -21,15 +20,8 @@ export class HomeComponent implements OnInit {
     this.bannersInfo = BANNERS_INFO;
     this.servicesInfo = SERVICES_INFO;
     this.advantagesInfo = ADVANTAGES_INFO;
-
-    this.fullPageOptions = new MnFullpageOptions({
-      navigation: true,
-      keyboardScrolling: true
-    });
-
   }
 
   ngOnInit() {
   }
-
 }
