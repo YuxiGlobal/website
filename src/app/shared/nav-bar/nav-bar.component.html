@@ -2,16 +2,17 @@
   id="navigation"
   class="container"
   appNavScrolling
-  [ngClass]="navbarCssClasses"
   (mouseWheelUp)="mouseWheelUpFunc($event)"
   (mouseWheelDown)="mouseWheelDownFunc($event)"
+  [class.hide]="hideNav"
+  [class.menu-visible]="showOverlay"
 >
   <a
     href="#"
     class="logo-wrapper"
     [class.hidden]="showOverlay"
   >
-    <img class="white-yuxi-logo" src="assets/icons/YUXI_LOGO_WHITE.svg"> 
+    <img class="white-yuxi-logo" src="assets/icons/YUXI_LOGO_WHITE.svg">
     <!-- <span id="logo-yuxi" class="icon-LOGO_BLANCO-01"></span> -->
   </a>
   <div class="hot-stuff">
