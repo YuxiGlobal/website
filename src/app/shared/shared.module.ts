@@ -5,7 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ButtonComponent } from './button/button.component';
 import { BurgerMenuComponent } from './burger-menu/burger-menu.component';
 import { MenuComponent } from './menu/menu.component';
-import { NavScrollingDirective } from './nav-scrolling.directive'
+import { NavScrollingDirective } from './nav-scrolling.directive';
 
 @NgModule({
   imports: [
