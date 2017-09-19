@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ServicesPageComponent } from './services-page.component';
@@ -6,7 +7,8 @@ import { ServicesItemsComponent } from './services-items/services-items.componen
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent],
   exports: [ServicesPageComponent]

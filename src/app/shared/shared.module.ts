@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavBarComponent } from 'app/shared/nav-bar/nav-bar.component';
@@ -9,7 +10,8 @@ import { NavScrollingDirective } from './nav-scrolling.directive';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
     NavBarComponent,

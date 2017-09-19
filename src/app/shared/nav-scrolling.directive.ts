@@ -31,13 +31,13 @@ export class NavScrollingDirective {
       this.mouseWheelDown.emit(event);
     }
 
-    // for IE
-    event.returnValue = false;
+    // // // for IE
+    // event.returnValue = false;
 
-    // for Chrome and Firefox
-    if (event.preventDefault) {
-        event.preventDefault();
-    }
+    // // for Chrome and Firefox
+    // if (event.preventDefault) {
+    //     event.preventDefault();
+    // }
   }
 
 }

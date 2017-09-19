@@ -10,8 +10,8 @@ import { ServicesPageModule } from './services-page/services-page.module';
 import { ServicesPageComponent } from './services-page/services-page.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent},
-  { path: 'services', component: ServicesPageComponent},
+  { path: 'home', component: HomeComponent },
+  { path: 'services', component: ServicesPageComponent },
   {
     path: '',
     redirectTo: '/home',
