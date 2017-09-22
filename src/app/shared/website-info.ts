@@ -17,8 +17,8 @@ export const BANNERS_INFO = [
     },
     {
       id: 3,
-      title: 'devise groundbreaking inprovements.',
-      subtitle: 'lear how your company can evolve via digital transformation.',
+      title: 'devise groundbreaking improvements.',
+      subtitle: 'learn how your company can evolve via digital transformation.',
       image: 'assets/images/robot.png',
       video: 'assets/videos/robot.webm',
       class: 'banner-image-3'
