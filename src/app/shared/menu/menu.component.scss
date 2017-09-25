@@ -23,6 +23,9 @@
         @media only screen and (orientation: landscape) {
             margin-bottom: 1px;   
         }
+        @media (min-width: 768px){
+            margin-bottom: 20px;   
+        }
             &:hover:before {
                 left: 0;
             }
@@ -57,7 +60,7 @@
     img {
         width: 25px;
         @media (min-width: 768px) {
-            width: 45px;
+            width: 33px;
         }
     }
 }
@@ -69,7 +72,7 @@
         margin-top: -8%;
     }
     @media (min-width: 768px) {
-        margin-top: -10%;
+        margin-top: -5%;
     }
     a {
         font-size: 0.8rem;
