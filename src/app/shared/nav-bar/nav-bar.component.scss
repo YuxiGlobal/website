@@ -67,6 +67,9 @@
 }
 .hot-stuff-wrapper{
   margin-right: 8px;
+  @media (min-width: 1024px) {
+    margin-right: 23px;
+  }
 }
 .hot-stuff-text {
   margin-right: 10px;
@@ -88,10 +91,6 @@
   width: 30px;
   height: 30px;
   display: inline-block;
-  @media (min-width: 768px) {
-    width: 40px;
-    height: 40px;
-  }
 }
 
 .hot-stuff-wrapper {
