@@ -42,3 +42,11 @@
     z-index: 0;
   }
 }
+
+
+@media (min-width: 1024px) {
+  #fp-nav.right {
+    right: 44px !important;
+  }
+}
+
