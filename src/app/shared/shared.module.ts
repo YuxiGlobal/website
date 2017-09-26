@@ -1,3 +1,4 @@
+import { ShowOverlayService } from './services/show-overlay.service';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -7,6 +8,7 @@ import { ButtonComponent } from './button/button.component';
 import { BurgerMenuComponent } from './burger-menu/burger-menu.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavScrollingDirective } from './nav-scrolling.directive';
+import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 
 @NgModule({
   imports: [
@@ -19,13 +21,16 @@ import { NavScrollingDirective } from './nav-scrolling.directive';
     ButtonComponent,
     BurgerMenuComponent,
     MenuComponent,
-    NavScrollingDirective
+    NavScrollingDirective,
+    GetInTouchComponent
   ],
   exports: [
     NavBarComponent,
     ButtonComponent,
     FooterComponent,
+    GetInTouchComponent,
     NavScrollingDirective
-  ]
+  ],
+  providers: [ShowOverlayService]
 })
 export class SharedModule { }

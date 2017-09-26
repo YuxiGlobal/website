@@ -40,8 +40,8 @@ export class NavScrollingDirective {
      this.lastY = currentY;
   }
 
-  mouseWheelFunc(evento: any) {
-    const event = window.event || evento; // old IE support
+  mouseWheelFunc(scrollEvent: any) {
+    const event = window.event || scrollEvent; // old IE support
     const delta = Math.max(-1, Math.min(1, (event.wheelDelta || -event.detail)));
 
     if (delta > 0) {

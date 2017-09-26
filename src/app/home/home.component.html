@@ -36,7 +36,6 @@
               </app-services>
             </section>
           </section>
-
           <section class="home-content advantages-section">
             <h1>ADVANTAGES</h1>
             <div class="load-dot-container">
@@ -51,10 +50,9 @@
             </section>
           </section>
         </section>
-
-        <app-footer></app-footer>
+        <app-footer (switchOverlay)="switchOverlay()"></app-footer>
       </div>
     </div>
-
   </div>
 </div>
+<app-get-in-touch [class.active]="this.showOverlay"></app-get-in-touch>
