@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-get-in-touch',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GetInTouchComponent implements OnInit {
 
+  @Output() toggleGetInTouchOverlay = new EventEmitter();
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  closeOverlay() {
+    this.toggleGetInTouchOverlay.emit();
   }
 
 }

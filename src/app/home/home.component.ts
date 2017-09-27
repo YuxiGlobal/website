@@ -27,8 +27,14 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  switchOverlay() {
+  openOverlay() {
     this.showOverlay = !this.showOverlay;
     this.showOverlayService.preventScroll = !this.showOverlayService.preventScroll;
+  }
+
+  closeOverlay() {
+    console.log('close in HOME COMPONENT');
+    this.showOverlay = false;
+    this.showOverlayService.preventScroll = false;
   }
 }
