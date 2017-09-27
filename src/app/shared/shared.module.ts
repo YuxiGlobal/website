@@ -9,11 +9,13 @@ import { BurgerMenuComponent } from './burger-menu/burger-menu.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavScrollingDirective } from './nav-scrolling.directive';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
+import { MatButtonModule } from '@angular/material';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    MatButtonModule
   ],
   declarations: [
     NavBarComponent,
@@ -29,7 +31,7 @@ import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
     ButtonComponent,
     FooterComponent,
     GetInTouchComponent,
-    NavScrollingDirective
+    NavScrollingDirective    
   ],
   providers: [ShowOverlayService]
 })

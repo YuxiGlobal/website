@@ -2,7 +2,8 @@
 
 :host {
   position: absolute;
-  background: linear-gradient(60deg, $fandango, $ciberGrape);
+  background: rgba(30, 20, 45, 0.83);
+  color: $japaneseViolet;
   transition: opacity .5s ease;
   top: 0;
   left: 0;
@@ -10,20 +11,70 @@
   z-index: 102;
   height: 0vh;
   width: 0vw;
+  font-family: $fontFamilyPrimary;
 
   &.active {
     height: 100vh;
     width: 100vw;
-    opacity: 0.95;
+    opacity: 1;
   }
 }
 
-button {
-  border: none;
-  background: #cecece;
-  padding: 1em;
+h1 {
+  width: 50%;  
+  text-align: center; 
+}
+
+button {  
+  margin-top: 1.3em;
 
   &:hover {
     cursor: pointer;
   }
 }
+
+.get-in-touch-container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(30deg, $turquoiseBlue, rgb(56, 241, 236), #a2a0f4, #e083ea);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.close-button {
+  background-color: $white;
+  border-radius: 50px;
+  border: solid $white;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 60px;
+}
+
+.button-option {
+  background-color: rgba(255, 255, 255, 0.34);
+  border: solid 1.5px $white;
+  width: 190px;
+  border-radius: 13px;
+  padding: 0.3em;
+  font-weight: bold;
+  &:hover {
+    background: $japaneseViolet;
+    border: solid 1.5px $japaneseViolet;
+    color: $white;
+  }
+}
+.material-icons{
+  margin-top: 2px;
+  margin-left: -3px;
+  font-size: 29px;
+  color: $japaneseViolet;
+}
+
+
