@@ -1,3 +1,4 @@
+import { NavigationService } from './services/navigation.service';
 import { ShowOverlayService } from './services/show-overlay.service';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -35,6 +36,6 @@ import { MdIconModule } from '@angular/material';
     GetInTouchComponent,
     NavScrollingDirective    
   ],
-  providers: [ShowOverlayService]
+  providers: [ShowOverlayService, NavigationService]
 })
 export class SharedModule { }

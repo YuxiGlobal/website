@@ -5,6 +5,7 @@ import { MnFullpageOptions } from 'ngx-fullpage';
 import { Component, OnInit } from '@angular/core';
 import { IBannerInfo } from 'app/shared/ibanner-info';
 import { IServiceInfo } from 'app/shared/iservices-info';
+import { NavigationService } from 'app/shared/services/navigation.service';
 
 
 @Component({
@@ -18,7 +19,7 @@ export class HomeComponent implements OnInit {
   advantagesInfo: IAdvantagesInfo[];
   showOverlay = false;
 
-  constructor(private showOverlayService: ShowOverlayService) {
+  constructor(private showOverlayService: ShowOverlayService, private navigationService: NavigationService) {
     this.bannersInfo = BANNERS_INFO;
     this.servicesInfo = SERVICES_INFO;
     this.advantagesInfo = ADVANTAGES_INFO;
@@ -35,5 +36,9 @@ export class HomeComponent implements OnInit {
   closeOverlay() {
     this.showOverlay = false;
     this.showOverlayService.preventScroll = false;
+  }
+
+  resetNavigationValue() {
+    this.navigationService.resetNav = false;
   }
 }

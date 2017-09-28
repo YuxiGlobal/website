@@ -1,3 +1,4 @@
+import { NavigationService } from './shared/services/navigation.service';
 import { Component, ViewEncapsulation  } from '@angular/core';
 
 @Component({
@@ -8,4 +9,5 @@ import { Component, ViewEncapsulation  } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'test';
+  constructor(private navigationService: NavigationService ) {}
 }
