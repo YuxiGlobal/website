@@ -10,12 +10,14 @@ import { MenuComponent } from './menu/menu.component';
 import { NavScrollingDirective } from './nav-scrolling.directive';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 import { MatButtonModule } from '@angular/material';
+import { MdIconModule } from '@angular/material';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule,
-    MatButtonModule
+    MatButtonModule,
+    MdIconModule
   ],
   declarations: [
     NavBarComponent,
