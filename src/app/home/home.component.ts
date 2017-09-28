@@ -33,7 +33,6 @@ export class HomeComponent implements OnInit {
   }
 
   closeOverlay() {
-    console.log('close in HOME COMPONENT');
     this.showOverlay = false;
     this.showOverlayService.preventScroll = false;
   }
