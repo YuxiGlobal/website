@@ -34,7 +34,7 @@ import { MdIconModule } from '@angular/material';
     ButtonComponent,
     FooterComponent,
     GetInTouchComponent,
-    NavScrollingDirective    
+    NavScrollingDirective
   ],
   providers: [ShowOverlayService, NavigationService]
 })
