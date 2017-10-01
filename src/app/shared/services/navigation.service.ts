@@ -10,4 +10,4 @@ export class NavigationService {
     set resetNav(resetNav: boolean) {
         this._resetNav = resetNav;
     }
-}  
+}

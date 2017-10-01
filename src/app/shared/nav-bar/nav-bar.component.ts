@@ -14,8 +14,8 @@ export class NavBarComponent {
   showOverlay = false;
 
   constructor(private showOverlayService: ShowOverlayService, private navigationService: NavigationService,
-    private router: Router) { 
-    router.events.subscribe(()=>{
+    private router: Router) {
+    router.events.subscribe(() => {
       this.hideNav = this.navigationService.resetNav;
     })
    }
