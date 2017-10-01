@@ -6,16 +6,20 @@
     [mnFullpageKeyboardScrolling]="true"
     [mnFullpageSlidesNavigation]="true"
     [mnFullpageScrollOverflow]="true"
+    [mnFullpageAfterLoad]="onSlideChange"
   >
     <section app-home-banner
+      [isActiveSlide]="activeSlide === 1"
       [info]="bannersInfo[0]"
       class="section fp-section fp-table">
     </section >
     <section app-home-banner
+      [isActiveSlide]="activeSlide === 2"
       [info]="bannersInfo[1]"
       class="section fp-section fp-table">
     </section >
     <section app-home-banner
+      [isActiveSlide]="activeSlide === 3"
       [info]="bannersInfo[2]"
       class="section fp-section fp-table">
     </section >
