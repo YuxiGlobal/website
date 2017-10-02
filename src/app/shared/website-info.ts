@@ -73,21 +73,21 @@ export const BANNERS_INFO = [
   export const ADVANTAGES_COMPLETE_INFO = [
     {
       id: 1,
-      icon: 'assets/icons/location.svg',
+      icon: 'assets/icons/location-shadow.svg',
       title: 'location',
       subtitle: 'We work while you work. Our prime location –6 months on EST & 6 on CST– empowers synergies and commu- nications.  Collaboration is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami & Boston– and our U.S. based office.',
       class: 'location'
     },
     {
       id: 2,
-      icon: 'assets/icons/cultural_fit.svg',
+      icon: 'assets/icons/cultural-fit-shadow.svg',
       title: 'cultural fit',
       subtitle: 'We share a western culture and mentality. We are proactive, responsible, and known for our attitude and charisma. If our teams think something you do can be improved they will let you know and provide alternatives. We are bilingual –English and Spanish– and work 45 hours a week. We are not working for you, we are working with you!',
       class: 'cultural-fit'
     },
     {
       id: 3,
-      icon: 'assets/icons/flexibility.svg',
+      icon: 'assets/icons/flexibility-shadow.svg',
       title: 'flexibility',
       subtitle: 'We stay up to date with the most modern technologies and practices. Our teams are versatile, adaptable, and have expertise in a wide range of programming lan- guages, databases, and frameworks. Our projects run under Agile and traditional metho- dologies and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.',
       class: 'flexibility'
