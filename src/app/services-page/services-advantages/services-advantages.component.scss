@@ -4,36 +4,11 @@
    font-family: $fontFamilyPrimary;
    color: $white;
    text-align: center; 
-   perspective: 3px;
-   position: relative;
-   &::before {
-     content: '';
-     display: block;
-     width: 100%;
-     height: 50%;
-     position: absolute;
-     top: 10%;
-     background-color: $ciberGrape;
-     transform: translateZ(-1px) scale(2);
-     z-index: -1;
-   }
    @media (min-width: 1024px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    perspective: 3px;
-    &::before {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 104%;
-      background-color: $ciberGrape;
-      transform: translateZ(-1px) scale(2);
-      z-index: -1;
-    }
    }
 }
 
