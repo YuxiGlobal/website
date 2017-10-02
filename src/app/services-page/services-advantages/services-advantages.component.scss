@@ -2,12 +2,11 @@
 .services-advantages {
    background-color: $ciberGrape;
    padding-top: 100px;
+   font-family: $fontFamilyPrimary;
+   color: $white;
+   text-align: center; 
 }
-.title {
-  text-align: center;
-  font-family: $fontFamilyPrimary;
-  color: $white;
-}
+
 .title h1 {
   margin: 0;
   padding-top: 50px;
@@ -77,3 +76,55 @@ $move-distance: 23%;
 }
 
 //Dots end
+
+.advantages{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      height: 15px;
+      width: 100%;
+      background: $white;
+      -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.52);
+      -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.52);
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.52);
+    }
+}
+
+.icon {
+  right: 50%;
+  transform: translate(50%, 0%); 
+  position: absolute;
+  top: -17px;
+}
+
+.location {
+  background-color: #3fa0f7;
+}
+.cultural-fit {
+  background-color: #9b4bf9;
+}
+
+.flexibility {
+  background-color: #f45efc;
+}
+.subtitle {
+  font-family: $fontFamilySecondary;
+  font-weight: 400;
+  margin-top: 0;
+  font-size: 0.75rem;
+  text-align: justify;
+}
+
+.advantages-data {
+  margin: 61px 50px;
+
+  h4 {
+    font-size: 1.3rem;
+  }
+}
+
