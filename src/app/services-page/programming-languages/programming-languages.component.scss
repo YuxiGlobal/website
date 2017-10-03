@@ -69,6 +69,10 @@
     font-family: $fontFamilyPrimary;
     background: linear-gradient(to bottom, $ciberGrape 80%, $japaneseViolet 80%);
     padding-top: 4rem;
+    @media (min-width: 768px) {
+      background: linear-gradient(to bottom, $ciberGrape 47%, $japaneseViolet 47%);
+    }
+    
   }
   .technologies {
       background-color: $white;
