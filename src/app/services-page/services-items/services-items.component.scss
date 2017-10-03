@@ -30,7 +30,6 @@
   @media (min-width: 1024px) {
     width: 400px;
     height: 400px;
-
   }
 }
 .card {
@@ -54,29 +53,34 @@
     font-family: $fontFamilyPrimary;
     font-size: 1.3rem;
     color: $japaneseViolet;
-    padding-top: 38px;
+    padding-top: 6px;
     padding-left: 25px; 
     padding-right: 25px; 
   }
   p, ul {
     font-family: $fontFamilySecondary;
     font-size: 0.9rem;
-    padding-bottom: 25px;
+    padding-bottom: 6px;
     padding-left: 25px; 
     padding-right: 25px;
     color: #515151;  
     list-style: none;    
+  }  
+  li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
   }
 }
-.icon-ICONO_FLECHA .path1:before {
-  content: "\e900";
-  color: #41255b;
+
+.icono-flecha {
+  width: 20px;
+  padding-right: 15px;
 }
-.icon-ICONO_FLECHA .path2:before {
-  content: "\e901";
-  color: #fff;
-  margin-left: -1em;
+#text-staff {
+  padding-bottom: 30px;
 }
+
 
 .service-photo-staff {
   background-image: url('/../../assets/images/staff-image.jpg');

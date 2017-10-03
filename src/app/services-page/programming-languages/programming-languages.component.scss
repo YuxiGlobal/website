@@ -67,11 +67,12 @@
   .technologies-section{
     text-align: center;
     font-family: $fontFamilyPrimary;
+    background: linear-gradient(to bottom, $ciberGrape 80%, $japaneseViolet 80%);
+    padding-top: 4rem;
   }
   .technologies {
       background-color: $white;
       border-radius: 10px;
-      margin-top: 4rem;
       width: 85%;
       height: 500px;
       margin-left: auto;
