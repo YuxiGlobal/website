@@ -36,12 +36,12 @@
 .card {
   position: absolute;
   width: 90%;
-  height: 60%;
   background-color: white;
   top: 17rem;
   z-index: 5;
   border-radius: 15px;
   transform: translate(5%, 0%);
+  text-align: justify;
   @media (min-width: 1024px) {
     position: static;
     width: 400px;
@@ -49,8 +49,33 @@
     z-index: 0;
     border-radius: 0;
     transform: none;
-
   }
+  h2 {
+    font-family: $fontFamilyPrimary;
+    font-size: 1.3rem;
+    color: $japaneseViolet;
+    padding-top: 38px;
+    padding-left: 25px; 
+    padding-right: 25px; 
+  }
+  p, ul {
+    font-family: $fontFamilySecondary;
+    font-size: 0.9rem;
+    padding-bottom: 25px;
+    padding-left: 25px; 
+    padding-right: 25px;
+    color: #515151;  
+    list-style: none;    
+  }
+}
+.icon-ICONO_FLECHA .path1:before {
+  content: "\e900";
+  color: #41255b;
+}
+.icon-ICONO_FLECHA .path2:before {
+  content: "\e901";
+  color: #fff;
+  margin-left: -1em;
 }
 
 .service-photo-staff {
@@ -61,6 +86,13 @@
 }
 .service-photo-product {
   background-image: url('/../../assets/images/product-development.jpg');
+}
+
+.service-icon {
+  width: 78px;
+  position: absolute;
+  top: -34px;
+  right: 32px;
 }
 
 
