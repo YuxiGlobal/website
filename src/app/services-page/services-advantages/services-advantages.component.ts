@@ -11,7 +11,7 @@ export class ServicesAdvantagesComponent implements OnInit {
   advantagesCompleteInfo: IAdvantagesCompleteInfo[];
 
   @Input() info: IAdvantagesCompleteInfo;
-  
+
   constructor() {
     this.advantagesCompleteInfo = ADVANTAGES_COMPLETE_INFO;
    }

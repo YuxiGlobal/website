@@ -19,54 +19,57 @@
   .load-dot-1 {
     background-color: #F45EFC;
   }
-  
+
   .load-dot-2 {
     background-color: #A153F9;
   }
-  
+
   .load-dot-3 {
     background-color: #3EA3F7;
   }
-  
+
   .load-dot-4 {
     background-color: #00FFF7;
   }
-  
-  
+
+
   $move-distance: 23%;
-  
+
   .dot {
     animation: move 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
     transform: translateY(-$move-distance);
-  
-  
+
+
     @for $i from 1 through 4 {
       &:nth-child(#{$i}) {
-  
+
         animation-delay: $i * 0.15s;
-  
+
       }
     }
   }
-  
+
   @keyframes move {
     0% {
       transform: translateY(-$move-distance);
     }
-  
+
     50% {
       transform: translateY($move-distance);
     }
-  
+
     100% {
       transform: translateY(-$move-distance);
     }
   }
-  
-  //Dots end
 
-  .programming-languages {
-      background-color: white;
+  //Dots end
+  .technologies-section{
+    text-align: center;
+    font-family: $fontFamilyPrimary;
+  }
+  .technologies {
+      background-color: $white;
       border-radius: 10px;
       margin-top: 4rem;
       width: 85%;
@@ -74,9 +77,45 @@
       margin-left: auto;
       margin-right: auto;
       padding-top: 20px;
-      text-align: center;
-      font-family: $fontFamilyPrimary;
+      @media (min-width: 1024px) {
+        margin-top: 25rem;
+      }
+
       h1 {
           color: #515151;
       }
+  }
+
+  .who-we-are{
+    color: $white;
+    font-size: 0.9rem;
+     margin-top: 5rem;
+    @media (min-width: 1024px) {
+      margin-top: 7rem;
+    }
+  }
+
+  .who-we-are-description {
+    background-color: $white;
+    border-radius: 10px;
+    color: #515151;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-weight: 400;
+    font-family: $fontFamilySecondary;
+    @media (min-width: 1024px) {
+      width: 50%;
+    }
+
+    p {
+       padding: 25px;
+    }
+  }
+
+  .service-button-wrapper {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
   }
