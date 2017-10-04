@@ -1,3 +1,4 @@
+import { NavigationService } from './services/navigation.service';
 import { ShowOverlayService } from './services/show-overlay.service';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,7 @@ import { NavScrollingDirective } from './nav-scrolling.directive';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 import { MatButtonModule } from '@angular/material';
 import { MdIconModule } from '@angular/material';
+import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
 
 @NgModule({
   imports: [
@@ -26,15 +28,17 @@ import { MdIconModule } from '@angular/material';
     BurgerMenuComponent,
     MenuComponent,
     NavScrollingDirective,
-    GetInTouchComponent
+    GetInTouchComponent,
+    ColorfulDotsComponent
   ],
   exports: [
     NavBarComponent,
     ButtonComponent,
     FooterComponent,
     GetInTouchComponent,
-    NavScrollingDirective    
+    NavScrollingDirective,
+    ColorfulDotsComponent
   ],
-  providers: [ShowOverlayService]
+  providers: [ShowOverlayService, NavigationService]
 })
 export class SharedModule { }

@@ -9,8 +9,14 @@ export class FooterComponent implements OnInit {
 
   @Output() switchOverlay = new EventEmitter();
 
+  @Output() resetNavigation = new EventEmitter();
+
   openGetInTouch() {
     this.switchOverlay.emit();
+  }
+
+  setNavigationToFalse() {
+    this.resetNavigation.emit();
   }
 
   ngOnInit() {

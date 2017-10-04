@@ -1,0 +1,22 @@
+<div class="services-advantages">
+  <div class="title">
+    <h1>ADVANTAGES</h1>
+    <app-colorful-dots></app-colorful-dots>
+    <h3 class="secondary-text">Working with Yuxi means that you get<br>
+      more than just a team behind.</h3>
+  </div>
+  <div class="container-advantages">
+    <div class="advantages" *ngFor="let advantage of advantagesCompleteInfo">
+      <div [ngClass]="advantage.class">
+        <div class="icon">
+          <img [src]="advantage.icon" alt="">
+        </div>
+        <div class="advantages-data">
+          <h4>{{advantage.title | uppercase}}</h4>
+          <p class="subtitle">{{advantage.subtitle}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
