@@ -1,106 +1,40 @@
 @import '~styles/variables';
-//Dots
-
-.load-dot-container {
-    padding-bottom: 50px;
-  }
-  .dot {
-    border-radius: 100%;
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    margin: 3px;
-    @media (min-width: 768px) {
-      height: 11px;
-      margin: 7px;
-      width: 11px;
-    }
-  }
-  .load-dot-1 {
-    background-color: #F45EFC;
-  }
-
-  .load-dot-2 {
-    background-color: #A153F9;
-  }
-
-  .load-dot-3 {
-    background-color: #3EA3F7;
-  }
-
-  .load-dot-4 {
-    background-color: #00FFF7;
-  }
-
-
-  $move-distance: 23%;
-
-  .dot {
-    animation: move 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
-    transform: translateY(-$move-distance);
-
-
-    @for $i from 1 through 4 {
-      &:nth-child(#{$i}) {
-
-        animation-delay: $i * 0.15s;
-
-      }
-    }
-  }
-
-  @keyframes move {
-    0% {
-      transform: translateY(-$move-distance);
-    }
-
-    50% {
-      transform: translateY($move-distance);
-    }
-
-    100% {
-      transform: translateY(-$move-distance);
-    }
-  }
-
-  //Dots end
-  .technologies-section{
+.technologies-section {
     text-align: center;
     font-family: $fontFamilyPrimary;
     background: linear-gradient(to bottom, $ciberGrape 80%, $japaneseViolet 80%);
     padding-top: 4rem;
     @media (min-width: 768px) {
-      background: linear-gradient(to bottom, $ciberGrape 47%, $japaneseViolet 47%);
+        background: linear-gradient(to bottom, $ciberGrape 47%, $japaneseViolet 47%);
     }
-    
-  }
-  .technologies {
-      background-color: $white;
-      border-radius: 10px;
-      width: 85%;
-      height: 500px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 20px;
-      @media (min-width: 1024px) {
+}
+
+.technologies {
+    background-color: $white;
+    border-radius: 10px;
+    width: 85%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    @media (min-width: 1024px) {
         margin-top: 25rem;
-      }
+    }
+    h1 {
+        color: #515151;
+    }
+}
 
-      h1 {
-          color: #515151;
-      }
-  }
-
-  .who-we-are{
+.who-we-are {
     color: $white;
     font-size: 0.9rem;
-     margin-top: 5rem;
+    margin-top: 5rem;
     @media (min-width: 1024px) {
-      margin-top: 7rem;
+        margin-top: 7rem;
     }
-  }
+}
 
-  .who-we-are-description {
+.who-we-are-description {
     background-color: $white;
     border-radius: 10px;
     color: #515151;
@@ -111,20 +45,20 @@
     font-weight: 400;
     font-family: $fontFamilySecondary;
     @media (min-width: 1024px) {
-      width: 550px;
+        width: 550px;
     }
-
     p {
-       padding: 25px;
-       margin: 0;
+        padding: 25px;
+        margin: 0;
     }
-  }
-  #text-description {
-    padding-bottom: 0;
-  }
+}
 
-  .service-button-wrapper {
+#text-description {
+    padding-bottom: 0;
+}
+
+.service-button-wrapper {
     max-width: 150px;
     margin-left: auto;
     margin-right: auto;
-  }
+}

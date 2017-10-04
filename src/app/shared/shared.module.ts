@@ -12,6 +12,7 @@ import { NavScrollingDirective } from './nav-scrolling.directive';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 import { MatButtonModule } from '@angular/material';
 import { MdIconModule } from '@angular/material';
+import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
 
 @NgModule({
   imports: [
@@ -27,14 +28,16 @@ import { MdIconModule } from '@angular/material';
     BurgerMenuComponent,
     MenuComponent,
     NavScrollingDirective,
-    GetInTouchComponent
+    GetInTouchComponent,
+    ColorfulDotsComponent
   ],
   exports: [
     NavBarComponent,
     ButtonComponent,
     FooterComponent,
     GetInTouchComponent,
-    NavScrollingDirective
+    NavScrollingDirective,
+    ColorfulDotsComponent
   ],
   providers: [ShowOverlayService, NavigationService]
 })
