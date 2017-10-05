@@ -13,7 +13,7 @@
     background-color: $white;
     border-radius: 10px;
     width: 85%;
-    height: 500px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -79,13 +79,13 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
     li {
         color: #9E9E9E;
         font-family: $fontFamilyPrimary;
-        width: 150px;
-        height: 130px;
+        width: 139px;
+        height: 121px;
         padding-top: 20px;
         &:hover {
             background: linear-gradient(60deg, $fandango, $japaneseViolet);
