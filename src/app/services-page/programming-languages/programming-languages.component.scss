@@ -73,3 +73,20 @@
         margin-right: calc(50% - 275px);
     }
 }
+
+.technologies-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+        font-size: 4rem;
+        padding: 25px;
+    }
+    .show-desktop {
+        display: none;
+        @media (min-width: 1024px) {
+            display: block; 
+        }
+    }
+}
