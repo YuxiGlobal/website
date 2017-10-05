@@ -78,10 +78,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    div {
-        font-size: 4rem;
-        padding: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        color: #9E9E9E;
+        font-family: $fontFamilyPrimary;
+        width: 150px;
+        height: 130px;
+        padding-top: 20px;
+        &:hover {
+            background: linear-gradient(60deg, $fandango, $japaneseViolet);
+            color: $white;
+            transform: scale(1.1);
+            transition: transform 0.2s ease-out;
+        }
+        i:before {
+            font-size: 4rem;
+            display: block;
+            padding: 10px;
+        }
     }
     .show-desktop {
         display: none;
@@ -90,3 +106,5 @@
         }
     }
 }
+
+

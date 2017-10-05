@@ -23,13 +23,14 @@
 
 /////ICONS-- TECHNOLOGIES
 
+
 @font-face {
   font-family: 'icomoon';
-  src:  url('/../../../assets/fonts/icomoon.eot?9h9e84');
-  src:  url('/../../../assets/fonts/icomoon.eot?9h9e84#iefix') format('embedded-opentype'),
-    url('/../../../assets/fonts/icomoon.ttf?9h9e84') format('truetype'),
-    url('/../../../assets/fonts/icomoon.woff?9h9e84') format('woff'),
-    url('/../../../assets/fonts/icomoon.svg?9h9e84#icomoon') format('svg');
+  src:  url('/../../../assets/fonts/icomoon.eot?rkb2ob');
+  src:  url('/../../../assets/fonts/icomoon.eot?rkb2ob#iefix') format('embedded-opentype'),
+    url('/../../../assets/fonts/icomoon.ttf?rkb2ob') format('truetype'),
+    url('/../../../assets/fonts/icomoon.woff?rkb2ob') format('woff'),
+    url('/../../../assets/fonts/icomoon.svg?rkb2ob#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -50,9 +51,10 @@
 }
 
 .icon-C:before {
-  content: "\e902";
+  content: "\e902"; 
+  font-size: 4rem;
 }
-.icon-C++:before {
+.icon-Cplus:before {
   content: "\e903";
 }
 .icon-HTML:before {
@@ -73,81 +75,6 @@
 .icon-MICROSOFT:before {
   content: "\e909";
 }
-.icon-NODE .path1:before {
-  content: "\e90a";
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path2:before {
-  content: "\e90b";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path3:before {
-  content: "\e90c";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path4:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path5:before {
-  content: "\e90e";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path6:before {
-  content: "\e90f";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path7:before {
-  content: "\e910";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path8:before {
-  content: "\e911";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path9:before {
-  content: "\e912";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path10:before {
-  content: "\e913";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path11:before {
-  content: "\e914";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path12:before {
-  content: "\e915";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-  opacity: 0.66;
-}
-.icon-NODE .path13:before {
-  content: "\e916";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path14:before {
-  content: "\e917";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-NODE .path15:before {
-  content: "\e918";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
 .icon-PHP:before {
   content: "\e919";
 }
@@ -165,4 +92,7 @@
 }
 .icon-BOOTSTRAP:before {
   content: "\e901";
+}
+.icon-NODE:before {
+  content: "\e90a";
 }
