@@ -1,5 +1,6 @@
 @import '~styles/variables';
 footer {
+  font-family: $fontFamilyPrimary;
   background: $rusianViolet;
   display: flex;
   flex-direction: column;
@@ -44,9 +45,9 @@ footer {
   margin-left: 16px;
   padding-left: 15px;
   padding-bottom: 5px;
-  padding-top: 5px; 
+  padding-top: 5px;
     @media (min-width: 768px) {
-      display: none;     
+      display: none;
     }
 
   a {
@@ -58,15 +59,15 @@ footer {
 .menu-items {
   display: none;
   @media (min-width: 768px) {
-    display: inline-block; 
+    display: inline-block;
     padding-top: 30px;
     a {
       margin: 0 19px;
       text-decoration: none;
-      color: $white; 
+      color: $white;
       &:hover {
-        color: $turquoiseBlue; 
-      }     
+        color: $turquoiseBlue;
+      }
     }
   }
 }
@@ -115,6 +116,6 @@ footer {
       background: $white;
       -webkit-background-clip: text;
       background-clip: text;
-    }   
+    }
   }
 }

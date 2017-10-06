@@ -18,3 +18,81 @@
     font-size: 3rem;
   }
 }   
+
+
+
+/////ICONS-- TECHNOLOGIES
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/../../../assets/fonts/icomoon.eot?rkb2ob');
+  src:  url('/../../../assets/fonts/icomoon.eot?rkb2ob#iefix') format('embedded-opentype'),
+    url('/../../../assets/fonts/icomoon.ttf?rkb2ob') format('truetype'),
+    url('/../../../assets/fonts/icomoon.woff?rkb2ob') format('woff'),
+    url('/../../../assets/fonts/icomoon.svg?rkb2ob#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-C:before {
+  content: "\e902"; 
+  font-size: 4rem;
+}
+.icon-Cplus:before {
+  content: "\e903";
+}
+.icon-HTML:before {
+  content: "\e904";
+}
+.icon-IONIC:before {
+  content: "\e905";
+}
+.icon-JAVA-SCRIPT:before {
+  content: "\e906";
+}
+.icon-JQUERY:before {
+  content: "\e907";
+}
+.icon-KOTLIN:before {
+  content: "\e908";
+}
+.icon-MICROSOFT:before {
+  content: "\e909";
+}
+.icon-PHP:before {
+  content: "\e919";
+}
+.icon-PHYTON:before {
+  content: "\e91a";
+}
+.icon-REACT:before {
+  content: "\e91b";
+}
+.icon-SWIFT:before {
+  content: "\e91c";
+}
+.icon-ANGULAR:before {
+  content: "\e900";
+}
+.icon-BOOTSTRAP:before {
+  content: "\e901";
+}
+.icon-NODE:before {
+  content: "\e90a";
+}

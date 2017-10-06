@@ -2,5 +2,10 @@
     <app-services-intro></app-services-intro>
     <app-services-items></app-services-items>
     <app-services-advantages class="cybergrape-bg"></app-services-advantages>
-    <app-programming-languages></app-programming-languages>   
+    <app-programming-languages></app-programming-languages>
+    <app-footer (switchOverlay)="openOverlay()" (resetNavigation)="resetNavigationValue()"></app-footer>
 </div>
+<app-get-in-touch
+  [class.active]="showOverlay"
+  (toggleGetInTouchOverlay)="closeOverlay()"
+></app-get-in-touch>

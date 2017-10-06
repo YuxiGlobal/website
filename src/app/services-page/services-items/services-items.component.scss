@@ -14,6 +14,15 @@
     margin: 0;
     padding-top: 50px;
 }
+
+.underline{
+  border-top: 2px solid $japaneseViolet;
+  margin-left: 25px;
+  width: 60px;
+  @media (min-width: 1024px) {
+    margin-left: 41px;
+  }
+}
 .secondary-text {
   font-family: muli;
   font-weight: 400;
@@ -76,6 +85,7 @@
         padding-top: 6px;
         padding-left: 25px;
         padding-right: 25px;
+        margin-bottom: 7px;
         @media (min-width: 1024px) {
             padding-top: 35px;
             padding-left: 40px;
