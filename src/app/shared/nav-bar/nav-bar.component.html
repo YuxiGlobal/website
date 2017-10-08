@@ -2,6 +2,7 @@
   id="navigation"
   class="container"
   appNavScrolling
+  appAboveTheFold
   (mouseWheelUp)="mouseWheelUpFunc($event)"
   (mouseWheelDown)="mouseWheelDownFunc($event)"
   [class.hide]="hideNav"
@@ -12,7 +13,8 @@
     class="logo-wrapper"
     [class.hidden]="showOverlay"
   >
-    <img id="logo-yuxi" class="white-yuxi-logo" src="assets/icons/YUXI_LOGO_WHITE.svg">
+    <img id="logo-yuxi" class="yuxi-logo yuxi-logo--white" src="assets/icons/YUXI_LOGO_WHITE.svg">
+    <img id="logo-yuxi" class="yuxi-logo yuxi-logo--color" src="assets/icons/YUXI_LOGO_COLOR.svg">
   </a>
   <div class="hot-stuff">
     <div class="hot-stuff-wrapper"

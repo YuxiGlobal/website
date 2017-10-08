@@ -38,8 +38,16 @@
   }
 }
 
-.white-yuxi-logo {
+.yuxi-logo {
   width: 100%;
+}
+
+.yuxi-logo--white {
+  display: block;
+}
+
+.yuxi-logo--color {
+  display: none;
 }
 
 .burger-menu-white {
@@ -172,4 +180,22 @@
   }
 }
 
+.pass-the-fold {
+  &.container {
+    background: #fff;
+  }
 
+  .yuxi-logo--white {
+    display: none;
+  }
+
+  .yuxi-logo--color {
+    display: block;
+  }
+}
+
+.menu-visible {
+  &.container {
+    background: transparent;
+  }
+}

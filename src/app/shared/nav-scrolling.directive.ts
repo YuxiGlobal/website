@@ -11,19 +11,23 @@ export class NavScrollingDirective {
   // https://stackoverflow.com/questions/13278087/determine-vertical-direction-of-a-touchmove
   lastY = 0;
 
-  @HostListener('window:mousewheel', ['$event']) onMouseWheelChrome(event: any) {
+  @HostListener('window:mousewheel', ['$event'])
+  onMouseWheelChrome(event: any) {
     this.mouseWheelFunc(event);
   }
 
-  @HostListener('window:DOMMouseScroll', ['$event']) onMouseWheelFirefox(event: any) {
+  @HostListener('window:DOMMouseScroll', ['$event'])
+  onMouseWheelFirefox(event: any) {
     this.mouseWheelFunc(event);
   }
 
-  @HostListener('window:onmousewheel', ['$event']) onMouseWheelIE(event: any) {
+  @HostListener('window:onmousewheel', ['$event'])
+  onMouseWheelIE(event: any) {
     this.mouseWheelFunc(event);
   }
 
-  @HostListener('window:touchmove', ['$event']) onTouchScroll(event: any) {
+  @HostListener('window:touchmove', ['$event'])
+  onTouchScroll(event: any) {
     this.handleTouchMove(event);
   }
 

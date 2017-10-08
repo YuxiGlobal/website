@@ -9,7 +9,7 @@
   background-color: $white;
   #hot-stuff-button {
     background: $rusianViolet;
-    border: 2px solid $rusianViolet;   
+    border: 2px solid $rusianViolet;
   }
 
   #menu-button {
@@ -21,7 +21,7 @@
     background: $white;
   }
   #menu-circle1,
-  #menu-circle2 {    
+  #menu-circle2 {
     border: solid 1px $rusianViolet;
   }
 
@@ -32,8 +32,13 @@
   #logo-yuxi:before{
     color: $rusianViolet;
   }
-  #logo-yuxi {
-    content: url('../assets/icons/YUXI_LOGO_COLOR.svg');
+
+  .yuxi-logo--white {
+    display: none;
+  }
+
+  .yuxi-logo--color {
+    display: block;
   }
 }
 .fp-viewing-3 #navigation.menu-visible {
@@ -47,11 +52,11 @@
     background: $rusianViolet;
   }
   #menu-circle1,
-  #menu-circle2 {    
+  #menu-circle2 {
     border: solid 1px $white;
   }
 
-  
+
 }
 
 
