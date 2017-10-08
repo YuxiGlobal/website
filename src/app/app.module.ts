@@ -9,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ServicesPageModule } from './services-page/services-page.module';
 import { ServicesPageComponent } from './services-page/services-page.component';
 import { ContactComponent } from 'app/contact/contact.component';
+import { ContactModule } from 'app/contact/contact.module';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
     SharedModule,
     HomeModule,
     ServicesPageModule,
+    ContactModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
