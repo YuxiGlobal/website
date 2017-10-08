@@ -9,6 +9,11 @@
   font-family: $fontFamilyPrimary;
   color: $white;
   padding-left: 15%;
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
   p {
     border: 2px solid $white;
@@ -21,6 +26,10 @@
   margin: 0;
   padding-top: 60vh;
   width: 201px;
+  @media (min-width: 1024px) {
+    padding-top: 0;
+    width: 358px;
+  }
 
   span {
     color: $turquoiseBlue;
