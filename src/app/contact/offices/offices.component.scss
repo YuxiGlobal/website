@@ -1,0 +1,15 @@
+@import '~styles/variables';
+
+.our-offices {
+  background-color: $japaneseViolet;
+  color: $white;
+  font-family: $fontFamilyPrimary;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.title {
+  text-align: center;
+}
