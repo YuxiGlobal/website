@@ -46,12 +46,12 @@ export class HomeComponent implements OnDestroy, AfterViewInit {
     this.showOverlayService.preventScroll = false;
   }
 
-  resetNavigationValue() {
-    this.navigationService.resetNav = false;
-  }
-
   ngAfterViewInit() {
-    this.fullpageService.reBuild();
+    // TODO: feels hacky - make this better
+    // Wait for the DOM to be ready so fullpage con make the math for section height the right way
+    setTimeout(() => {
+      this.fullpageService.reBuild();
+    }, 0);
   }
 
   ngOnDestroy() {

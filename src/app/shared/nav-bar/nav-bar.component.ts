@@ -10,11 +10,14 @@ import { Router } from '@angular/router';
 })
 export class NavBarComponent {
 
-  hideNav: boolean = false;
+  hideNav = false;
   showOverlay = false;
 
-  constructor(private showOverlayService: ShowOverlayService, private navigationService: NavigationService,
-    private router: Router) {
+  constructor(
+    private showOverlayService: ShowOverlayService,
+    private navigationService: NavigationService,
+    private router: Router
+  ) {
     router.events.subscribe(() => {
       this.hideNav = this.navigationService.resetNav;
     })
@@ -23,18 +26,26 @@ export class NavBarComponent {
   handleMenuClick() {
     this.showOverlay = !this.showOverlay;
     this.showOverlayService.preventScroll = !this.showOverlayService.preventScroll;
-    this.hideNav = this.navigationService.resetNav = false;
+    this.hideNav = false;
+    this.navigationService.resetNav = false;
   }
 
   mouseWheelUpFunc(event: any) {
+    // When overlay is open:
+    // 1. show navigation
+    // 2. Reset navigation to its default state (always show)
     if (!this.showOverlayService.preventScroll) {
-      this.hideNav = this.navigationService.resetNav = false;
+      this.hideNav = false;
+      this.navigationService.resetNav = false;
     }
   }
 
   mouseWheelDownFunc(event: any) {
+    // When user scroll down and the overlay is open
+    // prevent navigation to show/hide
     if (!this.showOverlayService.preventScroll) {
-      this.hideNav =  this.navigationService.resetNav = true;
+      this.hideNav = true;
+      this.navigationService.resetNav = true;
     }
   }
 }
