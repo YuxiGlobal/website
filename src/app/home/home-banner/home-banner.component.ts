@@ -17,7 +17,7 @@ import { MnFullpageService } from 'ngx-fullpage';
   templateUrl: './home-banner.component.html',
   styleUrls: ['./home-banner.component.scss']
 })
-export class HomeBannerComponent  implements OnChanges, OnDestroy, OnInit {
+export class HomeBannerComponent implements OnChanges {
 
   readonly CHANGE_TYPE_BREAKPOINT: number = 1024;
   readonly IMAGE_TYPE: string = 'image';
@@ -29,20 +29,11 @@ export class HomeBannerComponent  implements OnChanges, OnDestroy, OnInit {
   @ViewChild('videoElement') videoElement: ElementRef;
 
 
-  constructor(private fullpageService: MnFullpageService) {
-  }
-
-  ngOnInit() {
-    this.fullpageService.reBuild();
-  }
+  constructor(private fullpageService: MnFullpageService) {}
 
   ngOnChanges() {
     if (this.isActiveSlide) {
       this.videoElement.nativeElement.play();
     }
-  }
-
-  ngOnDestroy() {
-    this.fullpageService.destroy('all');
   }
 }

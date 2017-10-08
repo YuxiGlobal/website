@@ -1,7 +1,8 @@
 import { ShowOverlayService } from './../shared/services/show-overlay.service';
 import { IAdvantagesInfo } from 'app/shared/iadvantages-info';
 import { BANNERS_INFO, SERVICES_INFO, ADVANTAGES_INFO } from './../shared/website-info';
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy, OnChanges, AfterViewInit } from '@angular/core';
+import { MnFullpageService } from 'ngx-fullpage';
 import { IBannerInfo } from 'app/shared/ibanner-info';
 import { IServiceInfo } from 'app/shared/iservices-info';
 import { NavigationService } from 'app/shared/services/navigation.service';
@@ -11,7 +12,7 @@ import { NavigationService } from 'app/shared/services/navigation.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnDestroy, AfterViewInit {
   bannersInfo: IBannerInfo[];
   servicesInfo: IServiceInfo[];
   advantagesInfo: IAdvantagesInfo[];
@@ -20,7 +21,8 @@ export class HomeComponent {
 
   constructor(
     private showOverlayService: ShowOverlayService,
-    private navigationService: NavigationService
+    private navigationService: NavigationService,
+    private fullpageService: MnFullpageService
   ) {
     this.bannersInfo = BANNERS_INFO;
     this.servicesInfo = SERVICES_INFO;
@@ -46,5 +48,13 @@ export class HomeComponent {
 
   resetNavigationValue() {
     this.navigationService.resetNav = false;
+  }
+
+  ngAfterViewInit() {
+    this.fullpageService.reBuild();
+  }
+
+  ngOnDestroy() {
+    this.fullpageService.destroy('all');
   }
 }
