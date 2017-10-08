@@ -6,10 +6,23 @@
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  font-family: $fontFamilyPrimary;
+  color: $white;
+  padding-left: 15%;
+
+  p {
+    border: 2px solid $white;
+    padding: 9px;
+    width: 200px;
+  }
 }
 
 .title {
   margin: 0;
   padding-top: 60vh;
   width: 201px;
+
+  span {
+    color: $turquoiseBlue;
+  }
 }

@@ -29,7 +29,7 @@
 
 .banner-tittle {
   font-family: $fontFamilyPrimary;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: $white;
   word-spacing: 100vw;
   margin-bottom: 10px;
@@ -76,7 +76,7 @@
   @media only screen and (orientation: landscape) {
     margin-left: 0;
     margin-right: 0;
-  } 
+  }
 }
 
 .image-banner-container {
