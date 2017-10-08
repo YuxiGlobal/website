@@ -1,8 +1,15 @@
 @import '~styles/variables';
 .contact-hero {
-   background: url("/../../assets/images/MAPA.jpg") no-repeat center center fixed;
+  background: url("/../../assets/images/MAPA.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  margin: 0;
+  padding-top: 60vh;
+  width: 201px;
 }
