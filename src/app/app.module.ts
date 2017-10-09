@@ -8,10 +8,13 @@ import { HomeModule } from './home/home.module';
 import { RouterModule, Routes } from '@angular/router';
 import { ServicesPageModule } from './services-page/services-page.module';
 import { ServicesPageComponent } from './services-page/services-page.component';
+import { ContactComponent } from 'app/contact/contact.component';
+import { ContactModule } from 'app/contact/contact.module';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesPageComponent },
+  { path: 'contact', component: ContactComponent },
   {
     path: '',
     redirectTo: '/home',
@@ -28,6 +31,7 @@ const routes: Routes = [
     SharedModule,
     HomeModule,
     ServicesPageModule,
+    ContactModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

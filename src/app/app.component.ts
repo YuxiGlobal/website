@@ -8,6 +8,9 @@ import { Component, ViewEncapsulation  } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title: string = 'test';
   constructor(private navigationService: NavigationService ) {}
+
+  onActivate() {
+    this.navigationService.resetNav = false;
+  }
 }

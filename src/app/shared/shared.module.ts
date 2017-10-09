@@ -13,6 +13,7 @@ import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 import { MatButtonModule } from '@angular/material';
 import { MdIconModule } from '@angular/material';
 import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
+import { AboveTheFoldDirective } from './above-the-fold.directive';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
     MenuComponent,
     NavScrollingDirective,
     GetInTouchComponent,
-    ColorfulDotsComponent
+    ColorfulDotsComponent,
+    AboveTheFoldDirective
   ],
   exports: [
     NavBarComponent,

@@ -32,8 +32,4 @@ export class ServicesPageComponent {
     this.showOverlay = false;
     this.showOverlayService.preventScroll = false;
   }
-
-  resetNavigationValue() {
-    this.navigationService.resetNav = false;
-  }
 }
