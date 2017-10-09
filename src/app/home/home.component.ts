@@ -51,7 +51,7 @@ export class HomeComponent implements OnDestroy, AfterViewInit {
     // Wait for the DOM to be ready so fullpage con make the math for section height the right way
     setTimeout(() => {
       this.fullpageService.reBuild();
-    }, 0);
+    }, 100);
   }
 
   ngOnDestroy() {
