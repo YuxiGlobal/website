@@ -3,6 +3,11 @@
   } //Hide mobile
   
   @media (min-width: 1024px) {
+    .city {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
     .image-medellin, 
     .image-armenia, 
     .image-manson {      
@@ -10,19 +15,17 @@
       border-radius: 10px;
       height: 300px;
       position: relative;
-      z-index: 1;
-      max-width: 1500px;
-      margin: 0 auto;
-      width: 70%;
+      z-index: 1;    
+      width: 100%;
     }
     .image-medellin{
-      background: url("/../../assets/images/medellin.jpg");
+      background-image: url("/../../assets/images/medellin.jpg");
     } 
     .image-armenia {
-      background: url("/../../assets/images/armenia.jpg");
+      background-image: url("/../../assets/images/armenia.jpg");
     }
     .image-manson {
-      background: url("/../../assets/images/manson.jpg");
+      background-image: url("/../../assets/images/manson.jpg");
     }
 
     .open-info {
@@ -37,14 +40,14 @@
         padding: 3px 0;
       }  
     }    
-    .info-medellin-copy {
+    .info-city-copy {
       padding: 20px;
     }
 
     .show-desktop {
       display: block;
     } 
-    .info-medellin {
+    .info-city {
       display: flex;
       max-height: 0;
       transition: max-height 0.8s ease-out;
@@ -57,9 +60,16 @@
       color: #000;
       background: #fefefe;
     }
-    .medellin:hover .info-medellin {
-      max-height: 600px;
-      transition: max-height 0.25s ease-in;
+    .city:hover {
+      // margin-bottom: 50px;
+      .info-city {
+        max-height: 600px;
+        transition: max-height 0.25s ease-in;
+      }
+      .image-medellin   {
+        background-image: url("/../../assets/images/armenia.jpg");
+        transition:  background-image 0.25s ease-in;
+      }
     }
   }
 
