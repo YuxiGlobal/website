@@ -101,7 +101,8 @@ export const BANNERS_INFO = [
       country: 'COLOMBIA',
       address: 'Cra 48 # 20-34. Of. 1012 – 1014. Centro empresarial Ciudad del Río.',
       citySubtitle: 'Medellín, Antioquia.',
-      phone: '(+57) (4) 604 81 13'
+      phone: '(+57) (4) 604 81 13',
+      class: 'image-medellin'
     },
     {
       id: 2,
@@ -109,7 +110,8 @@ export const BANNERS_INFO = [
       country: 'COLOMBIA',
       address: 'Cra 48 # 20-34. Of. 1012 – 1014. Centro empresarial Ciudad del Río.',
       citySubtitle: 'Armenia, Quindio.',
-      phone: '(+57) (4) 604 81 13'
+      phone: '(+57) (4) 604 81 13',
+      class: 'image-armenia'
     },
     {
       id: 3,
@@ -117,6 +119,7 @@ export const BANNERS_INFO = [
       country: 'ohio',
       address: 'Cra 48 # 20-34. Of. 1012 – 1014. Centro empresarial Ciudad del Río.',
       citySubtitle: 'Medellín, Antioquia.',
-      phone: '(+57) (4) 604 81 13'
+      phone: '(+57) (4) 604 81 13',
+      class: 'image-manson'
     }
   ]

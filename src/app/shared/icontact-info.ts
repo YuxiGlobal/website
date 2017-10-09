@@ -4,5 +4,6 @@ export interface IContactInfo {
     country: string,
     address: string,
     citySubtitle: string,
-    phone: string
+    phone: string,
+    class: string
 }

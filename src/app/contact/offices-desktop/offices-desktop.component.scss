@@ -1,74 +1,49 @@
-//mobile
-
-.show-mobile {
-    display: block;
-  }
   .show-desktop {
     display: none;
-  } 
+  } //Hide mobile
   
-  .image-medellin {
-    background: url("/../../assets/images/medellin.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    z-index: 1;
-  
-    @media (min-width: 1024px) {
+  @media (min-width: 1024px) {
+    .image-medellin, 
+    .image-armenia, 
+    .image-manson {      
+      background-size: cover;
+      border-radius: 10px;
+      height: 300px;
+      position: relative;
+      z-index: 1;
       max-width: 1500px;
       margin: 0 auto;
       width: 70%;
     }
-  
-    &.hide {
-      display: none;
+    .image-medellin{
+      background: url("/../../assets/images/medellin.jpg");
+    } 
+    .image-armenia {
+      background: url("/../../assets/images/armenia.jpg");
     }
-  }
-  
-  .open-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  
-    h2, p {
-      margin: 0;
-      padding: 3px 0;
+    .image-manson {
+      background: url("/../../assets/images/manson.jpg");
     }
-  
-    app-button {
-      padding-top: 10px;
+
+    .open-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    
+      h2, p {
+        margin: 0;
+        padding: 3px 0;
+      }  
+    }    
+    .info-medellin-copy {
+      padding: 20px;
     }
-  }
-  
-  .info-medellin {
-    color: #000;
-    display: none;
-    background: #fefefe;
-  
-    &.showContent {
-      display: block;
-    }
-  }
-  
-  .info-medellin-copy {
-    padding: 20px;
-  }
-  
-  
-  //Desktop
-  
-  @media (min-width: 1024px) {
-  
+
     .show-desktop {
       display: block;
     } 
-  
-    .show-mobile {
-      display: none;
-    }
     .info-medellin {
       display: flex;
       max-height: 0;
@@ -79,11 +54,13 @@
       width: 60%;
       border-radius: 0 0 6px 6px;
       margin: 0 auto;
+      color: #000;
+      background: #fefefe;
     }
     .medellin:hover .info-medellin {
       max-height: 600px;
       transition: max-height 0.25s ease-in;
     }
   }
-  
+
   

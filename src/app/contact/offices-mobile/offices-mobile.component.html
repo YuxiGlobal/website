@@ -1,6 +1,6 @@
 <div class="show-mobile">
   <div class="medellin">
-    <div class="image-medellin" [ngClass]="{hide: hideImage}">
+    <div class="{{info.class}}" [class.hide]="hideImage">
       <div class="open-info">
         <h2>{{info.cityTitle}}</h2>
         <p>{{info.country}}</p>
@@ -9,7 +9,7 @@
         </app-button>
       </div>
     </div>
-    <div class="info-medellin" [ngClass]="{showContent: hideImage}">
+    <div class="info-medellin" [class.showContent]="hideImage">
       <div class="info-medellin-copy">
         <h2>{{info.cityTitle}}</h2>
         <p>{{info.country}}</p>
