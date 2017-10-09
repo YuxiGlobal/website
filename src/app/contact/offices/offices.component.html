@@ -5,48 +5,12 @@
   </div>
 
   <div class="cities">
-
-    <div class="show-mobile">
-      <div class="medellin">
-        <div class="image-medellin" [ngClass]="{hide: hideImage}">
-          <div class="open-info">
-            <h2>MEDELLIN Mobile</h2>
-            <p>COLOMBIA</p>
-            <app-button type="secondary" size="small" (click)="toggleHideImage()">
-              Learn more
-            </app-button>
-          </div>
-        </div>
-        <div class="info-medellin" [ngClass]="{showContent: hideImage}">
-          <div class="info-medellin-copy">
-            <h2>MEDELLIN</h2>
-            <p>COLOMBIA</p>
-            <p>loremdfsfsddfg fgggdfdgfdgfdgfdggf dgfdgdfg</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="show-desktop">
-      <div class="medellin">
-        <div class="image-medellin" [ngClass]="{hide: hideImage}">
-          <div class="open-info">
-            <h2>MEDELLIN Desktop</h2>
-            <p>COLOMBIA</p>
-            <app-button type="secondary" size="small" (click)="toggleHideImage()">
-              Learn more
-            </app-button>
-          </div>
-        </div>
-        <div class="info-medellin" [ngClass]="{showContent: hideImage}">
-          <div class="info-medellin-copy">
-            <h2>MEDELLIN</h2>
-            <p>COLOMBIA</p>
-            <p>loremdfsfsddfg fgggdfdgfdgfdgfdggf dgfdgdfg</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <app-offices-mobile 
+      *ngFor="let contact of contactInfo" [info]="contact">
+    </app-offices-mobile>
+    
+    <app-offices-desktop 
+      *ngFor="let contact of contactInfo" [info]="contact">
+    </app-offices-desktop>
   </div>
 </section>

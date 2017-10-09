@@ -1,0 +1,89 @@
+//mobile
+
+.show-mobile {
+    display: block;
+  }
+  .show-desktop {
+    display: none;
+  } 
+  
+  .image-medellin {
+    background: url("/../../assets/images/medellin.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+  
+    @media (min-width: 1024px) {
+      max-width: 1500px;
+      margin: 0 auto;
+      width: 70%;
+    }
+  
+    &.hide {
+      display: none;
+    }
+  }
+  
+  .open-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  
+    h2, p {
+      margin: 0;
+      padding: 3px 0;
+    }
+  
+    app-button {
+      padding-top: 10px;
+    }
+  }
+  
+  .info-medellin {
+    color: #000;
+    display: none;
+    background: #fefefe;
+  
+    &.showContent {
+      display: block;
+    }
+  }
+  
+  .info-medellin-copy {
+    padding: 20px;
+  }
+  
+  
+  //Desktop
+  
+  @media (min-width: 1024px) {
+  
+    .show-desktop {
+      display: block;
+    } 
+  
+    .show-mobile {
+      display: none;
+    }
+    .info-medellin {
+      display: flex;
+      max-height: 0;
+      transition: max-height 0.8s ease-out;
+      overflow: hidden;
+      z-index: 0;
+      position: relative;
+      width: 60%;
+      border-radius: 0 0 6px 6px;
+      margin: 0 auto;
+    }
+    .medellin:hover .info-medellin {
+      max-height: 600px;
+      transition: max-height 0.25s ease-in;
+    }
+  }
+  
+  

@@ -1,0 +1,22 @@
+<div class="show-mobile">
+  <div class="medellin">
+    <div class="image-medellin" [ngClass]="{hide: hideImage}">
+      <div class="open-info">
+        <h2>{{info.cityTitle}}</h2>
+        <p>{{info.country}}</p>
+        <app-button type="secondary" size="small" (click)="toggleHideImage()">
+          Learn more
+        </app-button>
+      </div>
+    </div>
+    <div class="info-medellin" [ngClass]="{showContent: hideImage}">
+      <div class="info-medellin-copy">
+        <h2>{{info.cityTitle}}</h2>
+        <p>{{info.country}}</p>
+        <p>{{info.address}}</p>
+        <p>{{info.citySubtitle}}</p>
+        <p>{{info.phone}}</p>
+      </div>
+    </div>
+  </div>
+</div>

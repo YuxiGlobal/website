@@ -1,3 +1,5 @@
+import { OfficesMobileComponent } from './offices-mobile/offices-mobile.component';
+import { OfficesDesktopComponent } from './offices-desktop/offices-desktop.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact.component';
@@ -10,6 +12,12 @@ import { OfficesComponent } from './offices/offices.component';
     CommonModule,
     SharedModule
   ],
-  declarations: [ContactComponent, ContactHeroComponent, OfficesComponent]
+  declarations: [
+    ContactComponent, 
+    ContactHeroComponent, 
+    OfficesComponent,
+    OfficesMobileComponent,
+    OfficesDesktopComponent
+  ]
 })
 export class ContactModule { }
