@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './offices.component.html',
   styleUrls: ['./offices.component.scss']
 })
-export class OfficesComponent implements OnInit {
-
+export class OfficesComponent {
+  hideImage = false;
   constructor() { }
 
-  ngOnInit() {
+  toggleHideImage() {
+    this.hideImage = !this.hideImage;
   }
-
 }
