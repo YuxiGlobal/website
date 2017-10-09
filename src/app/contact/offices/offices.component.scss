@@ -12,11 +12,59 @@
 
 .title {
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.medellin {
+.image-medellin {
    background: url("/../../assets/images/medellin.jpg");
    background-size: cover;
    width: 100%;
    height: 300px;
+   position: relative;
+   z-index: 1;
+   @media (min-width: 1024px) {
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 70%;
+   }
+}
+.open-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    h2, p {
+      margin: 0;
+      padding: 3px 0;
+    }
+
+    app-button {
+      padding-top: 10px;
+    }
+}
+.info-medellin {
+  background: #fefefe;
+  border-radius: 0 0 6px 6px;
+  max-height: 0;
+  transition: max-height 0.8s ease-out;
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+ @media (min-width: 1024px) {
+  .medellin:hover .info-medellin{
+    max-height: 600px;
+    transition: max-height 0.25s ease-in;
+  }
+ }
+
+
+p {
+  padding: 25px;
 }
