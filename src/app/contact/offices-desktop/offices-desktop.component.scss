@@ -5,15 +5,18 @@
   @media (min-width: 1024px) {
     .city {
       max-width: 1000px;
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      transition: margin-bottom 0.8s ease;
     }
-
     .image-medellin, 
     .image-armenia, 
     .image-manson {      
       background-size: cover;
       border-radius: 10px;
       height: 300px;
+      margin-bottom: 50px;
       position: relative;
       z-index: 1;    
       width: 100%;
@@ -48,27 +51,33 @@
       display: block;
     } 
     .info-city {
-      display: flex;
-      max-height: 0;
-      transition: max-height 0.8s ease-out;
-      overflow: hidden;
+      // display: flex;
+      // max-height: 0;
+      // transition: max-height 0.8s ease-out;
+      transition: transform 0.8s;
+      // overflow: hidden;
       z-index: 0;
-      position: relative;
-      width: 60%;
+      top: 0px;
+      position: absolute;
+      height: 300px;
+      width: 80%;
+      left: calc(50% - 400px);
       border-radius: 0 0 6px 6px;
       margin: 0 auto;
       color: #000;
       background: #fefefe;
     }
     .city:hover {
-      // margin-bottom: 50px;
+        margin-bottom: 200px;
+        transition: margin-bottom 0.8s ease;
       .info-city {
-        max-height: 600px;
-        transition: max-height 0.25s ease-in;
+        // max-height: 600px;
+        transform: translateY(98%);
+        
       }
       .image-medellin   {
         background-image: url("/../../assets/images/medellin-color.jpg");
-        transition:  background-image 0.25s ease-in;
+        transition:  background-image 0.25s ease;
       }
     }
   }
