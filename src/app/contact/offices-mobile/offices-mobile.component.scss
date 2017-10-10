@@ -1,38 +1,34 @@
-  
-  .image-medellin {
-    background: url("/../../assets/images/medellin.jpg");
+  .image-medellin,
+  .image-armenia,
+  .image-manson {
     background-size: cover;
-    border-radius: 10px;
-    width: 100%;
-    height: 300px;
+    width: 100vw;
+    height: 100vw;
     position: relative;
     z-index: 1; 
     &.hide {
       display: none;
+    }
+  }
+  .image-medellin {
+    background-image: url("/../../assets/images/medellin.jpg");
+    &:hover {
+      background-image: url("/../../assets/images/medellin-color.jpg"); 
+      transition:  background-image 0.25s ease;
     }
   }
   .image-armenia {
-    background: url("/../../assets/images/armenia.jpg");
-    background-size: cover;
-    border-radius: 10px;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    z-index: 1; 
-    &.hide {
-      display: none;
+    background-image: url("/../../assets/images/armenia.jpg");
+    &:hover {
+      background-image: url("/../../assets/images/armenia-color.jpg"); 
+      transition:  background-image 0.25s ease;
     }
   }
   .image-manson {
-    background: url("/../../assets/images/manson.jpg");
-    background-size: cover;
-    border-radius: 10px;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    z-index: 1; 
-    &.hide {
-      display: none;
+    background-image: url("/../../assets/images/manson.jpg");
+    &:hover {
+      background-image: url("/../../assets/images/manson-color.jpg"); 
+      transition:  background-image 0.25s ease;
     }
   }
   
