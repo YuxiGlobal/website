@@ -1,9 +1,9 @@
 <div class="show-mobile">
-  <div class="medellin">
+  <div class="overlay-purple">
     <div class="{{info.class}}" [class.hide]="hideImage">
       <div class="open-info">
-        <h2>{{info.cityTitle}}</h2>
-        <p>{{info.country}}</p>
+        <h2>{{info.cityTitle | uppercase}}</h2>
+        <p>{{info.country | uppercase}}</p>
         <app-button type="secondary" size="small" (click)="toggleHideImage()">
           Learn more
         </app-button>
@@ -11,7 +11,7 @@
     </div>
     <div class="info-medellin" [class.showContent]="hideImage">
       <div class="info-medellin-copy">
-        <h2>{{info.cityTitle}}</h2>
+        <h2>{{info.cityTitle | uppercase}}</h2>
         <p>{{info.country}}</p>
         <p>{{info.address}}</p>
         <p>{{info.citySubtitle}}</p>

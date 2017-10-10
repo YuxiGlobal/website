@@ -1,3 +1,5 @@
+@import '~styles/variables';
+  
   .image-medellin,
   .image-armenia,
   .image-manson {
@@ -6,38 +8,44 @@
     height: 100vw;
     position: relative;
     z-index: 1; 
+    position: relative;
     &.hide {
       display: none;
+    }
+
+    &:after {
+      position: absolute;
+      content:"";
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      opacity:0;
+    }
+
+    &:hover:after  {
+      opacity: .8;
+       background-color: $fandango;
     }
   }
   .image-medellin {
     background-image: url("/../../assets/images/medellin.jpg");
-    &:hover {
-      background-image: url("/../../assets/images/medellin-color.jpg"); 
-      transition:  background-image 0.25s ease;
-    }
   }
   .image-armenia {
     background-image: url("/../../assets/images/armenia.jpg");
-    &:hover {
-      background-image: url("/../../assets/images/armenia-color.jpg"); 
-      transition:  background-image 0.25s ease;
-    }
   }
   .image-manson {
     background-image: url("/../../assets/images/manson.jpg");
-    &:hover {
-      background-image: url("/../../assets/images/manson-color.jpg"); 
-      transition:  background-image 0.25s ease;
-    }
   }
-  
+
   .open-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+    z-index: 1;
+    position: relative;
   
     h2, p {
       margin: 0;
