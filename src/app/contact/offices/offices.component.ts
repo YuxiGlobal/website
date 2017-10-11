@@ -1,4 +1,6 @@
+import { IContactInfo } from './../../shared/icontact-info';
 import { Component, OnInit } from '@angular/core';
+import { CONTACT_INFO } from 'app/shared/website-info';
 
 @Component({
   selector: 'app-offices',
@@ -7,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OfficesComponent {
   hideImage = false;
-  constructor() { }
+  contactInfo: IContactInfo[];
+  constructor() {
+    this.contactInfo = CONTACT_INFO;
+   }
 
   toggleHideImage() {
     this.hideImage = !this.hideImage;

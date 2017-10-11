@@ -1,0 +1,23 @@
+<div class="show-mobile">
+  <div class="overlay-purple">
+    <div class="{{info.class}}" [class.hide]="hideImage">
+      <div class="open-info">
+        <h1>{{info.cityTitle | uppercase}}</h1>
+        <h3>{{info.country | uppercase}}</h3>
+        <app-button type="secondary" size="small" (click)="toggleHideImage()">
+          Learn more
+        </app-button>
+      </div>
+    </div>
+    <div class="info-city" [class.showContent]="hideImage">
+      <div class="info-city-copy">
+        <h1>{{info.cityTitle | uppercase}}</h1>
+        <h3>{{info.country | uppercase}}</h3>
+        <p>{{info.address}}</p>
+        <p>{{info.place}}</p>
+        <p>{{info.citySubtitle}}</p>
+        <p>{{info.phone}}</p>
+      </div>
+    </div>
+  </div>
+</div>

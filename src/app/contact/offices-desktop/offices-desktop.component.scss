@@ -1,0 +1,99 @@
+@import '~styles/variables';
+.show-desktop {
+    display: none;
+} //Hide mobile
+@media (min-width: 1024px) {
+    .city {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        transition: margin-bottom 0.8s ease;
+    }
+    .image-medellin,
+    .image-armenia,
+    .image-manson {
+        background-size: cover;
+        border-radius: 10px;
+        height: 300px;
+        margin-bottom: 50px;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+        &:hover:after {
+            opacity: .8;
+            background-color: $fandango;
+            transition: background-color 0.5s ease;
+        }
+    }
+    .image-medellin {
+        background-image: url("/../../assets/images/medellin.jpg");
+    }
+    .image-armenia {
+        background-image: url("/../../assets/images/armenia.jpg");
+    }
+    .image-manson {
+        background-image: url("/../../assets/images/manson.jpg");
+    }
+    .open-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        z-index: 1;
+        position: relative;
+        h1 {
+            margin-bottom: 3px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    }
+    .info-city-copy {
+        padding: 20px;
+        text-align: center;
+        color: $rusianViolet;
+        h2 {
+            margin-top: 1.7rem;
+        }
+        h3 {
+            font-family: $fontFamilySecondary;
+            margin-bottom: 0;
+            margin-top: 0.3rem;
+            color: #515151;
+        }
+    }
+    .show-desktop {
+        display: block;
+    }
+    .info-city {
+        transition: transform 0.8s;
+        z-index: 0;
+        top: 0px;
+        position: absolute;
+        height: 300px;
+        width: 80%;
+        left: calc(50% - 400px);
+        border-radius: 0 0 6px 6px;
+        margin: 0 auto;
+        color: #000;
+        background: #fefefe;
+    }
+    .city:hover {
+        margin-bottom: 230px;
+        transition: margin-bottom 0.8s ease;
+        .info-city {
+            transform: translateY(98%);
+        }
+    }
+}

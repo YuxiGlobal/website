@@ -93,3 +93,36 @@ export const BANNERS_INFO = [
       class: 'flexibility'
     }
   ]
+
+  export const CONTACT_INFO = [
+    {
+      id: 1,
+      cityTitle: 'MEDELLÍN',
+      country: 'COLOMBIA',
+      address: 'Cra 48 # 20-34. Of. 1012 – 1014.',
+      place: ' Centro empresarial Ciudad del Río.',
+      citySubtitle: 'Medellín, Antioquia.',
+      phone: '(+57) (4) 604 81 13',
+      class: 'image-medellin'
+    },
+    {
+      id: 2,
+      cityTitle: 'armenia',
+      country: 'COLOMBIA',
+      address: 'Cra 14 # 23 - 15.',
+      place: 'Camara de Comercio.',
+      citySubtitle: 'Armenia, Quindio.',
+      phone: '',
+      class: 'image-armenia'
+    },
+    {
+      id: 3,
+      cityTitle: 'manson',
+      country: 'ohio',
+      address: '4393 Digital Way.',
+      place: '',
+      citySubtitle: 'Mason, OH. 45040',
+      phone: '(+1) 513 348 8265',     
+      class: 'image-manson'
+    }
+  ]
