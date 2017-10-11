@@ -78,6 +78,11 @@
         width: 65%;
         transform: translate(26%, 0%);        
     }
+    @media (min-width: 768px) {
+        top: 18.5rem;
+        transform: translate(25%, 0%);
+        width: 65%;
+    }
     @media (min-width: 1024px) {
         position: static;
         width: 400px;
