@@ -95,8 +95,15 @@
 
   .advantages-data {
     margin: 61px 50px;
+    @media only screen and (orientation: landscape) {
+      margin: 61px 120px;
+    }  
+    @media (min-width: 768px) {
+      margin: 61px 190px;
+    }  
     @media (min-width: 1024px) {
       width: 250px;
+      margin: 61px 50px;
     }
     h4 {
       font-size: 1.3rem;
