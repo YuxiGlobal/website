@@ -11,7 +11,7 @@ import { MenuComponent } from './menu/menu.component';
 import { NavScrollingDirective } from './nav-scrolling.directive';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 import { MatButtonModule } from '@angular/material';
-import { MdIconModule } from '@angular/material';
+import { MatIconModule } from '@angular/material';
 import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
 import { AboveTheFoldDirective } from './above-the-fold.directive';
 
@@ -20,7 +20,7 @@ import { AboveTheFoldDirective } from './above-the-fold.directive';
     CommonModule,
     RouterModule,
     MatButtonModule,
-    MdIconModule
+    MatIconModule
   ],
   declarations: [
     NavBarComponent,

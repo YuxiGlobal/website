@@ -7,11 +7,13 @@ import { ContactHeroComponent } from './contact-hero/contact-hero.component';
 import { SharedModule } from './../shared/shared.module';
 import { OfficesComponent } from './offices/offices.component';
 import { ContactFormsComponent } from './contact-forms/contact-forms.component';
+import { MatTabsModule } from '@angular/material';
 
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    MatTabsModule
   ],
   declarations: [
     ContactComponent, 
