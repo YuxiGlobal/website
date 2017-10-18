@@ -117,12 +117,12 @@ export const BANNERS_INFO = [
     },
     {
       id: 3,
-      cityTitle: 'manson',
+      cityTitle: 'mason',
       country: 'ohio',
       address: '4393 Digital Way.',
       place: '',
       citySubtitle: 'Mason, OH. 45040',
       phone: '(+1) 513 348 8265',     
-      class: 'image-manson'
+      class: 'image-mason'
     }
   ]
