@@ -12,14 +12,17 @@
     }
     .image-medellin,
     .image-armenia,
-    .image-manson {
+    .image-mason {
         background-size: cover;
         border-radius: 10px;
-        height: 300px;
+        height: 400px;
         margin-bottom: 50px;
         position: relative;
         z-index: 1;
         width: 100%;
+        -webkit-box-shadow: 0px 5px 13px -1px rgba(0,0,0,0.78);
+        -moz-box-shadow: 0px 5px 13px -1px rgba(0,0,0,0.78);
+        box-shadow: 0px 5px 13px -1px rgba(0,0,0,0.78);
         &:after {
             position: absolute;
             content: "";
@@ -42,7 +45,7 @@
     .image-armenia {
         background-image: url("/../../assets/images/armenia.jpg");
     }
-    .image-manson {
+    .image-mason {
         background-image: url("/../../assets/images/manson.jpg");
     }
     .open-info {
@@ -61,7 +64,7 @@
         }
     }
     .info-city-copy {
-        padding-top: 40px;
+        padding-top: 95px;
         text-align: center;
         color: $rusianViolet;
         h2 {
@@ -82,7 +85,7 @@
         z-index: 0;
         top: 0px;
         position: absolute;
-        height: 260px;
+        height: 310px;
         width: 80%;
         left: calc(50% - 400px);
         border-radius: 0 0 10px 10px;
@@ -94,7 +97,7 @@
         margin-bottom: 260px;
         transition: margin-bottom 0.8s ease;
         .info-city {
-            transform: translateY(98%);
+            transform: translateY(100%);
         }
     }
 }
