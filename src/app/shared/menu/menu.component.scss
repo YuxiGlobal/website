@@ -64,21 +64,3 @@
         }
     }
 }
-.info-site {
-    margin-top: -30%;
-    display: flex;
-    flex-direction: column;
-    @media only screen and (orientation: landscape) {
-        margin-top: -8%;
-    }
-    @media (min-width: 768px) {
-        margin-top: -5%;
-    }
-    a {
-        font-size: 0.8rem;
-        font-family: $fontFamilySecondary;
-        font-weight: 400;
-        color: $white;
-        text-decoration: none;
-    }
-}
