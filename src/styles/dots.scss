@@ -9,10 +9,12 @@
 
     &:last-child {
       span {
-        background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+        background-image: url('../assets/icons/FLECHA.svg');
+        background-repeat: no-repeat;
         height: $dotSize + 2px !important;
-        width: $dotSize + 2px !important;
+        width: $dotSize + 6px !important;
         border: none !important;
+        background-color: transparent!important;
       }
     }
   }

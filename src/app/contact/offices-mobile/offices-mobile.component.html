@@ -11,6 +11,12 @@
     </div>
     <div class="info-city" [class.showContent]="hideImage">
       <div class="info-city-copy">
+        <button class="close-button"
+          (click)="toggleHideImage()"
+          type="button"
+        >
+          <mat-icon class="md-24">close</mat-icon>
+        </button>
         <h1>{{info.cityTitle | uppercase}}</h1>
         <h3>{{info.country | uppercase}}</h3>
         <p>{{info.address}}</p>
