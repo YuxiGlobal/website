@@ -16,9 +16,16 @@
   }
 
   p {
-    border: 2px solid $white;
-    padding: 9px;
     width: 200px;
+  }
+}
+
+.underline{
+  border-top: 3px solid $white;
+  margin-top: 5px;
+  width: 100px;
+  @media (min-width: 1024px) {
+    margin-left: 4px;
   }
 }
 

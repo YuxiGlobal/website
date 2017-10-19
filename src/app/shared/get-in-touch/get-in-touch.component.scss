@@ -22,8 +22,9 @@
   }
 }
 
-h1.text {
-  width: 50%;
+h2.text {
+  
+  font-size: 3rem;
   text-align: center;
   @media only screen and (orientation: landscape) {
     margin: 0;
@@ -85,7 +86,7 @@ button.close-button {
   @media (min-width: 1024px) {
     background-color: $japaneseViolet;
     margin-top: 12px;
-    margin: 30px 0 30px 0;
+    margin: 19px 0 13px 0;
   }
 }
 
