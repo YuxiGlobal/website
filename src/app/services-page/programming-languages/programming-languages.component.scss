@@ -2,7 +2,7 @@
 .technologies-section {
     text-align: center;
     font-family: $fontFamilyPrimary;
-    background: linear-gradient(to top, $ciberGrape 80%, $japaneseViolet 80%);
+    background: linear-gradient(to top, $ciberGrape 40%, $japaneseViolet 40%);
     padding-top: 4rem;
     // @media (min-width: 768px) {
     //     background: linear-gradient(to bottom, $ciberGrape 47%, $japaneseViolet 47%);
@@ -23,7 +23,7 @@
     -moz-box-shadow: 0px 6px 28px -4px rgba(0,0,0,0.84);
     box-shadow: 0px 6px 28px -4px rgba(0,0,0,0.84);
     @media (min-width: 1024px) {
-        
+
         padding-bottom: 5rem;
     }
     h1 {
@@ -39,12 +39,12 @@
     margin: 20px 0 0 0;
     padding: 0 0 32px 0;
     @media only screen and (orientation: landscape) {
-        margin: 20px 12% 0 12%;  
-    }  
+        margin: 20px 12% 0 12%;
+    }
     @media (min-width: 768px) {
         margin: 20px 5% 0 5%;
-    }   
-    
+    }
+
     @media (min-width: 1024px) {
       width: 700px;
       margin: 20px auto 0 auto;

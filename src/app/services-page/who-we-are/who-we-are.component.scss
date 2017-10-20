@@ -4,10 +4,12 @@
     font-family: $fontFamilyPrimary;
     color: $white;
     font-size: 0.9rem;
-    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-top: 5rem;
+    background: linear-gradient(to top, #41255B 40%, #59387f 40%);
     @media (min-width: 1024px) {
         margin-top: 20rem;
-
+        background: transparent;
         h1 {
             margin-bottom: 1rem;
         }
