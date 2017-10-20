@@ -4,6 +4,16 @@
   background-color: $japaneseViolet;
   color: $white;
   font-family: $fontFamilyPrimary;
+  &:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 4px;
+    // width: 100vw; fix for firefox
+    background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+  }
 
   h1 {
     margin: 0;

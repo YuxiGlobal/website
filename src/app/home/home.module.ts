@@ -9,6 +9,7 @@ import { ServicesComponent } from './services/services.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
 import {MatButtonModule} from '@angular/material';
 import { MatIconModule } from '@angular/material';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { MatIconModule } from '@angular/material';
     BrowserModule,
     MatButtonModule,
     MatIconModule,
+    RouterModule,
     MnFullpageModule.forRoot()
   ],
   declarations: [HomeComponent, HomeBannerComponent, ServicesComponent, AdvantagesComponent],

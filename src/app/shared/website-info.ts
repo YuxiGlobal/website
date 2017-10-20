@@ -10,7 +10,7 @@ export const BANNERS_INFO = [
     {
       id: 2,
       title: 'explore inventive technologies.',
-      subtitle: 'see how our solutions can get you ahead of your competition.',
+      subtitle: 'See how our solutions can get you ahead of your competition.',
       image: 'assets/images/goggles.png',
       video: 'assets/videos/goggles.webm',
       class: 'banner-image-2'
@@ -18,7 +18,7 @@ export const BANNERS_INFO = [
     {
       id: 3,
       title: 'devise groundbreaking improvements.',
-      subtitle: 'learn how your company can evolve via digital transformation.',
+      subtitle: 'Learn how your company can evolve via digital transformation.',
       image: 'assets/images/robot.png',
       video: 'assets/videos/robot.webm',
       class: 'banner-image-3'

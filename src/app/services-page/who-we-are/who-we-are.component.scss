@@ -6,7 +6,7 @@
     font-size: 0.9rem;
     padding-top: 5rem;
     padding-top: 5rem;
-    background: linear-gradient(to top, #41255B 40%, #59387f 40%);
+    background: linear-gradient(to top, $japaneseViolet 40%, $ciberGrape 40%);
     @media (min-width: 1024px) {
         margin-top: 20rem;
         background: transparent;
@@ -19,7 +19,7 @@
 .who-we-are-description {
     background-color: $white;
     border-radius: 10px;
-    color: #515151;
+    color: $dark-grey;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +48,6 @@
     margin-left: auto;
     margin-right: auto;
     @media (min-width: 1024px) {
-        margin-right: calc(50% - 275px);
+        margin-right: calc(50% - 80px);
     }
 }

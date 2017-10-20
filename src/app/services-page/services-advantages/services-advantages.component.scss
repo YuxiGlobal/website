@@ -23,7 +23,7 @@
     position: relative;
     z-index: 1;
     @media (min-width: 1024px) {
-      color: #515151;
+      color: $medium-gray;
       padding-top: 50px;
     }
   }
@@ -31,7 +31,7 @@
     font-family: muli;
     font-weight: 400;
     display: none;
-    color: #515151;
+    color: $dark-grey;
     @media (min-width: 1024px) {
       display: block;
     }
@@ -91,6 +91,7 @@
     margin-top: 0;
     font-size: 0.9rem;
     text-align: justify;
+    word-break: break-all;
   }
 
   .advantages-data {
