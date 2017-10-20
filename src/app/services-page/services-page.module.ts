@@ -6,13 +6,14 @@ import { ServicesIntroComponent } from './services-intro/services-intro.componen
 import { ServicesItemsComponent } from './services-items/services-items.component';
 import { ServicesAdvantagesComponent } from './services-advantages/services-advantages.component';
 import { ProgrammingLanguagesComponent } from './programming-languages/programming-languages.component';
+import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule
   ],
-  declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent, ServicesAdvantagesComponent, ProgrammingLanguagesComponent],
+  declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent, ServicesAdvantagesComponent, ProgrammingLanguagesComponent, WhoWeAreComponent],
   exports: [ServicesPageComponent]
 })
 export class ServicesPageModule { }

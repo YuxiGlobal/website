@@ -1,17 +1,17 @@
   @import '~styles/variables';
   .services-advantages {
-    padding-top: 15rem;
     font-family: $fontFamilyPrimary;
     color: $white;
     text-align: center;
     position: relative;
-    background: linear-gradient(to bottom, $japaneseViolet 1%, $ciberGrape 1%);
+    background: linear-gradient(to top, $japaneseViolet 1%, $ciberGrape 1%);
     @media (min-width: 1024px) {
+      padding-top: 15rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       position: relative;
-      background: linear-gradient(to bottom, $japaneseViolet 65%, $ciberGrape 65%);
+      background: linear-gradient(to top, $japaneseViolet 32%, $ciberGrape 32%);
     }
   }
   .title {
@@ -23,7 +23,7 @@
     position: relative;
     z-index: 1;
     @media (min-width: 1024px) {
-      color: #515151;
+      color: $medium-gray;
       padding-top: 50px;
     }
   }
@@ -31,7 +31,7 @@
     font-family: muli;
     font-weight: 400;
     display: none;
-    color: #515151;
+    color: $dark-grey;
     @media (min-width: 1024px) {
       display: block;
     }
@@ -45,7 +45,7 @@
         display: block;
         position: absolute;
         top: 0;
-        height: 15px;
+        height: 5px;
         width: 100%;
         background: $white;
         -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.52);
@@ -91,16 +91,17 @@
     margin-top: 0;
     font-size: 0.9rem;
     text-align: justify;
+    word-break: break-all;
   }
 
   .advantages-data {
     margin: 61px 50px;
     @media only screen and (orientation: landscape) {
       margin: 61px 120px;
-    }  
+    }
     @media (min-width: 768px) {
       margin: 61px 190px;
-    }  
+    }
     @media (min-width: 1024px) {
       width: 250px;
       margin: 61px 50px;
