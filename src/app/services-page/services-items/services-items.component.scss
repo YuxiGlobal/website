@@ -153,13 +153,13 @@
 }
 
 .service-icon {
-    width: 78px;
+    width: 100px;
     position: absolute;
-    top: -34px;
-    right: 32px;
+    top: -52px;
+    right: 24px;
     @media (min-width: 1024px) {
       top: calc(50% - 76px);
-      right: calc(50% - 39px);
+      right: calc(50% - 50px);
     }
 }
 
