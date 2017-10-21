@@ -41,10 +41,11 @@ export class NavScrollingDirective {
      this.lastY = currentY;
   }
 
-  scrollInAllBrowsersExceptSafari(scrollEvent: any) {
+  scrollInAllBrowsersExceptSafari(event: any) {
     const scrollTopPosition = window.pageYOffset || document.documentElement.scrollTop;
+    const isNotScrollingAboveLimits = window.pageYOffset > 0;
 
-    if (scrollTopPosition > this.lastScrollTop) {
+    if (scrollTopPosition > this.lastScrollTop && isNotScrollingAboveLimits) {
       // Scrolling up
       this.mouseWheelDown.emit(event);
     } else {
