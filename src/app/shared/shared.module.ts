@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
 import { AboveTheFoldDirective } from './above-the-fold.directive';
+import { ScrollTopDirective } from './scroll-top.directive';
 
 @NgModule({
   imports: [
@@ -31,7 +32,8 @@ import { AboveTheFoldDirective } from './above-the-fold.directive';
     NavScrollingDirective,
     GetInTouchComponent,
     ColorfulDotsComponent,
-    AboveTheFoldDirective
+    AboveTheFoldDirective,
+    ScrollTopDirective
   ],
   exports: [
     NavBarComponent,
