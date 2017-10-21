@@ -22,6 +22,11 @@ export class NavBarComponent {
       this.showOverlay = this.navigationService.resetNav;
       this.hideNav = this.navigationService.resetNav;
     });
+
+    window.scroll({
+      top: 0
+    });
+
    }
 
   handleMenuClick() {
