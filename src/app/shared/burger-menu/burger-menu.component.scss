@@ -10,7 +10,7 @@
   width: 15px;
   height: 15px;
   padding: 9px;
-  margin: 5px; 
+  margin: 5px;
   position: relative;
   cursor: pointer;
 }
@@ -57,5 +57,15 @@
     transform: scale(1.8);
     opacity: 0;
     transition: all 0.3s linear;
+  }
+}
+
+:host-context(.pass-the-fold) {
+  .menu-button {
+    background: $rusianViolet;
+  }
+
+  .menu-line {
+    background: $white;
   }
 }
