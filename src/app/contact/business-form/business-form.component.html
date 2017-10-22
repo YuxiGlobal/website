@@ -1,0 +1,27 @@
+<form method="POST" action="http://formspree.io/angela.ordonez@yuxiglobal.com">
+  <mat-form-field>
+    <input matInput name="name" placeholder="Name">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="company" placeholder="Company">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Enter your email" name="email" [formControl]="email" required />
+    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="phone" placeholder="Phone">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="message" placeholder="Country">
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+  <input type="text" name="_gotcha" style="display:none" />
+  <button type="submit">Send</button>
+
+</form>
+
+
