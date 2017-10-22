@@ -1,0 +1,14 @@
+@import '~styles/variables';
+form {
+  display: flex;
+  flex-direction: column;
+  color: $white;
+
+  .mat-form-field-should-float .mat-focused {
+
+  }
+}
+form > * {
+  width: 80%;
+}
+

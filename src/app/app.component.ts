@@ -12,6 +12,5 @@ export class AppComponent {
 
   onActivate(event) {
     this.navigationService.resetNav = false;
-    console.log('changing...');
   }
 }

@@ -11,8 +11,9 @@ import { MatTabsModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { BusinessFormComponent } from './business-form/business-form.component';
 import { GeneralFormComponent } from './general-form/general-form.component';
-import { MatFormFieldModule } from '@angular/material';
-import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
@@ -21,7 +22,10 @@ import { FormsModule } from '@angular/forms';
     MatTabsModule,
     MatIconModule,
     MatFormFieldModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    BrowserAnimationsModule
   ],
   declarations: [
     ContactComponent,
