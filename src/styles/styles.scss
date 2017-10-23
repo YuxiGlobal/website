@@ -106,7 +106,7 @@
   content: "\e90e";
 }
 
-// Material Form
+// MATERIAL FORMS
  .mat-form-field-ripple {
   background-color: $turquoiseBlue !important;
 }
@@ -118,5 +118,22 @@
 }
 .mat-form-field-underline {
   background-color: $brightLilac !important;
+}
+
+
+//MATERIAL TABS
+.mat-tab-label-container {
+  margin-bottom: 20px;
+}
+.mat-tab-list {
+  display: flex;
+  justify-content: center;
+}
+.mat-tab-label, .mat-tab-link {
+  color: $turquoiseBlue !important;
+  font-family: $fontFamilyPrimary !important;
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: $white !important;
 }
 
