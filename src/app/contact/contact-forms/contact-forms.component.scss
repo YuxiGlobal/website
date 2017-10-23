@@ -14,3 +14,19 @@ header {
     padding-bottom: 100px;
   }
 }
+
+app-forms-mobile {
+  display: block;
+}
+app-forms-desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  app-forms-mobile {
+    display: none;
+  }
+  app-forms-desktop {
+    display: block;
+  }
+}
