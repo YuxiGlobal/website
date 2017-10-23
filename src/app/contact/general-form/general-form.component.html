@@ -1,3 +1,27 @@
-<p>
-  general-form works!
-</p>
+<form method="POST" action="http://formspree.io/angela.ordonez@yuxiglobal.com">
+  <h3 class="title">Let’s get
+    <br> in touch.</h3>
+  <p class="subtitle">YOU ARE CONTACTING THE
+    <span>INFORMATION</span> TEAM.</p>
+  <mat-form-field>
+    <input matInput name="name" placeholder="Name" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Enter your email" name="email" [formControl]="email" required />
+    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="country" placeholder="Country" required>
+  </mat-form-field>
+  <label for="textarea">Comments</label>
+  <textarea id="textarea" name="message">Type here your message</textarea>
+  <input type="text" name="_gotcha" style="display:none" />
+  <div class="submit-section">
+    <p>*By clicking Submit, you agree to our
+      <a href=".">Terms and Privacy</a> Policy.</p>
+    <app-button type="submit" routerLink="/services" type="secondary" size="small">
+      Submit
+    </app-button>
+  </div>
+</form>
+
