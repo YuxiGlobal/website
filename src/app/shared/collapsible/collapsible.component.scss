@@ -7,16 +7,18 @@
     padding-bottom: 30px;
 }
 .arrow {
-    position: absolute;
-    top: -1rem;
-    left: calc(50% - 13px);
-    height: 35px;
-    width: 35px;
+    align-items: center;
     border-radius: 50px;
     background-color: $turquoiseBlue;
+    cursor: pointer;
     display: flex;
+    height: 35px;
     justify-content: center;
-    align-items: center;
+    left: calc(50% - 17px);
+    position: absolute;
+    top: -1rem;
+    width: 35px;
+
     .material-icons {
         font-size: 35px;
     }

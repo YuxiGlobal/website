@@ -2,4 +2,9 @@
   <app-contact-hero></app-contact-hero>
   <app-offices></app-offices>
   <app-contact-forms></app-contact-forms>
+  <app-footer (switchOverlay)="openOverlay()"></app-footer>
 </div>
+<app-get-in-touch
+  [class.active]="showOverlay"
+  (toggleGetInTouchOverlay)="closeOverlay()"
+></app-get-in-touch>

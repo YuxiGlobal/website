@@ -8,4 +8,23 @@ header {
         text-decoration: none;
         color: $white;
     }
+    h3 {
+        margin-bottom: 5px;
+    }
+}
+
+.careers-link {
+    margin-bottom: 5rem;
+
+    p {
+        font-family: $fontFamilySecondary;  
+    }
+}
+
+.underline {
+    border-top: 1px solid $white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 30px;
 }
