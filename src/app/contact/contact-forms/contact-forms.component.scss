@@ -1,6 +1,35 @@
 @import '~styles/variables';
-.form-contact {
+.careers-link {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-family: $fontFamilyPrimary;
+  color: $white;
+  a {
+      font-family: $fontFamilySecondary;
+      text-decoration: none;
+      color: $white;
+  }
+  h3 {
+      margin-bottom: 5px;
+  }
 
+  p {
+      font-family: $fontFamilySecondary;  
+  }
+}
+.button-wrapper {
+  max-width: 150px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  border-top: 1px solid $white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  width: 30px;
 }
 
 header {
