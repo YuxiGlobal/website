@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./collapsible.component.scss']
 })
 export class CollapsibleComponent implements OnInit {
+  toggleForm = false;
 
+  toggleArrow() {
+    this.toggleForm = !this.toggleForm;
+  }
   constructor() { }
 
   ngOnInit() {

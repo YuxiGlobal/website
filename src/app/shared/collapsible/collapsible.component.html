@@ -1,8 +1,8 @@
-<div class="collapsible-button">
-<div class="container">
-  <span class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>
-</div>
- 
+<div class="collapsible-button" [class.toggle]="toggleForm">
+  <div class="container">
+    <span (click)="toggleArrow()" class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>
+  </div>
+  
   <div class="form-content">
     <ng-content></ng-content>
   </div>
