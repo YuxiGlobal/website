@@ -105,3 +105,18 @@
 .icon-NODE:before {
   content: "\e90e";
 }
+
+// Material Form
+ .mat-form-field-ripple {
+  background-color: $turquoiseBlue !important;
+}
+.mat-form-field-placeholder {
+  color: $brightLilac !important;
+}
+.mat-focused .mat-form-field-placeholder {
+  color: $turquoiseBlue !important;
+}
+.mat-form-field-underline {
+  background-color: $brightLilac !important;
+}
+
