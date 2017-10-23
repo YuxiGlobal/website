@@ -1,0 +1,11 @@
+@import '~styles/variables';
+header {
+    text-align: center;
+    font-family: $fontFamilyPrimary;
+    color: $white;
+    a {
+        font-family: $fontFamilySecondary;
+        text-decoration: none;
+        color: $white;
+    }
+}

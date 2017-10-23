@@ -15,6 +15,7 @@ import { MatIconModule } from '@angular/material';
 import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
 import { AboveTheFoldDirective } from './above-the-fold.directive';
 import { ScrollTopDirective } from './scroll-top.directive';
+import { CollapsibleComponent } from './collapsible/collapsible.component';
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import { ScrollTopDirective } from './scroll-top.directive';
     GetInTouchComponent,
     ColorfulDotsComponent,
     AboveTheFoldDirective,
-    ScrollTopDirective
+    ScrollTopDirective,
+    CollapsibleComponent
   ],
   exports: [
     NavBarComponent,
@@ -41,7 +43,8 @@ import { ScrollTopDirective } from './scroll-top.directive';
     FooterComponent,
     GetInTouchComponent,
     NavScrollingDirective,
-    ColorfulDotsComponent
+    ColorfulDotsComponent,
+    CollapsibleComponent
   ],
   providers: [ShowOverlayService, NavigationService]
 })

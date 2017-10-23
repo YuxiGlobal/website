@@ -14,6 +14,7 @@ import { GeneralFormComponent } from './general-form/general-form.component';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsMobileComponent } from './forms-mobile/forms-mobile.component';
 
 @NgModule({
   imports: [
@@ -35,7 +36,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     OfficesDesktopComponent,
     ContactFormsComponent,
     BusinessFormComponent,
-    GeneralFormComponent
+    GeneralFormComponent,
+    FormsMobileComponent
   ]
 })
 export class ContactModule { }

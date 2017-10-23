@@ -1,0 +1,22 @@
+.collapsible-button {
+    margin-top: 2rem;
+    position: relative;
+}
+.container {
+    padding-bottom: 30px;
+}
+.arrow {
+    position: absolute;
+    top: -1rem;
+    left: calc(50% - 13px);
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color: rgb(0, 225, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .material-icons {
+        font-size: 35px;
+    }
+}
