@@ -1,0 +1,61 @@
+@import '~styles/variables';
+form {
+  align-items: center;
+  background: linear-gradient(60deg, $fandango, $ciberGrape);
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  font-family: $fontFamilyPrimary;
+  label {
+    padding: 10px 0;
+    color: $brightLilac;
+  }
+  textarea {
+    border-radius: 10px;
+    color: grey;
+    font-family: $fontFamilySecondary;
+    height: 20vh;
+  }
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    line-height: .9;
+  }
+  .subtitle {
+    margin-top: 0;
+    font-size: 0.8rem;
+    span {
+      color: $turquoiseBlue;
+    }
+  }
+}
+
+form>* {
+  width: 80%;
+}
+
+.mat-form-field {
+  font-family: $fontFamilyPrimary;
+}
+
+.submit-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  p {
+    font-family: $fontFamilySecondary;
+    font-size: 0.7rem;
+    width: 50%;
+  }
+  a {
+    text-decoration: none;
+    color: $turquoiseBlue;
+  }
+  app-button {
+    width: 26%;
+    text-align: center;
+  }
+}

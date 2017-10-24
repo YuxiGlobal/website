@@ -19,8 +19,9 @@ export class NavBarComponent {
     private router: Router
   ) {
     router.events.subscribe(() => {
+      this.showOverlay = this.navigationService.resetNav;
       this.hideNav = this.navigationService.resetNav;
-    })
+    });
    }
 
   handleMenuClick() {

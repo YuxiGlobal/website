@@ -1,0 +1,37 @@
+@import '~styles/variables';
+.collapsible-button {
+    margin-top: 2rem;
+    position: relative;
+}
+.container {
+    padding-bottom: 30px;
+}
+.arrow {
+    align-items: center;
+    border-radius: 50px;
+    background-color: $turquoiseBlue;
+    cursor: pointer;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    left: calc(50% - 17px);
+    position: absolute;
+    top: -1rem;
+    width: 35px;
+
+    .material-icons {
+        font-size: 35px;
+    }
+    
+}
+.form-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s linear; 
+}
+.toggle .form-content {
+    max-height: 1000px;
+}
+.toggle .arrow  {
+    transform: rotate(180deg);       
+}

@@ -9,21 +9,37 @@ import { OfficesComponent } from './offices/offices.component';
 import { ContactFormsComponent } from './contact-forms/contact-forms.component';
 import { MatTabsModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
+import { BusinessFormComponent } from './business-form/business-form.component';
+import { GeneralFormComponent } from './general-form/general-form.component';
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsMobileComponent } from './forms-mobile/forms-mobile.component';
+import { FormsDesktopComponent } from './forms-desktop/forms-desktop.component';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     MatTabsModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    BrowserAnimationsModule
   ],
   declarations: [
-    ContactComponent, 
-    ContactHeroComponent, 
+    ContactComponent,
+    ContactHeroComponent,
     OfficesComponent,
     OfficesMobileComponent,
     OfficesDesktopComponent,
-    ContactFormsComponent
+    ContactFormsComponent,
+    BusinessFormComponent,
+    GeneralFormComponent,
+    FormsMobileComponent,
+    FormsDesktopComponent
   ]
 })
 export class ContactModule { }
