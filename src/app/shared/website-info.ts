@@ -75,7 +75,7 @@ export const BANNERS_INFO = [
       id: 1,
       icon: 'assets/icons/location-shadow.svg',
       title: 'location',
-      subtitle: 'We work while you work. Our prime location –6 months on EST & 6 on CST– empowers synergies and commu- nications.  Collaboration is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami & Boston– and our U.S. based office.',
+      subtitle: 'We work while you work. Our prime location –6 months on EST & 6 on CST– empowers synergies and communications.  Collaboration is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami & Boston– and our U.S. based office.',
       class: 'location'
     },
     {
@@ -89,7 +89,7 @@ export const BANNERS_INFO = [
       id: 3,
       icon: 'assets/icons/flexibility-shadow.svg',
       title: 'flexibility',
-      subtitle: 'We stay up to date with the most modern technologies and practices. Our teams are versatile, adaptable, and have expertise in a wide range of programming lan- guages, databases, and frameworks. Our projects run under Agile and traditional metho- dologies and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.',
+      subtitle: 'We stay up to date with the most modern technologies and practices. Our teams are versatile, adaptable, and have expertise in a wide range of programming languages, databases, and frameworks. Our projects run under Agile and traditional methodologies and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.',
       class: 'flexibility'
     }
   ]

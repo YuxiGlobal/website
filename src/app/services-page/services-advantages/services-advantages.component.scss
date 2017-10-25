@@ -6,7 +6,7 @@
     position: relative;
     background: linear-gradient(to top, $japaneseViolet 1%, $ciberGrape 1%);
     @media (min-width: 1024px) {
-      padding-top: 15rem;
+      padding-top: 10rem;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -116,7 +116,7 @@
     .container-advantages{
       display: flex;
       position: absolute;
-      top: 33rem;
+      top: 28rem;
       border-radius: 10px;
       -webkit-box-shadow: 0px 6px 28px -4px rgba(0,0,0,0.84);
       -moz-box-shadow: 0px 6px 28px -4px rgba(0,0,0,0.84);

@@ -7,11 +7,13 @@ import { ServicesItemsComponent } from './services-items/services-items.componen
 import { ServicesAdvantagesComponent } from './services-advantages/services-advantages.component';
 import { ProgrammingLanguagesComponent } from './programming-languages/programming-languages.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
+import { MatTabsModule } from '@angular/material';
 
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    MatTabsModule
   ],
   declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent, ServicesAdvantagesComponent, ProgrammingLanguagesComponent, WhoWeAreComponent],
   exports: [ServicesPageComponent]
