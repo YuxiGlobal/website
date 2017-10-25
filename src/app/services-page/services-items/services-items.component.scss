@@ -117,7 +117,6 @@
             padding-top: 0px;
         }
         @media (min-width: 1024px) {
-            padding-top: 35px;
             padding-left: 40px;
         }
     }
@@ -199,6 +198,9 @@
     }
     .card-specialized {
         border-radius: 0 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .service-photo-staff,
     .service-photo-specilized,
