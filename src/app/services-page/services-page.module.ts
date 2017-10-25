@@ -8,6 +8,7 @@ import { ServicesAdvantagesComponent } from './services-advantages/services-adva
 import { ProgrammingLanguagesComponent } from './programming-languages/programming-languages.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { MatTabsModule } from '@angular/material';
+import { SkylineComponent } from './skyline/skyline.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,7 @@ import { MatTabsModule } from '@angular/material';
     SharedModule,
     MatTabsModule
   ],
-  declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent, ServicesAdvantagesComponent, ProgrammingLanguagesComponent, WhoWeAreComponent],
+  declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent, ServicesAdvantagesComponent, ProgrammingLanguagesComponent, WhoWeAreComponent, SkylineComponent],
   exports: [ServicesPageComponent]
 })
 export class ServicesPageModule { }
