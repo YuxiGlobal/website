@@ -33,6 +33,10 @@
   margin: 0;
   padding-top: 60vh;
   width: 201px;
+  @media only screen and (orientation: landscape) {
+    padding-top: 37vh;
+  }
+  
   @media (min-width: 1024px) {
     padding-top: 0;
     width: 358px;

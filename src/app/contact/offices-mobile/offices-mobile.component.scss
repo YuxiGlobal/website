@@ -7,6 +7,12 @@
     height: 100vw;
     position: relative;
     z-index: 1;
+    @media only screen and (orientation: landscape) {
+        height: 50vw;
+    }
+    @media (min-width: 768px) {
+        height: 50vw;  
+    }
     &.hide {
         display: none;
     }
@@ -69,6 +75,12 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+        @media only screen and (orientation: landscape) {
+            height: 50vw;
+        }
+        @media (min-width: 768px) {
+            height: 50vw;  
+        }
     }
 }
 

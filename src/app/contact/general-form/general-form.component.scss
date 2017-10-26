@@ -54,8 +54,10 @@ form>* {
     text-decoration: none;
     color: $turquoiseBlue;
   }
-  app-button {
-    width: 26%;
+  .button-wrapper {
     text-align: center;
+    width: 130px;
+    margin-top: 1rem;
   }
+
 }
