@@ -15,3 +15,14 @@ $fontFamilySecondary: 'Muli', sans-serif;
 $fontLarge: 1.5em;
 $fontMedium: 1em;
 $fontSmall: 0.75rem;
+
+@mixin light-shadow {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.52);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.52);
+}
+@mixin dark-shadow {
+    -webkit-box-shadow: 0px 6px 28px -4px rgba(0,0,0,0.84);
+    -moz-box-shadow: 0px 6px 28px -4px rgba(0,0,0,0.84);
+    box-shadow: 0px 6px 28px -4px rgba(0,0,0,0.84);
+}

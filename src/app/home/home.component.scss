@@ -26,6 +26,12 @@
     }
 }
 
+.advantages-section .home-content-subsection {
+    @include dark-shadow;
+    border-radius: 10px;
+    width: inherit;
+}
+
 .home-content-subsection {
     margin-top: 55px;
     @media (min-width: 1024px) {

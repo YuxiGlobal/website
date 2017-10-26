@@ -42,7 +42,7 @@ footer {
 }
 
 .media-items {
-  border-left: 2px solid #fff;
+  border-left: 2px solid $white;
   display: inline-block;
   margin-left: 16px;
   padding-left: 15px;
@@ -98,7 +98,7 @@ footer {
    
     &:nth-child(1),
     &:nth-child(2) {
-      border-right: 1px solid white;
+      border-right: 1px solid $white;
       padding-right: 9px;
     }
   }
@@ -109,7 +109,7 @@ footer {
   position: absolute;
   top: -40px;
   right: 20px;
-  border: 2px solid white;
+  border: 2px solid $white;
   border-radius: 5px;
   background: $rusianViolet;
   width: 90px;
