@@ -70,6 +70,9 @@ footer {
       margin: 0 19px;
       text-decoration: none;
       color: $white;
+      &.active {
+          color: $turquoiseBlue;
+      }
       &:hover {
         color: $turquoiseBlue;
       }

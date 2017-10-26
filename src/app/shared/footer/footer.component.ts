@@ -1,5 +1,5 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
-
+import { RouterLinkActive } from '@angular/router';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
