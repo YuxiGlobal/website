@@ -1,0 +1,148 @@
+@import '~styles/variables';
+.skyline {
+  background: $japaneseViolet;
+  position: relative;
+  margin-top: 8rem;
+}
+.city  {
+  background: url('/../../assets/images/EDIFICIOS.png') no-repeat;
+  background-size: 100vw;
+  width: 100vw;
+  height: 110%;
+  position: absolute;
+  z-index: 0;
+  bottom:16px;
+  overflow: hidden;
+}
+.city img{
+	width:100vw;
+	position:absolute;
+	bottom:-11px;
+}
+/*---------   ----------*/
+.city .lamps img{
+	width:10vw;
+}
+.city .lamps img:nth-child(1){
+	left:10vw;
+}
+.city .lamps img:nth-child(2){
+	right:4vw;
+}
+/*---------   ----------*/
+.city .lights img{
+	width:20.3vw;
+}
+.city .lights img:nth-child(1){
+	left:4.1vw;
+}
+.city .lights img:nth-child(2){
+	left:7.7vw;
+}
+.city .lights img:nth-child(3){
+	right: -4.04vw;;
+}
+.city .lights img:nth-child(4){
+	right: -0.4vw;
+}
+.lampLight {
+  -webkit-animation: blur 3s infinite;
+  -webkit-animation: blinkFast 0.0009s infinite alternate;
+  -moz-animation: blinkFast 0.0009s infinite alternate;
+  -o-animation: blinkFast 0.0009s infinite alternate;
+  animation: blinkFast 0.0009s infinite alternate;
+}
+@-moz-keyframes blinkFast {70%{opacity: 0.7;}}
+@-webkit-keyframes blinkFast {45%{opacity: 0.5;}}
+@-o-keyframes blinkFast {70%{opacity: 0.7;}}
+@keyframes blinkFast {70%{opacity: 0.7;}}
+
+/*---------  Metro ----------*/
+.metro img{
+	width:100vw;
+	position:absolute;
+	bottom:0;
+}
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInLeft {
+  animation-name: slideInLeft;
+}
+
+/*-----------stars-----------*/
+.stars {
+  width: 100vw;
+  height: 30vw;
+  background: url('/../../assets/images/background.png');
+  background-size: 100%;
+  position: absolute;
+  top: -10vh;
+  left: -1vw;
+  z-index: 0;
+  -webkit-animation: blur 10s infinite;
+  -webkit-animation: blink 0.9s infinite alternate;
+  -moz-animation: blink 0.9s infinite alternate;
+  -o-animation: blink 0.9s infinite alternate;
+  animation: blink 0.9s infinite alternate;
+}
+
+@-moz-keyframes blink {70%{opacity: 0.7;}}
+@-webkit-keyframes blink {45%{opacity: 0.5;}}
+@-o-keyframes blink {70%{opacity: 0.7;}}
+@keyframes blink {70%{opacity: 0.3;}}
+
+/*---------- metrocable svg clases ----------*/
+.metro-cable {
+  position: relative;
+  z-index: 1;
+}
+
+.cls, .cls2 {
+  fill:#3A2663;
+}
+
+.line1, .line2, .line3, .line4 {
+  fill:none;
+  stroke:transparent;
+  stroke-miterlimit:10;
+  stroke-width:2px;
+}
+.cls-1 {
+  fill:none;
+}
+.cls-2 {
+  fill:#5ee8f7;
+}
+.cls-3 {
+  clip-path:url(#clip-path);
+}
+.cls-4 {
+  opacity:0.43;
+  isolation:isolate;
+  fill:url(#linear-gradient);
+}
+.cls-5 {
+  fill:#e264f2;
+}
+.cls-6 {
+  fill:#5b3ca0;
+}
+.cls-7 {
+  fill:#a15dc8;
+}
+.cls-8 {
+  fill:#f1f482;
+}
+
