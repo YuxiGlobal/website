@@ -5,6 +5,7 @@
   padding: 3px;
   border-radius: 10px;
   background-size: 200% 200%;
+  cursor: pointer;
   
   -webkit-animation: AnimationName 6s ease infinite;
   -moz-animation: AnimationName 6s ease infinite;
@@ -40,6 +41,7 @@
 .secondaryInnerBackground {
   background: $turquoiseBlue;
   color: $rusianViolet;
+  cursor: pointer;
   &:hover {
     background: linear-gradient(60deg, $turquoiseBlue, $brightLilac);
     color: $rusianViolet;
@@ -51,9 +53,7 @@
   padding: 16px 16px;
   font-family: $fontFamilyPrimary;
   font-weight: bold;
-  -webkit-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
-  -moz-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
-  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
+  @include mid-shadow;
 
     h5 {
       margin: 0;

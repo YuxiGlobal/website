@@ -65,9 +65,9 @@
 }
 
 .info-city {
-    color: #000;
+    color: $black;
     display: none;
-    background: #fefefe;
+    background: $white;
     &.showContent {
         display: flex;
         width: 100vw;
@@ -97,7 +97,7 @@
     p {
         margin-bottom: 0;
         font-family: $fontFamilySecondary;
-        color: #515151;
+        color: $medium-gray;
         line-height: 5px;
     }
 } 
