@@ -1,4 +1,4 @@
-<form method="POST" action="http://formspree.io/angela.ordonez@yuxiglobal.com">
+<form method="POST" action="http://formspree.io/angela.ordonez@yuxiglobal.com" #form>
   <h3 class="title">Let’s get
     <br> in touch.</h3>
   <p class="subtitle">YOU ARE CONTACTING THE
@@ -26,7 +26,7 @@
     <p>*By clicking Submit, you agree to our
       <a href=".">Terms and Privacy</a> Policy.</p>
     <div class="button-wrapper">
-      <app-button type="submit" routerLink="/services" type="secondary" size="small">
+      <app-button type="submit" type="secondary" size="small" (click)="form.submit()">
         Submit
       </app-button>
     </div>

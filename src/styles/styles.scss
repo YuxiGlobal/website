@@ -175,6 +175,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4rem;
+  @include dark-shadow;
   @media (min-width: 1024px) {
     width: 60%;
   }

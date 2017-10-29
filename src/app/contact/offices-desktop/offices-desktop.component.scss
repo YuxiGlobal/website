@@ -20,9 +20,7 @@
         position: relative;
         z-index: 1;
         width: 100%;
-        -webkit-box-shadow: 0px 5px 13px -1px rgba(0,0,0,0.78);
-        -moz-box-shadow: 0px 5px 13px -1px rgba(0,0,0,0.78);
-        box-shadow: 0px 5px 13px -1px rgba(0,0,0,0.78);
+        @include dark-shadow;
         &:after {
             position: absolute;
             content: "";
@@ -74,7 +72,7 @@
             font-family: $fontFamilySecondary;
             margin-bottom: 0;
             margin-top: 0.3rem;
-            color: #515151;
+            color: $medium-gray;
         }
     }
     .show-desktop {
@@ -90,8 +88,8 @@
         left: calc(50% - 400px);
         border-radius: 0 0 10px 10px;
         margin: 0 auto;
-        color: #000;
-        background: #fefefe;
+        color: $black;
+        background: $white;
     }
     .city:hover {
         margin-bottom: 260px;
