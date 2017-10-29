@@ -16,6 +16,7 @@ export class FooterComponent implements OnInit {
   }
 
   setNavigationToFalse() {
+    // This is not doing anything. Remove?
     this.resetNavigation.emit();
   }
 
