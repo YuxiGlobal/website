@@ -122,7 +122,29 @@ export const BANNERS_INFO = [
       address: '4393 Digital Way.',
       place: '',
       citySubtitle: 'Mason, OH. 45040',
-      phone: '(+1) 513 348 8265',     
+      phone: '(+1) 513 348 8265',
       class: 'image-mason'
+    }
+  ]
+
+
+  export const OUR_CULTURE_INFO = [
+    {
+      id: 1,
+      title: 'GOOD WORK ENVIRONMENT.',
+      subtitle: 'MEANS HAPPY EMPLOYESS',
+      image: ''
+    },
+    {
+      id: 2,
+      title: 'COMPREHENSIVE BENEFITS PACKAGE.',
+      subtitle: 'GOES A LONG WAY',
+      image: ''
+    },
+    {
+      id: 3,
+      title: 'MORE THAN A LIFESTYLE.',
+      subtitle: 'IT’S OUR WORKSTYLE',
+      image: ''
     }
   ]

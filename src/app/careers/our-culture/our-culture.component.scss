@@ -1,0 +1,52 @@
+@import '~styles/variables';
+
+.culture-box {
+    margin-bottom: 4rem;
+    background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+    padding: 25px;
+    background-size: 200% 200%;
+    background-color: $japaneseViolet;
+    font-family: $fontFamilyPrimary;
+    color: $white;
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+
+    h2, h3 {
+      margin: 0;
+    }
+  }
+  //animation for the border gradient
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 84%}
+        50%{background-position:100% 17%}
+        100%{background-position:0% 84%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 84%}
+        50%{background-position:100% 17%}
+        100%{background-position:0% 84%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 84%}
+        50%{background-position:100% 17%}
+        100%{background-position:0% 84%}
+    }
+
+.inner-background {
+  height: 70vw;
+  background: $japaneseViolet;
+  padding: 16px 16px;
+  font-family: $fontFamilyPrimary;
+  font-weight: bold;
+
+
+}
+.underline {
+  border-top: 2px solid $japaneseViolet;
+  margin-left: 25px;
+  width: 60px;
+  // @media (min-width: 768px) {
+  //     margin-left: 41px;
+  // }
+}

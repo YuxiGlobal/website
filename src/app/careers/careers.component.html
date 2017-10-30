@@ -1,3 +1,7 @@
-<p>
-  careers works!
-</p>
+<section class="careers">
+  <app-our-culture
+  *ngFor="let culture of cultureInfo" [info]="culture"
+  >
+</app-our-culture>
+</section>
+
