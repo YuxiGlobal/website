@@ -3,5 +3,6 @@ export interface IOurCultureInfo {
   title: string;
   subtitle: string;
   image: string;
+  text: string;
   class: string;
 }
