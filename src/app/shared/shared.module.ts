@@ -16,6 +16,7 @@ import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
 import { AboveTheFoldDirective } from './above-the-fold.directive';
 import { ScrollTopDirective } from './scroll-top.directive';
 import { CollapsibleComponent } from './collapsible/collapsible.component';
+import { IsVisibleDirective } from './is-visible.directive';
 
 @NgModule({
   imports: [
@@ -35,7 +36,8 @@ import { CollapsibleComponent } from './collapsible/collapsible.component';
     ColorfulDotsComponent,
     AboveTheFoldDirective,
     ScrollTopDirective,
-    CollapsibleComponent
+    CollapsibleComponent,
+    IsVisibleDirective
   ],
   exports: [
     NavBarComponent,
@@ -44,7 +46,8 @@ import { CollapsibleComponent } from './collapsible/collapsible.component';
     GetInTouchComponent,
     NavScrollingDirective,
     ColorfulDotsComponent,
-    CollapsibleComponent
+    CollapsibleComponent,
+    IsVisibleDirective
   ],
   providers: [ShowOverlayService, NavigationService]
 })

@@ -1,11 +1,10 @@
 @import '~styles/variables';
 .collapsible-button {
-    margin-top: 2rem;
-    position: relative;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  position: relative;
 }
-.container {
-    padding-bottom: 30px;
-}
+
 .arrow {
     align-items: center;
     border-radius: 50px;
@@ -22,16 +21,16 @@
     .material-icons {
         font-size: 35px;
     }
-    
+
 }
 .form-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s linear; 
+    transition: max-height 0.5s linear;
 }
 .toggle .form-content {
     max-height: 1000px;
 }
 .toggle .arrow  {
-    transform: rotate(180deg);       
+    transform: rotate(180deg);
 }
