@@ -10,6 +10,9 @@
         <button class="more" (click)="toggleInfo()" type="button">
             <mat-icon class="md-24">add</mat-icon>
         </button>
+        <div class="image">
+            <img [src]="info.image" alt="">
+        </div>
     </div>
     <div class="complete-info" [ngClass]="info.class" [class.showContent]="showInfo">
         <h2>
