@@ -1,0 +1,138 @@
+@import '~styles/variables';
+.culture-box {
+    margin-bottom: 4rem;
+    background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+    padding: 25px;
+    background-size: 200% 200%;
+    background-color: $japaneseViolet;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    transition: margin-left 0.8s ease;
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+    h2 {
+        margin: 0 auto;
+    }
+    h5 {
+        margin: 0 auto 0.7rem;
+    }
+    .enviroment {
+        h2 {
+            word-spacing: 100vw;
+        }
+        h5 {
+            width: 100px;
+        }
+    }
+    .benefits {
+        h2 {
+            word-spacing: 100vw;
+        }
+        h5 {
+            width: 80px;
+        }
+    }
+    .lifestyle {
+        h2 {
+            width: 110px;
+            word-spacing: 0;
+        }
+        h5 {
+            width: 100px;
+        }
+    }
+}
+
+//animation for the border gradient
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+.inner-background {
+    height: 462px;
+    background: $japaneseViolet;
+    padding: 16px 16px;
+    font-family: $fontFamilyPrimary;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.complete-info {
+    height: 193px;
+    color: $japaneseViolet;
+    background: $white;
+    padding: 16px 16px;
+    font-family: $fontFamilyPrimary;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 368px;
+    top: -22.85rem;
+    transition: transform 0.8s; 
+    // z-index: -1;
+    p {
+        font-family: $fontFamilySecondary;
+        font-weight: 500;
+        font-size: 0.7rem;
+        text-align: left;
+    }
+}
+
+.culture-box:hover {
+    margin-left: 260px;
+    transition: margin-left 0.8s ease;
+    .complete-info {
+        transform: translateX(100%);
+    }
+}
+
+.underline {
+    border-top: 1px solid $white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 60px;
+}

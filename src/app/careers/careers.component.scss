@@ -11,3 +11,19 @@
 .title {
     padding: 3rem 0;
 }
+
+app-our-culture {
+    display: block;
+}
+app-our-culture-desktop {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    app-our-culture {
+        display: none;
+    }
+    app-our-culture-desktop {
+        display: block;
+    }
+}

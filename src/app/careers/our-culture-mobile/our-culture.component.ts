@@ -6,11 +6,13 @@ import { IOurCultureInfo } from 'app/shared/iour-culture-info';
   templateUrl: './our-culture.component.html',
   styleUrls: ['./our-culture.component.scss']
 })
-export class OurCultureComponent implements OnInit {
+export class OurCultureComponent  {
+  showInfo = false;
   @Input() info: IOurCultureInfo;
   constructor() { }
 
-  ngOnInit() {
+  toggleInfo() {
+    this.showInfo = !this.showInfo;
   }
 
 }
