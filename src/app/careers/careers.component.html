@@ -1,7 +1,15 @@
 <section class="careers">
-  <app-our-culture
-  *ngFor="let culture of cultureInfo" [info]="culture"
-  >
-</app-our-culture>
+
+  <div class="our-culture-container">
+    <div class="title">
+        <h1>OUR CULTURE</h1>
+        <app-colorful-dots></app-colorful-dots>
+    </div>
+    <app-our-culture
+    *ngFor="let culture of cultureInfo" [info]="culture"
+    >
+    </app-our-culture>
+  </div>
+  
 </section>
 

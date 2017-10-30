@@ -133,18 +133,21 @@ export const BANNERS_INFO = [
       id: 1,
       title: 'GOOD WORK ENVIRONMENT.',
       subtitle: 'MEANS HAPPY EMPLOYESS',
-      image: ''
+      image: '',
+      class: 'enviroment'
     },
     {
       id: 2,
       title: 'COMPREHENSIVE BENEFITS PACKAGE.',
       subtitle: 'GOES A LONG WAY',
-      image: ''
+      image: '',
+      class: 'benefits'
     },
     {
       id: 3,
       title: 'MORE THAN A LIFESTYLE.',
       subtitle: 'IT’S OUR WORKSTYLE',
-      image: ''
+      image: '',
+      class: 'lifestyle'
     }
   ]
