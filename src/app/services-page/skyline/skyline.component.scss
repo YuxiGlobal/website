@@ -94,7 +94,7 @@
   background: url('/../../assets/images/background.png');
   background-size: 100%;
   position: absolute;
-  top: -10vh;
+  top: -12vh;
   left: -1vw;
   z-index: 0;
   -webkit-animation: blur 10s infinite;
@@ -131,8 +131,17 @@
 .cls-2 {
   fill:#5ee8f7;
 }
-.cls-3 {
-  clip-path:url(#clip-path);
+.cls-31 {
+  clip-path:url(#clip-path1);
+}
+.cls-32 {
+  clip-path:url(#clip-path2);
+}
+.cls-33 {
+  clip-path:url(#clip-path3);
+}
+.cls-34 {
+  clip-path:url(#clip-path4);
 }
 .cls-4 {
   opacity:0.43;
