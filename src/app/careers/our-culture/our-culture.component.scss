@@ -40,24 +40,33 @@
     h2, h5 {
       margin: 0 auto;
     }
+
+    //DESKTOP
+    @media (min-width: 768px) {
+      width: 400px;
+      height: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
   }
   
-  //animation for the border gradient
-    @-webkit-keyframes AnimationName {
-        0%{background-position:0% 84%}
-        50%{background-position:100% 17%}
-        100%{background-position:0% 84%}
-    }
-    @-moz-keyframes AnimationName {
-        0%{background-position:0% 84%}
-        50%{background-position:100% 17%}
-        100%{background-position:0% 84%}
-    }
-    @keyframes AnimationName {
-        0%{background-position:0% 84%}
-        50%{background-position:100% 17%}
-        100%{background-position:0% 84%}
-    }
+//animation for the border gradient
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
 
 .inner-background {
   height: 70vw;
@@ -68,6 +77,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  @media (min-width: 768px) {
+    height: 462px;
+  }
 }
 .underline {
   border-top: 1px solid #fff;
@@ -80,3 +92,13 @@
   //     margin-left: 41px;
   // }
 }
+.more {
+  background-color: $turquoiseBlue;
+  border-radius: 50px;
+  border: solid $turquoiseBlue;
+  color: $japaneseViolet;
+  width: 38px;
+  height: 38px;
+  padding: 2px 0 0;
+}
+
