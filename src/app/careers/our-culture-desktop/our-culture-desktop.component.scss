@@ -1,19 +1,42 @@
 @import '~styles/variables';
+
+:host {
+    position: relative;
+    &:hover {
+        .culture-box {
+            left: calc(50% - 450px);
+        }
+        .complete-info {
+            left: calc(50%);
+        }
+        &.benefits {
+            .culture-box {
+                left: calc(50%);
+            }
+            .complete-info {
+                left: calc(50% - 400px);
+                border-radius: 10px 0 0 10px;
+            }
+        }
+    }
+}
+
 .culture-box {
-    margin-bottom: 4rem;
     background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
     padding: 25px;
     background-size: 200% 200%;
     background-color: $japaneseViolet;
     width: 400px;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    transition: margin-left 0.8s ease;
+    transition: left 0.3s ease-out;
     -webkit-animation: AnimationName 6s ease infinite;
     -moz-animation: AnimationName 6s ease infinite;
     animation: AnimationName 6s ease infinite;
+    position: relative;
+    margin-bottom: -130px;
+    z-index: 2;
+    left: calc(50% - 225px);
+    @include dark-shadow;
     h2 {
         margin: 0 auto;
     }
@@ -46,6 +69,18 @@
         }
     }
 }
+.image {
+    position: absolute;
+    z-index: 1;
+    top: 24rem;
+  
+    // &.benefits {
+    //   top: 0;
+    // }
+  }
+  .image img {
+    width: 285px;
+  }
 
 //animation for the border gradient
 @-webkit-keyframes AnimationName {
@@ -97,6 +132,7 @@
 }
 
 .complete-info {
+    border-radius: 0 10px 10px 0;
     height: 193px;
     color: $japaneseViolet;
     background: $white;
@@ -109,22 +145,17 @@
     align-items: center;
     position: relative;
     width: 368px;
-    top: -22.85rem;
-    transition: transform 0.8s; 
-    // z-index: -1;
+    top: -263px;
+    transition: left 0.3s ease-out;
+    left: calc(50% - 200px);
+    @include dark-shadow;
     p {
         font-family: $fontFamilySecondary;
         font-weight: 500;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         text-align: left;
-    }
-}
-
-.culture-box:hover {
-    margin-left: 260px;
-    transition: margin-left 0.8s ease;
-    .complete-info {
-        transform: translateX(100%);
+        color: $dark-grey;
+        margin: 0 1rem;
     }
 }
 
