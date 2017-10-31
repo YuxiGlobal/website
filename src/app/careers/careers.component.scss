@@ -1,6 +1,7 @@
 @import '~styles/variables';
 .our-culture-container {
     background-color: $japaneseViolet;
+   
     color: white;
     font-family: $fontFamilyPrimary;
     text-align: center;
@@ -26,4 +27,12 @@ app-our-culture-desktop {
     app-our-culture-desktop {
         display: block;
     }
+}
+.type-of-device {
+    background-image: url('/../../assets/images/ESTRELLAS.svg');
+    @media (min-width: 1024px) {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
 }
