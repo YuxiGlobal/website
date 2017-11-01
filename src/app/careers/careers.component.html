@@ -1,20 +1,18 @@
 <section class="careers">
 
   <div class="our-culture-container">
-      <div class="title">
-          <h1>OUR CULTURE</h1>
-          <app-colorful-dots></app-colorful-dots>
-        </div>
+    <div class="title">
+      <h1>OUR CULTURE</h1>
+      <app-colorful-dots></app-colorful-dots>
+    </div>
     <div class="type-of-device">
-      <app-our-culture 
-        *ngFor="let culture of cultureInfo" [info]="culture">
+      <app-our-culture *ngFor="let culture of cultureInfo" [info]="culture">
       </app-our-culture>
-      <app-our-culture-desktop 
-        *ngFor="let culture of cultureInfo" [info]="culture" class="{{culture.class}}">
+      <app-our-culture-desktop *ngFor="let culture of cultureInfo" [info]="culture" class="{{culture.class}}">
       </app-our-culture-desktop>
     </div>
-    
-  </div>
 
+  </div>
+  <app-offers></app-offers>
 
 </section>

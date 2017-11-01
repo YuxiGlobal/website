@@ -154,3 +154,18 @@ export const BANNERS_INFO = [
       class: 'lifestyle'
     }
   ]
+
+  export const OFFER_INFO = [
+    {
+      id: 1,
+      title: 'FRONT END DEVELOPER'
+    },
+    {
+      id: 2,
+      title: 'VISUAL DESIGNER'
+    },
+    {
+      id: 3,
+      title: 'FULL STACK DEVELOPER'
+    }
+  ]

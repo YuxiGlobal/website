@@ -5,6 +5,8 @@ import { OurCultureComponent } from './our-culture-mobile/our-culture.component'
 import { SharedModule } from './../shared/shared.module';
 import { MatIconModule } from '@angular/material';
 import { OurCultureDesktopComponent } from './our-culture-desktop/our-culture-desktop.component';
+import { OffersComponent } from './offers/offers.component';
+import { OfferComponent } from './offer/offer.component';
 
 @NgModule({
   imports: [
@@ -12,6 +14,6 @@ import { OurCultureDesktopComponent } from './our-culture-desktop/our-culture-de
     SharedModule,
     MatIconModule
   ],
-  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent]
+  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent]
 })
 export class CareersModule { }
