@@ -43,7 +43,15 @@
       h5 {
         width: 100px;
       }
-    }   
+    } 
+    
+    @media (min-width: 768px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      height: 500px;
+    }
+   
   }
   
 //animation for the border gradient
@@ -73,6 +81,9 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  @media (min-width: 768px) {
+    height: 464px;
+  }
 
   &.hide {
     display: none;
@@ -91,6 +102,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 768px) {
+      height: 464px;
+    }
     p {
       font-family: $fontFamilySecondary;
       font-weight: 500;
@@ -98,6 +112,10 @@
       text-align: left;
       margin-left: 0.6rem;
       margin-right: 0.6rem;
+      @media (min-width: 768px) {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+      }
     }
   } 
 }
