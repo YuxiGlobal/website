@@ -13,6 +13,13 @@ export class OffersComponent implements OnInit {
     this.offerInfo = OFFER_INFO;
   }
 
+  isFirst(position: number): boolean{
+    return position === 0 ;
+  }
+  isLast(position: number): boolean{
+    return position === this.offerInfo.length -1;
+  }
+
   ngOnInit() {
   }
 

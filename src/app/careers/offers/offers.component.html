@@ -4,6 +4,7 @@
     <app-colorful-dots></app-colorful-dots>
   </div>
   <app-offer 
-    *ngFor="let offer of offerInfo" [info]="offer">
+    *ngFor="let offer of offerInfo; let i = index" [info]="offer"
+     [class.first]='isFirst(i)' [class.last]='isLast(i)'>
   </app-offer>
 </section>
