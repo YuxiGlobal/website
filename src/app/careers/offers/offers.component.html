@@ -3,4 +3,7 @@
     <h1>OPEN SPOTS</h1>
     <app-colorful-dots></app-colorful-dots>
   </div>
+  <app-offer 
+    *ngFor="let offer of offerInfo" [info]="offer">
+  </app-offer>
 </section>

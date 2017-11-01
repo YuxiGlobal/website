@@ -1,3 +1,5 @@
+import { IOffersInfo } from './../../shared/ioffers-info';
+import { OFFER_INFO } from './../../shared/website-info';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./offers.component.scss']
 })
 export class OffersComponent implements OnInit {
-
-  constructor() { }
+  offerInfo: IOffersInfo[];
+  constructor() { 
+    this.offerInfo = OFFER_INFO;
+  }
 
   ngOnInit() {
   }
