@@ -1,10 +1,12 @@
 @import '~styles/variables';
+
 .skyline {
   background: $japaneseViolet;
   position: relative;
   margin-top: 8rem;
 }
-.city  {
+
+.city {
   background: url('/../../assets/images/EDIFICIOS.png') no-repeat;
   background-size: 100vw;
   width: 100vw;
@@ -14,35 +16,36 @@
   bottom:16px;
   overflow: hidden;
 }
-.city img{
-	width:100vw;
-	position:absolute;
-	bottom:-11px;
+
+.city img {
+	width: 100vw;
+	position: absolute;
+	bottom: -11px;
 }
 /*---------   ----------*/
-.city .lamps img{
+.city .lamps img {
 	width:10vw;
 }
-.city .lamps img:nth-child(1){
+.city .lamps img:nth-child(1) {
 	left:10vw;
 }
-.city .lamps img:nth-child(2){
+.city .lamps img:nth-child(2) {
 	right:4vw;
 }
 /*---------   ----------*/
-.city .lights img{
+.city .lights img {
 	width:20.3vw;
 }
-.city .lights img:nth-child(1){
+.city .lights img:nth-child(1) {
 	left:4.1vw;
 }
-.city .lights img:nth-child(2){
+.city .lights img:nth-child(2) {
 	left:7.7vw;
 }
-.city .lights img:nth-child(3){
+.city .lights img:nth-child(3) {
 	right: -4.04vw;;
 }
-.city .lights img:nth-child(4){
+.city .lights img:nth-child(4) {
 	right: -0.4vw;
 }
 .lampLight {
@@ -58,15 +61,17 @@
 @keyframes blinkFast {70%{opacity: 0.7;}}
 
 /*---------  Metro ----------*/
-.metro img{
+.metro img {
 	width:100vw;
 	position:absolute;
 	bottom:0;
 }
+
 .animated {
   animation-duration: 3s;
   animation-fill-mode: both;
 }
+
 @keyframes slideInLeft {
   from {
     transform: translate3d(-100%, 0, 0);
@@ -77,7 +82,8 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.slideInLeft {
+
+.visible .slideInLeft {
   animation-name: slideInLeft;
 }
 
@@ -85,10 +91,10 @@
 .stars {
   width: 100vw;
   height: 30vw;
-  background: url('/../../assets/images/background.png');
+  background: url('/../../assets/images/stars.png');
   background-size: 100%;
   position: absolute;
-  top: -10vh;
+  top: -15vh;
   left: -1vw;
   z-index: 0;
   -webkit-animation: blur 10s infinite;
@@ -96,12 +102,38 @@
   -moz-animation: blink 0.9s infinite alternate;
   -o-animation: blink 0.9s infinite alternate;
   animation: blink 0.9s infinite alternate;
+  @media (min-width: 1024px) {
+    top: -30vh;
+  }
 }
 
 @-moz-keyframes blink {70%{opacity: 0.7;}}
 @-webkit-keyframes blink {45%{opacity: 0.5;}}
 @-o-keyframes blink {70%{opacity: 0.7;}}
 @keyframes blink {70%{opacity: 0.3;}}
+
+.stars2 {
+  width: 100vw;
+  height: 30vw;
+  background: url('/../../assets/images/stars2.png');
+  background-size: 100%;
+  position: absolute;
+  top: -15vh;
+  left: -1vw;
+  z-index: 0;
+  -webkit-animation: blur 10s infinite;
+  -webkit-animation: blink2 1.5s infinite alternate;
+  -moz-animation: blink2 1.5s infinite alternate;
+  -o-animation: blink2 1.5s infinite alternate;
+  animation: blink2 1.5s infinite alternate;
+  @media (min-width: 1024px) {
+    top: -30vh;
+  }
+}
+@-moz-keyframes blink2 {70%{opacity: 0.7;}}
+@-webkit-keyframes blink2 {45%{opacity: 0.5;}}
+@-o-keyframes blink2 {70%{opacity: 0.7;}}
+@keyframes blink2 {70%{opacity: 0.3;}}
 
 /*---------- metrocable svg clases ----------*/
 .metro-cable {
@@ -125,13 +157,22 @@
 .cls-2 {
   fill:#5ee8f7;
 }
-.cls-3 {
-  clip-path:url(#clip-path);
+.cls-31 {
+  clip-path:url(#clip-path1);
+}
+.cls-32 {
+  clip-path:url(#clip-path2);
+}
+.cls-33 {
+  clip-path:url(#clip-path3);
+}
+.cls-34 {
+  clip-path:url(#clip-path4);
 }
 .cls-4 {
   opacity:0.43;
-  isolation:isolate;
-  fill:url(#linear-gradient);
+  isolation: isolate;
+  fill: url(#linear-gradient);
 }
 .cls-5 {
   fill:#e264f2;

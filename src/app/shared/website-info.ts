@@ -122,7 +122,50 @@ export const BANNERS_INFO = [
       address: '4393 Digital Way.',
       place: '',
       citySubtitle: 'Mason, OH. 45040',
-      phone: '(+1) 513 348 8265',     
+      phone: '(+1) 513 348 8265',
       class: 'image-mason'
+    }
+  ]
+
+
+  export const OUR_CULTURE_INFO = [
+    {
+      id: 1,
+      title: 'GOOD WORK ENVIRONMENT.',
+      subtitle: 'MEANS HAPPY EMPLOYESS',
+      text: 'Having a good work environment is having happy employees. This accounts for both location and ambience: Yuxians have access to free fruit, cereals, coffee, and snacks. We host activities like guided active pauses and monthly massages. Our offices are spaces designed to be both comfortable and inspiring, letting creativity flow freely.',
+      image: 'assets/images/cereal.png',
+      class: 'enviroment'
+    },
+    {
+      id: 2,
+      title: 'COMPREHENSIVE BENEFITS PACKAGE.',
+      subtitle: 'GOES A LONG WAY',
+      text: 'A strong and comprehensive benefits package goes a long way. Our employees can mix and match between benefits like gym memberships,premium healthcare, vehicle insurance, savings programs, food or gas passes, education aids, etc.',
+      image: 'assets/images/yoga-ball.png',
+      class: 'benefits'
+    },
+    {
+      id: 3,
+      title: 'MORE THAN A LIFESTYLE.',
+      subtitle: 'IT’S OUR WORKSTYLE',
+      text: 'You don’t only work to live: life also happens inside the office. For many years society has thought that work is a hindrance that stops us from living our actual life, something so drudging that you actually get paid for it. It’s time to change that: #YuxiLife is our way of creating conditions where people can feel happy, encouraged, and motivated about going to work. #YuxiLife is, more than a lifestyle, our workstyle.',
+      image: 'assets/images/control.png',
+      class: 'lifestyle'
+    }
+  ]
+
+  export const OFFER_INFO = [
+    {
+      id: 1,
+      title: 'FRONT END DEVELOPER'
+    },
+    {
+      id: 2,
+      title: 'VISUAL DESIGNER'
+    },
+    {
+      id: 3,
+      title: 'FULL STACK DEVELOPER'
     }
   ]

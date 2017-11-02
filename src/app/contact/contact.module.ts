@@ -16,6 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsMobileComponent } from './forms-mobile/forms-mobile.component';
 import { FormsDesktopComponent } from './forms-desktop/forms-desktop.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -25,6 +26,7 @@ import { FormsDesktopComponent } from './forms-desktop/forms-desktop.component';
     MatIconModule,
     MatFormFieldModule,
     FormsModule,
+    RouterModule,
     ReactiveFormsModule,
     MatInputModule,
     BrowserAnimationsModule

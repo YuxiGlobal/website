@@ -1,0 +1,13 @@
+<section class="offers">
+  <div class="title">
+    <h1>OPEN SPOTS</h1>
+    <app-colorful-dots></app-colorful-dots>
+  </div>
+  <app-offer 
+    *ngFor="let offer of offerInfo; let i = index" [info]="offer"
+     [class.first]='isFirst(i)' [class.last]='isLast(i)'>
+  </app-offer>
+  <div class="email-section">
+
+  </div>
+</section>

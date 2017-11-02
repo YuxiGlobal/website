@@ -1,0 +1,169 @@
+@import '~styles/variables';
+
+:host {
+    position: relative;
+    &:hover {
+        .culture-box {
+            left: calc(50% - 450px);
+        }
+        .complete-info {
+            left: calc(50%);
+        }
+        &.benefits {
+            .culture-box {
+                left: calc(50%);
+            }
+            .complete-info {
+                left: calc(50% - 400px);
+                border-radius: 10px 0 0 10px;
+            }
+        }
+    }
+}
+
+.culture-box {
+    background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+    padding: 25px;
+    background-size: 200% 200%;
+    background-color: $japaneseViolet;
+    width: 400px;
+    height: 500px;
+    transition: left 0.3s ease-out;
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+    position: relative;
+    margin-bottom: -130px;
+    z-index: 2;
+    left: calc(50% - 225px);
+    @include dark-shadow;
+    h2 {
+        margin: 0 auto;
+    }
+    h5 {
+        margin: 0 auto 0.7rem;
+    }
+    .enviroment {
+        h2 {
+            word-spacing: 100vw;
+        }
+        h5 {
+            width: 100px;
+        }
+    }
+    .benefits {
+        h2 {
+            word-spacing: 100vw;
+        }
+        h5 {
+            width: 80px;
+        }
+    }
+    .lifestyle {
+        h2 {
+            width: 110px;
+            word-spacing: 0;
+        }
+        h5 {
+            width: 100px;
+        }
+    }
+}
+.image {
+    position: absolute;
+    z-index: 1;
+    top: 24rem;
+  
+    // &.benefits {
+    //   top: 0;
+    // }
+  }
+  .image img {
+    width: 285px;
+  }
+
+//animation for the border gradient
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+.inner-background {
+    height: 462px;
+    background: $japaneseViolet;
+    padding: 16px 16px;
+    font-family: $fontFamilyPrimary;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.complete-info {
+    border-radius: 0 10px 10px 0;
+    height: 193px;
+    color: $japaneseViolet;
+    background: $white;
+    padding: 16px 16px;
+    font-family: $fontFamilyPrimary;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 368px;
+    top: -263px;
+    transition: left 0.3s ease-out;
+    left: calc(50% - 200px);
+    @include dark-shadow;
+    p {
+        font-family: $fontFamilySecondary;
+        font-weight: 500;
+        font-size: 0.9rem;
+        text-align: left;
+        color: $dark-grey;
+        margin: 0 1rem;
+    }
+}
+
+.underline {
+    border-top: 1px solid $white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 60px;
+}

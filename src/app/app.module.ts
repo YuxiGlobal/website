@@ -10,11 +10,14 @@ import { ServicesPageModule } from './services-page/services-page.module';
 import { ServicesPageComponent } from './services-page/services-page.component';
 import { ContactComponent } from 'app/contact/contact.component';
 import { ContactModule } from 'app/contact/contact.module';
+import { CareersComponent } from 'app/careers/careers.component';
+import { CareersModule } from 'app/careers/careers.module';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesPageComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'careers', component: CareersComponent },
   {
     path: '',
     redirectTo: '/home',
@@ -32,6 +35,7 @@ const routes: Routes = [
     HomeModule,
     ServicesPageModule,
     ContactModule,
+    CareersModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

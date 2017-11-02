@@ -1,0 +1,28 @@
+<div class="culture-box">
+    <div class="inner-background" [ngClass]="info.class" [class.hide]="showInfo">
+        <h2>
+            {{info.title}}
+        </h2>
+        <div class="underline"></div>
+        <h5>
+            {{info.subtitle}}
+        </h5>
+        <button class="more" (click)="toggleInfo()" type="button">
+            <mat-icon class="md-24">add</mat-icon>
+        </button>
+        
+    </div>
+    <div class="complete-info" [ngClass]="info.class" [class.showContent]="showInfo">
+        <h2>
+            {{info.title}}
+        </h2>
+        <div class="purple-underline"></div>
+        <p>
+            {{info.text}}
+        </p>
+    </div>
+   
+</div>
+<div class="image" [ngClass]="info.class">
+    <img [src]="info.image" alt="">
+</div>

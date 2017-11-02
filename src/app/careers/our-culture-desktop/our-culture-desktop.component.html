@@ -1,0 +1,19 @@
+<div class="culture-box">
+    <div class="inner-background" [ngClass]="info.class" [class.hide]="showInfo">
+        <h2>
+            {{info.title}}
+        </h2>
+        <div class="underline"></div>
+        <h5>
+            {{info.subtitle}}
+        </h5>
+        <div class="image" [ngClass]="info.class">
+            <img [src]="info.image" alt="">
+        </div>
+    </div>
+</div>
+<div class="complete-info" [ngClass]="info.class" [class.showContent]="showInfo">
+    <p>
+        {{info.text}}
+    </p>
+</div>

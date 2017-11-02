@@ -16,7 +16,15 @@ import { SkylineComponent } from './skyline/skyline.component';
     SharedModule,
     MatTabsModule
   ],
-  declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent, ServicesAdvantagesComponent, ProgrammingLanguagesComponent, WhoWeAreComponent, SkylineComponent],
+  declarations: [
+    ServicesPageComponent,
+    ServicesIntroComponent,
+    ServicesItemsComponent,
+    ServicesAdvantagesComponent,
+    ProgrammingLanguagesComponent,
+    WhoWeAreComponent,
+    SkylineComponent
+  ],
   exports: [ServicesPageComponent]
 })
 export class ServicesPageModule { }
