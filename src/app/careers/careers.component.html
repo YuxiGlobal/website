@@ -14,5 +14,10 @@
 
   </div>
   <app-offers></app-offers>
+  <app-footer (switchOverlay)="openOverlay()"></app-footer>
 
 </section>
+<app-get-in-touch
+  [class.active]="showOverlay"
+  (toggleGetInTouchOverlay)="closeOverlay()">
+</app-get-in-touch>
