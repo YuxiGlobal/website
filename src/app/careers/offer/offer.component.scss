@@ -1,11 +1,6 @@
 @import '~styles/variables';
 
-:host.first .offer {
-    border-radius: 10px 10px 0 0;
-}
-:host.last .offer {
-    border-radius:  0 0 10px 10px;
-}
+
 
 .offer {
     width: 100%;
@@ -55,4 +50,13 @@
     width: 150px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    :host.first .offer {
+        border-radius: 10px 10px 0 0;
+    }
+    :host.last .offer {
+        border-radius:  0 0 10px 10px;
+    }
 }
