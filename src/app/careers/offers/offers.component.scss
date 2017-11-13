@@ -12,3 +12,23 @@
 .title {
     padding: 3rem 0;
 }
+.underline {
+  border-top: 1px solid $white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  width: 60px;
+}
+.email-section {
+  h2 {
+    font-size: 1.9rem;
+  }
+  p {
+    font-family: $fontFamilySecondary;
+    font-size: 1.1rem;
+    @media (min-width: 768px) {
+      font-size: 1.17rem;
+    }
+  }
+}
+

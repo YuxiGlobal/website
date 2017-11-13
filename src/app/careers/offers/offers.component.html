@@ -3,11 +3,14 @@
     <h1>OPEN SPOTS</h1>
     <app-colorful-dots></app-colorful-dots>
   </div>
-  <app-offer 
+  <app-offer
     *ngFor="let offer of offerInfo; let i = index" [info]="offer"
      [class.first]='isFirst(i)' [class.last]='isLast(i)'>
   </app-offer>
   <div class="email-section">
-
+    <h2>NOT YOUR PROFILE?</h2>
+    <div class="underline"></div>
+    <p>These are the Yuxians we’re currently looking for. However, if your profile is different from this or you’d like to ask about other positions, feel free to send us an e-mail to:</p>
+    <a href="mailto:jobs@yuxiglobal.com">jobs@yuxiglobal.com</a>
   </div>
 </section>
