@@ -3,10 +3,8 @@
   <h2>{{info.title}}</h2>
   <div class="underline"></div>
   <div class="button-wrapper">
-      <app-button type="button" type="secondary" size="small">
-        <a href="careers/{{info.id}}">
+      <app-button type="button" type="secondary" size="small" [routerLink]="['/careers', info.id]" >
           Learn more
-        </a>
       </app-button>
     </div>
 </div>

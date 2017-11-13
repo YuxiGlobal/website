@@ -12,12 +12,14 @@ import { ContactComponent } from 'app/contact/contact.component';
 import { ContactModule } from 'app/contact/contact.module';
 import { CareersComponent } from 'app/careers/careers.component';
 import { CareersModule } from 'app/careers/careers.module';
+import { OfferDetailComponent } from 'app/careers/offer-detail/offer-detail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesPageComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'careers', component: CareersComponent },
+  { path: 'careers/:id', component: OfferDetailComponent },
   {
     path: '',
     redirectTo: '/home',
