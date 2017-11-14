@@ -5,6 +5,7 @@ export const BANNERS_INFO = [
       subtitle: 'Find out more about our software development services.',
       image: 'assets/images/cellphone.png',
       video: 'assets/videos/cellphone.webm',
+      video2: 'assets/videos/BANNER_CELLPHONE_1.mp4',
       class: 'banner-image-1'
     },
     {
@@ -13,6 +14,7 @@ export const BANNERS_INFO = [
       subtitle: 'See how our solutions can get you ahead of your competition.',
       image: 'assets/images/goggles.png',
       video: 'assets/videos/goggles.webm',
+      video2: 'assets/videos/Googles_1.mp4',
       class: 'banner-image-2'
     },
     {
@@ -21,6 +23,7 @@ export const BANNERS_INFO = [
       subtitle: 'Learn how your company can evolve via digital transformation.',
       image: 'assets/images/robot.png',
       video: 'assets/videos/robot.webm',
+      video2: 'assets/videos/BANNER_ROBOT_1.mp4',
       class: 'banner-image-3'
     }
   ];

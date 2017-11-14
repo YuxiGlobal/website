@@ -4,5 +4,6 @@ export interface IBannerInfo {
     subtitle: string;
     image: string;
     video: string;
+    video2: string;
     class: string;
 }
