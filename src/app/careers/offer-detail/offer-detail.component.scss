@@ -1,0 +1,15 @@
+@import '~styles/variables';
+
+.offer-detail-container {
+    background-color: $rusianViolet;
+    color: $white; 
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: $fontFamilyPrimary;
+}
+.job-position {
+    margin: 0;
+}
