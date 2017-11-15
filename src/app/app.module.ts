@@ -14,6 +14,7 @@ import { CareersComponent } from 'app/careers/careers.component';
 import { CareersModule } from 'app/careers/careers.module';
 import { OfferDetailComponent } from 'app/careers/offer-detail/offer-detail.component';
 
+
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesPageComponent },

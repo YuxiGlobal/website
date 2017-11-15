@@ -10,12 +10,15 @@ import { OfferComponent } from './offer/offer.component';
 import { OfferDetailComponent } from './offer-detail/offer-detail.component';
 import { RouterModule } from '@angular/router';
 import { IntroBannerComponent } from './intro-banner/intro-banner.component';
+import { NgxCarouselModule } from 'ngx-carousel';
+import 'hammerjs';
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     MatIconModule,
-    RouterModule
+    RouterModule,
+    NgxCarouselModule
   ],
   declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent, IntroBannerComponent]
 })
