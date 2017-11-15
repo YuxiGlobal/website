@@ -9,6 +9,7 @@ import { OffersComponent } from './offers/offers.component';
 import { OfferComponent } from './offer/offer.component';
 import { OfferDetailComponent } from './offer-detail/offer-detail.component';
 import { RouterModule } from '@angular/router';
+import { IntroBannerComponent } from './intro-banner/intro-banner.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -16,6 +17,6 @@ import { RouterModule } from '@angular/router';
     MatIconModule,
     RouterModule
   ],
-  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent]
+  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent, IntroBannerComponent]
 })
 export class CareersModule { }
