@@ -29,11 +29,13 @@ export class OffersComponent implements OnInit {
         this.offerInfo = items.map(item => {
           const id = item.sys.id;
           const title = item.fields.title;
+          const title2 = item.fields.title2;
           const description = item.fields.description;
 
           return {
             id,
             title,
+            title2,
             description
           };
         });
