@@ -2,11 +2,16 @@
   <div class="wrapper">
       <h1 class="title1">{{offerInfo?.title}}</h1>
       <h1 class="title2">{{offerInfo?.title2}}</h1>
+      <div class="underline"></div>
       <h2>{{offerInfo?.city}}</h2>
-      <p>    
+      <p class="description">    
         {{offerInfo?.description}}
       </p>
       <h2>REQUIREMENTS</h2>
+      <ul>
+        <li *ngFor="let requirement of offerInfo?.requirements">{{requirement}}</li>
+      </ul>
+           
   </div>
  
 
