@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  background: $rusianViolet;
+  background: #2c1642;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -104,7 +104,7 @@
     position: relative;
     right: 30px;
     @media (min-width: 1024px) and ( min-height: 900px ){
-      margin-top: -20%;
+      margin-top: -18%;
       right: 0px;
      }
   }
