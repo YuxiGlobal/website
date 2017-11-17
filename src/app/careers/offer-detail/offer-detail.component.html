@@ -10,10 +10,13 @@
       <h2>REQUIREMENTS</h2>
       <ul>
         <li *ngFor="let requirement of offerInfo?.requirements">{{requirement}}</li>
-      </ul>
-           
+      </ul>           
   </div>
- 
-
+  
 </section>
+<app-footer (switchOverlay)="openOverlay()"></app-footer>
+<app-get-in-touch
+  [class.active]="showOverlay"
+  (toggleGetInTouchOverlay)="closeOverlay()">
+</app-get-in-touch>
 

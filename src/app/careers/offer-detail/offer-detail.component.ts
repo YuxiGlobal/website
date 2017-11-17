@@ -3,6 +3,8 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 import 'rxjs/add/operator/switchMap';
 import { CareersService } from 'app/shared/careers.service'
 import { IOffersInfo } from 'app/shared/ioffers-info';
+import { NavigationService } from 'app/shared/services/navigation.service';
+import { ShowOverlayService } from 'app/shared/services/show-overlay.service';
 
 @Component({
   selector: 'app-offer-detail',
@@ -11,10 +13,13 @@ import { IOffersInfo } from 'app/shared/ioffers-info';
 })
 export class OfferDetailComponent implements OnInit {
   offerInfo: IOffersInfo;
+  showOverlay = false;
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private careersService: CareersService
+    private careersService: CareersService,
+    private showOverlayService: ShowOverlayService,
+    private navigationService: NavigationService
   ) { }
 
   ngOnInit() {
@@ -23,6 +28,16 @@ export class OfferDetailComponent implements OnInit {
     .subscribe((data: any) => {
       this.offerInfo = data.fields;
     });
+  }
+
+  openOverlay() {
+    this.showOverlay = !this.showOverlay;
+    this.showOverlayService.preventScroll = !this.showOverlayService.preventScroll;
+  }
+
+  closeOverlay() {
+    this.showOverlay = false;
+    this.showOverlayService.preventScroll = false;
   }
 
 }

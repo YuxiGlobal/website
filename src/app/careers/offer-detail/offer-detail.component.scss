@@ -9,6 +9,11 @@
     padding-left: 10%;
     padding-right: 10%;
     font-family: $fontFamilyPrimary;
+    @media (min-width: 1024px) {
+        padding-top: 182px;
+        padding-left: 17%;
+        padding-right: 17%;
+    }
 }
 .job-position {
     margin: 0;
@@ -40,4 +45,5 @@ li {
 .description {
     font-family: $fontFamilySecondary;
     font-size:  0.9rem; 
+    line-height: 1.5;
 }

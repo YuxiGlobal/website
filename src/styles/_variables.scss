@@ -4,7 +4,7 @@ $turquoiseBlue: #00fff7;
 $mediumSlateBlue: #8785f2;
 $brightLilac: #d88ee0;
 $fandango: #98288f;
-$ciberGrape: #59387f;
+$ciberGrape: #54317A;
 $white: #fff;
 $medium-gray: #515151;
 $dark-grey: #1b1b1b;
@@ -32,4 +32,10 @@ $fontSmall: 0.75rem;
     -webkit-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
     -moz-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
     box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);  
+}
+
+@mixin only-bottom-shadow {
+    -webkit-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.75);
 }

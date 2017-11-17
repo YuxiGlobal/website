@@ -16,6 +16,7 @@
       margin-bottom: 5px;
       @media (min-width: 1024px) {
         font-size: 2rem;
+        margin-top: 0;
       }
   }
 
@@ -25,6 +26,13 @@
         font-size: 1.17rem;
       } 
   }
+  @media (min-width: 1024px) {
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+    background-color: $ciberGrape;
+  }
+  
+ 
 }
 .button-wrapper {
   max-width: 150px;
@@ -73,5 +81,6 @@ app-forms-desktop {
   }
   app-forms-desktop {
     display: block;
+    background: linear-gradient(to top, $ciberGrape 53%, $japaneseViolet 53%);
   }
 }
