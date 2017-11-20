@@ -184,3 +184,21 @@
   border-bottom: none!important;
 }
 
+
+//styles for bullet points in careers banners
+@media (min-width: 1024px) {
+  .ngxcarouselPointDefault{
+    margin-top: 3rem!important;
+  }
+}
+.ngxcarouselPointDefault .ngxcarouselPoint li{
+  background: $white !important;
+  margin: 0 12px !important;
+  padding: 5px !important;
+  &.active {
+      background: #2c1046!important;
+      border: 0.5px solid white!important;
+      transform: scale(1)!important;
+  }
+}
+

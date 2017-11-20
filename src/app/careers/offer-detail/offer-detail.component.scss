@@ -1,0 +1,49 @@
+@import '~styles/variables';
+
+.offer-detail-container {
+    background-color: $rusianViolet;
+    color: $white; 
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: $fontFamilyPrimary;
+    @media (min-width: 1024px) {
+        padding-top: 182px;
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}
+.job-position {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.title2 {
+    background: -webkit-linear-gradient(330deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 9px;
+}
+.underline {
+    border-top: 1.5px solid $white;
+    margin-bottom: 1.5rem;
+    width: 60px;
+}
+ul {
+    font-family: $fontFamilySecondary;
+    font-size:  0.9rem;
+    list-style-image: url(/../../../assets/icons/PUNTICOS.svg);
+    padding-left: 16px;
+}
+li {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.description {
+    font-family: $fontFamilySecondary;
+    font-size:  0.9rem; 
+    line-height: 1.5;
+}

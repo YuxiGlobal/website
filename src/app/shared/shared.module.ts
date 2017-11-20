@@ -17,13 +17,16 @@ import { AboveTheFoldDirective } from './above-the-fold.directive';
 import { ScrollTopDirective } from './scroll-top.directive';
 import { CollapsibleComponent } from './collapsible/collapsible.component';
 import { IsVisibleDirective } from './is-visible.directive';
+import { CareersService } from 'app/shared/careers.service';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    HttpModule
   ],
   declarations: [
     NavBarComponent,
@@ -49,6 +52,6 @@ import { IsVisibleDirective } from './is-visible.directive';
     CollapsibleComponent,
     IsVisibleDirective
   ],
-  providers: [ShowOverlayService, NavigationService]
+  providers: [ShowOverlayService, NavigationService, CareersService]
 })
 export class SharedModule { }
