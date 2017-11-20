@@ -1,5 +1,4 @@
 import { IOffersInfo } from './../../shared/ioffers-info';
-import { OFFER_INFO } from './../../shared/website-info';
 import { Component, OnInit } from '@angular/core';
 import { CareersService } from './../../shared/careers.service'
 @Component({
