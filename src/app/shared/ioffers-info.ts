@@ -4,5 +4,5 @@ export interface IOffersInfo {
     title2: string;
     description: string;
     city: string;
-    requirement: string;
+    requirements: string;
 }
