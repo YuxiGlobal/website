@@ -1,34 +1,33 @@
-<form action='https://www.getform.org/u/cfac5759-3f40-4e4e-af09-e3c9765b1b3b' enctype="multipart/form-data" method="POST" #form>
+<form enctype="multipart/form-data" method="POST">
   <h3 class="title">Let’s get
     <br> in touch.</h3>
   <p class="subtitle">YOU ARE CONTACTING THE
     <span>SALES</span> TEAM.</p>
-  <input type="hidden" value="business-form" name="source-form">
   <mat-form-field>
-    <input matInput name="name" placeholder="Name" required>
+    <input matInput name="name" placeholder="Name" [formControl]="name" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="company" placeholder="Company" required>
+    <input matInput name="company" placeholder="Company" [formControl]="company" required>
   </mat-form-field>
   <mat-form-field>
     <input matInput placeholder="Enter your email" name="email" [formControl]="email" required />
     <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="phone" placeholder="Phone" required>
+    <input matInput name="phone" placeholder="Phone" [formControl]="phone" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="country" placeholder="Country" required>
+    <input matInput name="country" placeholder="Country" [formControl]="country" required>
   </mat-form-field>
   <input name="file" type="file">
   <label for="textarea">Comments</label>
-  <textarea id="textarea" name="message" placeholder="Type here your message"></textarea>
+  <textarea id="textarea" name="message" placeholder="Type here your message" [formControl]="message"></textarea>
   <!-- <input type="text" name="_gotcha" style="display:none" /> -->
   <div class="submit-section">
     <p>*By clicking Submit, you agree to our
       <a href=".">Terms and Privacy</a> Policy.</p>
     <div class="button-wrapper">
-      <app-button type="submit" type="secondary" size="small" (click)="form.submit()">
+      <app-button type="submit" type="secondary" size="small" (click)="submitForm()">
         Submit
       </app-button>
     </div>

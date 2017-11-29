@@ -19,6 +19,7 @@ import { CollapsibleComponent } from './collapsible/collapsible.component';
 import { IsVisibleDirective } from './is-visible.directive';
 import { CareersService } from 'app/shared/careers.service';
 import { HttpModule } from '@angular/http';
+import { SubmissionsService } from 'app/shared/services/submissions.service';
 
 @NgModule({
   imports: [
@@ -52,6 +53,11 @@ import { HttpModule } from '@angular/http';
     CollapsibleComponent,
     IsVisibleDirective
   ],
-  providers: [ShowOverlayService, NavigationService, CareersService]
+  providers: [
+    ShowOverlayService,
+    NavigationService,
+    CareersService,
+    SubmissionsService
+  ]
 })
 export class SharedModule { }
