@@ -17,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsMobileComponent } from './forms-mobile/forms-mobile.component';
 import { FormsDesktopComponent } from './forms-desktop/forms-desktop.component';
 import { RouterModule } from '@angular/router';
+import { RecaptchaModule } from 'ng-recaptcha';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { RouterModule } from '@angular/router';
     RouterModule,
     ReactiveFormsModule,
     MatInputModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RecaptchaModule.forRoot()
   ],
   declarations: [
     ContactComponent,
