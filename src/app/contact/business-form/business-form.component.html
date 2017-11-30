@@ -4,13 +4,13 @@
   <p class="subtitle">YOU ARE CONTACTING THE
     <span>SALES</span> TEAM.</p>
   <mat-form-field>
-    <input matInput name="name" value="Juan" placeholder="Name" formControlName="name" required>
+    <input matInput name="name" placeholder="Name" formControlName="name" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="company" value="Yuxi" placeholder="Company" formControlName="company" required>
+    <input matInput name="company" placeholder="Company" formControlName="company" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput placeholder="Enter your email" value="Yuxi@yuxi.com" name="email" formControlName="email" required />
+    <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
     <mat-error *ngIf="businessForm.value.email.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
   <mat-form-field>
@@ -21,7 +21,6 @@
   </mat-form-field>
   <label for="textarea">Comments</label>
   <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
-  <!-- <input type="text" name="_gotcha" style="display:none" /> -->
   <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
   <div class="submit-section">
     <p>*By clicking Submit, you agree to our

@@ -43,10 +43,10 @@ export class BusinessFormComponent implements OnInit {
 
   submitForm() {
     console.log('TEST');
-    
+
     if (this.recaptchaResponse) {
       console.log('TEST 2');
-      
+
       const data = {
         FullName: this.businessForm.value.name,
         Email: this.businessForm.value.email,
@@ -54,7 +54,7 @@ export class BusinessFormComponent implements OnInit {
         Country: this.businessForm.value.country,
         Company: this.businessForm.value.company,
         Phone: this.businessForm.value.phone,
-        "g-recaptcha-response": this.recaptchaResponse
+        'g-recaptcha-response': this.recaptchaResponse
       };
 
       this.submissions.sendBusinessForm(data).subscribe(x => console.log(x));

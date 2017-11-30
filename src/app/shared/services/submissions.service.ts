@@ -5,6 +5,7 @@ import { HttpHeaders } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
 const BUSINESS_FORM_URL = 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/business';
+const GENERAL_FORM_URL = 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/general';
 
 @Injectable()
 export class SubmissionsService {
@@ -18,36 +19,39 @@ export class SubmissionsService {
     options.headers = new Headers();
     options.headers.append('Content-Type', 'application/x-www-form-urlencoded');
     console.log(data);
-  
-    let formData:FormData = new FormData();  
-    formData.append('Email',data.Email);  
-    formData.append('g-recaptcha-response', data['g-recaptcha-response']);  
 
-
-    // let params = new URLSearchParams;
-    // params.append('Email', data.Email);
-    // params.append('g-recaptcha-response', data['g-recaptcha-response']);
-  //  return this.authHttp.post( url,  { headers:headers,  search:params })
-  // .map(
-  //             res => {
-  //                 let newReview = res.json();
-  //                 this.reviews.push(newReview);
-  //                 console.log(this.reviews);
-  //                 return newReview;
-  //             }
-  //         );
-
+    const formData: FormData = new FormData();
+    formData.append('Email', data.Email);
+    formData.append('g-recaptcha-response', data['g-recaptcha-response']);
 
     return this.http
       .post(
-        BUSINESS_FORM_URL,
-        formData
-        // data,
-        // options
+      BUSINESS_FORM_URL,
+      formData
       )
       .map((response: Response) => {
         return response.json();
       });
   }
 
+  sendGeneralForm(data) {
+    const headers = new HttpHeaders({ 'Content-Type': 'form-data' });
+    const options = new RequestOptions();
+    options.headers = new Headers();
+    options.headers.append('Content-Type', 'application/x-www-form-urlencoded');
+    console.log(data);
+
+    const formData: FormData = new FormData();
+    formData.append('Email', data.Email);
+    formData.append('g-recaptcha-response', data['g-recaptcha-response']);
+
+    return this.http
+      .post(
+      GENERAL_FORM_URL,
+      formData
+      )
+      .map((response: Response) => {
+        return response.json();
+      });
+  }
 }
