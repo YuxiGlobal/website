@@ -4,16 +4,50 @@
       <h1 class="title2">{{offerInfo?.title2}}</h1>
       <div class="underline"></div>
       <h2>{{offerInfo?.city}}</h2>
-      <p class="description">    
+      <p class="description">
         {{offerInfo?.description}}
       </p>
       <h2>REQUIREMENTS</h2>
       <ul>
         <li *ngFor="let requirement of offerInfo?.requirements">{{requirement}}</li>
-      </ul>           
+      </ul>
   </div>
-  
 </section>
+<form [formGroup]="offerForm" novalidate enctype="multipart/form-data" method="POST">
+  <h3 class="title">Let’s get
+    <br> in touch.</h3>
+  <p class="subtitle">YOU ARE CONTACTING THE
+    <span>SALES</span> TEAM.</p>
+  <input type="hidden" name="offer" formControlName="offer" value={{offerInfo?.title}}>
+  <mat-form-field>
+    <input matInput name="name" placeholder="Name" formControlName="name" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
+    <mat-error *ngIf="offerForm.value.email.invalid">{{getErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="phone" placeholder="Phone" formControlName="phone" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="attachment" placeholder="Attachment" formControlName="attachment" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="website" placeholder="Website / Online Portfolio" formControlName="website" required>
+  </mat-form-field>
+  <label for="textarea">Comments</label>
+  <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
+  <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
+  <div class="submit-section">
+    <p>*By clicking Submit, you agree to our
+      <a href=".">Terms and Privacy</a> Policy.</p>
+    <div class="button-wrapper">
+      <app-button type="submit" type="secondary" size="small" (click)="submitForm()">
+        Submit
+      </app-button>
+    </div>
+  </div>
+</form>
 <app-footer (switchOverlay)="openOverlay()"></app-footer>
 <app-get-in-touch
   [class.active]="showOverlay"
