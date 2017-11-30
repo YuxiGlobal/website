@@ -113,3 +113,62 @@ form>* {
     margin-top: 1rem;
   }
 }
+.contact-information {
+  display: none;
+}
+
+
+//desktop view
+  @media (min-width: 1024px) {
+
+    .contact-information {
+      background-color: $white;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .form-container {
+      width: 60%;
+    }
+
+    .contact-information {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        font-family: $fontFamilyPrimary;
+        color: $rusianViolet;
+        font-size: 1.4rem;
+      }
+      p {
+        font-family: $fontFamilySecondary;
+        margin-bottom: 0;
+        margin-top: 0.3rem;
+      }
+      a {
+        text-decoration: none;
+        color: $fandango;
+        font-weight: 700;
+        font-family: $fontFamilySecondary;
+      }
+    }
+
+    .media-items {
+      display: inline-block;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: $rusianViolet;
+        font-size: 2rem;
+        padding: 0 2px;
+      }
+    }
+  }
+
+
