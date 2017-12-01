@@ -81,6 +81,9 @@ form {
       color: $turquoiseBlue;
     }
   }
+  @media (min-width: 1024px) {
+    border-radius: 15px 0 0 15px;
+  }
 }
 
 form>* {
@@ -128,6 +131,11 @@ form>* {
     .container {
       display: flex;
       flex-direction: row;
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background: linear-gradient(to top, $ciberGrape 53%, $rusianViolet 53%);
     }
 
     .form-container {
@@ -135,6 +143,7 @@ form>* {
     }
 
     .contact-information {
+      border-radius: 0 15px 15px 0;
       width: 40%;
       display: flex;
       justify-content: center;
