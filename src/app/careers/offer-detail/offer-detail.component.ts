@@ -23,7 +23,7 @@ export class OfferDetailComponent implements OnInit {
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
     phone: new FormControl('', [Validators.required]),
-    attachment: new FormControl('', [Validators.required]),
+    cv: new FormControl('', [Validators.required]),
     website: new FormControl('', [Validators.required]),
     message: new FormControl('', [Validators.required]),
     offer: new FormControl('', [Validators.required])
@@ -80,7 +80,7 @@ export class OfferDetailComponent implements OnInit {
         FullName: this.offerForm.value.name,
         Email: this.offerForm.value.email,
         Comments: this.offerForm.value.message,
-        cv: this.offerForm.value.attachment,
+        cv: this.offerForm.value.cv,
         website: this.offerForm.value.website,
         Phone: this.offerForm.value.phone,
         Offer: this.offerForm.value.offer,

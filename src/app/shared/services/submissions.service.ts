@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 
 const BUSINESS_FORM_URL = 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/business';
 const GENERAL_FORM_URL = 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/general';
-const OFFER_FORM_URL = 'http://yuxi-webapp-backend-qa.azurewebsites.net/careers';
+const OFFER_FORM_URL = 'http://localhost:3000/careers';
 
 @Injectable()
 export class SubmissionsService {

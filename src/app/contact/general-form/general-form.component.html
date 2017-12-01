@@ -15,7 +15,9 @@
   </mat-form-field>
   <label for="textarea">Comments</label>
   <textarea id="textarea" name="message" formControlName="message">Type here your message</textarea>
-  <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
+  <div id="general">
+    <re-captcha  (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
+  </div>
   <div class="submit-section">
     <p>*By clicking Submit, you agree to our
       <a href=".">Terms and Privacy</a> Policy.</p>
