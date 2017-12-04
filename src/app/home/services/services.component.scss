@@ -10,8 +10,21 @@
   width: 100%;
   background: linear-gradient(60deg, $fandango, $ciberGrape);
   opacity: 0.3;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  height: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 768px) {
+    height: 60vw;
+  }
+  @media (min-width: 1024px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: inherit;
+  }
+ 
   &:hover {
     opacity: 1;
     @media (min-width: 1024px) {

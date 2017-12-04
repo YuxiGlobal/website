@@ -1,26 +1,28 @@
-<form method="POST" action="http://formspree.io/angela.ordonez@yuxiglobal.com">
+<form [formGroup]="generalForm" novalidate enctype="multipart/form-data" method="POST">
   <h3 class="title">Let’s get
     <br> in touch.</h3>
   <p class="subtitle">YOU ARE CONTACTING THE
     <span>INFORMATION</span> TEAM.</p>
   <mat-form-field>
-    <input matInput name="name" placeholder="Name" required>
+    <input matInput name="name" placeholder="Name" formControlName="name" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput placeholder="Enter your email" name="email" [formControl]="email" required />
-    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
+    <mat-error *ngIf="generalForm.value.email.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="country" placeholder="Country" required>
+    <input matInput name="country" placeholder="Country" formControlName="country" required>
   </mat-form-field>
   <label for="textarea">Comments</label>
-  <textarea id="textarea" name="message">Type here your message</textarea>
-  <input type="text" name="_gotcha" style="display:none" />
+  <textarea id="textarea" name="message" formControlName="message">Type here your message</textarea>
+  <div id="general">
+    <re-captcha  (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
+  </div>
   <div class="submit-section">
     <p>*By clicking Submit, you agree to our
       <a href=".">Terms and Privacy</a> Policy.</p>
-    <div class="button-wrapper">  
-      <app-button type="submit" type="secondary" size="small">
+    <div class="button-wrapper">
+      <app-button type="submit" type="secondary" size="small" (click)="submitForm()">
         Submit
       </app-button>
     </div>

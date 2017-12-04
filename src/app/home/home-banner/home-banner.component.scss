@@ -85,7 +85,6 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  max-height: 200px;
   max-width: 100%;
 
   @media only screen and (orientation: landscape) {
@@ -95,7 +94,6 @@
   }
   @media (min-width: 1024px) {
       min-width: 70%;
-      margin-top: -40%;
       animation-name: none;
   }
 

@@ -11,14 +11,23 @@ import { OfferDetailComponent } from './offer-detail/offer-detail.component';
 import { RouterModule } from '@angular/router';
 import { IntroBannerComponent } from './intro-banner/intro-banner.component';
 import { NgxCarouselModule } from 'ngx-carousel';
+import { RecaptchaModule } from 'ng-recaptcha';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import 'hammerjs';
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
+
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     MatIconModule,
     RouterModule,
-    NgxCarouselModule
+    NgxCarouselModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    RecaptchaModule.forRoot()
   ],
   declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent, IntroBannerComponent]
 })

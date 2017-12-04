@@ -8,8 +8,8 @@
 
 .city {
   background: url('/../../assets/images/EDIFICIOS.png') no-repeat;
-  background-size: 100vw;
-  width: 100vw;
+  background-size: 100%;
+  width: 100%;
   height: 110%;
   position: absolute;
   z-index: 0;
@@ -62,7 +62,7 @@
 
 /*---------  Metro ----------*/
 .metro img {
-	width:100vw;
+	width:95vw;
 	position:absolute;
 	bottom:0;
 }
@@ -89,7 +89,7 @@
 
 /*-----------stars-----------*/
 .stars {
-  width: 100vw;
+  width: 99vw;
   height: 30vw;
   background: url('/../../assets/images/stars.png');
   background-size: 100%;
@@ -113,7 +113,7 @@
 @keyframes blink {70%{opacity: 0.3;}}
 
 .stars2 {
-  width: 100vw;
+  width: 99vw;
   height: 30vw;
   background: url('/../../assets/images/stars2.png');
   background-size: 100%;

@@ -180,6 +180,7 @@
     @media (min-width: 768px) {
         top: calc(50% - 50px);
         right: calc(50% - 50px);
+        z-index: 2;
     }
 }
 
