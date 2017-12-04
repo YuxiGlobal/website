@@ -65,12 +65,13 @@ export class SubmissionsService {
 
     const formData: FormData = new FormData();
     formData.append('Email', data.Email);
+    formData.append('file', data.cv, 'Hoja de vida');
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
 
     return this.http
       .post(
-      OFFER_FORM_URL,
-      formData
+        OFFER_FORM_URL,
+        formData
       )
       .map((response: Response) => {
         return response.json();

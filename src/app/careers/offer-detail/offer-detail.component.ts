@@ -19,6 +19,7 @@ export class OfferDetailComponent implements OnInit {
   offerInfo: IOffersInfo;
   showOverlay = false;
 
+  file;
   offerForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
@@ -70,17 +71,22 @@ export class OfferDetailComponent implements OnInit {
     this.showOverlayService.preventScroll = false;
   }
 
-  submitForm() {
-    console.log('TEST');
+  fileChange(event) {
+    const fileList: FileList = event.target.files;
 
+    if (fileList.length) {
+      this.file = fileList[0];
+    }
+  }
+
+  submitForm() {
     if (this.recaptchaResponse) {
-      console.log('TEST 2');
 
       const data = {
         FullName: this.offerForm.value.name,
         Email: this.offerForm.value.email,
         Comments: this.offerForm.value.message,
-        cv: this.offerForm.value.cv,
+        cv: this.file,
         website: this.offerForm.value.website,
         Phone: this.offerForm.value.phone,
         Offer: this.offerForm.value.offer,
