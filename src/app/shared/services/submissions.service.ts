@@ -25,8 +25,9 @@ export class SubmissionsService {
     formData.append('FullName', data.FullName);
     formData.append('Email', data.Email);
     formData.append('Country', data.Country);
+    formData.append('Phone', data.Phone);
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
-
+    formData.append('Comments', data.Comments);
     return this.http
       .post(
       BUSINESS_FORM_URL,
@@ -45,9 +46,11 @@ export class SubmissionsService {
     console.log(data);
 
     const formData: FormData = new FormData();
+    formData.append('FullName', data.FullName);
     formData.append('Email', data.Email);
+    formData.append('Country', data.Country);
+    formData.append('Comments', data.Comments);
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
-
     return this.http
       .post(
       GENERAL_FORM_URL,
@@ -69,11 +72,10 @@ export class SubmissionsService {
     formData.append('FullName', data.FullName);
     formData.append('Email', data.Email);
     formData.append('Phone', data.Phone);
-    formData.append('website', data.website);
-    formData.append('file', data.cv, 'Hoja de vida');
+    formData.append('Website', data.Website);
+    formData.append('file', data.cv, data.cv.name);
     formData.append('Comments', data.Comments);
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
-
     return this.http
       .post(
         OFFER_FORM_URL,
