@@ -22,7 +22,9 @@ export class SubmissionsService {
     console.log(data);
 
     const formData: FormData = new FormData();
+    formData.append('FullName', data.FullName);
     formData.append('Email', data.Email);
+    formData.append('Country', data.Country);
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
 
     return this.http
@@ -64,8 +66,12 @@ export class SubmissionsService {
     console.log(data);
 
     const formData: FormData = new FormData();
+    formData.append('FullName', data.FullName);
     formData.append('Email', data.Email);
+    formData.append('Phone', data.Phone);
+    formData.append('website', data.website);
     formData.append('file', data.cv, 'Hoja de vida');
+    formData.append('Comments', data.Comments);
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
 
     return this.http
