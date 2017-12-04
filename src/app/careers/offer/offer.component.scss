@@ -16,9 +16,7 @@
             border-top: 1px solid $white;
         }
     }
-    // &:first-child {
-    //     background: #ff0000;
-    // }
+
     h2 {
         margin-bottom: 0.4rem;
         width: 45%;
@@ -28,14 +26,7 @@
     @media (min-width: 768px) {
         padding-top: 4rem;
         padding-bottom: 4rem;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        height: inherit; 
-    }
-    @media (min-width: 1024px) {
-        max-width: 1200px;
-        @include only-bottom-shadow;
+        height: inherit;
     }
 }
 

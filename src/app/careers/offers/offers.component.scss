@@ -9,6 +9,17 @@
     }
 }
 
+.offers__container {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    @include only-bottom-shadow;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+}
+
 .title {
     padding: 3rem 0;
 }
