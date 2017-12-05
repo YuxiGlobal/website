@@ -89,7 +89,7 @@ export class OfferDetailComponent implements OnInit {
         cv: this.file,
         website: this.offerForm.value.website,
         Phone: this.offerForm.value.phone,
-        Offer: this.offerForm.value.offer,
+        Offer: `${this.offerInfo.title} ${this.offerInfo.title2}`,
         'g-recaptcha-response': this.recaptchaResponse
       };
 

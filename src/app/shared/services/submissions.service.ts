@@ -75,6 +75,7 @@ export class SubmissionsService {
     formData.append('Website', data.Website);
     formData.append('file', data.cv, data.cv.name);
     formData.append('Comments', data.Comments);
+    formData.append('Offer', data.Offer);
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
     return this.http
       .post(
