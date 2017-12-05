@@ -4,8 +4,8 @@ import { Observable } from 'rxjs/Observable';
 import { HttpHeaders } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
-const BUSINESS_FORM_URL = 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/business';
-const GENERAL_FORM_URL = 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/general';
+const BUSINESS_FORM_URL = 'http://localhost:3000/contact/business';
+const GENERAL_FORM_URL = 'http://localhost:3000/contact/general';
 const OFFER_FORM_URL = 'http://localhost:3000/careers';
 
 @Injectable()
@@ -23,6 +23,7 @@ export class SubmissionsService {
 
     const formData: FormData = new FormData();
     formData.append('FullName', data.FullName);
+    formData.append('Company', data.Company);
     formData.append('Email', data.Email);
     formData.append('Country', data.Country);
     formData.append('Phone', data.Phone);
