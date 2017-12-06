@@ -5,9 +5,9 @@ import { Observable } from 'rxjs/Observable';
 import { HttpHeaders } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
-const BUSINESS_FORM_URL = 'http://localhost:3000/contact/business';
-const GENERAL_FORM_URL = 'http://localhost:3000/contact/general';
-const OFFER_FORM_URL = 'http://localhost:3000/careers';
+// const BUSINESS_FORM_URL = 'http://localhost:3000/contact/business';
+// const GENERAL_FORM_URL = 'http://localhost:3000/contact/general';
+// const OFFER_FORM_URL = 'http://localhost:3000/careers';
 
 @Injectable()
 export class SubmissionsService {
@@ -61,7 +61,7 @@ export class SubmissionsService {
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
     return this.http
       .post(
-      GENERAL_FORM_URL,
+        this.formConfig.formUrls.GENERAL,
       formData
       )
       .map((response: Response) => {
@@ -87,7 +87,7 @@ export class SubmissionsService {
     formData.append('g-recaptcha-response', data['g-recaptcha-response']);
     return this.http
       .post(
-        OFFER_FORM_URL,
+        this.formConfig.formUrls.OFFER,
         formData
       )
       .map((response: Response) => {
