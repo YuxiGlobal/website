@@ -2,8 +2,8 @@ export const environment = {
   production: true,
   recapchaKey: '6LfV4TkUAAAAAJGi6IwWMG-P5VVfjdArdHzlGf4g',
   formUrls: {
-    BUSINESS: 'http://localhost:3000/contact/business',
-    GENERAL: 'http://localhost:3000/contact/general',
-    OFFER: 'http://localhost:3000/careers'
+    BUSINESS: 'http://yuxi-webapp-backend.azurewebsites.net/contact/business',
+    GENERAL: 'http://yuxi-webapp-backend.azurewebsites.net/contact/general',
+    OFFER: ' http://yuxi-webapp-backend.azurewebsites.net/careers'
   }
 };
