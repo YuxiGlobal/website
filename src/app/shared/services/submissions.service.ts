@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { FormsUrls } from './../../config';
+import { Injectable, Inject } from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { HttpHeaders } from '@angular/common/http';
@@ -10,8 +11,14 @@ const OFFER_FORM_URL = 'http://localhost:3000/careers';
 
 @Injectable()
 export class SubmissionsService {
+  formConfig;
 
-  constructor(private http: Http) { }
+  constructor(
+    @Inject(FormsUrls) config,
+    private http: Http
+  ) {
+    this.formConfig = config;
+  }
 
   // TODO: Add types
   sendBusinessForm(data) {
@@ -31,7 +38,7 @@ export class SubmissionsService {
     formData.append('Comments', data.Comments);
     return this.http
       .post(
-      BUSINESS_FORM_URL,
+      this.formConfig.formUrls.BUSINESS, //BUSINESS_FORM_URL,
       formData
       )
       .map((response: Response) => {
