@@ -20,6 +20,8 @@ import { IsVisibleDirective } from './is-visible.directive';
 import { CareersService } from 'app/shared/careers.service';
 import { HttpModule } from '@angular/http';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
+import { FormsUrls } from 'app/config';
+import { environment } from 'environments/environment';
 
 @NgModule({
   imports: [
@@ -57,7 +59,11 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
     ShowOverlayService,
     NavigationService,
     CareersService,
-    SubmissionsService
+    SubmissionsService,
+    {
+      provide: FormsUrls,
+      useValue: environment
+    }
   ]
 })
 export class SharedModule { }

@@ -1,4 +1,5 @@
 @import '~styles/variables';
+
 form {
   align-items: center;
   background: linear-gradient(60deg, $fandango, $ciberGrape);
@@ -14,7 +15,8 @@ form {
     border-radius: 10px;
     color: grey;
     font-family: $fontFamilySecondary;
-    height: 20vh;
+    height: 14vh;
+    margin-bottom: 20px;
   }
   .title {
     font-size: 1.8rem;

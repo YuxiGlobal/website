@@ -22,7 +22,7 @@
   <label for="textarea">Comments</label>
   <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
   <div id="business">
-    <re-captcha  (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
+    <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
   </div>
   <div class="submit-section">
     <p>*By clicking Submit, you agree to our

@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { MatFormFieldControl } from '@angular/material';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
+import { log } from 'util';
 
 @Component({
   selector: 'app-business-form',
@@ -43,9 +44,12 @@ export class BusinessFormComponent implements OnInit {
 
   submitForm() {
     console.log('TEST');
+    console.log(this.businessForm.invalid);
+
 
     if (this.recaptchaResponse) {
       console.log('TEST 2');
+
 
       const data = {
         FullName: this.businessForm.value.name,

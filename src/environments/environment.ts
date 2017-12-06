@@ -5,5 +5,10 @@
 
 export const environment = {
   production: false,
-  recapchaKey: '6LfV4TkUAAAAAJGi6IwWMG-P5VVfjdArdHzlGf4g'
+  recapchaKey: '6LfV4TkUAAAAAJGi6IwWMG-P5VVfjdArdHzlGf4g',
+  formUrls: {
+    BUSINESS: 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/business',
+    GENERAL: 'http://yuxi-webapp-backend-qa.azurewebsites.net/contact/general',
+    OFFER: ' http://yuxi-webapp-backend-qa.azurewebsites.net/careers'
+  }
 };
