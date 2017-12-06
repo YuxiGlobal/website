@@ -1,12 +1,22 @@
 @import '~styles/variables';
 .our-culture-container {
     background-color: $ciberGrape;
-   
+
     color: $white;
     font-family: $fontFamilyPrimary;
     text-align: center;
     h1 {
         margin: 0 0 0.5rem 0;
+    }
+    &:before {
+      content: '';
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 4px;
+      // width: 100vw; fix for firefox
+      background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
     }
 }
 .title {
