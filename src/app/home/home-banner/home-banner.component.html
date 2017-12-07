@@ -6,7 +6,7 @@
       <h2 class="banner-description">{{info.subtitle}}</h2>
       <div class="home-button-wrapper">
         <app-button
-          type="button" 
+          type="button"
           routerLink="/services"
           type="primary"
           size="small"
@@ -22,5 +22,12 @@
           <source src="{{info.video2}}" type="video/mp4" />
         </video>
     </div>
+    <!-- <div class="image-banner-container" [ngClass]="info.class">
+        <img class="banner-image" [ngClass]="info.class" [src]="info.image"/>
+        <video class="banner-video" autoplay loop [ngClass]="info.class" #videoElement id="myVideo">
+          <source src=" http://static.videezy.com/system/resources/previews/000/000/328/original/bokeh2.mp4" type="video/mp4"/>
+        </video>
+    </div> -->
+
   </div>
 </div>

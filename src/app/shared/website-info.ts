@@ -158,4 +158,3 @@ export const BANNERS_INFO = [
     }
   ]
 
-  
