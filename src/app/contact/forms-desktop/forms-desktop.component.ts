@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormsDesktopComponent implements OnInit {
 
+  show: true;
+
   constructor() { }
 
   ngOnInit() {
