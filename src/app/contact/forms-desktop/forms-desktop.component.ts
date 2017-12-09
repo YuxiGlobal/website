@@ -5,13 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './forms-desktop.component.html',
   styleUrls: ['./forms-desktop.component.scss']
 })
-export class FormsDesktopComponent implements OnInit {
+export class FormsDesktopComponent {
 
-  show: true;
+  selectedIndex = 0;
 
-  constructor() { }
-
-  ngOnInit() {
+  tabChanged(event) {
+    console.log(event);
+    this.selectedIndex = event.index;
   }
 
 }

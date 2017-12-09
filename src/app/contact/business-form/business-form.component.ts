@@ -1,5 +1,5 @@
 import { environment } from './../../../environments/environment';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { MatFormFieldControl } from '@angular/material';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
@@ -10,7 +10,9 @@ import { log } from 'util';
   templateUrl: './business-form.component.html',
   styleUrls: ['./business-form.component.scss']
 })
-export class BusinessFormComponent implements OnInit {
+export class BusinessFormComponent {
+  @Input() isSelected: boolean;
+
   businessForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
@@ -38,9 +40,6 @@ export class BusinessFormComponent implements OnInit {
   constructor(
     private submissions: SubmissionsService
   ) { }
-
-  ngOnInit() {
-  }
 
   submitForm() {
     console.log('TEST');

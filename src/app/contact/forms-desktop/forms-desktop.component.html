@@ -1,15 +1,8 @@
-<!-- <button (click)="show = !show"> change</button>
-
-<app-business-form *ngIf="show"></app-business-form>
-<app-general-form *ngIf="!show"></app-general-form>
-
-<mat-tab-group [selectedIndex]="1"> -->
-
-<mat-tab-group>
+<mat-tab-group (selectedTabChange)="tabChanged($event)">
   <mat-tab label="BUSSINES">
     <div class="tab-container">
       <div class="form-container">
-        <app-business-form></app-business-form>
+        <app-business-form [isSelected]="selectedIndex === 0"></app-business-form>
       </div>
       <div class="contact-information">
         <div class="wrapper">
@@ -42,7 +35,7 @@
   <mat-tab label="GENERAL">
     <div class="tab-container">
       <div class="form-container">
-        <app-general-form></app-general-form>
+        <app-general-form [isSelected]="selectedIndex === 1"></app-general-form>
       </div>
       <div class="contact-information">
         <div class="wrapper">
