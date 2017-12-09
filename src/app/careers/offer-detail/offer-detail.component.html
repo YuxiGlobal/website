@@ -35,7 +35,15 @@
       <mat-form-field>
         <input matInput name="website" placeholder="Website / Online Portfolio" formControlName="website" required>
       </mat-form-field>
-      <label for="file-upload" id="custom-file-upload"><p>BROWSE FILE</p><i class="material-icons">folder_open</i></label>
+      <label for="file-upload" id="custom-file-upload">
+        <p>
+          BROWSE FILE
+        </p>
+        <i class="material-icons">folder_open</i>
+        <span *ngIf="fileName.length" class="file-name">
+          - {{fileName}}
+        </span>
+      </label>
       <input id="file-upload" type="file" name="cv" formControlName="cv" formControlName="cv" (change)="fileChange($event)" required>
       <span class="type-file-upload">DOC - PDF - JPEG - PNG</span>
       <label for="textarea">Comments</label>

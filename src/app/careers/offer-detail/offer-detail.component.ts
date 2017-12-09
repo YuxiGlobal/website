@@ -19,6 +19,7 @@ export class OfferDetailComponent implements OnInit {
   offerInfo: IOffersInfo;
   showOverlay = false;
   buttonTitle = 'Submit';
+  fileName = '';
 
   file;
   offerForm = new FormGroup({
@@ -77,6 +78,7 @@ export class OfferDetailComponent implements OnInit {
 
     if (fileList.length) {
       this.file = fileList[0];
+      this.fileName = this.file.name;
     }
   }
 

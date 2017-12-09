@@ -123,6 +123,12 @@ form>* {
 input[type="file"] {
   display: none;
 }
+
+.file-name {
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
 #custom-file-upload {
   color: $white;
   display: flex;
