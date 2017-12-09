@@ -9,7 +9,7 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
   styleUrls: ['./general-form.component.scss']
 })
 export class GeneralFormComponent {
-  @Input() isSelected: boolean;
+  @Input() showCaptcha: boolean;
 
   buttonTitle = 'Submit';
 

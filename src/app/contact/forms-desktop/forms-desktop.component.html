@@ -2,7 +2,7 @@
   <mat-tab label="BUSSINES">
     <div class="tab-container">
       <div class="form-container">
-        <app-business-form [isSelected]="selectedIndex === 0"></app-business-form>
+        <app-business-form [showCaptcha]="selectedIndex === 0"></app-business-form>
       </div>
       <div class="contact-information">
         <div class="wrapper">
@@ -35,7 +35,7 @@
   <mat-tab label="GENERAL">
     <div class="tab-container">
       <div class="form-container">
-        <app-general-form [isSelected]="selectedIndex === 1"></app-general-form>
+        <app-general-form [showCaptcha]="selectedIndex === 1"></app-general-form>
       </div>
       <div class="contact-information">
         <div class="wrapper">

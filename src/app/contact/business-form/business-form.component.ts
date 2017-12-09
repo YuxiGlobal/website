@@ -10,7 +10,7 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
   styleUrls: ['./business-form.component.scss']
 })
 export class BusinessFormComponent {
-  @Input() isSelected: boolean;
+  @Input() showCaptcha: boolean;
 
   buttonTitle = 'Submit';
 

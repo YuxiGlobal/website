@@ -21,7 +21,7 @@
   </mat-form-field>
   <label for="textarea">Comments</label>
   <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
-  <div id="business" *ngIf="isSelected">
+  <div id="business" *ngIf="showCaptcha">
     <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
   </div>
   <div class="submit-section">
