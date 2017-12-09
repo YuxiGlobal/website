@@ -28,8 +28,13 @@
     <p>*By clicking Submit, you agree to our
       <a href=".">Terms and Privacy</a> Policy.</p>
     <div class="button-wrapper">
-      <app-button type="submit" type="secondary" size="small" (click)="submitForm()">
-        Submit
+      <app-button
+        type="submit"
+        type="secondary"
+        size="small"
+        (click)="submitForm()"
+      >
+        {{ buttonTitle }}
       </app-button>
     </div>
   </div>

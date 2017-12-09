@@ -18,6 +18,7 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
 export class OfferDetailComponent implements OnInit {
   offerInfo: IOffersInfo;
   showOverlay = false;
+  buttonTitle = 'Submit';
 
   file;
   offerForm = new FormGroup({
@@ -93,7 +94,12 @@ export class OfferDetailComponent implements OnInit {
         'g-recaptcha-response': this.recaptchaResponse
       };
 
-      this.submissions.sendOfferForm(data).subscribe(x => console.log(x));
+      this.submissions
+        .sendOfferForm(data)
+        .subscribe(
+          () => this.buttonTitle = 'Sent!',
+          () => this.buttonTitle = 'Error. Please reload the page'
+        );
 
     }
   }

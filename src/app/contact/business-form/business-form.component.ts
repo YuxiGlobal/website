@@ -3,7 +3,6 @@ import { Component, Input } from '@angular/core';
 import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { MatFormFieldControl } from '@angular/material';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
-import { log } from 'util';
 
 @Component({
   selector: 'app-business-form',
@@ -12,6 +11,8 @@ import { log } from 'util';
 })
 export class BusinessFormComponent {
   @Input() isSelected: boolean;
+
+  buttonTitle = 'Submit';
 
   businessForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
@@ -42,14 +43,10 @@ export class BusinessFormComponent {
   ) { }
 
   submitForm() {
-    console.log('TEST');
-    console.log(this.businessForm.invalid);
+    console.log('Is form invalid? ', this.businessForm.invalid);
 
 
     if (this.recaptchaResponse) {
-      console.log('TEST 2');
-
-
       const data = {
         FullName: this.businessForm.value.name,
         Email: this.businessForm.value.email,
@@ -60,7 +57,14 @@ export class BusinessFormComponent {
         'g-recaptcha-response': this.recaptchaResponse
       };
 
-      this.submissions.sendBusinessForm(data).subscribe(x => console.log(x));
+      this.buttonTitle = 'Sending...';
+
+      this.submissions
+        .sendBusinessForm(data)
+        .subscribe(
+          () => this.buttonTitle = 'Sent!',
+          () => this.buttonTitle = 'Error. Please reload the page'
+        );
 
     }
   }

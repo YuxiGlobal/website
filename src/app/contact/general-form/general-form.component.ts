@@ -11,6 +11,8 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
 export class GeneralFormComponent {
   @Input() isSelected: boolean;
 
+  buttonTitle = 'Submit';
+
   generalForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
@@ -36,10 +38,7 @@ export class GeneralFormComponent {
   ) { }
 
   submitForm() {
-    console.log('TEST');
-
     if (this.recaptchaResponse) {
-      console.log('TEST 2');
 
       const data = {
         FullName: this.generalForm.value.name,
@@ -49,7 +48,12 @@ export class GeneralFormComponent {
         'g-recaptcha-response': this.recaptchaResponse
       };
 
-      this.submissions.sendGeneralForm(data).subscribe(x => console.log(x));
+      this.submissions
+        .sendGeneralForm(data)
+        .subscribe(
+          () => this.buttonTitle = 'Sent!',
+          () => this.buttonTitle = 'Error. Please reload the page'
+        );
 
     }
   }
