@@ -6,8 +6,7 @@ import {
   ElementRef,
   ViewChild,
   OnChanges,
-  OnDestroy,
-  OnInit
+  OnDestroy
 } from '@angular/core';
 import { MnFullpageService } from 'ngx-fullpage';
 
@@ -22,6 +21,12 @@ export class HomeBannerComponent implements OnChanges {
   readonly CHANGE_TYPE_BREAKPOINT: number = 1024;
   readonly IMAGE_TYPE: string = 'image';
   readonly VIDEO_TYPE: string = 'video';
+
+  /**
+   * Check if the browser is SAFARI
+   * If it is, set this to true
+   */
+  isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
   @Input() info: IBannerInfo;
   @Input() isActiveSlide: boolean;

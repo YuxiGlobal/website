@@ -17,17 +17,12 @@
     </div>
     <div class="image-banner-container" [ngClass]="info.class">
         <img class="banner-image" [ngClass]="info.class" [src]="info.image"/>
+        <div [ngClass]="{fallbackImage: isSafari, fallbackImageHide: !isSafari}">
+          <img [src]="info.image" alt="Banner!" />
+        </div>
         <video class="banner-video" autoplay loop [ngClass]="info.class" #videoElement>
           <source src="{{info.video}}" type="video/webm" />
-          <source src="{{info.video2}}" type="video/mp4" />
         </video>
     </div>
-    <!-- <div class="image-banner-container" [ngClass]="info.class">
-        <img class="banner-image" [ngClass]="info.class" [src]="info.image"/>
-        <video class="banner-video" autoplay loop [ngClass]="info.class" #videoElement id="myVideo">
-          <source src="https://s3.amazonaws.com/mbluxury1/2016/08/26143839/new-revised.mp4" type="video/mp4"/>
-        </video>
-    </div> -->
-
   </div>
 </div>
