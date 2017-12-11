@@ -171,7 +171,6 @@
 
 .mat-tab-body-wrapper {
   width: 90%;
-  border-radius: 12px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4rem;
@@ -183,6 +182,10 @@
 .mat-tab-header, .mat-tab-nav-bar {
   border-bottom: none!important;
 }
+.mat-tab-body.mat-tab-body-active {
+  border-radius: 12px;
+}
+
 
 
 //styles for bullet points in careers banners
