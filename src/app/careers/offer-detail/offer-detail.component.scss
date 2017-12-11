@@ -147,6 +147,10 @@ input[type="file"] {
   font-family: $fontFamilySecondary;
 }
 
+#jobs-mail {
+  font-weight: 300;
+}
+
 //desktop view
   @media (min-width: 1024px) {
 
@@ -191,6 +195,7 @@ input[type="file"] {
         font-family: $fontFamilySecondary;
       }
     }
+
 
     .media-items {
       display: inline-block;

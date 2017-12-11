@@ -42,17 +42,20 @@
     }
   }
 
-  @-webkit-keyframes move {
+  @keyframes move {
     0% {
-      transform: translateY(-$move-distance);
+      -webkit-transform: translateY(-$move-distance);
+
     }
 
     50% {
-      transform: translateY($move-distance);
+      -webkit-transform: translateY($move-distance);
+
     }
 
     100% {
-      transform: translateY(-$move-distance);
+      -webkit-transform: translateY(-$move-distance);
+
     }
   }
 
