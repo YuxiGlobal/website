@@ -20,7 +20,6 @@ export class OfferDetailComponent implements OnInit {
   showOverlay = false;
   buttonTitle = 'Submit';
   fileName = '';
-
   file;
   offerForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
@@ -83,6 +82,7 @@ export class OfferDetailComponent implements OnInit {
   }
 
   submitForm() {
+    console.log(this.offerForm);
     if (this.recaptchaResponse) {
 
       const data = {

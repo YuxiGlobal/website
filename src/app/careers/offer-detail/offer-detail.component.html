@@ -44,7 +44,7 @@
           - {{fileName}}
         </span>
       </label>
-      <input id="file-upload" type="file" name="cv" formControlName="cv" formControlName="cv" (change)="fileChange($event)" required>
+      <input id="file-upload" type="file" name="cv" formControlName="cv" (change)="fileChange($event)" required>
       <span class="type-file-upload">DOC - PDF - JPEG - PNG</span>
       <label for="textarea">Comments</label>
       <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
@@ -53,7 +53,11 @@
         <p>*By clicking Submit, you agree to our
           <a href=".">Terms and Privacy</a> Policy.</p>
         <div class="button-wrapper">
-          <app-button type="submit" type="secondary" size="small" (click)="submitForm()">
+          <app-button
+            type="submit"
+            type="secondary"
+            size="small"
+            (click)="submitForm()">
             {{ buttonTitle }}
           </app-button>
         </div>
@@ -62,8 +66,7 @@
   </div>
   <div class="contact-information">
     <div class="wrapper">
-      <h3>Contact
-        <br> Information</h3>
+      <h3>Contact<br> Information</h3>
       <p>Cra 48 # 20-34. Of. 1012 – 1014.</p>
       <p>Centro empresarial Ciudad del Río.</p>
       <p>Medellín, Antioquia.</p>
