@@ -136,9 +136,25 @@
 @keyframes blink2 {70%{opacity: 0.3;}}
 
 /*---------- metrocable svg clases ----------*/
+
+
 .metro-cable {
   position: relative;
   z-index: 1;
+  .cabina {
+    background-color: red;
+    width:50px; height: 50px;
+    position: absolute;
+    left:0;
+    top:0;
+    transition: left 0.6s ease-out,  top 0.9s cubic-bezier(.01,.95,.49,1.06);
+  }
+  &:hover {
+    .cabina {
+      left: 200px;
+      top: 200px;
+    }
+  }
 }
 
 .cls, .cls2 {
