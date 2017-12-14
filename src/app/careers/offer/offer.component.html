@@ -1,6 +1,6 @@
 <div class="offer">
   <ng-content></ng-content>
-  <h2>{{info.title}} {{info.title2}}</h2>
+  <h2>{{info.title | uppercase}} {{info.title2 | uppercase}}</h2>
   <div class="underline"></div>
   <div class="button-wrapper">
       <app-button type="button" type="secondary" size="small" [routerLink]="['/careers', info.id]" >
