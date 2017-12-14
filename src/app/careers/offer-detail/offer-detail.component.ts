@@ -25,25 +25,14 @@ export class OfferDetailComponent implements OnInit {
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
     phone: new FormControl('', [Validators.required]),
-    cv: new FormControl('', [Validators.required]),
+    cv: new FormControl(''),
     website: new FormControl('', [Validators.required]),
     message: new FormControl('', [Validators.required]),
-    offer: new FormControl('', [Validators.required])
+    offer: new FormControl('oferta', [Validators.required])
   });
+
   recaptchaKey = environment.recapchaKey;
-  recaptchaResponse: string;
-
-  resolved(captchaResponse: string) {
-    console.log(`Resolved captcha with response ${captchaResponse}:`);
-    this.recaptchaResponse = captchaResponse;
-
-  }
-
-  getErrorMessage() {
-    return this.offerForm.value.email.hasError('required') ? 'You must enter a value' :
-      this.offerForm.value.email.hasError('email') ? 'Not a valid email' :
-        '';
-  }
+  recaptchaResponse = '';
 
   constructor(
     private router: Router,
@@ -60,6 +49,17 @@ export class OfferDetailComponent implements OnInit {
     .subscribe((data: any) => {
       this.offerInfo = data.fields;
     });
+  }
+
+  resolved(captchaResponse: string) {
+    console.log(`Resolved captcha with response ${captchaResponse}:`);
+    this.recaptchaResponse = captchaResponse;
+  }
+
+  getErrorMessage() {
+    return this.offerForm.value.email.hasError('required') ? 'You must enter a value' :
+      this.offerForm.value.email.hasError('email') ? 'Not a valid email' :
+        '';
   }
 
   openOverlay() {
@@ -82,15 +82,15 @@ export class OfferDetailComponent implements OnInit {
   }
 
   submitForm() {
-    console.log(this.offerForm);
-    if (this.recaptchaResponse) {
 
+    if (this.recaptchaResponse) {
+      console.log(this.offerForm);
       const data = {
         FullName: this.offerForm.value.name,
         Email: this.offerForm.value.email,
         Comments: this.offerForm.value.message,
         cv: this.file,
-        website: this.offerForm.value.website,
+        Website: this.offerForm.value.website,
         Phone: this.offerForm.value.phone,
         Offer: `${this.offerInfo.title} ${this.offerInfo.title2}`,
         'g-recaptcha-response': this.recaptchaResponse

@@ -15,6 +15,8 @@
 </section>
 
 <section class="container">
+
+  <!-- OFFER FORM -->
   <div class="form-container">
     <form [formGroup]="offerForm" novalidate enctype="multipart/form-data" method="POST">
       <h3 class="title">Let’s get
@@ -44,7 +46,7 @@
           - {{fileName}}
         </span>
       </label>
-      <input id="file-upload" type="file" name="cv" formControlName="cv" (change)="fileChange($event)" required>
+      <input id="file-upload" type="file" name="cv" formControlName="cv" (change)="fileChange($event)">
       <span class="type-file-upload">DOC - PDF - JPEG - PNG</span>
       <label for="textarea">Comments</label>
       <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
@@ -53,17 +55,17 @@
         <p>*By clicking Submit, you agree to our
           <a href=".">Terms and Privacy</a> Policy.</p>
         <div class="button-wrapper">
-          <app-button
+          <button
             type="submit"
-            type="secondary"
-            size="small"
+            [disabled]="offerForm.invalid || !fileName.length || !recaptchaResponse.length"
             (click)="submitForm()">
             {{ buttonTitle }}
-          </app-button>
+        </button>
         </div>
       </div>
     </form>
   </div>
+  <!-- OFFER FORM -->
   <div class="contact-information">
     <div class="wrapper">
       <h3>Contact<br> Information</h3>
