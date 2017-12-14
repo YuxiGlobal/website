@@ -17,14 +17,18 @@ export class BusinessFormComponent {
   businessForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
-    company: new FormControl('', [Validators.required]),
+    company: new FormControl(''),
     phone: new FormControl('', [Validators.required]),
     country: new FormControl('', [Validators.required]),
-    message: new FormControl('', [Validators.required])
+    message: new FormControl('')
   });
 
   recaptchaKey = environment.recapchaKey;
   recaptchaResponse: string;
+
+  constructor(
+    private submissions: SubmissionsService
+  ) { }
 
   resolved(captchaResponse: string) {
     console.log(`Resolved captcha with response ${captchaResponse}:`);
@@ -38,13 +42,8 @@ export class BusinessFormComponent {
         '';
   }
 
-  constructor(
-    private submissions: SubmissionsService
-  ) { }
-
   submitForm() {
     console.log('Is form invalid? ', this.businessForm.invalid);
-
 
     if (this.recaptchaResponse) {
       const data = {

@@ -7,7 +7,7 @@
     <input matInput name="name" placeholder="Name" formControlName="name" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="company" placeholder="Company" formControlName="company" required>
+    <input matInput name="company" placeholder="Company" formControlName="company">
   </mat-form-field>
   <mat-form-field>
     <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
@@ -28,14 +28,14 @@
     <p>*By clicking Submit, you agree to our
       <a href=".">Terms and Privacy</a> Policy.</p>
     <div class="button-wrapper">
-      <app-button
+      <button
         type="submit"
-        type="secondary"
-        size="small"
+        class="button-form"
+        [disabled]="businessForm.invalid || !recaptchaResponse.length"
         (click)="submitForm()"
       >
         {{ buttonTitle }}
-      </app-button>
+      </button>
     </div>
   </div>
 </form>

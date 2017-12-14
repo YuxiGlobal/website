@@ -17,11 +17,16 @@ export class GeneralFormComponent {
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
     country: new FormControl('', [Validators.required]),
-    message: new FormControl('', [Validators.required])
+    message: new FormControl('')
   });
 
   recaptchaKey = environment.recapchaKey;
   recaptchaResponse: string;
+
+
+  constructor(
+    private submissions: SubmissionsService
+  ) { }
 
   resolved(captchaResponse: string) {
     console.log(`Resolved captcha with response ${captchaResponse}:`);
@@ -33,9 +38,6 @@ export class GeneralFormComponent {
       this.generalForm.value.email.hasError('email') ? 'Not a valid email' :
         '';
   }
-  constructor(
-    private submissions: SubmissionsService
-  ) { }
 
   submitForm() {
     if (this.recaptchaResponse) {
