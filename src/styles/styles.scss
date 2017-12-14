@@ -205,3 +205,24 @@
   }
 }
 
+//STYLES FOR BUTTON FORMS
+.button-form {
+  background: $turquoiseBlue;
+  color: $rusianViolet;
+  cursor: pointer;
+  border-radius: 10px;
+  border-style: none;
+  padding: 16px 35px;
+  font-family: $fontFamilyPrimary;
+  font-weight: bold;
+  @include mid-shadow;
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  &:hover {
+    background: linear-gradient(60deg, $turquoiseBlue, $brightLilac);
+    color: $rusianViolet;
+  }
+}
+

@@ -35,13 +35,13 @@
         <input matInput name="phone" placeholder="Phone" formControlName="phone" required>
       </mat-form-field>
       <mat-form-field>
-        <input matInput name="website" placeholder="Website / Online Portfolio" formControlName="website" required>
+        <input matInput name="website" placeholder="Website / Online Portfolio" formControlName="website">
       </mat-form-field>
       <label for="file-upload" id="custom-file-upload">
         <p>
           BROWSE FILE
         </p>
-        <i class="material-icons">folder_open</i>
+        <i class="material-icons">folder_open</i>*
         <span *ngIf="fileName.length" class="file-name">
           - {{fileName}}
         </span>
@@ -56,6 +56,7 @@
           <a href=".">Terms and Privacy</a> Policy.</p>
         <div class="button-wrapper">
           <button
+            class="button-form"
             type="submit"
             [disabled]="offerForm.invalid || !fileName.length || !recaptchaResponse.length"
             (click)="submitForm()">

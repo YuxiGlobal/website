@@ -26,8 +26,8 @@ export class OfferDetailComponent implements OnInit {
     name: new FormControl('', [Validators.required]),
     phone: new FormControl('', [Validators.required]),
     cv: new FormControl(''),
-    website: new FormControl('', [Validators.required]),
-    message: new FormControl('', [Validators.required]),
+    website: new FormControl(''),
+    message: new FormControl(''),
     offer: new FormControl('oferta', [Validators.required])
   });
 
