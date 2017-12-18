@@ -141,18 +141,34 @@
 .metro-cable {
   position: relative;
   z-index: 1;
-  .cabina {
-    background-color: red;
-    width:50px; height: 50px;
+  .cabina-01 {
+    background: url('../../../assets/images/vagon-01.svg') no-repeat left -64px transparent;
+    background-size: contain;
+    border: 1px solid red;
+    height: 226px;
+    width: 142px;
     position: absolute;
-    left:0;
-    top:0;
-    transition: left 0.6s ease-out,  top 0.9s cubic-bezier(.01,.95,.49,1.06);
+    left: -10%;
+    top: -10%;
+    transition: left 4s ease-out,  top 4s cubic-bezier(0.01, 0.45, 0.6, 1);
+    &.end {
+      left: 22%;
+      top: 56%;
+    }
   }
-  &:hover {
-    .cabina {
-      left: 200px;
-      top: 200px;
+  .cabina-04 {
+    background: url('../../../assets/images/vagon-01.svg') no-repeat left top transparent;
+    background-size: contain;
+    border: 1px solid blue;
+    height: 275px;
+    width: 196px;
+    position: absolute;
+    left: -10%;
+    top: -10%;
+    transition: left 2s ease-out,  top 2s cubic-bezier(0.01, 0.45, 0.6, 1);
+    &.end {
+      left: -27px;
+      top: 24px;
     }
   }
 }
