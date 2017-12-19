@@ -92,17 +92,17 @@
 
   .wagon-01 {
     left: 23%;
-    top: 55%;
+    top: 54%;
   }
 
   .wagon-02 {
-    left: 23%;
-    top: 55%;
+    left: 14%;
+    top: 35%;
   }
 
   .wagon-03 {
-    left: 23%;
-    top: 55%;
+    left: 8%;
+    top: 27%;
   }
 
   .wagon-04 {
@@ -169,7 +169,7 @@
 }
 
 @mixin animateWagonMixin($duration, $delay) {
-  transition: left $duration $delay ease-out, top $duration $delay cubic-bezier(0.01, 0.45, 0.6, 1);
+  transition: left $duration $delay ease-out, top $duration $delay cubic-bezier(0.03, 0.2, 0.6, 1);
 }
 
 .wagons {
@@ -181,27 +181,26 @@
 }
 
 .wagon-01 {
-  $delay: 3s;
-  $duration: 1s;
+  $delay: 1s;
+  $duration: 4s;
 
   background-image: url('../../../assets/images/vagon-01.svg');
   background-position-y: -20px;
-  border: 1px solid red;
   height: 30%;
   width: 20%;
   left: -10%;
   top: -10%;
-  @include animateWagonMixin($duration, $delay);
+  transition: left $duration $delay ease-out, top $duration $delay cubic-bezier(0.1, 0.45, 0.6, 1);
+
 }
 
 .wagon-02 {
-  $delay: 3s;
-  $duration: 1s;
+  $delay: 2s;
+  $duration: 4s;
 
   background-image: url('../../../assets/images/vagon-01.svg');
   background-position-y: -20px;
-  border: 1px solid fuchsia;
-  height: 30%;
+  height: 41%;
   width: 20%;
   left: -10%;
   top: -10%;
@@ -209,13 +208,12 @@
 }
 
 .wagon-03 {
-  $delay: 0s;
-  $duration: 3s;
+  $delay: 3s;
+  $duration: 4s;
 
   background-image: url('../../../assets/images/vagon-01.svg');
-  background-position-y: -20px;
-  border: 1px solid rgb(24, 243, 4);
-  height: 30%;
+  background-position-y: -34px;
+  height: 34%;
   width: 20%;
   left: -10%;
   top: -10%;
@@ -223,12 +221,11 @@
 }
 
 .wagon-04 {
-  $delay: 0s;
-  $duration: 2s;
+  $delay: 4s;
+  $duration: 4s;
 
   background-image: url('../../../assets/images/vagon-01.svg');
   background-position-y: top;
-  border: 1px solid blue;
   height: 48%;
   width: 14%;
   left: -10%;
