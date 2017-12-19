@@ -1,7 +1,7 @@
 <section class="offer-detail-container">
   <div class="wrapper">
-      <h1 class="title1">{{offerInfo?.title}}</h1>
-      <h1 class="title2">{{offerInfo?.title2}}</h1>
+      <h1 class="title1">{{offerInfo?.title | uppercase}}</h1>
+      <h1 class="title2">{{offerInfo?.title2 | uppercase}}</h1>
       <div class="underline"></div>
       <h2>{{offerInfo?.city}}</h2>
       <p class="description">
@@ -15,6 +15,8 @@
 </section>
 
 <section class="container">
+
+  <!-- OFFER FORM -->
   <div class="form-container">
     <form [formGroup]="offerForm" novalidate enctype="multipart/form-data" method="POST">
       <h3 class="title">Let’s get
@@ -32,10 +34,20 @@
       <mat-form-field>
         <input matInput name="phone" placeholder="Phone" formControlName="phone" required>
       </mat-form-field>
-      <input type="file" name="cv" formControlName="cv" formControlName="cv" (change)="fileChange($event)" required>
       <mat-form-field>
-        <input matInput name="website" placeholder="Website / Online Portfolio" formControlName="website" required>
+        <input matInput name="website" placeholder="Website / Online Portfolio" formControlName="website">
       </mat-form-field>
+      <label for="file-upload" id="custom-file-upload">
+        <p>
+          BROWSE FILE
+        </p>
+        <i class="material-icons">folder_open</i>*
+        <span *ngIf="fileName.length" class="file-name">
+          - {{fileName}}
+        </span>
+      </label>
+      <input id="file-upload" type="file" name="cv" formControlName="cv" (change)="fileChange($event)">
+      <span class="type-file-upload">DOC - PDF - JPEG - PNG</span>
       <label for="textarea">Comments</label>
       <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
       <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
@@ -43,22 +55,26 @@
         <p>*By clicking Submit, you agree to our
           <a href=".">Terms and Privacy</a> Policy.</p>
         <div class="button-wrapper">
-          <app-button type="submit" type="secondary" size="small" (click)="submitForm()">
-            Submit
-          </app-button>
+          <button
+            class="button-form"
+            type="submit"
+            [disabled]="offerForm.invalid || !fileName.length || !recaptchaResponse.length"
+            (click)="submitForm()">
+            {{ buttonTitle }}
+        </button>
         </div>
       </div>
     </form>
   </div>
+  <!-- OFFER FORM -->
   <div class="contact-information">
     <div class="wrapper">
-      <h3>Contact
-        <br> Information</h3>
+      <h3>Contact<br> Information</h3>
       <p>Cra 48 # 20-34. Of. 1012 – 1014.</p>
       <p>Centro empresarial Ciudad del Río.</p>
       <p>Medellín, Antioquia.</p>
       <p>(+57) (4) 604 81 13</p>
-      <a href="jobs@yuxiglobal.com" target="_top">jobs@yuxiglobal.com</a>
+      <a id="jobs-mail" href="jobs@yuxiglobal.com" target="_top">jobs@yuxiglobal.com</a>
       <h3>Follow us</h3>
       <nav class="media-items">
         <a target="_blank" href="https://twitter.com/YuxiGlobal">

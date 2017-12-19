@@ -1,5 +1,5 @@
 import { environment } from './../../../environments/environment';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { MatFormFieldControl } from '@angular/material';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
@@ -8,16 +8,25 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
   templateUrl: './general-form.component.html',
   styleUrls: ['./general-form.component.scss']
 })
-export class GeneralFormComponent implements OnInit {
+export class GeneralFormComponent {
+  @Input() showCaptcha: boolean;
+
+  buttonTitle = 'Submit';
+
   generalForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
     country: new FormControl('', [Validators.required]),
-    message: new FormControl('', [Validators.required])
+    message: new FormControl('')
   });
 
   recaptchaKey = environment.recapchaKey;
   recaptchaResponse: string;
+
+
+  constructor(
+    private submissions: SubmissionsService
+  ) { }
 
   resolved(captchaResponse: string) {
     console.log(`Resolved captcha with response ${captchaResponse}:`);
@@ -29,17 +38,9 @@ export class GeneralFormComponent implements OnInit {
       this.generalForm.value.email.hasError('email') ? 'Not a valid email' :
         '';
   }
-  constructor(
-    private submissions: SubmissionsService
-  ) { }
 
-  ngOnInit() {
-  }
   submitForm() {
-    console.log('TEST');
-
     if (this.recaptchaResponse) {
-      console.log('TEST 2');
 
       const data = {
         FullName: this.generalForm.value.name,
@@ -49,7 +50,12 @@ export class GeneralFormComponent implements OnInit {
         'g-recaptcha-response': this.recaptchaResponse
       };
 
-      this.submissions.sendGeneralForm(data).subscribe(x => console.log(x));
+      this.submissions
+        .sendGeneralForm(data)
+        .subscribe(
+          () => this.buttonTitle = 'Sent!',
+          () => this.buttonTitle = 'Error. Please reload the page'
+        );
 
     }
   }

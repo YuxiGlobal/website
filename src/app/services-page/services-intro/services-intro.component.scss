@@ -1,9 +1,9 @@
 @import '~styles/variables';
 .services-intro {
-  background: $japaneseViolet;
+  // background: $japaneseViolet;
  }
 
- video {
+ .video-cover {
   height: 100vh;
   width: 100%;
   background: url('/../../assets/images/COVER-VIDEO_DESKTOP.jpg') no-repeat 0 0;
@@ -12,6 +12,58 @@
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.video-title {
+  height: 60px;
+  width: 208px;
+  padding: 20px 20px;
+  border-left: 5px solid  $brightLilac;
+  border-right: 5px solid $turquoiseBlue;
+  background-image: linear-gradient(90deg, $brightLilac, $brightLilac, $turquoiseBlue), linear-gradient(90deg, $brightLilac, $brightLilac, $turquoiseBlue);
+  background-size: 100% 5px;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  @media (min-width: 768px) {
+    height: 130px;
+    width: 350px;
+  }
+
+  h1 {
+    color: $white;
+    font-family: $fontFamilyPrimary;
+    margin: 0;
+    font-size: 1.5rem;
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+}
+
+.subtitle {
+  color: $white;
+  font-family: $fontFamilySecondary;
+  margin-top: 3rem;
+}
+
+button {
+  border-style: none;
+  background: transparent;
+
+  img {
+    width: 70px;
+  }
+}
+
+
+iframe {
+  height: 100vh;
+  width: 100vw;
 }
 
 

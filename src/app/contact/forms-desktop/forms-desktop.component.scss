@@ -23,7 +23,7 @@
         font-family: $fontFamilySecondary;
         margin-bottom: 0;
         margin-top: 0.3rem;
-      
+
     }
     a {
         text-decoration: none;
@@ -32,12 +32,14 @@
         font-family: $fontFamilySecondary;
     }
 }
-
+.wrapper a {
+  font-weight: 300;
+}
 .media-items {
     display: inline-block;
     padding-bottom: 5px;
     padding-top: 5px;
-  
+
     a {
       display: inline-block;
       text-decoration: none;

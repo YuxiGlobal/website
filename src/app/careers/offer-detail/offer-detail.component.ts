@@ -18,31 +18,21 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
 export class OfferDetailComponent implements OnInit {
   offerInfo: IOffersInfo;
   showOverlay = false;
-
+  buttonTitle = 'Submit';
+  fileName = '';
   file;
   offerForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
     name: new FormControl('', [Validators.required]),
     phone: new FormControl('', [Validators.required]),
-    cv: new FormControl('', [Validators.required]),
-    website: new FormControl('', [Validators.required]),
-    message: new FormControl('', [Validators.required]),
-    offer: new FormControl('', [Validators.required])
+    cv: new FormControl(''),
+    website: new FormControl(''),
+    message: new FormControl(''),
+    offer: new FormControl('oferta', [Validators.required])
   });
+
   recaptchaKey = environment.recapchaKey;
-  recaptchaResponse: string;
-
-  resolved(captchaResponse: string) {
-    console.log(`Resolved captcha with response ${captchaResponse}:`);
-    this.recaptchaResponse = captchaResponse;
-
-  }
-
-  getErrorMessage() {
-    return this.offerForm.value.email.hasError('required') ? 'You must enter a value' :
-      this.offerForm.value.email.hasError('email') ? 'Not a valid email' :
-        '';
-  }
+  recaptchaResponse = '';
 
   constructor(
     private router: Router,
@@ -61,6 +51,17 @@ export class OfferDetailComponent implements OnInit {
     });
   }
 
+  resolved(captchaResponse: string) {
+    console.log(`Resolved captcha with response ${captchaResponse}:`);
+    this.recaptchaResponse = captchaResponse;
+  }
+
+  getErrorMessage() {
+    return this.offerForm.value.email.hasError('required') ? 'You must enter a value' :
+      this.offerForm.value.email.hasError('email') ? 'Not a valid email' :
+        '';
+  }
+
   openOverlay() {
     this.showOverlay = !this.showOverlay;
     this.showOverlayService.preventScroll = !this.showOverlayService.preventScroll;
@@ -76,24 +77,31 @@ export class OfferDetailComponent implements OnInit {
 
     if (fileList.length) {
       this.file = fileList[0];
+      this.fileName = this.file.name;
     }
   }
 
   submitForm() {
-    if (this.recaptchaResponse) {
 
+    if (this.recaptchaResponse) {
+      console.log(this.offerForm);
       const data = {
         FullName: this.offerForm.value.name,
         Email: this.offerForm.value.email,
         Comments: this.offerForm.value.message,
         cv: this.file,
-        website: this.offerForm.value.website,
+        Website: this.offerForm.value.website,
         Phone: this.offerForm.value.phone,
         Offer: `${this.offerInfo.title} ${this.offerInfo.title2}`,
         'g-recaptcha-response': this.recaptchaResponse
       };
 
-      this.submissions.sendOfferForm(data).subscribe(x => console.log(x));
+      this.submissions
+        .sendOfferForm(data)
+        .subscribe(
+          () => this.buttonTitle = 'Sent!',
+          () => this.buttonTitle = 'Error. Please reload the page'
+        );
 
     }
   }

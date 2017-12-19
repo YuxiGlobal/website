@@ -7,7 +7,7 @@
     <input matInput name="name" placeholder="Name" formControlName="name" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="company" placeholder="Company" formControlName="company" required>
+    <input matInput name="company" placeholder="Company" formControlName="company">
   </mat-form-field>
   <mat-form-field>
     <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
@@ -21,16 +21,21 @@
   </mat-form-field>
   <label for="textarea">Comments</label>
   <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
-  <div id="business">
+  <div id="business" *ngIf="showCaptcha">
     <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
   </div>
   <div class="submit-section">
     <p>*By clicking Submit, you agree to our
       <a href=".">Terms and Privacy</a> Policy.</p>
     <div class="button-wrapper">
-      <app-button type="submit" type="secondary" size="small" (click)="submitForm()">
-        Submit
-      </app-button>
+      <button
+        type="submit"
+        class="button-form"
+        [disabled]="businessForm.invalid || !recaptchaResponse.length"
+        (click)="submitForm()"
+      >
+        {{ buttonTitle }}
+      </button>
     </div>
   </div>
 </form>
