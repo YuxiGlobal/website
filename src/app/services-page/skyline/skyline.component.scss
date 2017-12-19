@@ -62,30 +62,56 @@
 
 /*---------  Metro ----------*/
 .metro img {
+  bottom:0;
+  left: -80%;
+  position:absolute;
 	width:95vw;
-	position:absolute;
-	bottom:0;
-}
-
-.animated {
-  animation-duration: 3s;
-  animation-fill-mode: both;
 }
 
 @keyframes slideInLeft {
-  from {
-    transform: translate3d(-100%, 0, 0);
+  0% {
+    left: -80%;
     visibility: visible;
   }
 
-  to {
-    transform: translate3d(0, 0, 0);
+  100% {
+    left: 0;
   }
 }
 
-.visible .slideInLeft {
-  animation-name: slideInLeft;
+
+.visible {
+  .animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+
+  .slideInLeft {
+    animation-name: slideInLeft;
+  }
+
+  .cabina-01 {
+    left: 23%;
+    top: 55%;
+  }
+
+  .cabina-02 {
+    left: 23%;
+    top: 55%;
+  }
+
+  .cabina-03 {
+    left: 23%;
+    top: 55%;
+  }
+
+  .cabina-04 {
+    left: -2%;
+    top: 4%;
+  }
 }
+
+
 
 /*-----------stars-----------*/
 .stars {
@@ -137,85 +163,79 @@
 
 /*---------- metrocable svg clases ----------*/
 
-
 .metro-cable {
   position: relative;
   z-index: 1;
-  .cabina-01 {
-    background: url('../../../assets/images/vagon-01.svg') no-repeat left -64px transparent;
-    background-size: contain;
-    border: 1px solid red;
-    height: 226px;
-    width: 142px;
-    position: absolute;
-    left: -10%;
-    top: -10%;
-    transition: left 4s ease-out,  top 4s cubic-bezier(0.01, 0.45, 0.6, 1);
-    &.end {
-      left: 22%;
-      top: 56%;
-    }
-  }
-  .cabina-04 {
-    background: url('../../../assets/images/vagon-01.svg') no-repeat left top transparent;
-    background-size: contain;
-    border: 1px solid blue;
-    height: 275px;
-    width: 196px;
-    position: absolute;
-    left: -10%;
-    top: -10%;
-    transition: left 2s ease-out,  top 2s cubic-bezier(0.01, 0.45, 0.6, 1);
-    &.end {
-      left: -27px;
-      top: 24px;
-    }
-  }
+}
+
+@mixin animateWagonMixin($duration, $delay) {
+  transition: left $duration $delay ease-out, top $duration $delay cubic-bezier(0.01, 0.45, 0.6, 1);
+}
+
+.cabinas {
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-color: transparent;
+  background-size: contain;
+  position: absolute;
+}
+
+.cabina-01 {
+  $delay: 3s;
+  $duration: 1s;
+
+  background-image: url('../../../assets/images/vagon-01.svg');
+  background-position-y: -20px;
+  border: 1px solid red;
+  height: 30%;
+  width: 20%;
+  left: -10%;
+  top: -10%;
+  @include animateWagonMixin($duration, $delay);
+}
+
+.cabina-02 {
+  $delay: 3s;
+  $duration: 1s;
+
+  background-image: url('../../../assets/images/vagon-01.svg');
+  background-position-y: -20px;
+  border: 1px solid fuchsia;
+  height: 30%;
+  width: 20%;
+  left: -10%;
+  top: -10%;
+  @include animateWagonMixin($duration, $delay);
+}
+
+.cabina-03 {
+  $delay: 0s;
+  $duration: 3s;
+
+  background-image: url('../../../assets/images/vagon-01.svg');
+  background-position-y: -20px;
+  border: 1px solid rgb(24, 243, 4);
+  height: 30%;
+  width: 20%;
+  left: -10%;
+  top: -10%;
+  @include animateWagonMixin($duration, $delay);
+}
+
+.cabina-04 {
+  $delay: 0s;
+  $duration: 2s;
+
+  background-image: url('../../../assets/images/vagon-01.svg');
+  background-position-y: top;
+  border: 1px solid blue;
+  height: 48%;
+  width: 14%;
+  left: -10%;
+  top: -10%;
+  @include animateWagonMixin($duration, $delay);
 }
 
 .cls, .cls2 {
   fill:#3A2663;
 }
-
-.line1, .line2, .line3, .line4 {
-  fill:none;
-  stroke:transparent;
-  stroke-miterlimit:10;
-  stroke-width:2px;
-}
-.cls-1 {
-  fill:none;
-}
-.cls-2 {
-  fill:#5ee8f7;
-}
-.cls-31 {
-  clip-path:url(#clip-path1);
-}
-.cls-32 {
-  clip-path:url(#clip-path2);
-}
-.cls-33 {
-  clip-path:url(#clip-path3);
-}
-.cls-34 {
-  clip-path:url(#clip-path4);
-}
-.cls-4 {
-  opacity:0.43;
-  isolation: isolate;
-  fill: url(#linear-gradient);
-}
-.cls-5 {
-  fill:#e264f2;
-}
-.cls-6 {
-  fill:#5b3ca0;
-}
-.cls-7 {
-  fill:#a15dc8;
-}
-.cls-8 {
-  fill:#f1f482;
-}
-

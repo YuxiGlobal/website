@@ -41,9 +41,9 @@ export class IsVisibleDirective {
 
     // https://stackoverflow.com/a/22480938/1405803
     // Only completely visible elements return true:
-    // this.isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    this.isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
     // Partially visible elements return true:
-    this.isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+    // this.isVisible = elemTop < window.innerHeight && elemBottom >= 0;
 
     /**
      * Only execute this once.
