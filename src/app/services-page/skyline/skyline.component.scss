@@ -90,22 +90,22 @@
     animation-name: slideInLeft;
   }
 
-  .cabina-01 {
+  .wagon-01 {
     left: 23%;
     top: 55%;
   }
 
-  .cabina-02 {
+  .wagon-02 {
     left: 23%;
     top: 55%;
   }
 
-  .cabina-03 {
+  .wagon-03 {
     left: 23%;
     top: 55%;
   }
 
-  .cabina-04 {
+  .wagon-04 {
     left: -2%;
     top: 4%;
   }
@@ -172,7 +172,7 @@
   transition: left $duration $delay ease-out, top $duration $delay cubic-bezier(0.01, 0.45, 0.6, 1);
 }
 
-.cabinas {
+.wagons {
   background-repeat: no-repeat;
   background-position-x: left;
   background-color: transparent;
@@ -180,7 +180,7 @@
   position: absolute;
 }
 
-.cabina-01 {
+.wagon-01 {
   $delay: 3s;
   $duration: 1s;
 
@@ -194,7 +194,7 @@
   @include animateWagonMixin($duration, $delay);
 }
 
-.cabina-02 {
+.wagon-02 {
   $delay: 3s;
   $duration: 1s;
 
@@ -208,7 +208,7 @@
   @include animateWagonMixin($duration, $delay);
 }
 
-.cabina-03 {
+.wagon-03 {
   $delay: 0s;
   $duration: 3s;
 
@@ -222,7 +222,7 @@
   @include animateWagonMixin($duration, $delay);
 }
 
-.cabina-04 {
+.wagon-04 {
   $delay: 0s;
   $duration: 2s;
 
