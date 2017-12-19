@@ -92,22 +92,22 @@
 
   .wagon-01 {
     left: 23%;
-    top: 54%;
+    top: 50%;
   }
 
   .wagon-02 {
     left: 14%;
-    top: 35%;
+    top: 33%;
   }
 
   .wagon-03 {
-    left: 8%;
-    top: 27%;
+    left: 7%;
+    top: 22%;
   }
 
   .wagon-04 {
-    left: -2%;
-    top: 4%;
+    left: -1%;
+    top: 7%;
   }
 }
 
@@ -185,7 +185,7 @@
   $duration: 4s;
 
   background-image: url('../../../assets/images/vagon-01.svg');
-  background-position-y: -20px;
+
   height: 30%;
   width: 20%;
   left: -10%;
@@ -198,8 +198,8 @@
   $delay: 2s;
   $duration: 4s;
 
-  background-image: url('../../../assets/images/vagon-01.svg');
-  background-position-y: -20px;
+  background-image: url('../../../assets/images/vagon-04.svg');
+
   height: 41%;
   width: 20%;
   left: -10%;
@@ -211,9 +211,8 @@
   $delay: 3s;
   $duration: 4s;
 
-  background-image: url('../../../assets/images/vagon-01.svg');
-  background-position-y: -34px;
-  height: 34%;
+  background-image: url('../../../assets/images/vagon-03.svg');
+  height: 28%;
   width: 20%;
   left: -10%;
   top: -10%;
@@ -224,10 +223,10 @@
   $delay: 4s;
   $duration: 4s;
 
-  background-image: url('../../../assets/images/vagon-01.svg');
+  background-image: url('../../../assets/images/vagon-04.svg');
   background-position-y: top;
-  height: 48%;
-  width: 14%;
+  height: 40%;
+  width: 18%;
   left: -10%;
   top: -10%;
   @include animateWagonMixin($duration, $delay);
