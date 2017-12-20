@@ -1,8 +1,8 @@
 import { FormsUrls } from './../../config';
 import { Injectable, Inject } from '@angular/core';
-import { Http, Response, Headers, RequestOptions } from '@angular/http';
+import { Response, Headers, RequestOptions } from '@angular/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
-import { HttpHeaders } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
 // const BUSINESS_FORM_URL = 'http://localhost:3000/contact/business';
@@ -15,7 +15,7 @@ export class SubmissionsService {
 
   constructor(
     @Inject(FormsUrls) config,
-    private http: Http
+    private http: HttpClient
   ) {
     this.formConfig = config;
   }
@@ -42,7 +42,7 @@ export class SubmissionsService {
       formData
       )
       .map((response: Response) => {
-        return response.json();
+        return response;
       });
   }
 
@@ -65,7 +65,7 @@ export class SubmissionsService {
       formData
       )
       .map((response: Response) => {
-        return response.json();
+        return response;
       });
   }
 
@@ -91,7 +91,7 @@ export class SubmissionsService {
         formData
       )
       .map((response: Response) => {
-        return response.json();
+        return response;
       });
   }
 }

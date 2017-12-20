@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
+import { Response } from '@angular/http';
 import { IOffersInfo } from 'app/shared/ioffers-info';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
@@ -12,21 +13,23 @@ const CAREER_URL = jobId => `${CONTENTFUL_API}/entries/${jobId}/${ACCESS_TOKEN}`
 @Injectable()
 export class CareersService {
 
-  constructor(private http: Http) { }
+  constructor(private http: HttpClient) { }
 
   getCareers(): Observable<IOffersInfo[]> {
     return this.http
     .get(CAREERS_URL)
-    .map((response: Response) => {
-      return response.json();
-    });
+    // TODO fix this type
+    .map((response: any) => {
+      return response;
+    })
   }
 
   getCareer(id): Observable<IOffersInfo[]> {
     return this.http
     .get(CAREER_URL(id))
-    .map((response: Response) => {
-      return response.json();
+    // TODO fix this type
+    .map((response: any) => {
+      return response;
     });
   }
 }
