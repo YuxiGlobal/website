@@ -18,7 +18,7 @@ import { ScrollTopDirective } from './scroll-top.directive';
 import { CollapsibleComponent } from './collapsible/collapsible.component';
 import { IsVisibleDirective } from './is-visible.directive';
 import { CareersService } from 'app/shared/careers.service';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
 import { FormsUrls } from 'app/config';
 import { environment } from 'environments/environment';
@@ -29,7 +29,7 @@ import { environment } from 'environments/environment';
     RouterModule,
     MatButtonModule,
     MatIconModule,
-    HttpModule
+    HttpClientModule
   ],
   declarations: [
     NavBarComponent,
