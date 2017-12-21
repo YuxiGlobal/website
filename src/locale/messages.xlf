@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="Banner1Title" datatype="html">
+        <source>discover real innovation.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description"> My Firts Description</note>
+        <note priority="1" from="meaning">Banner Discover Real Innovation </note>
+      </trans-unit>
+      <trans-unit id="95531e654c7ba6675905cee6e5c3791dfc9050da" datatype="html">
+        <source>Find out more about our software development services.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">Find out more about our software development services.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

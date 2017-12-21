@@ -28,6 +28,9 @@ export class HomeBannerComponent implements OnChanges {
    */
   isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
+  @Input() title: string;
+  @Input() subtitle: string;
+
   @Input() info: IBannerInfo;
   @Input() isActiveSlide: boolean;
 
