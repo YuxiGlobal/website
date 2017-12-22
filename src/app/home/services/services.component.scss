@@ -2,7 +2,7 @@
 .service-button-wrapper {
   max-width: 150px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .service {
@@ -11,7 +11,6 @@
   background: linear-gradient(60deg, $fandango, $ciberGrape);
   opacity: 0.3;
   height: 100vw;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,8 +22,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
     height: inherit;
+    flex-direction: row;
   }
- 
+
   &:hover {
     opacity: 1;
     @media (min-width: 1024px) {
@@ -32,7 +32,7 @@
       transition: transform 0.2s ease-out;
       z-index: 3;
       position: relative;
-    } 
+    }
   }
   img {
     width: 70px;
@@ -46,7 +46,7 @@
   @media (min-width: 1024px) {
     border-radius: 13px;
      @include dark-shadow;
-  } 
+  }
 }
 
 .title {
