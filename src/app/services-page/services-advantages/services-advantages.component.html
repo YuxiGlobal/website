@@ -6,14 +6,41 @@
       more than just a team behind.</h3>
   </div>
   <div class="container-advantages">
-    <div class="advantages" *ngFor="let advantage of advantagesCompleteInfo">
-      <div [ngClass]="advantage.class">
+    <div class="advantages">
+      <div class="location">
         <div class="icon">
-          <img [src]="advantage.icon" alt="">
+          <img src="assets/icons/location-shadow.svg" alt="">
         </div>
         <div class="advantages-data">
-          <h4>{{advantage.title | uppercase}}</h4>
-          <p class="subtitle">{{advantage.subtitle}}</p>
+          <h4>LOCATION</h4>
+          <p class="subtitle">We work while you work. Our prime location –6 months on EST & 6 on CST– empowers synergies and communications. Collaboration
+          is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami & Boston– and our U.S. based office.</p>
+        </div>
+      </div>
+    </div>
+    <div class="advantages">
+      <div class="cultural-fit">
+        <div class="icon">
+          <img src="assets/icons/cultural-fit-shadow.svg" alt="">
+        </div>
+        <div class="advantages-data">
+          <h4>CULTURAL FIT</h4>
+          <p class="subtitle">We share a western culture and mentality. We are proactive, responsible, and known for our attitude and charisma. If our
+          teams think something you do can be improved they will let you know and provide alternatives. We are bilingual –English and
+          Spanish– and work 45 hours a week. We are not working for you, we are working with you!</p>
+        </div>
+      </div>
+    </div>
+    <div class="advantages">
+      <div class="flexibility">
+        <div class="icon">
+          <img src="assets/icons/flexibility-shadow.svg" alt="">
+        </div>
+        <div class="advantages-data">
+          <h4>FLEXIBILITY</h4>
+          <p class="subtitle">We stay up to date with the most modern technologies and practices. Our teams are versatile, adaptable, and have expertise
+          in a wide range of programming languages, databases, and frameworks. Our projects run under Agile and traditional methodologies
+          and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.</p>
         </div>
       </div>
     </div>
