@@ -41,8 +41,9 @@
         align-self: center;
         app-services {
             margin: 0 5px;
-            background-color: $japaneseViolet;
             border-radius: 13px;
+            display: flex;
+            flex-direction: row;
         }
     }
 }

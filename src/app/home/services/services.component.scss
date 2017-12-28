@@ -22,7 +22,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
     height: inherit;
-    flex-direction: row;
   }
 
   &:hover {
@@ -72,4 +71,17 @@
     margin-left: 19%;
     margin-right: 19%;
   }
+}
+
+
+//new styles deleting ngfor
+
+.container_service {
+  background-color: $japaneseViolet;
+  border-radius: 13px;
+  @media (min-width: 1024px) {
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+  }
+
 }
