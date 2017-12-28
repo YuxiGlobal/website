@@ -1,10 +1,10 @@
-<div class="advantages" [ngClass]="info.class">
+<div class="advantages location">
     <div>
-        <img [src]="info.icon" alt="">
+        <img src="assets/icons/location.svg" alt="">
     </div>
     <div class="advantages-data">
-      <h4>{{info.title | uppercase}}</h4>
-      <h5 class="subtitle">{{info.subtitle}}</h5>
+      <h4>LOCATION</h4>
+      <h5 class="subtitle">UTC-5:00, direct flights, and a US-based support office.</h5>
     </div>
     <div class="advantages-button">
       <a class="inner-circle" mat-mini-fab href="/services/#advantages">
@@ -16,4 +16,44 @@
         <a href="/services/#advantages">Learn more</a>
       </app-button>
     </div>
+</div>
+
+<div class="advantages cultural-fit">
+  <div>
+    <img src="assets/icons/cultural_fit.svg" alt="">
+  </div>
+  <div class="advantages-data">
+    <h4>CULTURAL FIT</h4>
+    <h5 class="subtitle">Western culture, mentality, and bilingualism.</h5>
+  </div>
+  <div class="advantages-button">
+    <a class="inner-circle" mat-mini-fab href="/services/#advantages">
+      <mat-icon class="md-24">keyboard_arrow_right</mat-icon>
+    </a>
+  </div>
+  <div class="advantages-button-wrapper">
+    <app-button type="button" type="secondary" size="small">
+      <a href="/services/#advantages">Learn more</a>
+    </app-button>
+  </div>
+</div>
+
+<div class="advantages flexibility">
+  <div>
+    <img src="assets/icons/flexibility.svg" alt="">
+  </div>
+  <div class="advantages-data">
+    <h4>FLEXIBILITY</h4>
+    <h5 class="subtitle">Expertise in diverse languages, databases, and frameworks.</h5>
+  </div>
+  <div class="advantages-button">
+    <a class="inner-circle" mat-mini-fab href="/services/#advantages">
+      <mat-icon class="md-24">keyboard_arrow_right</mat-icon>
+    </a>
+  </div>
+  <div class="advantages-button-wrapper">
+    <app-button type="button" type="secondary" size="small">
+      <a href="/services/#advantages">Learn more</a>
+    </app-button>
+  </div>
 </div>

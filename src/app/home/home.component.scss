@@ -56,9 +56,12 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .advantages-section {
         padding-bottom: 120px;
+    }
+    app-advantages {
+      display: flex;
     }
 }
 
