@@ -19,6 +19,40 @@
         </context-group>
         <note priority="1" from="description">Find out more about our software development services.</note>
       </trans-unit>
+      <trans-unit id="Banner2Title" datatype="html">
+        <source>explore inventive technologies.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description"> My second Description</note>
+        <note priority="1" from="meaning">Banner explore inventive technologies. </note>
+      </trans-unit>
+      <trans-unit id="33c55f56dc2b453b50e3fa5b6c2bd5c8828a5b96" datatype="html">
+        <source>See how our solutions can get you ahead of your competition.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">See how our solutions can get you ahead of your competition.</note>
+      </trans-unit>
+      <trans-unit id="Banner3Title" datatype="html">
+        <source>devise groundbreaking improvements.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description"> My third Description</note>
+        <note priority="1" from="meaning">Banner devise groundbreaking improvements. </note>
+      </trans-unit>
+      <trans-unit id="d82953cc84fb9b04c3804839041d1b5f99fb1dfd" datatype="html">
+        <source>Learn how your company can evolve via digital transformation.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">digital transformation.</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
