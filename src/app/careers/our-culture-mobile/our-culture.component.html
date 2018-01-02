@@ -1,28 +1,92 @@
 <div class="culture-box">
-    <div class="inner-background" [ngClass]="info.class" [class.hide]="showInfo">
-        <h2>
-            {{info.title}}
-        </h2>
-        <div class="underline"></div>
-        <h5>
-            {{info.subtitle}}
-        </h5>
-        <button class="more" (click)="toggleInfo()" type="button">
-            <mat-icon class="md-24">add</mat-icon>
-        </button>
-        
-    </div>
-    <div class="complete-info" [ngClass]="info.class" [class.showContent]="showInfo">
-        <h2>
-            {{info.title}}
-        </h2>
-        <div class="purple-underline"></div>
-        <p>
-            {{info.text}}
-        </p>
-    </div>
-   
+  <div class="inner-background environment" [class.hide]="showEnvironmentInfo">
+    <h2>
+      GOOD WORK ENVIRONMENT.
+    </h2>
+    <div class="underline"></div>
+    <h5>
+      MEANS HAPPY EMPLOYEES
+    </h5>
+    <button class="more" (click)="toggleEnvironmentInfo()" type="button">
+      <mat-icon class="md-24">add</mat-icon>
+    </button>
+  </div>
+  <div class="complete-info environment" [class.showContent]="showEnvironmentInfo">
+    <h2>
+      GOOD WORK ENVIRONMENT.
+    </h2>
+    <div class="purple-underline"></div>
+    <p>
+      Having a good work environment is having happy employees. This accounts for both location and ambience: Yuxians have access
+      to free fruit, cereals, coffee, and snacks. We host activities like guided active pauses and monthly massages. Our
+      offices are spaces designed to be both comfortable and inspiring, letting creativity flow freely.
+    </p>
+  </div>
 </div>
-<div class="image" [ngClass]="info.class">
-    <img [src]="info.image" alt="">
+<div class="image environment">
+  <img src="assets/images/cereal.png" alt="">
+</div>
+
+<!-- Benefits -->
+<div class="culture-box">
+  <div class="inner-background benefits" [class.hide]="showBenefitsInfo">
+    <h2>
+      COMPREHENSIVE BENEFITS PACKAGE.
+    </h2>
+    <div class="underline"></div>
+    <h5>
+      GOES A LONG WAY
+    </h5>
+    <button class="more" (click)="toggleBenefitsInfo()" type="button">
+      <mat-icon class="md-24">add</mat-icon>
+    </button>
+
+  </div>
+  <div class="complete-info benefits" [class.showContent]="showBenefitsInfo">
+    <h2>
+      COMPREHENSIVE BENEFITS PACKAGE.
+    </h2>
+    <div class="purple-underline"></div>
+    <p>
+      A strong and comprehensive benefits package goes a long way. Our employees can mix and match between benefits like gym memberships,premium
+      healthcare, vehicle insurance, savings programs, food or gas passes, education aids, etc.
+    </p>
+  </div>
+
+</div>
+<div class="image benefits">
+  <img src="assets/images/yoga-ball.png" alt="">
+</div>
+
+<!-- Lifestyle -->
+<div class="culture-box">
+  <div class="inner-background lifestyle" [class.hide]="showLifestyleInfo">
+    <h2>
+      MORE THAN A LIFESTYLE.
+    </h2>
+    <div class="underline"></div>
+    <h5>
+      IT’S OUR WORKSTYLE
+    </h5>
+    <button class="more" (click)="toggleLifestyleInfo()" type="button">
+      <mat-icon class="md-24">add</mat-icon>
+    </button>
+
+  </div>
+  <div class="complete-info lifestyle" [class.showContent]="showLifestyleInfo">
+    <h2>
+      MORE THAN A LIFESTYLE.
+    </h2>
+    <div class="purple-underline"></div>
+    <p>
+      You don’t only work to live: life also happens inside the office. For many years society has thought that work is a hindrance
+      that stops us from living our actual life, something so drudging that you actually get paid for it. It’s time to change
+      that: #YuxiLife is our way of creating conditions where people can feel happy, encouraged, and motivated about going
+      to work. #YuxiLife is, more than a lifestyle, our workstyle.
+    </p>
+  </div>
+
+</div>
+<div class="image lifestyle">
+  <img src="assets/images/control.png" alt="">
 </div>
