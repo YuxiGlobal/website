@@ -34,6 +34,7 @@
 
 .home-content-subsection {
     margin-top: 55px;
+    flex-grow: 1;
     @media (min-width: 1024px) {
         display: flex;
         width: 1000px;
