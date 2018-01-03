@@ -1,26 +1,32 @@
 <form [formGroup]="businessForm" novalidate enctype="multipart/form-data" method="POST">
-  <h3 class="title">Let’s get
-    <br> in touch.</h3>
-  <p class="subtitle">YOU ARE CONTACTING THE
+  <h3
+    i18n="lets get in touch title|lets get in touch title@@letsGetinTouchTitle"
+    class="title">
+    Let’s get
+    <br> in touch.
+  </h3>
+  <p
+   i18n="business form subtitle|business form subtitle@@businessFormSubtitle"
+    class="subtitle">YOU ARE CONTACTING THE
     <span>SALES</span> TEAM.</p>
   <mat-form-field>
-    <input matInput name="name" placeholder="Name" formControlName="name" required>
+    <input i18n-placeholder="form name|form name@@FormName" matInput name="name" placeholder="Name" formControlName="name" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="company" placeholder="Company" formControlName="company">
+    <input i18n-placeholder="form Company|form Company@@FormCompany" matInput name="company" placeholder="Company" formControlName="company">
   </mat-form-field>
   <mat-form-field>
-    <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
+    <input i18n-placeholder="form email|form email@@FormEmail" matInput placeholder="Enter your email" matInput placeholder="Enter your email" name="email" formControlName="email" required />
     <mat-error *ngIf="businessForm.value.email.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="phone" placeholder="Phone" formControlName="phone" required>
+    <input i18n-placeholder="form Phone|form Phone@@FormPhone" matInput name="phone" placeholder="Phone" formControlName="phone" required>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="country" placeholder="Country" formControlName="country" required>
+    <input i18n-placeholder="form country|form country@@FormCountry" matInput name="country" placeholder="Country" formControlName="country" required>
   </mat-form-field>
-  <label for="textarea">Comments</label>
-  <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
+  <label for="textarea" i18n="form comments|form comments@@FormComments">Comments</label>
+  <textarea i18n-placeholder="form message|form Message@@FormMessage" id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
   <div id="business" *ngIf="showCaptcha">
     <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
   </div>

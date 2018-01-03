@@ -1,26 +1,38 @@
 <form [formGroup]="generalForm" novalidate enctype="multipart/form-data" method="POST">
-  <h3 class="title">Let’s get
-    <br> in touch.</h3>
-  <p class="subtitle">YOU ARE CONTACTING THE
-    <span>INFORMATION</span> TEAM.</p>
+  <h3
+    i18n="lets get in touch title|lets get in touch title@@letsGetinTouchTitle"
+    class="title">
+    Let’s get
+    <br> in touch.
+  </h3>
+  <p
+    i18n="general form subtitle|general form subtitle@@GeneralFormSubtitle"
+    class="subtitle">
+    YOU ARE CONTACTING THE
+    <span>INFORMATION</span> TEAM.
+  </p>
   <mat-form-field>
-    <input matInput name="name" placeholder="Name" formControlName="name" required>
+    <input
+      i18n-placeholder="form name|form name@@FormName"
+      matInput name="name" placeholder="Name" formControlName="name" required
+    >
   </mat-form-field>
   <mat-form-field>
-    <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
+    <input i18n-placeholder="form email|form email@@FormEmail" matInput placeholder="Enter your email" name="email" formControlName="email" required />
     <mat-error *ngIf="generalForm.value.email.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
   <mat-form-field>
-    <input matInput name="country" placeholder="Country" formControlName="country" required>
+    <input i18n-placeholder="form country|form country@@FormCountry" matInput name="country" placeholder="Country" formControlName="country" required>
   </mat-form-field>
-  <label for="textfield">Comments</label>
-  <textarea id="textfield" name="message" formControlName="message" placeholder="Type here your message"></textarea>
+  <label for="textfield" i18n="form comments|form comments@@FormComments">Comments</label>
+  <textarea i18n-placeholder="form message|form Message@@FormMessage" id="textfield" name="message" formControlName="message" placeholder="Type here your message"></textarea>
   <div id="general" *ngIf="showCaptcha">
     <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
   </div>
   <div class="submit-section">
     <p>*By clicking Submit, you agree to our
-      <a href=".">Terms and Privacy</a> Policy.</p>
+      <a href=".">Terms and Privacy</a> Policy.
+    </p>
     <div class="button-wrapper">
       <button
         type="submit"
