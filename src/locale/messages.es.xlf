@@ -59,6 +59,219 @@
         </context-group>
         <note priority="1" from="description">digital transformation.</note>
       </trans-unit>
+      <trans-unit id="HomeServicesTitle" datatype="html">
+        <source>SERVICES</source>
+        <target>SERVICIOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">Services title</note>
+        <note priority="1" from="meaning">Services title</note>
+      </trans-unit>
+      <trans-unit id="HomeAdvatagesTitle" datatype="html">
+        <source>ADVANTAGES</source>
+        <target>VENTAJAS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">Advatages title</note>
+        <note priority="1" from="meaning">Advatages title</note>
+      </trans-unit>
+      <trans-unit id="StaffAugmentationTitle" datatype="html">
+        <source>STAFF AUGMENTATION</source>
+        <target>AUMENTO DE PERSONAL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">staff augmentation</note>
+        <note priority="1" from="meaning">STAFF AUGMENTATION TITLE</note>
+      </trans-unit>
+      <trans-unit id="StaffAugmentationSubtitle" datatype="html">
+        <source>Overcome challenges and deadlines with our specialized personnel.</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">staff augmentation Subtitle</note>
+        <note priority="1" from="meaning">STAFF AUGMENTATION SUBTITLE</note>
+      </trans-unit>
+      <trans-unit id="LearnMore" datatype="html">
+        <source>
+        Learn more
+      </source>
+      <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <note priority="1" from="description">button learn more</note>
+        <note priority="1" from="meaning">BUTTON LEARN MORE</note>
+      </trans-unit>
+      <trans-unit id="SpecializedProjectsTitle" datatype="html">
+        <source>SPECIALIZED PROJECTS</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">specialized projects</note>
+        <note priority="1" from="meaning">SPECIALIZED PROJECTS TITLE</note>
+      </trans-unit>
+      <trans-unit id="SpecializedProjectsSubtitle" datatype="html">
+        <source>R&amp;D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">specialized projects</note>
+        <note priority="1" from="meaning">SPECIALIZED PROJECTS SUBTITLE</note>
+      </trans-unit>
+      <trans-unit id="ProductDevelopmentTitle" datatype="html">
+        <source>PRODUCT DEVELOPMENT</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <note priority="1" from="description">product development</note>
+        <note priority="1" from="meaning">PRODUCT DEVELOPMENT TITLE</note>
+      </trans-unit>
+      <trans-unit id="ProductDevelopmentSubtitle" datatype="html">
+        <source>Short-cycle MVP’s for rapid market validation and feature implementation.</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description">product development subtitle</note>
+        <note priority="1" from="meaning">PRODUCT DEVELOPMENT SUBTITLE</note>
+      </trans-unit>
+      <trans-unit id="homeLocationTitle" datatype="html">
+        <source>LOCATION</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">location</note>
+        <note priority="1" from="meaning">advantages location title</note>
+      </trans-unit>
+      <trans-unit id="homeLocationSubtitle" datatype="html">
+        <source>UTC-5:00, direct flights, and a US-based support office.</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">location</note>
+        <note priority="1" from="meaning">advantages location subtitle</note>
+      </trans-unit>
+      <trans-unit id="homeCulturalFitTitle" datatype="html">
+        <source>CULTURAL FIT</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">cultural fit</note>
+        <note priority="1" from="meaning">advantages cultural fit title</note>
+      </trans-unit>
+      <trans-unit id="homeCulturalFitSubtitle" datatype="html">
+        <source>Western culture, mentality, and bilingualism.</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">cultural fit</note>
+        <note priority="1" from="meaning">advantages cultural fit subtitle</note>
+      </trans-unit>
+      <trans-unit id="homeFlexibilityTitle" datatype="html">
+        <source>FLEXIBILITY</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <note priority="1" from="description">flexibility</note>
+        <note priority="1" from="meaning">advantages flexibility title</note>
+      </trans-unit>
+      <trans-unit id="homeFlexibilitySubtitle" datatype="html">
+        <source>Expertise in diverse languages, databases, and frameworks.</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <note priority="1" from="description">flexibility</note>
+        <note priority="1" from="meaning">advantages flexibility subtitle</note>
+      </trans-unit>
+      <trans-unit id="ServicesPageTitle" datatype="html">
+        <source>SERVICES</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Services page title</note>
+        <note priority="1" from="meaning">Services page title</note>
+      </trans-unit>
+      <trans-unit id="ServicesPageSubtitle" datatype="html">
+        <source>Innovate with us</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Services page subtitle</note>
+        <note priority="1" from="meaning">Services page subtitle</note>
+      </trans-unit>
+      <trans-unit id="ServicesStaffAugmentationTitle" datatype="html">
+        <source>
+          STAFF <x id="LINE_BREAK" ctype="lb"/>AUGMENTATION</source>
+        <target>AUMENTO <x id="LINE_BREAK" ctype="lb"/>DE PERSONAL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">services staff augmentation</note>
+        <note priority="1" from="meaning">staff augmentation title</note>
+      </trans-unit>
+      <trans-unit id="ServicesStaffAugmentationSubtitle" datatype="html">
+        <source>Innovation requires great minds working together. Our developers, quality analysts, and designers are ready to work with, complement, and boost our customers’ teams, letting them pursue more aggressive deadlines and overcome tricky obstacles.</source>
+        <target>PROBANDOOOOO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">services staff augmentation</note>
+        <note priority="1" from="meaning">staff augmentation subtitle</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
