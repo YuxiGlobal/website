@@ -1,6 +1,6 @@
 import { HomeComponent } from './home/home.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from 'app/shared/shared.module';
@@ -41,7 +41,7 @@ const routes: Routes = [
     CareersModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'es' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
