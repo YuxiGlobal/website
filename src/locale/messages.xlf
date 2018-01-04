@@ -856,6 +856,22 @@
         <note priority="1" from="description">form Message</note>
         <note priority="1" from="meaning">form message</note>
       </trans-unit>
+      <trans-unit id="agreeTerms" datatype="html">
+        <source>
+      *By clicking Submit, you agree to our
+      <x id="START_LINK" ctype="x-a"/>Terms and Privacy<x id="CLOSE_LINK" ctype="x-a"/> Policy.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">agree terms</note>
+        <note priority="1" from="meaning">agree terms</note>
+      </trans-unit>
       <trans-unit id="GeneralFormSubtitle" datatype="html">
         <source>
     YOU ARE CONTACTING THE
