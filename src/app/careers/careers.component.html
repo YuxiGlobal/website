@@ -2,14 +2,15 @@
   <app-intro-banner></app-intro-banner>
   <div class="our-culture-container">
     <div class="title">
-      <h1>OUR CULTURE</h1>
+      <h1
+        i18n="lout culture title|our culture@@OurCultureTitle">
+        OUR CULTURE
+      </h1>
       <app-colorful-dots></app-colorful-dots>
     </div>
     <div class="type-of-device">
-      <app-our-culture *ngFor="let culture of cultureInfo" [info]="culture">
-      </app-our-culture>
-      <app-our-culture-desktop *ngFor="let culture of cultureInfo" [info]="culture" class="{{culture.class}}">
-      </app-our-culture-desktop>
+      <app-our-culture></app-our-culture>
+      <app-our-culture-desktop></app-our-culture-desktop>
     </div>
 
   </div>

@@ -1,20 +1,30 @@
 <section class="form-contact">
   <header>
-    <h1>CONTACT</h1>
+    <h1 i18n="contact title|contact@@ContactTitle">
+      CONTACT
+    </h1>
     <app-colorful-dots></app-colorful-dots>
-    <p>What kind of help do you need?</p>
+    <p
+      i18n="contact subtitle|contact@@ContactSubtitle">
+      What kind of help do you need?
+    </p>
   </header>
   <div class="type-of-form">
     <app-forms-mobile></app-forms-mobile>
     <app-forms-desktop></app-forms-desktop>
   </div>
   <div class="careers-link">
-    <h3>CAREERS</h3>
-    <p>Do you want to work with Yuxi?</p>
+    <h3 i18n="contact careers title|contact careers@@ContactCareersTitle">CAREERS</h3>
+    <p
+     i18n="contact careers subtitle|contact careers@@ContactCareersSubtitle">
+     Do you want to work with Yuxi?
+    </p>
     <div class="underline"></div>
     <a href="mailto:jobs@yuxiglobal.com">jobs@yuxiglobal.com</a>
     <div class="button-wrapper">
-      <app-button type="button" routerLink="/careers" type="secondary" size="small">
+      <app-button
+        i18n="BUTTON go to careers|button go to careers@@GoToCareers"
+        type="button" routerLink="/careers" type="secondary" size="small">
         Go to careers
       </app-button>
     </div>

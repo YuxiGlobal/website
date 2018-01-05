@@ -10,37 +10,53 @@
   >
     <section app-home-banner
       [isActiveSlide]="activeSlide === 1"
+      i18n-title="Banner Discover Real Innovation | My Firts Description@@Banner1Title"
+      i18n-subtitle="Find out more about our software development services."
+      title="discover real innovation."
+      subtitle="Find out more about our software development services."
       [info]="bannersInfo[0]"
       class="section fp-section fp-table">
     </section >
     <section app-home-banner
       [isActiveSlide]="activeSlide === 2"
+      i18n-title="Banner explore inventive technologies. | My second Description@@Banner2Title"
+      i18n-subtitle="See how our solutions can get you ahead of your competition."
+      title="explore inventive technologies."
+      subtitle="See how our solutions can get you ahead of your competition."
       [info]="bannersInfo[1]"
       class="section fp-section fp-table">
     </section >
     <section app-home-banner
       [isActiveSlide]="activeSlide === 3"
+      i18n-title="Banner devise groundbreaking improvements. | My third Description@@Banner3Title"
+      i18n-subtitle="digital transformation."
+      title="devise groundbreaking improvements."
+      subtitle="Learn how your company can evolve via digital transformation."
       [info]="bannersInfo[2]"
       class="section fp-section fp-table">
-    </section >
+    </section>
 
     <div class="section fp-section fp-table">
       <div class="fp-tableCell">
         <section content-container>
           <section class="home-content services-section">
-            <h1>SERVICES</h1>
+            <h1
+             i18n="Services title|Services title@@ServicesTitle">
+             SERVICES
+            </h1>
             <app-colorful-dots></app-colorful-dots>
             <section class="home-content-subsection">
-              <app-services *ngFor="let service of servicesInfo" [info]="service">
-              </app-services>
+              <app-services></app-services>
             </section>
           </section>
           <section class="home-content advantages-section">
-            <h1>ADVANTAGES</h1>
+            <h1
+             i18n="Advatages title|Advatages title@@AdvatagesTitle">
+             ADVANTAGES
+            </h1>
             <app-colorful-dots></app-colorful-dots>
             <section class="home-content-subsection">
-              <app-advantages *ngFor="let advantage of advantagesInfo" [info]="advantage">
-              </app-advantages>
+              <app-advantages></app-advantages>
             </section>
           </section>
         </section>

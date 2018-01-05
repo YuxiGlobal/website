@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30.7 40" style="enable-background:new 0 0 30.7 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5EE8F7;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{opacity:0.43;fill:url(#SVGID_3_);enable-background:new    ;}
+	.st3{fill:#E264F2;}
+	.st4{fill:#5B3CA0;}
+	.st5{fill:#A15DC8;}
+	.st6{fill:#F1F482;}
+</style>
+<polygon id="_Trazado_de_recorte_6" class="st0" points="21.6,12.7 23.5,21 21.4,32.5 8.2,32.3 6.1,21 8,12.6 "/>
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="21.6,12.7 23.5,21 21.4,32.5 8.2,32.3 6.1,21 8,12.6 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st1">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="5.7656" y1="-31.3059" x2="16.7956" y2="-21.2659" gradientTransform="matrix(1 0 0 -1 0 -8.6667)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.33" style="stop-color:#CDF8FC"/>
+			<stop  offset="1" style="stop-color:#5EE8F7"/>
+		</linearGradient>
+		<polygon class="st2" points="5.4,27.7 22.1,10.3 12.6,11.7 5.3,19.3 		"/>
+	</g>
+</g>
+<rect x="12.7" y="11.2" class="st3" width="4.3" height="1.2"/>
+<polygon class="st3" points="14.3,4.3 15.4,5.3 15.4,11.8 14.3,11.8 "/>
+<rect x="7.1" y="26.9" class="st4" width="15.3" height="1.1"/>
+<rect x="7.6" y="28.3" class="st4" width="14.5" height="0.2"/>
+<rect x="7.6" y="28.8" class="st4" width="14.5" height="0.2"/>
+<rect x="7.6" y="29.3" class="st4" width="14.5" height="0.2"/>
+<rect x="7.6" y="29.8" class="st4" width="14.5" height="0.2"/>
+<rect x="7.6" y="30.3" class="st4" width="14.5" height="0.2"/>
+<rect x="7.6" y="30.8" class="st4" width="14.5" height="0.2"/>
+<rect x="7.8" y="31.3" class="st4" width="13.8" height="0.2"/>
+<path class="st5" d="M21.4,13.2l1.6,7.8l-2,10.8H8.7l-2-10.8l1.6-7.8H21.4 M22.2,12.1H7.4l-1.8,8.8l2.2,11.9h14L24,20.9L22.2,12.1
+	L22.2,12.1z"/>
+<path class="st6" d="M23.8,22.2c-0.7-0.2-3.1-0.3-3.4,1.4s1.4,2.4,2.6,2.9"/>
+<path class="st6" d="M5.9,22.2C6.5,22,9,21.8,9.2,23.6S7.8,26,6.6,26.4"/>
+</svg>

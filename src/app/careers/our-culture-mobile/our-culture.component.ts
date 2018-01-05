@@ -7,12 +7,23 @@ import { IOurCultureInfo } from 'app/shared/iour-culture-info';
   styleUrls: ['./our-culture.component.scss']
 })
 export class OurCultureComponent  {
-  showInfo = false;
+  showEnvironmentInfo = false;
+  showBenefitsInfo = false;
+  showLifestyleInfo = false;
+
   @Input() info: IOurCultureInfo;
   constructor() { }
 
-  toggleInfo() {
-    this.showInfo = !this.showInfo;
+  toggleEnvironmentInfo() {
+    this.showEnvironmentInfo = !this.showEnvironmentInfo;
+  }
+
+  toggleBenefitsInfo() {
+    this.showBenefitsInfo = !this.showBenefitsInfo;
+  }
+
+  toggleLifestyleInfo() {
+    this.showLifestyleInfo = !this.showLifestyleInfo;
   }
 
 }

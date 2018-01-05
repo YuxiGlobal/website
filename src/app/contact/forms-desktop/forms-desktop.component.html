@@ -1,18 +1,23 @@
 <mat-tab-group (selectedTabChange)="tabChanged($event)">
-  <mat-tab label="BUSSINES">
+  <mat-tab label="BUSSINES" i18n-label="BUSINESS TITLE|business title@@BusinessTitle">
     <div class="tab-container">
       <div class="form-container">
         <app-business-form [showCaptcha]="selectedIndex === 0"></app-business-form>
       </div>
       <div class="contact-information">
         <div class="wrapper">
-          <h3>Contact<br> Information</h3>
+          <h3 i18n="contact information|contact information@@ContactInformation">
+            Contact<br> Information
+          </h3>
           <p>Cra 48 # 20-34. Of. 1012 – 1014.</p>
           <p>Centro empresarial Ciudad del Río.</p>
           <p>Medellín, Antioquia.</p>
           <p>(+57) (4) 604 81 13</p>
           <a href="business@yuxiglobal.com" target="_top">business@yuxiglobal.com</a>
-          <h3>Follow us</h3>
+          <h3
+            i18n="follow us|follow us@@FollowUs">
+            Follow us
+          </h3>
           <nav class="media-items">
             <a target="_blank" href="https://twitter.com/YuxiGlobal">
               <i class="icon-twitter"></i>
@@ -32,20 +37,23 @@
       </div>
     </div>
   </mat-tab>
-  <mat-tab label="GENERAL">
+  <mat-tab label="GENERAL" i18n-label="General TITLE|General title@@GeneralTitle">
     <div class="tab-container">
       <div class="form-container">
         <app-general-form [showCaptcha]="selectedIndex === 1"></app-general-form>
       </div>
       <div class="contact-information">
         <div class="wrapper">
-          <h3>Contact<br> Information</h3>
+          <h3
+            i18n="contact information|contact information@@ContactInformation">
+            Contact<br> Information
+          </h3>
           <p>Cra 48 # 20-34. Of. 1012 – 1014.</p>
           <p>Centro empresarial Ciudad del Río.</p>
           <p>Medellín, Antioquia.</p>
           <p>(+57) (4) 604 81 13</p>
           <a href="info@yuxiglobal.com" target="_top">info@yuxiglobal.com</a>
-          <h3>Follow us</h3>
+          <h3 i18n="follow us|follow us@@FollowUs">Follow us</h3>
           <nav class="media-items">
             <a target="_blank" href="https://twitter.com/YuxiGlobal">
               <i class="icon-twitter"></i>

@@ -3,8 +3,11 @@
   <h2>{{info.title | uppercase}} {{info.title2 | uppercase}}</h2>
   <div class="underline"></div>
   <div class="button-wrapper">
-      <app-button type="button" type="secondary" size="small" [routerLink]="['/careers', info.id]" >
-          Learn more
+      <app-button
+        i18n="BUTTON LEARN MORE|button learn more@@LearnMore"
+        type="button" type="secondary" size="small"
+        [routerLink]="['/careers', info.id]">
+        Learn more
       </app-button>
     </div>
 </div>

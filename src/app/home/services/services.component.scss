@@ -2,7 +2,7 @@
 .service-button-wrapper {
   max-width: 150px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .service {
@@ -11,7 +11,6 @@
   background: linear-gradient(60deg, $fandango, $ciberGrape);
   opacity: 0.3;
   height: 100vw;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,9 +21,10 @@
   @media (min-width: 1024px) {
     padding-top: 50px;
     padding-bottom: 50px;
-    height: inherit;
+    height: 100%;
+    box-sizing: border-box;
   }
- 
+
   &:hover {
     opacity: 1;
     @media (min-width: 1024px) {
@@ -32,7 +32,7 @@
       transition: transform 0.2s ease-out;
       z-index: 3;
       position: relative;
-    } 
+    }
   }
   img {
     width: 70px;
@@ -46,11 +46,10 @@
   @media (min-width: 1024px) {
     border-radius: 13px;
      @include dark-shadow;
-  } 
+  }
 }
 
 .title {
-  word-spacing: 100vw;
   @media (min-width: 768px) {
     font-size: 1.3rem;
   }
@@ -72,4 +71,18 @@
     margin-left: 19%;
     margin-right: 19%;
   }
+}
+
+
+//new styles deleting ngfor
+
+.container_service {
+  background-color: $japaneseViolet;
+  border-radius: 13px;
+  @media (min-width: 1024px) {
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+    flex: 1;
+  }
+
 }
