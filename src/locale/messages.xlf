@@ -2,87 +2,6 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="Banner1Title" datatype="html">
-        <source>discover real innovation.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-        <note priority="1" from="description"> My Firts Description</note>
-        <note priority="1" from="meaning">Banner Discover Real Innovation </note>
-      </trans-unit>
-      <trans-unit id="95531e654c7ba6675905cee6e5c3791dfc9050da" datatype="html">
-        <source>Find out more about our software development services.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-        <note priority="1" from="description">Find out more about our software development services.</note>
-      </trans-unit>
-      <trans-unit id="Banner2Title" datatype="html">
-        <source>explore inventive technologies.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-        <note priority="1" from="description"> My second Description</note>
-        <note priority="1" from="meaning">Banner explore inventive technologies. </note>
-      </trans-unit>
-      <trans-unit id="33c55f56dc2b453b50e3fa5b6c2bd5c8828a5b96" datatype="html">
-        <source>See how our solutions can get you ahead of your competition.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-        <note priority="1" from="description">See how our solutions can get you ahead of your competition.</note>
-      </trans-unit>
-      <trans-unit id="Banner3Title" datatype="html">
-        <source>devise groundbreaking improvements.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-        <note priority="1" from="description"> My third Description</note>
-        <note priority="1" from="meaning">Banner devise groundbreaking improvements. </note>
-      </trans-unit>
-      <trans-unit id="d82953cc84fb9b04c3804839041d1b5f99fb1dfd" datatype="html">
-        <source>Learn how your company can evolve via digital transformation.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-        <note priority="1" from="description">digital transformation.</note>
-      </trans-unit>
-      <trans-unit id="ServicesTitle" datatype="html">
-        <source>
-             SERVICES
-            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <note priority="1" from="description">Services title</note>
-        <note priority="1" from="meaning">Services title</note>
-      </trans-unit>
-      <trans-unit id="AdvatagesTitle" datatype="html">
-        <source>
-             ADVANTAGES
-            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">54</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <note priority="1" from="description">Advatages title</note>
-        <note priority="1" from="meaning">Advatages title</note>
-      </trans-unit>
       <trans-unit id="getInTouchButton" datatype="html">
         <source>GET IN TOUCH</source>
         <context-group purpose="location">
@@ -181,7 +100,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="getInTouchTitle" datatype="html">
-        <source>GET IN<x id="LINE_BREAK" ctype="lb"/> TOUCH
+        <source>GET IN<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> TOUCH
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
@@ -223,39 +142,106 @@
         <note priority="1" from="description">Do you have questions</note>
         <note priority="1" from="meaning">Do you have questions</note>
       </trans-unit>
-      <trans-unit id="StaffAugmentationTitle" datatype="html">
-        <source>STAFF AUGMENTATION</source>
+      <trans-unit id="Banner1Title" datatype="html">
+        <source>discover real innovation.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
-        <note priority="1" from="description">staff augmentation</note>
-        <note priority="1" from="meaning">STAFF AUGMENTATION TITLE</note>
+        <note priority="1" from="description"> My Firts Description</note>
+        <note priority="1" from="meaning">Banner Discover Real Innovation </note>
       </trans-unit>
-      <trans-unit id="StaffAugmentationSubtitle" datatype="html">
-        <source>Overcome challenges and deadlines with our specialized personnel.</source>
+      <trans-unit id="95531e654c7ba6675905cee6e5c3791dfc9050da" datatype="html">
+        <source>Find out more about our software development services.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
-        <note priority="1" from="description">staff augmentation Subtitle</note>
-        <note priority="1" from="meaning">STAFF AUGMENTATION SUBTITLE</note>
+        <note priority="1" from="description">Find out more about our software development services.</note>
+      </trans-unit>
+      <trans-unit id="Banner2Title" datatype="html">
+        <source>explore inventive technologies.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description"> My second Description</note>
+        <note priority="1" from="meaning">Banner explore inventive technologies. </note>
+      </trans-unit>
+      <trans-unit id="33c55f56dc2b453b50e3fa5b6c2bd5c8828a5b96" datatype="html">
+        <source>See how our solutions can get you ahead of your competition.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">See how our solutions can get you ahead of your competition.</note>
+      </trans-unit>
+      <trans-unit id="Banner3Title" datatype="html">
+        <source>devise groundbreaking improvements.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description"> My third Description</note>
+        <note priority="1" from="meaning">Banner devise groundbreaking improvements. </note>
+      </trans-unit>
+      <trans-unit id="d82953cc84fb9b04c3804839041d1b5f99fb1dfd" datatype="html">
+        <source>Learn how your company can evolve via digital transformation.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">digital transformation.</note>
+      </trans-unit>
+      <trans-unit id="ServicesTitle" datatype="html">
+        <source>
+             SERVICES
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Services title</note>
+        <note priority="1" from="meaning">Services title</note>
+      </trans-unit>
+      <trans-unit id="AdvatagesTitle" datatype="html">
+        <source>
+             ADVANTAGES
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Advatages title</note>
+        <note priority="1" from="meaning">Advatages title</note>
       </trans-unit>
       <trans-unit id="LearnMore" datatype="html">
         <source>
-        Learn more
-      </source>
+          Learn more
+        </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="sourcefile">app/home/home-banner/home-banner.component.ts</context>
+          <context context-type="linenumber">14</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">53</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
@@ -280,11 +266,31 @@
         <note priority="1" from="description">button learn more</note>
         <note priority="1" from="meaning">BUTTON LEARN MORE</note>
       </trans-unit>
-      <trans-unit id="SpecializedProjectsTitle" datatype="html">
-        <source>SPECIALIZED PROJECTS</source>
+      <trans-unit id="StaffAugmentationTitle" datatype="html">
+        <source>
+     STAFF <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>AUGMENTATION
+    </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">staff augmentation</note>
+        <note priority="1" from="meaning">STAFF AUGMENTATION TITLE</note>
+      </trans-unit>
+      <trans-unit id="StaffAugmentationSubtitle" datatype="html">
+        <source>Overcome challenges and deadlines with our specialized personnel.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">staff augmentation Subtitle</note>
+        <note priority="1" from="meaning">STAFF AUGMENTATION SUBTITLE</note>
+      </trans-unit>
+      <trans-unit id="SpecializedProjectsTitle" datatype="html">
+        <source>SPECIALIZED <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>PROJECTS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">27</context>
         </context-group>
         <note priority="1" from="description">specialized projects</note>
         <note priority="1" from="meaning">SPECIALIZED PROJECTS TITLE</note>
@@ -293,16 +299,16 @@
         <source>R&amp;D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <note priority="1" from="description">specialized projects</note>
         <note priority="1" from="meaning">SPECIALIZED PROJECTS SUBTITLE</note>
       </trans-unit>
       <trans-unit id="ProductDevelopmentTitle" datatype="html">
-        <source>PRODUCT DEVELOPMENT</source>
+        <source>PRODUCT <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>DEVELOPMENT</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <note priority="1" from="description">product development</note>
         <note priority="1" from="meaning">PRODUCT DEVELOPMENT TITLE</note>
@@ -311,7 +317,7 @@
         <source>Short-cycle MVP’s for rapid market validation and feature implementation.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">49</context>
         </context-group>
         <note priority="1" from="description">product development subtitle</note>
         <note priority="1" from="meaning">PRODUCT DEVELOPMENT SUBTITLE</note>
@@ -395,7 +401,7 @@
       </trans-unit>
       <trans-unit id="LoveWhatWeDoTitle" datatype="html">
         <source>
-        WE LOVE<x id="LINE_BREAK" ctype="lb"/> WHAT WE DO
+        WE LOVE<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> WHAT WE DO
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-intro/services-intro.component.ts</context>
@@ -428,7 +434,7 @@
       </trans-unit>
       <trans-unit id="ServicesStaffAugmentationTitle" datatype="html">
         <source>
-          STAFF <x id="LINE_BREAK" ctype="lb"/>AUGMENTATION
+          STAFF <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>AUGMENTATION
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -449,7 +455,7 @@
       </trans-unit>
       <trans-unit id="ServicesSpecializedServicesTitle" datatype="html">
         <source>
-            SPECIALIZED <x id="LINE_BREAK" ctype="lb"/>SERVICES
+            SPECIALIZED <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>SERVICES
           </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -507,7 +513,7 @@
       </trans-unit>
       <trans-unit id="ServicesProductDevelopmentTitle" datatype="html">
         <source>
-           PRODUCT <x id="LINE_BREAK" ctype="lb"/>DEVELOPMENT
+           PRODUCT <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>DEVELOPMENT
           </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -540,7 +546,7 @@
       </trans-unit>
       <trans-unit id="ServicesAdvatagesSubtitle" datatype="html">
         <source>
-      Working with Yuxi means that you get<x id="LINE_BREAK" ctype="lb"/>
+      Working with Yuxi means that you get<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
       more than just a team behind.
     </source>
         <context-group purpose="location">
@@ -638,28 +644,9 @@
         <note priority="1" from="description">second description</note>
         <note priority="1" from="meaning">who we are second description</note>
       </trans-unit>
-      <trans-unit id="ViewInfo" datatype="html">
-        <source>
-          View info
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
-          <context context-type="linenumber">68</context>
-        </context-group>
-        <note priority="1" from="description">button view info</note>
-        <note priority="1" from="meaning">BUTTON view info</note>
-      </trans-unit>
       <trans-unit id="ContactWelcomeTitle" datatype="html">
         <source>
-    <x id="START_TAG_SPAN" ctype="x-span"/>WELCOME<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, LET’S MAKE CONTACT.
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>WELCOME<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, LET’S MAKE CONTACT.
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact-hero/contact-hero.component.ts</context>
@@ -689,6 +676,25 @@
         </context-group>
         <note priority="1" from="description">OUR OFFICES title</note>
         <note priority="1" from="meaning">OUR OFFICES title</note>
+      </trans-unit>
+      <trans-unit id="ViewInfo" datatype="html">
+        <source>
+          View info
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <note priority="1" from="description">button view info</note>
+        <note priority="1" from="meaning">BUTTON view info</note>
       </trans-unit>
       <trans-unit id="ContactTitle" datatype="html">
         <source>
@@ -746,7 +752,7 @@
       <trans-unit id="letsGetinTouchTitle" datatype="html">
         <source>
     Let’s get
-    <x id="LINE_BREAK" ctype="lb"/> in touch.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> in touch.
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
@@ -761,7 +767,7 @@
       </trans-unit>
       <trans-unit id="businessFormSubtitle" datatype="html">
         <source>YOU ARE CONTACTING THE
-    <x id="START_TAG_SPAN" ctype="x-span"/>SALES<x id="CLOSE_TAG_SPAN" ctype="x-span"/> TEAM.</source>
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>SALES<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> TEAM.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -859,7 +865,7 @@
       <trans-unit id="agreeTerms" datatype="html">
         <source>
       *By clicking Submit, you agree to our
-      <x id="START_LINK" ctype="x-a"/>Terms and Privacy<x id="CLOSE_LINK" ctype="x-a"/> Policy.
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Terms and Privacy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> Policy.
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
@@ -875,7 +881,7 @@
       <trans-unit id="GeneralFormSubtitle" datatype="html">
         <source>
     YOU ARE CONTACTING THE
-    <x id="START_TAG_SPAN" ctype="x-span"/>INFORMATION<x id="CLOSE_TAG_SPAN" ctype="x-span"/> TEAM.
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>INFORMATION<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> TEAM.
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
@@ -916,7 +922,7 @@
       </trans-unit>
       <trans-unit id="ContactInformation" datatype="html">
         <source>
-            Contact<x id="LINE_BREAK" ctype="lb"/> Information
+            Contact<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Information
           </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
