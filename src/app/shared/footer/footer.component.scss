@@ -95,7 +95,7 @@ footer {
     text-decoration: none;
     color: $white;
     margin: 5px;
-   
+
     &:nth-child(1),
     &:nth-child(2) {
       border-right: 1px solid $white;
@@ -118,8 +118,9 @@ footer {
   }
 
   a {
+    font-size: .8rem;
     display: block;
-    padding: 8px 0;
+    padding: 15px 0;
     margin: 0;
     background: linear-gradient(90deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
     background-size: 80%;
