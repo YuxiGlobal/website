@@ -5,7 +5,7 @@
     <!-- HOME PAGE -->
     <trans-unit id="Banner1Title" datatype="html">
         <source>discover real innovation.</source>
-        <target>DESCUBRE LA VERDADERA INNOVACIÓN</target>
+        <target>DESCUBRE CÓMO INNOVAMOS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">15</context>
@@ -34,7 +34,7 @@
       </trans-unit>
       <trans-unit id="33c55f56dc2b453b50e3fa5b6c2bd5c8828a5b96" datatype="html">
          <source>See how our solutions can get you ahead of your competition.</source>
-        <target>Descubre cómo nuestras soluciones le permiten adelantarse a su competencia.</target>
+        <target>Descubre cómo nuestras soluciones te permiten adelantarse a su competencia.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="Banner3Title" datatype="html">
         <source>devise groundbreaking improvements.</source>
-        <target>CONOCE AVANCES INNOVADORES</target>
+        <target>CONOCE LOS ÚLTIMOS AVANCES</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">33</context>
@@ -248,7 +248,7 @@
       </trans-unit>
       <trans-unit id="StaffAugmentationSubtitle" datatype="html">
         <source>Overcome challenges and deadlines with our specialized personnel.</source>
-        <target>Superamos retos y deadlines con nuestro personal especializado.</target>
+        <target>Superamos retos y tiempos de entrega con nuestro personal especializado.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -259,7 +259,7 @@
       <!-- BUTTON LEARN MORE -->
       <trans-unit id="LearnMore" datatype="html">
         <source>Learn more</source>
-        <target>Conoce mas</target>
+        <target>Conoce más</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
           <context context-type="linenumber">13</context>
