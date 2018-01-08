@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services-intro.component.scss']
 })
 export class ServicesIntroComponent implements OnInit {
-
+  play = true;
   constructor() { }
 
   ngOnInit() {
   }
 
+  playVideo() {
+    this.play = !this.play;
+  }
 }
