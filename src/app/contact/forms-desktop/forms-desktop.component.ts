@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import 'rxjs/add/operator/switchMap';
 
 @Component({
   selector: 'app-forms-desktop',
@@ -8,9 +10,23 @@ import { Component, OnInit } from '@angular/core';
 export class FormsDesktopComponent {
 
   selectedIndex = 0;
+  params;
+
+  constructor(private route: ActivatedRoute) {
+    this.route.params.subscribe(params => {
+      this.activeTabFromUrl(params.formType)
+    });
+  }
+
+  activeTabFromUrl(urlFragment) {
+    if (urlFragment === 'business') {
+      this.selectedIndex = 0;
+    } else if (urlFragment === 'general') {
+      this.selectedIndex = 1;
+    }
+  }
 
   tabChanged(event) {
-    console.log(event);
     this.selectedIndex = event.index;
   }
 

@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesPageComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'contact/:formType', component: ContactComponent },
   { path: 'careers', component: CareersComponent },
   { path: 'careers/:id', component: OfferDetailComponent },
   {
