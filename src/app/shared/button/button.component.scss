@@ -1,16 +1,20 @@
 @import '~styles/variables';
 
+a {
+  text-decoration: none;
+}
+
 .primaryButton {
   background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
   padding: 3px;
   border-radius: 10px;
   background-size: 200% 200%;
   cursor: pointer;
-  
+
   -webkit-animation: AnimationName 6s ease infinite;
   -moz-animation: AnimationName 6s ease infinite;
   animation: AnimationName 6s ease infinite;
-  
+
   @-webkit-keyframes AnimationName {
       0%{background-position:0% 84%}
       50%{background-position:100% 17%}
@@ -21,7 +25,7 @@
       50%{background-position:100% 17%}
       100%{background-position:0% 84%}
   }
-  @keyframes AnimationName { 
+  @keyframes AnimationName {
       0%{background-position:0% 84%}
       50%{background-position:100% 17%}
       100%{background-position:0% 84%}
