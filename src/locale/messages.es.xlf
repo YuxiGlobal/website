@@ -1191,7 +1191,71 @@
         <note priority="1" from="description">not your profile description</note>
         <note priority="1" from="meaning">not your profile</note>
       </trans-unit>
-
+       <!-- OUR CULTURE BANNERS -->
+      <trans-unit id="banner1Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER1_MOBILE.png</source>
+        <target>/../../../assets/images/BANNER2_MOBILE.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner1Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER1_DESKTOP.png</source>
+        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner2Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER2_MOBILE.png</source>
+        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner2Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER2_DESKTOP.png</source>
+        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner3Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER3_MOBILE.png</source>
+        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner3Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER3_DESKTOP.png</source>
+        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner4Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER4_MOBILE.png</source>
+        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner4Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER4_DESKTOP.png</source>
+        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
