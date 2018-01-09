@@ -3,7 +3,7 @@
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="getInTouchButton" datatype="html">
-        <source>GET IN TOUCH</source>
+        <source>GET IN <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>TOUCH</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -115,7 +115,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <note priority="1" from="description">Let’s talk business</note>
         <note priority="1" from="meaning">Let’s talk business</note>
@@ -126,7 +126,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">28</context>
         </context-group>
         <note priority="1" from="description">Want to be a Yuxian</note>
         <note priority="1" from="meaning">Want to be a Yuxian</note>
@@ -137,7 +137,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">36</context>
         </context-group>
         <note priority="1" from="description">Do you have questions</note>
         <note priority="1" from="meaning">Do you have questions</note>
@@ -744,7 +744,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <note priority="1" from="description">button go to careers</note>
         <note priority="1" from="meaning">BUTTON go to careers</note>
@@ -900,7 +900,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="linenumber">6</context>
         </context-group>
         <note priority="1" from="description">business title</note>
         <note priority="1" from="meaning">BUSINESS TITLE</note>
@@ -915,37 +915,37 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">44</context>
         </context-group>
         <note priority="1" from="description">General title</note>
         <note priority="1" from="meaning">General TITLE</note>
       </trans-unit>
       <trans-unit id="ContactInformation" datatype="html">
         <source>
-            Contact<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Information
-          </source>
+              Contact<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Information
+            </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">52</context>
         </context-group>
         <note priority="1" from="description">contact information</note>
         <note priority="1" from="meaning">contact information</note>
       </trans-unit>
       <trans-unit id="FollowUs" datatype="html">
         <source>
-            Follow us
-          </source>
+              Follow us
+            </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">22</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">60</context>
         </context-group>
         <note priority="1" from="description">follow us</note>
         <note priority="1" from="meaning">follow us</note>
@@ -1146,6 +1146,62 @@
         </context-group>
         <note priority="1" from="description">not your profile description</note>
         <note priority="1" from="meaning">not your profile</note>
+      </trans-unit>
+      <trans-unit id="banner1Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER1_MOBILE.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner1Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER1_DESKTOP.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner2Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER2_MOBILE.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner2Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER2_DESKTOP.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner3Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER3_MOBILE.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner3Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER3_DESKTOP.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner4Mobile" datatype="html">
+        <source>/../../../assets/images/BANNER4_MOBILE.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner4Desktop" datatype="html">
+        <source>/../../../assets/images/BANNER4_DESKTOP.png</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
