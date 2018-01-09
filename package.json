@@ -14,7 +14,8 @@
     "ngrok": "ngrok http --host-header=rewrite 4200",
     "build": "npm run build-en && npm run build-es",
     "build-en": "ng build --prod --aot -op docs/en -bh ./en",
-    "build-es": "ng build --prod --aot -op docs/es -bh ./es --i18nFile=src/locale/messages.es.xlf --i18nFormat=xlf --locale=es"
+    "build-es": "ng build --prod --aot -op docs/es -bh ./es --i18nFile=src/locale/messages.es.xlf --i18nFormat=xlf --locale=es",
+    "image-optimization": "imagemin src/assets/images/* --out-dir=src/assets/images"
   },
   "private": true,
   "dependencies": {
@@ -48,6 +49,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "~3.0.1",
+    "imagemin-cli": "^3.0.0",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
