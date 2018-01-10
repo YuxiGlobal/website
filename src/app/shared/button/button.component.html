@@ -1,18 +1,20 @@
-<div
-  class="button"
-  [class.primaryButton]="type === 'primary'"
->
+<a [routerLink]="routerLink">
   <div
-    class="inner-button"
-    [class.primaryInnerBackground]="type === 'primary'"
-    [class.secondaryInnerBackground]="type === 'secondary'"
+    class="button"
+    [class.primaryButton]="type === 'primary'"
   >
-    <h5
-      [class.large]="size === 'large'"
-      [class.medium]="size === 'medium'"
-      [class.small]="size === 'small'"
+    <div
+      class="inner-button"
+      [class.primaryInnerBackground]="type === 'primary'"
+      [class.secondaryInnerBackground]="type === 'secondary'"
     >
-      <ng-content></ng-content>
-    </h5>
+      <h5
+        [class.large]="size === 'large'"
+        [class.medium]="size === 'medium'"
+        [class.small]="size === 'small'"
+      >
+        <ng-content></ng-content>
+      </h5>
+    </div>
   </div>
-</div>
+</a>

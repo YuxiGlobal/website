@@ -16,9 +16,16 @@
   }
 
   p {
-    border: 2px solid $white;
-    padding: 9px;
-    width: 200px;
+    width: 205px;
+  }
+}
+
+.underline{
+  border-top: 3px solid $white;
+  margin-top: 5px;
+  width: 100px;
+  @media (min-width: 1024px) {
+    margin-left: 4px;
   }
 }
 
@@ -26,6 +33,10 @@
   margin: 0;
   padding-top: 60vh;
   width: 201px;
+  @media only screen and (orientation: landscape) {
+    padding-top: 37vh;
+  }
+  
   @media (min-width: 1024px) {
     padding-top: 0;
     width: 358px;

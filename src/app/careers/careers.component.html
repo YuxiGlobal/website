@@ -1,0 +1,24 @@
+<section class="careers">
+  <app-intro-banner></app-intro-banner>
+  <div class="our-culture-container">
+    <div class="title">
+      <h1
+        i18n="lout culture title|our culture@@OurCultureTitle">
+        OUR CULTURE
+      </h1>
+      <app-colorful-dots></app-colorful-dots>
+    </div>
+    <div class="type-of-device">
+      <app-our-culture></app-our-culture>
+      <app-our-culture-desktop></app-our-culture-desktop>
+    </div>
+
+  </div>
+  <app-offers></app-offers>
+  <app-footer (switchOverlay)="openOverlay()"></app-footer>
+
+</section>
+<app-get-in-touch
+  [class.active]="showOverlay"
+  (toggleGetInTouchOverlay)="closeOverlay()">
+</app-get-in-touch>

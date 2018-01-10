@@ -2,7 +2,7 @@
 
 .container {
   background-color: transparent;
-  color: #fff;
+  color: $white;
   width: 94%;
   height: 62px;
   margin: 0;
@@ -21,7 +21,7 @@
 
   a {
     text-decoration: none;
-    color: white;
+    color: $white;
   }
 
   &.hide {
@@ -82,7 +82,7 @@
 
 .hot-stuff-button {
   position: relative;
-  border: 2px solid white;
+  border: 2px solid $white;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
@@ -182,7 +182,7 @@
 
 .pass-the-fold {
   &.container {
-    background: #fff;
+    background: $white;
   }
 
   .yuxi-logo--white {
@@ -199,7 +199,7 @@
     background: $rusianViolet;
     border: 2px solid $rusianViolet;
   }
-  
+
 }
 
 .menu-visible {

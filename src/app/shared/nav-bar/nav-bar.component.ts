@@ -19,8 +19,12 @@ export class NavBarComponent {
     private router: Router
   ) {
     router.events.subscribe(() => {
+      this.showOverlay = this.navigationService.resetNav;
       this.hideNav = this.navigationService.resetNav;
-    })
+      // This was made to reset the 'preventScroll' service to its default after a route change.
+      // This fixes the bug where the nav was sticky after navigating from the burger overlay
+      this.showOverlayService.preventScroll = false;
+    });
    }
 
   handleMenuClick() {

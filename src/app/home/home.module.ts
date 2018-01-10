@@ -7,8 +7,9 @@ import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { MnFullpageModule } from 'ngx-fullpage';
 import { ServicesComponent } from './services/services.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
-import {MdButtonModule} from '@angular/material';
-import { MdIconModule } from '@angular/material';
+import {MatButtonModule} from '@angular/material';
+import { MatIconModule } from '@angular/material';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -16,8 +17,9 @@ import { MdIconModule } from '@angular/material';
     CommonModule,
     SharedModule,
     BrowserModule,
-    MdButtonModule,
-    MdIconModule,
+    MatButtonModule,
+    MatIconModule,
+    RouterModule,
     MnFullpageModule.forRoot()
   ],
   declarations: [HomeComponent, HomeBannerComponent, ServicesComponent, AdvantagesComponent],

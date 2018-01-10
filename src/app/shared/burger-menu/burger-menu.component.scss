@@ -1,16 +1,17 @@
+@import '~styles/variables';
 .menu-button {
-  width: 15px;
-  height: 15px;
-  padding: 9px;
-  margin: 5px;
+  align-items: center;
+  background: $white;
+  border: solid 1px $white;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  width: 15px;
+  height: 15px;
+  padding: 9px;
+  margin: 5px;
   position: relative;
-  background: #fff;
-  border: solid 1px #fff;
   cursor: pointer;
 }
 
@@ -21,13 +22,13 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: solid 1px #fff;
+  border: solid 1px $white;
 }
 
 .menu-line {
   width: 22px;
   height: 2px;
-  background: #2f1a45;
+  background: $rusianViolet;
   border-radius: 50px;
   transition: transform 0.3s ease;
 }
@@ -56,5 +57,15 @@
     transform: scale(1.8);
     opacity: 0;
     transition: all 0.3s linear;
+  }
+}
+
+:host-context(.pass-the-fold) {
+  .menu-button {
+    background: $rusianViolet;
+  }
+
+  .menu-line {
+    background: $white;
   }
 }

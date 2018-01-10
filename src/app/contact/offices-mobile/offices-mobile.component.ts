@@ -7,11 +7,19 @@ import { IContactInfo } from 'app/shared/icontact-info';
   styleUrls: ['./offices-mobile.component.scss']
 })
 export class OfficesMobileComponent  {
-  hideImage = false;
+  hideImageMed = false;
+  hideImageArmenia = false;
+  hideImageMason = false;
   @Input() info: IContactInfo;
   constructor() { }
 
-  toggleHideImage() {
-    this.hideImage = !this.hideImage;
+  toggleHideImageMed() {
+    this.hideImageMed = !this.hideImageMed;
+  }
+  toggleHideImageArmenia() {
+    this.hideImageArmenia = !this.hideImageArmenia;
+  }
+  toggleHideImageMason() {
+    this.hideImageMason = !this.hideImageMason;
   }
 }

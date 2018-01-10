@@ -5,22 +5,25 @@ export const BANNERS_INFO = [
       subtitle: 'Find out more about our software development services.',
       image: 'assets/images/cellphone.png',
       video: 'assets/videos/cellphone.webm',
+      video2: 'assets/videos/cellphone.mp4',
       class: 'banner-image-1'
     },
     {
       id: 2,
       title: 'explore inventive technologies.',
-      subtitle: 'see how our solutions can get you ahead of your competition.',
+      subtitle: 'See how our solutions can get you ahead of your competition.',
       image: 'assets/images/goggles.png',
       video: 'assets/videos/goggles.webm',
+      video2: 'assets/videos/goggles.mp4',
       class: 'banner-image-2'
     },
     {
       id: 3,
       title: 'devise groundbreaking improvements.',
-      subtitle: 'learn how your company can evolve via digital transformation.',
+      subtitle: 'Learn how your company can evolve via digital transformation.',
       image: 'assets/images/robot.png',
       video: 'assets/videos/robot.webm',
+      video2: 'assets/videos/robot.mp4',
       class: 'banner-image-3'
     }
   ];
@@ -75,7 +78,7 @@ export const BANNERS_INFO = [
       id: 1,
       icon: 'assets/icons/location-shadow.svg',
       title: 'location',
-      subtitle: 'We work while you work. Our prime location –6 months on EST & 6 on CST– empowers synergies and commu- nications.  Collaboration is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami & Boston– and our U.S. based office.',
+      subtitle: 'We work while you work. Our prime location –6 months on EST & 6 on CST– empowers synergies and communications.  Collaboration is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami & Boston– and our U.S. based office.',
       class: 'location'
     },
     {
@@ -89,7 +92,7 @@ export const BANNERS_INFO = [
       id: 3,
       icon: 'assets/icons/flexibility-shadow.svg',
       title: 'flexibility',
-      subtitle: 'We stay up to date with the most modern technologies and practices. Our teams are versatile, adaptable, and have expertise in a wide range of programming lan- guages, databases, and frameworks. Our projects run under Agile and traditional metho- dologies and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.',
+      subtitle: 'We stay up to date with the most modern technologies and practices. Our teams are versatile, adaptable, and have expertise in a wide range of programming languages, databases, and frameworks. Our projects run under Agile and traditional methodologies and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.',
       class: 'flexibility'
     }
   ]
@@ -117,12 +120,41 @@ export const BANNERS_INFO = [
     },
     {
       id: 3,
-      cityTitle: 'manson',
+      cityTitle: 'mason',
       country: 'ohio',
       address: '4393 Digital Way.',
       place: '',
       citySubtitle: 'Mason, OH. 45040',
-      phone: '(+1) 513 348 8265',     
-      class: 'image-manson'
+      phone: '(+1) 513 348 8265',
+      class: 'image-mason'
     }
   ]
+
+
+  export const OUR_CULTURE_INFO = [
+    {
+      id: 1,
+      title: 'GOOD WORK ENVIRONMENT.',
+      subtitle: 'MEANS HAPPY EMPLOYESS',
+      text: 'Having a good work environment is having happy employees. This accounts for both location and ambience: Yuxians have access to free fruit, cereals, coffee, and snacks. We host activities like guided active pauses and monthly massages. Our offices are spaces designed to be both comfortable and inspiring, letting creativity flow freely.',
+      image: 'assets/images/cereal.png',
+      class: 'enviroment'
+    },
+    {
+      id: 2,
+      title: 'COMPREHENSIVE BENEFITS PACKAGE.',
+      subtitle: 'GOES A LONG WAY',
+      text: 'A strong and comprehensive benefits package goes a long way. Our employees can mix and match between benefits like gym memberships,premium healthcare, vehicle insurance, savings programs, food or gas passes, education aids, etc.',
+      image: 'assets/images/yoga-ball.png',
+      class: 'benefits'
+    },
+    {
+      id: 3,
+      title: 'MORE THAN A LIFESTYLE.',
+      subtitle: 'IT’S OUR WORKSTYLE',
+      text: 'You don’t only work to live: life also happens inside the office. For many years society has thought that work is a hindrance that stops us from living our actual life, something so drudging that you actually get paid for it. It’s time to change that: #YuxiLife is our way of creating conditions where people can feel happy, encouraged, and motivated about going to work. #YuxiLife is, more than a lifestyle, our workstyle.',
+      image: 'assets/images/control.png',
+      class: 'lifestyle'
+    }
+  ]
+

@@ -1,12 +1,18 @@
 @import '~styles/variables';
 .image-medellin,
 .image-armenia,
-.image-manson {
+.image-mason {
     background-size: cover;
     width: 100vw;
     height: 100vw;
     position: relative;
     z-index: 1;
+    @media only screen and (orientation: landscape) {
+        height: 50vw;
+    }
+    @media (min-width: 768px) {
+        height: 50vw;  
+    }
     &.hide {
         display: none;
     }
@@ -33,7 +39,7 @@
     background-image: url("/../../assets/images/armenia.jpg");
 }
 
-.image-manson {
+.image-mason {
     background-image: url("/../../assets/images/manson.jpg");
 }
 
@@ -59,9 +65,9 @@
 }
 
 .info-city {
-    color: #000;
+    color: $black;
     display: none;
-    background: #fefefe;
+    background: $white;
     &.showContent {
         display: flex;
         width: 100vw;
@@ -69,11 +75,17 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+        @media only screen and (orientation: landscape) {
+            height: 50vw;
+        }
+        @media (min-width: 768px) {
+            height: 50vw;  
+        }
     }
 }
 
 .info-city-copy {
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     color: $rusianViolet;
     h1 {
         margin-bottom: 0;
@@ -85,10 +97,25 @@
     p {
         margin-bottom: 0;
         font-family: $fontFamilySecondary;
-        color: #515151;
+        color: $medium-gray;
         line-height: 5px;
     }
-} //Desktop
+} 
+.close-button {
+    background-color: $japaneseViolet;
+    border-radius: 50px;
+    border: solid $white;
+    color: $white;
+    width: 38px;
+    height: 38px;
+    padding: 2px 0 0;
+    @media only screen and (orientation: landscape) {
+      margin-bottom: 7px;
+      margin-top: 10px;
+    }
+  }
+
+//Desktop
 @media (min-width: 1024px) {
     .show-mobile {
         display: none;

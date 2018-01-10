@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  background: $rusianViolet;
+  background: #2c1641;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -32,6 +32,7 @@
   font-size: 2rem;
   color: $white;
   word-spacing: 100vw;
+  line-height: 1;
   margin-bottom: 10px;
   margin-top: 0;
   @media (min-width: 768px) {
@@ -84,8 +85,8 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  max-height: 200px;
   max-width: 100%;
+  max-height: 200px;
 
   @media only screen and (orientation: landscape) {
     margin-top: 0;
@@ -103,7 +104,7 @@
     position: relative;
     right: 30px;
     @media (min-width: 1024px) and ( min-height: 900px ){
-      margin-top: -20%;
+      margin-top: -18%;
       right: 0px;
      }
   }
@@ -142,5 +143,29 @@
   }
   to {
     transform: translate(0, 10px);
+  }
+}
+
+.fallbackImageHide {
+  display: none;
+}
+
+.fallbackImage {
+  display: none;
+
+  @media (min-width: 1024px) {
+    animation-name: image-banner-container;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
   }
 }

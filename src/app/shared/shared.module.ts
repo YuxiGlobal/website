@@ -11,16 +11,25 @@ import { MenuComponent } from './menu/menu.component';
 import { NavScrollingDirective } from './nav-scrolling.directive';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 import { MatButtonModule } from '@angular/material';
-import { MdIconModule } from '@angular/material';
+import { MatIconModule } from '@angular/material';
 import { ColorfulDotsComponent } from './colorful-dots/colorful-dots.component';
 import { AboveTheFoldDirective } from './above-the-fold.directive';
+import { ScrollTopDirective } from './scroll-top.directive';
+import { CollapsibleComponent } from './collapsible/collapsible.component';
+import { IsVisibleDirective } from './is-visible.directive';
+import { CareersService } from 'app/shared/careers.service';
+import { HttpClientModule } from '@angular/common/http';
+import { SubmissionsService } from 'app/shared/services/submissions.service';
+import { FormsUrls } from 'app/config';
+import { environment } from 'environments/environment';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule,
     MatButtonModule,
-    MdIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   declarations: [
     NavBarComponent,
@@ -31,7 +40,10 @@ import { AboveTheFoldDirective } from './above-the-fold.directive';
     NavScrollingDirective,
     GetInTouchComponent,
     ColorfulDotsComponent,
-    AboveTheFoldDirective
+    AboveTheFoldDirective,
+    ScrollTopDirective,
+    CollapsibleComponent,
+    IsVisibleDirective
   ],
   exports: [
     NavBarComponent,
@@ -39,8 +51,19 @@ import { AboveTheFoldDirective } from './above-the-fold.directive';
     FooterComponent,
     GetInTouchComponent,
     NavScrollingDirective,
-    ColorfulDotsComponent
+    ColorfulDotsComponent,
+    CollapsibleComponent,
+    IsVisibleDirective
   ],
-  providers: [ShowOverlayService, NavigationService]
+  providers: [
+    ShowOverlayService,
+    NavigationService,
+    CareersService,
+    SubmissionsService,
+    {
+      provide: FormsUrls,
+      useValue: environment
+    }
+  ]
 })
 export class SharedModule { }

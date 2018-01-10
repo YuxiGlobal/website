@@ -1,0 +1,55 @@
+@import '~styles/variables';
+.offers {
+    background: linear-gradient(to top, $japaneseViolet 53%, $ciberGrape 53%);
+    color: $white;
+    font-family: $fontFamilyPrimary;
+    text-align: center;
+    h1 {
+        margin: 0 0 0.5rem 0;
+    }
+}
+
+.offers__container {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    @include only-bottom-shadow;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+}
+
+.title {
+    padding: 3rem 0;
+}
+.underline {
+  border-top: 1px solid $white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  width: 60px;
+}
+.email-section {
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    max-width: 700px;
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
+  p {
+    font-family: $fontFamilySecondary;
+    font-size: 1.1rem;
+    @media (min-width: 768px) {
+      font-size: 1.17rem;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $turquoiseBlue;
+    font-size: 1.3rem;
+  }
+}
+

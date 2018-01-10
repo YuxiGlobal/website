@@ -1,0 +1,103 @@
+<section class="offer-detail-container">
+  <div class="wrapper">
+      <h1 class="title1">{{offerInfo?.title | uppercase}}</h1>
+      <h1 class="title2">{{offerInfo?.title2 | uppercase}}</h1>
+      <div class="underline"></div>
+      <h2>{{offerInfo?.city}}</h2>
+      <p class="description">
+        {{offerInfo?.description}}
+      </p>
+      <h2>REQUIREMENTS</h2>
+      <ul>
+        <li *ngFor="let requirement of offerInfo?.requirements">{{requirement}}</li>
+      </ul>
+  </div>
+</section>
+
+<section class="container">
+
+  <!-- OFFER FORM -->
+  <div class="form-container">
+    <form [formGroup]="offerForm" novalidate enctype="multipart/form-data" method="POST">
+      <h3 class="title">Let’s get
+        <br> in touch.</h3>
+      <p class="subtitle">YOU ARE CONTACTING THE
+        <span>SALES</span> TEAM.</p>
+      <input type="hidden" name="offer" formControlName="offer" value={{offerInfo?.title}}>
+      <mat-form-field>
+        <input matInput name="name" placeholder="Name" formControlName="name" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Enter your email" name="email" formControlName="email" required />
+        <mat-error *ngIf="offerForm.value.email.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput name="phone" placeholder="Phone" formControlName="phone" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput name="website" placeholder="Website / Online Portfolio" formControlName="website">
+      </mat-form-field>
+      <label for="file-upload" id="custom-file-upload">
+        <p>
+          BROWSE FILE
+        </p>
+        <i class="material-icons">folder_open</i>*
+        <span *ngIf="fileName.length" class="file-name">
+          - {{fileName}}
+        </span>
+      </label>
+      <input id="file-upload" type="file" name="cv" formControlName="cv" (change)="fileChange($event)">
+      <span class="type-file-upload">DOC - PDF - JPEG - PNG</span>
+      <label for="textarea">Comments</label>
+      <textarea id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
+      <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
+      <div class="submit-section">
+        <p>*By clicking Submit, you agree to our
+          <a href=".">Terms and Privacy</a> Policy.</p>
+        <div class="button-wrapper">
+          <button
+            class="button-form"
+            type="submit"
+            [disabled]="offerForm.invalid || !fileName.length || !recaptchaResponse.length"
+            (click)="submitForm()">
+            {{ buttonTitle }}
+        </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- OFFER FORM -->
+  <div class="contact-information">
+    <div class="wrapper">
+      <h3>Contact<br> Information</h3>
+      <p>Cra 48 # 20-34. Of. 1012 – 1014.</p>
+      <p>Centro empresarial Ciudad del Río.</p>
+      <p>Medellín, Antioquia.</p>
+      <p>(+57) (4) 604 81 13</p>
+      <a id="jobs-mail" href="jobs@yuxiglobal.com" target="_top">jobs@yuxiglobal.com</a>
+      <h3>Follow us</h3>
+      <nav class="media-items">
+        <a target="_blank" href="https://twitter.com/YuxiGlobal">
+          <i class="icon-twitter"></i>
+        </a>
+        <a target="_blank" href="https://co.linkedin.com/company/yuxi-pacific">
+          <i class="icon-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/yuxiglobal1">
+          <i class="icon-facebook"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/yuxiglobal/">
+          <i class="icon-instagram"></i>
+        </a>
+      </nav>
+    </div>
+  </div>
+</section>
+
+
+<app-footer (switchOverlay)="openOverlay()"></app-footer>
+<app-get-in-touch
+  [class.active]="showOverlay"
+  (toggleGetInTouchOverlay)="closeOverlay()">
+</app-get-in-touch>
+

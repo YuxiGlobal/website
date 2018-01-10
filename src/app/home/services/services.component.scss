@@ -2,7 +2,7 @@
 .service-button-wrapper {
   max-width: 150px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .service {
@@ -10,8 +10,21 @@
   width: 100%;
   background: linear-gradient(60deg, $fandango, $ciberGrape);
   opacity: 0.3;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 768px) {
+    height: 60vw;
+  }
+  @media (min-width: 1024px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
   &:hover {
     opacity: 1;
     @media (min-width: 1024px) {
@@ -19,7 +32,7 @@
       transition: transform 0.2s ease-out;
       z-index: 3;
       position: relative;
-    } 
+    }
   }
   img {
     width: 70px;
@@ -32,14 +45,11 @@
   }
   @media (min-width: 1024px) {
     border-radius: 13px;
-    -webkit-box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.71);
-    -moz-box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.71);
-    box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.71);
-  } 
+     @include dark-shadow;
+  }
 }
 
 .title {
-  word-spacing: 100vw;
   @media (min-width: 768px) {
     font-size: 1.3rem;
   }
@@ -61,4 +71,18 @@
     margin-left: 19%;
     margin-right: 19%;
   }
+}
+
+
+//new styles deleting ngfor
+
+.container_service {
+  background-color: $japaneseViolet;
+  border-radius: 13px;
+  @media (min-width: 1024px) {
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+    flex: 1;
+  }
+
 }

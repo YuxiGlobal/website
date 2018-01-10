@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+    <!-- HOME PAGE -->
+    <trans-unit id="Banner1Title" datatype="html">
+        <source>discover real innovation.</source>
+        <target>DESCUBRE CÓMO INNOVAMOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description"> My Firts Description</note>
+        <note priority="1" from="meaning">Banner Discover Real Innovation </note>
+      </trans-unit>
+      <trans-unit id="95531e654c7ba6675905cee6e5c3791dfc9050da" datatype="html">
+        <source>Find out more about our software development services.</source>
+        <target>Entérate sobre nuestros servicios de desarrollo de software.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">Find out more about our software development services.</note>
+      </trans-unit>
+      <trans-unit id="Banner2Title" datatype="html">
+        <source>explore inventive technologies.</source>
+        <target>EXPLORA TECNOLOGÍAS INGENIOSAS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description"> My second Description</note>
+        <note priority="1" from="meaning">Banner explore inventive technologies. </note>
+      </trans-unit>
+      <trans-unit id="33c55f56dc2b453b50e3fa5b6c2bd5c8828a5b96" datatype="html">
+         <source>See how our solutions can get you ahead of your competition.</source>
+        <target>Descubre cómo nuestras soluciones te permiten adelantarse a su competencia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">See how our solutions can get you ahead of your competition.</note>
+      </trans-unit>
+      <trans-unit id="Banner3Title" datatype="html">
+        <source>devise groundbreaking improvements.</source>
+        <target>CONOCE LOS ÚLTIMOS AVANCES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description"> My third Description</note>
+        <note priority="1" from="meaning">Banner devise groundbreaking improvements. </note>
+      </trans-unit>
+      <trans-unit id="d82953cc84fb9b04c3804839041d1b5f99fb1dfd" datatype="html">
+        <source>Learn how your company can evolve via digital transformation.</source>
+        <target>Aprende cómo tu compañía puede evolucionar mediante la transformación digital.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">digital transformation.</note>
+      </trans-unit>
+      <trans-unit id="ServicesTitle" datatype="html">
+        <source>SERVICES</source>
+        <target>SERVICIOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Services title</note>
+        <note priority="1" from="meaning">Services title</note>
+      </trans-unit>
+      <trans-unit id="AdvatagesTitle" datatype="html">
+        <source>ADVANTAGES</source>
+        <target>VENTAJAS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Advatages title</note>
+        <note priority="1" from="meaning">Advatages title</note>
+      </trans-unit>
+      <!-- FOOTER LINKS AND BUTTONS -->
+      <trans-unit id="getInTouchButton" datatype="html">
+        <source>GET IN TOUCH</source>
+        <target>COMUNÍCATE AQUÍ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">get in touch button</note>
+        <note priority="1" from="meaning">get in touch button</note>
+      </trans-unit>
+      <trans-unit id="HomeLink" datatype="html">
+        <source>Home</source>
+        <target>INICIO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/menu/menu.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">home link</note>
+        <note priority="1" from="meaning">home link</note>
+      </trans-unit>
+      <trans-unit id="ServicesLink" datatype="html">
+        <source>Services</source>
+        <target>SERVICIOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/menu/menu.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Services link</note>
+        <note priority="1" from="meaning">Services link</note>
+      </trans-unit>
+      <trans-unit id="CareersLink" datatype="html">
+        <source>Careers</source>
+        <target>CARRERAS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/menu/menu.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Careers link</note>
+        <note priority="1" from="meaning">Careers link</note>
+      </trans-unit>
+      <trans-unit id="MediaLink" datatype="html">
+        <source>Media</source>
+        <target>BLOG</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/menu/menu.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Media link</note>
+        <note priority="1" from="meaning">Media link</note>
+      </trans-unit>
+      <trans-unit id="ContactLink" datatype="html">
+        <source>Contact</source>
+        <target>CONTACTO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/menu/menu.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Contact link</note>
+        <note priority="1" from="meaning">Contact link</note>
+      </trans-unit>
+      <trans-unit id="rightsText" datatype="html">
+        <source>All rights reserved to Yuxi Global 2018</source>
+        <target>Todos los derechos reservados para Yuxi Global 2018</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">rights text</note>
+        <note priority="1" from="meaning">rights text</note>
+      </trans-unit>
+      <trans-unit id="terms" datatype="html">
+        <source>Terms</source>
+        <target>Términos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy" datatype="html">
+        <source>Privacy</source>
+        <target>Privacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <!-- GET IN TOUCH OPTIONS -->
+      <trans-unit id="getInTouchTitle" datatype="html">
+        <source>GET IN<x id="LINE_BREAK" ctype="lb"/> TOUCH</source>
+        <target>¿QUÉ ESTÁS<x id="LINE_BREAK" ctype="lb"/> BUSCANDO?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">get in touch Title</note>
+        <note priority="1" from="meaning">get in touch Title</note>
+      </trans-unit>
+      <trans-unit id="letsTalkBusiness" datatype="html">
+        <source>Let’s talk business</source>
+        <target>Hablemos de negocios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">Let’s talk business</note>
+        <note priority="1" from="meaning">Let’s talk business</note>
+      </trans-unit>
+       <trans-unit id="WantToBeAYuxian" datatype="html">
+        <source>Want to be a Yuxian?</source>
+        <target>¿Quieres ser un Yuxian?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">Want to be a Yuxian</note>
+        <note priority="1" from="meaning">Want to be a Yuxian</note>
+      </trans-unit>
+      <trans-unit id="DoYouHaveQuestions" datatype="html">
+        <source>Do you have questions?</source>
+        <target>¿Tienes preguntas?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/get-in-touch/get-in-touch.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">Do you have questions</note>
+        <note priority="1" from="meaning">Do you have questions</note>
+      </trans-unit>
+      <trans-unit id="StaffAugmentationTitle" datatype="html">
+        <source>STAFF AUGMENTATION</source>
+        <target>OUTSOURCING<x id="LINE_BREAK" ctype="lb"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">staff augmentation</note>
+        <note priority="1" from="meaning">STAFF AUGMENTATION TITLE</note>
+      </trans-unit>
+      <trans-unit id="StaffAugmentationSubtitle" datatype="html">
+        <source>Overcome challenges and deadlines with our specialized personnel.</source>
+        <target>Superamos retos y tiempos de entrega con nuestro personal especializado.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">staff augmentation Subtitle</note>
+        <note priority="1" from="meaning">STAFF AUGMENTATION SUBTITLE</note>
+      </trans-unit>
+      <!-- BUTTON LEARN MORE -->
+      <trans-unit id="LearnMore" datatype="html">
+        <source>Learn more</source>
+        <target>Conoce más</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/offer/offer.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">button learn more</note>
+        <note priority="1" from="meaning">BUTTON LEARN MORE</note>
+      </trans-unit>
+      <trans-unit id="SpecializedProjectsTitle" datatype="html">
+        <source>SPECIALIZED PROJECTS</source>
+        <target>SERVICIOS <x id="LINE_BREAK" ctype="lb"/>ESPECIALIZADOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">specialized projects</note>
+        <note priority="1" from="meaning">SPECIALIZED PROJECTS TITLE</note>
+      </trans-unit>
+      <trans-unit id="SpecializedProjectsSubtitle" datatype="html">
+        <source>R&amp;D and prototyping in IoT, Mobile, AR/VR-Simulation and Big Data.</source>
+        <target>I+D y creación de prototipos en IoT, Mobile, AR/VR-Simulation y Big Data.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">specialized projects</note>
+        <note priority="1" from="meaning">SPECIALIZED PROJECTS SUBTITLE</note>
+      </trans-unit>
+      <trans-unit id="ProductDevelopmentTitle" datatype="html">
+        <source>PRODUCT DEVELOPMENT</source>
+        <target>DESARROLLO <x id="LINE_BREAK" ctype="lb"/>DE PRODUCTO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <note priority="1" from="description">product development</note>
+        <note priority="1" from="meaning">PRODUCT DEVELOPMENT TITLE</note>
+      </trans-unit>
+      <trans-unit id="ProductDevelopmentSubtitle" datatype="html">
+        <source>Short-cycle MVP’s for rapid market validation and feature implementation.</source>
+        <target>MVP de ciclo corto para la validación rápida del mercado y la implementación de características.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/services/services.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description">product development subtitle</note>
+        <note priority="1" from="meaning">PRODUCT DEVELOPMENT SUBTITLE</note>
+      </trans-unit>
+      <trans-unit id="LocationTitle" datatype="html">
+        <source>LOCATION</source>
+        <target>UBICACIÓN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">location</note>
+        <note priority="1" from="meaning">advantages location title</note>
+      </trans-unit>
+      <trans-unit id="homeLocationSubtitle" datatype="html">
+        <source>UTC-5:00, direct flights, and a US-based support office.</source>
+        <target>UTC-5:00, vuelos directos y una oficina de soporte con sede en EE.UU.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">location</note>
+        <note priority="1" from="meaning">advantages location subtitle</note>
+      </trans-unit>
+      <trans-unit id="CulturalFitTitle" datatype="html">
+        <source>CULTURAL FIT</source>
+        <target>CULTURA YUXI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">cultural fit</note>
+        <note priority="1" from="meaning">advantages cultural fit title</note>
+      </trans-unit>
+      <trans-unit id="homeCulturalFitSubtitle" datatype="html">
+        <source>Western culture, mentality, and bilingualism.</source>
+        <target>Cultura occidental, mentalidad y bilingüismo.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">cultural fit</note>
+        <note priority="1" from="meaning">advantages cultural fit subtitle</note>
+      </trans-unit>
+      <trans-unit id="FlexibilityTitle" datatype="html">
+        <source>FLEXIBILITY</source>
+        <target>FLEXIBILIDAD</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <note priority="1" from="description">flexibility</note>
+        <note priority="1" from="meaning">advantages flexibility title</note>
+      </trans-unit>
+      <trans-unit id="homeFlexibilitySubtitle" datatype="html">
+        <source>Expertise in diverse languages, databases, and frameworks.</source>
+        <target>Expertos en diversos idiomas, bases de datos y frameworks.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <note priority="1" from="description">flexibility</note>
+        <note priority="1" from="meaning">advantages flexibility subtitle</note>
+      </trans-unit>
+      <!-- SERVICES PAGE -->
+      <trans-unit id="LoveWhatWeDoTitle" datatype="html">
+        <source>WE LOVE<x id="LINE_BREAK" ctype="lb"/> WHAT WE DO</source>
+        <target>AMAMOS LO<x id="LINE_BREAK" ctype="lb"/> QUE HACEMOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-intro/services-intro.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">love what we do</note>
+        <note priority="1" from="meaning">love what we do title</note>
+      </trans-unit>
+      <trans-unit id="LoveWhatWeDoSubtitle" datatype="html">
+        <source>PLAY IT ON TO WATCH</source>
+        <target>PRESIONA PLAY PARA VER</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-intro/services-intro.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">love what we do</note>
+        <note priority="1" from="meaning">love what we do subtitle</note>
+      </trans-unit>
+      <trans-unit id="ServicesPageSubtitle" datatype="html">
+        <source>Innovate with us</source>
+        <target>Innova con nosotros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Services page subtitle</note>
+        <note priority="1" from="meaning">Services page subtitle</note>
+      </trans-unit>
+      <trans-unit id="ServicesStaffAugmentationTitle" datatype="html">
+        <source>STAFF <x id="LINE_BREAK" ctype="lb"/>AUGMENTATION</source>
+        <target>OUTSOURCING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">services staff augmentation</note>
+        <note priority="1" from="meaning">staff augmentation title</note>
+      </trans-unit>
+      <trans-unit id="ServicesStaffAugmentationSubtitle" datatype="html">
+        <source>Innovation requires great minds working together. Our developers, quality analysts, and designers are ready to work with, complement, and boost our customers’ teams, letting them pursue more aggressive deadlines and overcome tricky obstacles.</source>
+        <target>Innovar requiere que grandes mentes trabajen juntas. Nuestros desarrolladores, analistas de calidad y diseñadores están listos para trabajar, complementar y potenciar los equipos de nuestros clientes, permitiéndoles perseguir plazos más agresivos y superar obstáculos complejos.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">services staff augmentation</note>
+        <note priority="1" from="meaning">staff augmentation subtitle</note>
+      </trans-unit>
+      <trans-unit id="ServicesSpecializedServicesTitle" datatype="html">
+        <source>SPECIALIZED <x id="LINE_BREAK" ctype="lb"/>SERVICES</source>
+        <target>SERVICIOS <x id="LINE_BREAK" ctype="lb"/>ESPECIALIZADOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">services specialized services</note>
+        <note priority="1" from="meaning">specialized services title</note>
+      </trans-unit>
+      <trans-unit id="ServicesSpecializedServicesSubtitle" datatype="html">
+        <source>
+          Innovation is more than having a great software product. It requires you to constantly be on the lookout for new technologies, opportunities, and features to be implemented. Our teams can cover your R&amp;D regarding:
+        </source>
+        <target>
+          Innovar es más que tener un gran producto de software. Requiere una actitud constante de búsqueda para encontrar nuevas oportunidades o tecnologías para adoptar. Nuestros equipos pueden cubrir sus necesidades de I+D en:
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">services specialized services</note>
+        <note priority="1" from="meaning">specialized services subtitle</note>
+      </trans-unit>
+      <trans-unit id="MobileAppDevelopment" datatype="html">
+        <source>Mobile App Development.</source>
+        <target>Desarrollo de aplicaciones móviles.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="InternetOfThings" datatype="html">
+        <source>Internet of Things.</source>
+        <target>Internet de las cosas.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AugmentedReality" datatype="html">
+        <source>Augmented &amp; Virtual Reality.</source>
+        <target>Realidad virtual y aumentada.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Analitycs" datatype="html">
+        <source>Analytics &amp; Machine Learning.</source>
+        <target>Analytics y Machine Learning.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ServicesProductDevelopmentTitle" datatype="html">
+        <source>PRODUCT <x id="LINE_BREAK" ctype="lb"/>DEVELOPMENT</source>
+        <target>DESARROLLO <x id="LINE_BREAK" ctype="lb"/>DE PRODUCTO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <note priority="1" from="description">services product development</note>
+        <note priority="1" from="meaning">product development title</note>
+      </trans-unit>
+      <trans-unit id="ServicesProductDevelopmentSubtitle1" datatype="html">
+        <source>
+          Innovation requires real problems to be solved with ingenious solutions. Perhaps your company knows what it wants to do but is unsure of how to do it. We specialize in helping companies achieve their digital transformation goals.
+        </source>
+        <target>
+          Innovar requiere resolver problemas reales de formas ingeniosas. Si su compañía sabe qué quiere lograr, pero no sabe cómo hacerlo, nos especializamos en apoyar y asesorar a las empresas para que alcancen sus objetivos de transformación digital.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <note priority="1" from="description">services subtitle product development</note>
+        <note priority="1" from="meaning">product development subtitle1</note>
+      </trans-unit>
+      <trans-unit id="ServicesProductDevelopmentSubtitle2" datatype="html">
+        <source>
+          After working for different industries we’ve deve- loped a series of software components that let us be agile and efficient. We’re also flexible regarding the Intellectual Property of these projects: we can work as a joint venture, or your company can keep the rights to what is developed.
+        </source>
+        <target>
+          Después de haber trabajado para diferentes industrias hemos desarrollado una serie de componentes de software que nos permiten ser más ágiles y eficientes que otros. También, somos flexibles respecto a la Propiedad intelectual de los proyectos: podemos trabajar como un joint venture, o su compañía puede conservar los derechos de la solución desarrollada.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <note priority="1" from="description">services subtitle product development</note>
+        <note priority="1" from="meaning">product development subtitle2</note>
+      </trans-unit>
+      <trans-unit id="ServicesAdvatagesSubtitle" datatype="html">
+        <source>Working with Yuxi means that you get<x id="LINE_BREAK" ctype="lb"/> more than just a team behind.</source>
+        <target>Trabajar con Yuxi significa que<x id="LINE_BREAK" ctype="lb"/> tienes más que un equipo detrás:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Advatages subtitle</note>
+        <note priority="1" from="meaning">Advatages subtitle</note>
+      </trans-unit>
+      <trans-unit id="TechnologiesTitle" datatype="html">
+        <source>TECHNOLOGIES</source>
+        <target>TECNOLOGÍAS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/programming-languages/programming-languages.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">technologies</note>
+        <note priority="1" from="meaning">technologies title</note>
+      </trans-unit>
+      <trans-unit id="ServicesLocationSubtitle" datatype="html">
+        <source>
+          We work while you work. Our prime location –6 months on EST &amp; 6 on CST– empowers synergies and communications. Collaboration
+          is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami &amp; Boston– and our U.S. based office.
+        </source>
+        <target>
+          Trabajamos mientras usted trabaja. Nuestra ubicación estratégica -seis meses en horario EST y seis en CST— dinamiza las sinergias y las comunicaciones. La colaboración entre equipos es fácil gracias a nuestra oficina en Estados Unidos y a la cercanía de Medellín con Centro y Suramérica.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">location subtitle</note>
+        <note priority="1" from="meaning">advantages location subtitle</note>
+      </trans-unit>
+      <trans-unit id="ServicesCulturalFitSubitle" datatype="html">
+        <source>
+          We share a western culture and mentality. We are proactive, responsible, and known for our attitude and charisma. If our
+          teams think something you do can be improved they will let you know and provide alternatives. We are bilingual –English and
+          Spanish– and work 45 hours a week. We are not working for you, we are working with you!
+        </source>
+        <target>
+          Creemos en la proactividad, la responsabilidad y la comunicación. Somos bilingües (inglés y español) y trabajamos 45 horas a la semana. Nos gusta el trabajo en equipo y hacer las cosas bien: si creemos que algo que su compañía hace puede mejorarse, se lo diremos.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description">cultural fit</note>
+        <note priority="1" from="meaning">advantages cultural fit subtitle</note>
+      </trans-unit>
+      <trans-unit id="ServicesFlexibilitySubtitle" datatype="html">
+          <source>
+            We stay up to date with the most modern technologies and practices. Our teams are versatile, adaptable, and have expertise
+            in a wide range of programming languages, databases, and frameworks. Our projects run under Agile and traditional methodologies
+            and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.
+          </source>
+          <target>
+            Estamos al tanto de las tecnologías y prácticas más modernas del mercado. Nuestros equipos son versátiles, se adaptan con facilidad y tienen experticia en un rango amplio de lenguajes de programación, bases de datos y frameworks. Nuestros proyectos funcionan bajo metodologías Agile y tradicionales y se apoyan en las áreas de UX/UI, QA y DevOps.
+          </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <note priority="1" from="description">flexibility</note>
+        <note priority="1" from="meaning">advantages flexibility subtitle</note>
+      </trans-unit>
+      <trans-unit id="WhoWeAreTitle" datatype="html">
+        <source>WHO WE ARE</source>
+        <target>QUIENES SOMOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">who we are title</note>
+        <note priority="1" from="meaning">who we are title</note>
+      </trans-unit>
+      <trans-unit id="WhoWeAreFirstDescription" datatype="html">
+        <source>
+        Yuxi Global (called Yuxi Pacific at the time) was founded in 2005 in Pennsylvania, USA, by the entre- preneur Michael
+        Puscar. In 2011 we opened a small office in Medellín, Colombia for research &amp; deve- lopment and were surprised by
+        the quality of the local talent. Our sales and employee numbers began doubling each year and since all our operations
+        were moved to Medellín.
+      </source>
+      <target>
+        Yuxi Global (entonces llamada Yuxi Pacific) fue fundada en 2005 en Pennsylvania, Estados Unidos por el emprendedor Michael Puscar. En el 2011 abrimos una oficina pequeña de Investigación y Desarrollo en Medellín, Colombia. Gracias a la calidad del talento local, nuestras ventas y número de empleados comenzaron a duplicarse anualmente.
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">first description</note>
+        <note priority="1" from="meaning">who we are first description</note>
+      </trans-unit>
+      <trans-unit id="WhoWeAreSecondDescription" datatype="html">
+        <source>
+          In 2013 the company was acquired by Blue Loop Capital, an investment firm from USA owned by a single stakeholder, the
+          serial entrepreneur, inventor, and investor Kent Savage. In 2016 we rebranded ourselves as Yuxi Global, adopting
+          a more modern image which reflects the maturity we’ve reached and our capability of tackling challenges from all
+          over the world.
+        </source>
+        <target>
+          En el 2013 la compañía fue adquirida por Blue Loop Capital, una firma de inversión de Estados Unidos con un único accionista: el inventor y emprendedor Kent Savage. En el 2016 nos relanzamos como Yuxi Global, adoptando una imagen más moderna, que refleja la madurez que hemos alcanzado como compañía y nuestra capacidad para afrontar retos que vengan de cualquier parte del mundo.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">second description</note>
+        <note priority="1" from="meaning">who we are second description</note>
+      </trans-unit>
+      <!-- CONTACT PAGE -->
+      <trans-unit id="ContactWelcomeTitle" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span"/>WELCOME<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, LET’S MAKE CONTACT.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span"/>BIENVENIDOS<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, CONTÁCTANOS.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact-hero/contact-hero.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">contact hero title</note>
+        <note priority="1" from="meaning">contact hero title</note>
+      </trans-unit>
+      <trans-unit id="ContactWelcomeSubtitle" datatype="html">
+        <source>We are here to help you</source>
+        <target>Estamos aquí para ayudarte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact-hero/contact-hero.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">contact hero subtitle</note>
+        <note priority="1" from="meaning">contact hero subtitle</note>
+      </trans-unit>
+      <trans-unit id="ViewInfo" datatype="html">
+        <source>View info</source>
+        <target>Más aquí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/offices-mobile/offices-mobile.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <note priority="1" from="description">button view info</note>
+        <note priority="1" from="meaning">BUTTON view info</note>
+      </trans-unit>
+      <trans-unit id="OurOfficesTitle" datatype="html">
+        <source>OUR OFFICES</source>
+        <target>NUESTRAS OFICINAS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/offices/offices.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">OUR OFFICES title</note>
+        <note priority="1" from="meaning">OUR OFFICES title</note>
+      </trans-unit>
+      <trans-unit id="ContactTitle" datatype="html">
+        <source>CONTACT</source>
+        <target>CONTACTO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">contact</note>
+        <note priority="1" from="meaning">contact title</note>
+      </trans-unit>
+      <trans-unit id="ContactSubtitle" datatype="html">
+        <source>What kind of help do you need?</source>
+        <target>¿Qué tipo de ayuda necesitas?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">contact</note>
+        <note priority="1" from="meaning">contact subtitle</note>
+      </trans-unit>
+      <trans-unit id="ContactCareersSubtitle" datatype="html">
+        <source>Do you want to work with Yuxi?</source>
+        <target>¿Quieres trabajar con Yuxi?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">contact careers</note>
+        <note priority="1" from="meaning">contact careers subtitle</note>
+      </trans-unit>
+      <trans-unit id="GoToCareers" datatype="html">
+        <source>Go to careers</source>
+        <target>Ir a carreras</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">button go to careers</note>
+        <note priority="1" from="meaning">BUTTON go to careers</note>
+      </trans-unit>
+      <!-- CONTACT FORMS -->
+      <trans-unit id="letsGetinTouchTitle" datatype="html">
+        <source>
+          Let’s get<x id="LINE_BREAK" ctype="lb"/> in touch.
+        </source>
+        <target>Escribenos<x id="LINE_BREAK" ctype="lb"/> tu mensaje.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">lets get in touch title</note>
+        <note priority="1" from="meaning">lets get in touch title</note>
+      </trans-unit>
+      <trans-unit id="businessFormSubtitle" datatype="html">
+        <source>
+          YOU ARE CONTACTING THE<x id="START_TAG_SPAN" ctype="x-span"/>SALES<x id="CLOSE_TAG_SPAN" ctype="x-span"/> TEAM.
+        </source>
+        <target>
+          ESTAS CONTACTANDO AL EQUIPO DE <x id="START_TAG_SPAN" ctype="x-span"/>VENTAS<x id="CLOSE_TAG_SPAN" ctype="x-span"/>.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">business form subtitle</note>
+        <note priority="1" from="meaning">business form subtitle</note>
+      </trans-unit>
+      <trans-unit id="GeneralFormSubtitle" datatype="html">
+        <source>
+          YOU ARE CONTACTING THE
+          <x id="START_TAG_SPAN" ctype="x-span"/>INFORMATION<x id="CLOSE_TAG_SPAN" ctype="x-span"/> TEAM.
+        </source>
+        <target>
+          ESTAS CONTACTANDO AL EQUIPO DE <x id="START_TAG_SPAN" ctype="x-span"/>INFORMACIÓN<x id="CLOSE_TAG_SPAN" ctype="x-span"/>.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">general form subtitle</note>
+        <note priority="1" from="meaning">general form subtitle</note>
+      </trans-unit>
+      <trans-unit id="BusinessTitle" datatype="html">
+        <source>BUSINESS</source>
+        <target>NEGOCIOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-mobile/forms-mobile.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">business title</note>
+        <note priority="1" from="meaning">BUSINESS TITLE</note>
+      </trans-unit>
+      <trans-unit id="GeneralTitle" datatype="html">
+        <source>GENERAL</source>
+        <target>GENERAL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-mobile/forms-mobile.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">General title</note>
+        <note priority="1" from="meaning">General TITLE</note>
+      </trans-unit>
+      <trans-unit id="ContactInformation" datatype="html">
+        <source>
+          Contact<x id="LINE_BREAK" ctype="lb"/> Information
+        </source>
+        <target>Información de<x id="LINE_BREAK" ctype="lb"/> contacto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">contact information</note>
+        <note priority="1" from="meaning">contact information</note>
+      </trans-unit>
+      <trans-unit id="FollowUs" datatype="html">
+          <source>Follow us</source>
+          <target>Síguenos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/forms-desktop/forms-desktop.component.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <note priority="1" from="description">follow us</note>
+        <note priority="1" from="meaning">follow us</note>
+      </trans-unit>
+      <trans-unit id="FormName" datatype="html">
+        <source>Name</source>
+        <target>Nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">form name</note>
+        <note priority="1" from="meaning">form name</note>
+      </trans-unit>
+      <trans-unit id="FormCompany" datatype="html">
+        <source>Company</source>
+        <target>Compañia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">form Company</note>
+        <note priority="1" from="meaning">form Company</note>
+      </trans-unit>
+      <trans-unit id="FormEmail" datatype="html">
+        <source>Enter your email</source>
+        <target>Ingresa tu correo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">form email</note>
+        <note priority="1" from="meaning">form email</note>
+      </trans-unit>
+      <trans-unit id="FormPhone" datatype="html">
+        <source>Phone</source>
+        <target>Telefono</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">form Phone</note>
+        <note priority="1" from="meaning">form Phone</note>
+      </trans-unit>
+      <trans-unit id="FormCountry" datatype="html">
+        <source>Country</source>
+        <target>País</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">form country</note>
+        <note priority="1" from="meaning">form country</note>
+      </trans-unit>
+      <trans-unit id="FormComments" datatype="html">
+        <source>Comments</source>
+        <target>Comentarios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">form comments</note>
+        <note priority="1" from="meaning">form comments</note>
+      </trans-unit>
+      <trans-unit id="FormMessage" datatype="html">
+        <source>Type here your message</source>
+        <target>Escribe tu mensaje aquí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">form Message</note>
+        <note priority="1" from="meaning">form message</note>
+      </trans-unit>
+      <trans-unit id="agreeTerms" datatype="html">
+        <source>
+          *By clicking Submit, you agree to our
+          <x id="START_LINK" ctype="x-a"/>Terms and Privacy<x id="CLOSE_LINK" ctype="x-a"/> Policy.
+        </source>
+        <target>
+          *Al hacer click en submit, estás aceptando la política de <x id="START_LINK" ctype="x-a"/>Terminos y Condiciones<x id="CLOSE_LINK" ctype="x-a"/>.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/business-form/business-form.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/general-form/general-form.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">agree terms</note>
+        <note priority="1" from="meaning">agree terms</note>
+      </trans-unit>
+      <trans-unit id="ContactCareersTitle" datatype="html">
+        <source>CAREERS</source>
+        <target>CARRERAS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">contact careers</note>
+        <note priority="1" from="meaning">contact careers title</note>
+      </trans-unit>
+      <!-- CAREERS PAGE -->
+      <trans-unit id="OurCultureTitle" datatype="html">
+        <source>OUR CULTURE</source>
+        <target>NUESTRA CULTURA</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/careers.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">our culture</note>
+        <note priority="1" from="meaning">lout culture title</note>
+      </trans-unit>
+      <trans-unit id="WorkEnvironmentTitle" datatype="html">
+        <source>GOOD WORK ENVIRONMENT.</source>
+        <target>INCREÍBLE AMBIENTE DE TRABAJO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">enviroment title</note>
+        <note priority="1" from="meaning">good work enviroment title</note>
+      </trans-unit>
+      <trans-unit id="WorkEnvironmentSubtitle" datatype="html">
+        <source>MEANS HAPPY EMPLOYEES</source>
+        <target>CON EMPLEADOS FELICES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">enviroment subtitle</note>
+        <note priority="1" from="meaning">good work enviroment subtitle</note>
+      </trans-unit>
+      <trans-unit id="WorkEnvironmentDescription" datatype="html">
+        <source>
+          Having a good work environment is having happy employees. This accounts for both location and ambience: Yuxians have access
+          to free fruit, cereals, coffee, and snacks. We host activities like guided active pauses and monthly massages. Our
+          offices are spaces designed to be both comfortable and inspiring, letting creativity flow freely.
+        </source>
+        <target>
+          Tener un buen ambiente de trabajo es tener empleados felices. Tanto en la ubicación como en el ambiente: los Yuxians tienen acceso a frutas, cereales, café y snacks gratis. Organizamos actividades como pausas activas y masajes mensuales. Nuestras oficinas son espacios diseñados para ser cómodos e inspiradores, permitiendo que la creatividad fluya libremente.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">enviroment description</note>
+        <note priority="1" from="meaning">good work enviroment description</note>
+      </trans-unit>
+      <trans-unit id="BenefitsTitle" datatype="html">
+        <source>COMPREHENSIVE BENEFITS PACKAGE.</source>
+        <target>PAQUETE COMPLETO DE BENEFICIOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">benefits title</note>
+        <note priority="1" from="meaning">benefits package title</note>
+      </trans-unit>
+      <trans-unit id="BenefitsSubtitle" datatype="html">
+        <source>GOES A LONG WAY</source>
+        <target>SIEMPRE DISPONIBLE PARA TI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">benefits subtitle</note>
+        <note priority="1" from="meaning">benefits package subtitle</note>
+      </trans-unit>
+      <trans-unit id="BenefitsDescription" datatype="html">
+        <source>
+          A strong and comprehensive benefits package goes a long way. Our employees can mix and match between benefits like gym memberships,premium
+          healthcare, vehicle insurance, savings programs, food or gas passes, education aids, etc.
+        </source>
+        <target>
+          Un fuerte y completo paquete de beneficios que lo podrás utilizar cuando lo desees. Nuestros empleados pueden mezclar los beneficios, como membresías en gimnasios, cuidado de salud premium, seguro de vehículos, programas de ahorro, pases de comida o gas, ayudas educativas, etc.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description">benefits Description</note>
+        <note priority="1" from="meaning">benefits package Description</note>
+      </trans-unit>
+      <trans-unit id="LifestyleTitle" datatype="html">
+        <source>
+          MORE THAN A LIFESTYLE.
+        </source>
+        <target>MÁS QUE UN ESTILO DE VIDA</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">lifestyle title</note>
+        <note priority="1" from="meaning">lifestyle title</note>
+      </trans-unit>
+      <trans-unit id="LifestyleSubtitle" datatype="html">
+        <source>
+          IT’S OUR WORKSTYLE
+        </source>
+        <target>ES NUESTRO ESTILO DE TRABAJO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <note priority="1" from="description">lifestyle Subtitle</note>
+        <note priority="1" from="meaning">lifestyle Subtitle</note>
+      </trans-unit>
+      <trans-unit id="LifestyleDescription" datatype="html">
+        <source>
+          You don’t only work to live: life also happens inside the office. For many years society has thought that work is a hindrance
+          that stops us from living our actual life, something so drudging that you actually get paid for it. It’s time to change
+          that: #YuxiLife is our way of creating conditions where people can feel happy, encouraged, and motivated about going
+          to work. #YuxiLife is, more than a lifestyle, our workstyle.
+        </source>
+        <target>
+          No solo trabajas para vivir: la vida también sucede dentro de la oficina. Durante muchos años la sociedad ha pensado que el trabajo es un obstáculo que nos impide vivir nuestra vida real, algo tan pesado que en realidad se les paga por ello. Es hora de cambiar eso: #YuxiLife es nuestra forma de crear condiciones en las que las personas pueden sentirse felices, alentadas y motivadas para ir a trabajar. #YuxiLife es, más que un estilo de vida, nuestro estilo de trabajo.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/our-culture-desktop/our-culture-desktop.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <note priority="1" from="description">lifestyle Description</note>
+        <note priority="1" from="meaning">lifestyle Description</note>
+      </trans-unit>
+      <!-- OPEN SPOTS SECTION -->
+      <trans-unit id="OpenSpotsTitle" datatype="html">
+        <source>
+          OPEN SPOTS
+        </source>
+        <target>ESTAMOS BUSCANDO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/offers/offers.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">open spots</note>
+        <note priority="1" from="meaning">open spots</note>
+      </trans-unit>
+      <trans-unit id="NotYourProfile" datatype="html">
+        <source>
+          NOT YOUR PROFILE?
+        </source>
+        <target>¿NO ES TU PERFIL?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/offers/offers.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">not your profile</note>
+        <note priority="1" from="meaning">not your profile</note>
+      </trans-unit>
+      <trans-unit id="NotYourProfileDescription" datatype="html">
+        <source>
+          These are the Yuxians we’re currently looking for. However, if your profile is different from this or you’d like to ask about other positions, feel free to send us an e-mail to:
+        </source>
+        <target>Estos son los Yuxian que estamos buscando actualmente, sin embargo si tu perfil es diferente o quieres saber más sobre otras posiciones, comunícate con nosotros a:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/offers/offers.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">not your profile description</note>
+        <note priority="1" from="meaning">not your profile</note>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

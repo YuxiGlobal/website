@@ -1,0 +1,51 @@
+@import '~styles/variables';
+.who-we-are {
+    text-align: center;
+    font-family: $fontFamilyPrimary;
+    color: $white;
+    font-size: 0.9rem;
+    padding-top: 5rem;
+    padding-top: 5rem;
+    background: linear-gradient(to top, $japaneseViolet 40%, $ciberGrape 40%);
+    @media (min-width: 1024px) {
+        margin-top: 12rem;
+        background: transparent;
+        h1 {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.who-we-are-description {
+    background-color: $white;
+    border-radius: 10px;
+    color: $dark-grey;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-weight: 400;
+    font-family: $fontFamilySecondary;
+    @include dark-shadow;
+    @media (min-width: 1024px) {
+        width: 550px;
+    }
+    p {
+        padding: 25px;
+        margin: 0;
+    }
+}
+#text-description {
+    padding-bottom: 0;
+}
+
+.service-button-wrapper {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    @media (min-width: 1024px) {
+        margin-right: calc(50% - 80px);
+    }
+}

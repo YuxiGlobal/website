@@ -1,0 +1,49 @@
+<form [formGroup]="businessForm" novalidate enctype="multipart/form-data" method="POST">
+  <h3
+    i18n="lets get in touch title|lets get in touch title@@letsGetinTouchTitle"
+    class="title">
+    Let’s get
+    <br> in touch.
+  </h3>
+  <p
+   i18n="business form subtitle|business form subtitle@@businessFormSubtitle"
+    class="subtitle">YOU ARE CONTACTING THE
+    <span>SALES</span> TEAM.</p>
+  <mat-form-field>
+    <input i18n-placeholder="form name|form name@@FormName" matInput name="name" placeholder="Name" formControlName="name" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input i18n-placeholder="form Company|form Company@@FormCompany" matInput name="company" placeholder="Company" formControlName="company">
+  </mat-form-field>
+  <mat-form-field>
+    <input i18n-placeholder="form email|form email@@FormEmail" matInput placeholder="Enter your email" matInput placeholder="Enter your email" name="email" formControlName="email" required />
+    <mat-error *ngIf="businessForm.value.email.invalid">{{getErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input i18n-placeholder="form Phone|form Phone@@FormPhone" matInput name="phone" placeholder="Phone" formControlName="phone" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input i18n-placeholder="form country|form country@@FormCountry" matInput name="country" placeholder="Country" formControlName="country" required>
+  </mat-form-field>
+  <label for="textarea" i18n="form comments|form comments@@FormComments">Comments</label>
+  <textarea i18n-placeholder="form message|form Message@@FormMessage" id="textarea" name="message" placeholder="Type here your message" formControlName="message"></textarea>
+  <div id="business" *ngIf="showCaptcha">
+    <re-captcha (resolved)="resolved($event)" [siteKey]="recaptchaKey"></re-captcha>
+  </div>
+  <div class="submit-section">
+    <p i18n="agree terms|agree terms@@agreeTerms">
+      *By clicking Submit, you agree to our
+      <a href=".">Terms and Privacy</a> Policy.
+    </p>
+    <div class="button-wrapper">
+      <button
+        type="submit"
+        class="button-form"
+        [disabled]="businessForm.invalid || !recaptchaResponse.length"
+        (click)="submitForm()"
+      >
+        {{ buttonTitle }}
+      </button>
+    </div>
+  </div>
+</form>

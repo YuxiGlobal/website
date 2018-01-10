@@ -6,13 +6,25 @@ import { ServicesIntroComponent } from './services-intro/services-intro.componen
 import { ServicesItemsComponent } from './services-items/services-items.component';
 import { ServicesAdvantagesComponent } from './services-advantages/services-advantages.component';
 import { ProgrammingLanguagesComponent } from './programming-languages/programming-languages.component';
+import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
+import { MatTabsModule } from '@angular/material';
+import { SkylineComponent } from './skyline/skyline.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    MatTabsModule
   ],
-  declarations: [ServicesPageComponent, ServicesIntroComponent, ServicesItemsComponent, ServicesAdvantagesComponent, ProgrammingLanguagesComponent],
+  declarations: [
+    ServicesPageComponent,
+    ServicesIntroComponent,
+    ServicesItemsComponent,
+    ServicesAdvantagesComponent,
+    ProgrammingLanguagesComponent,
+    WhoWeAreComponent,
+    SkylineComponent
+  ],
   exports: [ServicesPageComponent]
 })
 export class ServicesPageModule { }

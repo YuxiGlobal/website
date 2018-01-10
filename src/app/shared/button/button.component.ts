@@ -12,6 +12,9 @@ export class ButtonComponent  {
   @Input()
   size: string;
 
+  @Input()
+  routerLink: string;
+
   constructor() { }
 
 

@@ -1,0 +1,240 @@
+@import '~styles/variables';
+
+.skyline {
+  background: $japaneseViolet;
+  position: relative;
+  margin-top: 8rem;
+}
+
+.city {
+  background: url('/../../assets/images/EDIFICIOS.png') no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 110%;
+  position: absolute;
+  z-index: 0;
+  bottom:16px;
+  overflow: hidden;
+}
+
+.city img {
+	width: 100vw;
+	position: absolute;
+	bottom: -11px;
+}
+/*---------   ----------*/
+.city .lamps img {
+	width:10vw;
+}
+.city .lamps img:nth-child(1) {
+	left:10vw;
+}
+.city .lamps img:nth-child(2) {
+	right:4vw;
+}
+/*---------   ----------*/
+.city .lights img {
+	width:20.3vw;
+}
+.city .lights img:nth-child(1) {
+	left:4.1vw;
+}
+.city .lights img:nth-child(2) {
+	left:7.7vw;
+}
+.city .lights img:nth-child(3) {
+	right: -4.04vw;;
+}
+.city .lights img:nth-child(4) {
+	right: -0.4vw;
+}
+.lampLight {
+  -webkit-animation: blur 3s infinite;
+  -webkit-animation: blinkFast 0.0009s infinite alternate;
+  -moz-animation: blinkFast 0.0009s infinite alternate;
+  -o-animation: blinkFast 0.0009s infinite alternate;
+  animation: blinkFast 0.0009s infinite alternate;
+}
+@-moz-keyframes blinkFast {70%{opacity: 0.7;}}
+@-webkit-keyframes blinkFast {45%{opacity: 0.5;}}
+@-o-keyframes blinkFast {70%{opacity: 0.7;}}
+@keyframes blinkFast {70%{opacity: 0.7;}}
+
+/*---------  Metro ----------*/
+.metro img {
+  bottom:0;
+  left: -80%;
+  position:absolute;
+	width:95vw;
+}
+
+@keyframes slideInLeft {
+  0% {
+    left: -80%;
+    visibility: visible;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+
+.visible {
+  .animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+
+  .slideInLeft {
+    animation-name: slideInLeft;
+  }
+
+  .wagon-01 {
+    left: 23%;
+    top: 50.7%;
+  }
+
+  .wagon-02 {
+    left: 14%;
+    top: 33.5%;
+  }
+
+  .wagon-03 {
+    left: 7%;
+    top: 22%;
+  }
+
+  .wagon-04 {
+    left: -1%;
+    top: 7.5%;
+  }
+}
+
+
+
+/*-----------stars-----------*/
+.stars {
+  width: 99vw;
+  height: 30vw;
+  background: url('/../../assets/images/stars.png');
+  background-size: 100%;
+  position: absolute;
+  top: -15vh;
+  left: -1vw;
+  z-index: 0;
+  -webkit-animation: blur 10s infinite;
+  -webkit-animation: blink 0.9s infinite alternate;
+  -moz-animation: blink 0.9s infinite alternate;
+  -o-animation: blink 0.9s infinite alternate;
+  animation: blink 0.9s infinite alternate;
+  @media (min-width: 1024px) {
+    top: -30vh;
+  }
+}
+
+@-moz-keyframes blink {70%{opacity: 0.7;}}
+@-webkit-keyframes blink {45%{opacity: 0.5;}}
+@-o-keyframes blink {70%{opacity: 0.7;}}
+@keyframes blink {70%{opacity: 0.3;}}
+
+.stars2 {
+  width: 99vw;
+  height: 30vw;
+  background: url('/../../assets/images/stars2.png');
+  background-size: 100%;
+  position: absolute;
+  top: -15vh;
+  left: -1vw;
+  z-index: 0;
+  -webkit-animation: blur 10s infinite;
+  -webkit-animation: blink2 1.5s infinite alternate;
+  -moz-animation: blink2 1.5s infinite alternate;
+  -o-animation: blink2 1.5s infinite alternate;
+  animation: blink2 1.5s infinite alternate;
+  @media (min-width: 1024px) {
+    top: -30vh;
+  }
+}
+@-moz-keyframes blink2 {70%{opacity: 0.7;}}
+@-webkit-keyframes blink2 {45%{opacity: 0.5;}}
+@-o-keyframes blink2 {70%{opacity: 0.7;}}
+@keyframes blink2 {70%{opacity: 0.3;}}
+
+/*---------- metrocable svg clases ----------*/
+
+.metro-cable {
+  position: relative;
+  z-index: 1;
+  svg {
+    position: relative;
+  }
+}
+
+@mixin animateWagonMixin($duration, $delay) {
+  transition: left $duration $delay ease-out, top $duration $delay cubic-bezier(0.03, 0.2, 0.6, 1);
+}
+
+.wagons {
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-color: transparent;
+  background-size: contain;
+  position: absolute;
+}
+
+.wagon-01 {
+  $delay: 1s;
+  $duration: 4s;
+
+  background-image: url('../../../assets/images/vagon-01.svg');
+
+  height: 30%;
+  width: 8%;
+  left: -10%;
+  top: -13%;
+  transition: left $duration $delay ease-out, top $duration $delay cubic-bezier(0.1, 0.48, 0.6, 1);
+
+}
+
+.wagon-02 {
+  $delay: 2s;
+  $duration: 4s;
+
+  background-image: url('../../../assets/images/vagon-04.svg');
+
+  height: 41%;
+  width: 20%;
+  left: -10%;
+  top: -10%;
+  @include animateWagonMixin($duration, $delay);
+}
+
+.wagon-03 {
+  $delay: 3s;
+  $duration: 4s;
+
+  background-image: url('../../../assets/images/vagon-03.svg');
+  height: 28%;
+  width: 20%;
+  left: -10%;
+  top: -10%;
+  @include animateWagonMixin($duration, $delay);
+}
+
+.wagon-04 {
+  $delay: 4s;
+  $duration: 4s;
+
+  background-image: url('../../../assets/images/vagon-04.svg');
+  background-position-y: top;
+  height: 40%;
+  width: 18%;
+  left: -10%;
+  top: -10%;
+  @include animateWagonMixin($duration, $delay);
+}
+
+.cls, .cls2 {
+  fill:#3A2663;
+}

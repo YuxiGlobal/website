@@ -1,13 +1,16 @@
 <div class="fp-tableCell">
   <div class="home-banner">
     <div class="info-banner">
-      <h1 class="banner-tittle">{{info.title | uppercase }}</h1>
+      <h1 class="banner-tittle">{{title | uppercase }}</h1>
       <div class="line"></div>
-      <h2 class="banner-description">{{info.subtitle}}</h2>
+      <h2 class="banner-description">{{subtitle}}</h2>
       <div class="home-button-wrapper">
         <app-button
+          type="button"
+          routerLink="/services"
           type="primary"
           size="small"
+          i18n="BUTTON LEARN MORE|button learn more@@LearnMore"
         >
           Learn more
         </app-button>
@@ -15,6 +18,9 @@
     </div>
     <div class="image-banner-container" [ngClass]="info.class">
         <img class="banner-image" [ngClass]="info.class" [src]="info.image"/>
+        <div [ngClass]="{fallbackImage: isSafari, fallbackImageHide: !isSafari}">
+          <img [src]="info.image" alt="Banner!" />
+        </div>
         <video class="banner-video" autoplay loop [ngClass]="info.class" #videoElement>
           <source src="{{info.video}}" type="video/webm" />
         </video>

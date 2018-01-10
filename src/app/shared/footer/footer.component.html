@@ -1,26 +1,34 @@
 <footer>
   <p class="in-touch" (click)="openGetInTouch()">
-    <a>GET IN TOUCH</a>
+    <a i18n="get in touch button|get in touch button@@getInTouchButton">GET IN <br>TOUCH</a>
   </p>
   <section class="media">
       <img class="white-yuxi-logo" src="assets/icons/YUXI_LOGO_WHITE.svg">
       <nav class="media-items">
-        <a target="_blank" href="https://twitter.com/YuxiGlobal"><img class="media-icon" src="assets/icons/twitter.svg"></a>
-        <a target="_blank" href="https://co.linkedin.com/company/yuxi-pacific"><img class="media-icon" src="assets/icons/linkedin.svg"></a>
-        <a target="_blank" href="https://www.facebook.com/yuxiglobal1"><img class="media-icon" src="assets/icons/facebook.svg"></a>
-        <a target="_blank" href="https://www.instagram.com/yuxiglobal/"><img class="media-icon" src="assets/icons/instagram.svg"></a>
+        <a target="_blank" href="https://twitter.com/YuxiGlobal">
+          <i class="icon-twitter"></i>
+        </a>
+        <a target="_blank" href="https://co.linkedin.com/company/yuxi-pacific">
+          <i class="icon-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/yuxiglobal1">
+          <i class="icon-facebook"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/yuxiglobal/">
+          <i class="icon-instagram"></i>
+        </a>
       </nav>
       <nav class="menu-items">
-        <a routerLink="/home">Home</a>
-        <a routerLink="/services">Services</a>
-        <a href="#">Careers</a>
-        <a href="#">Media</a>
-        <a href="#">Contact</a>
+        <a routerLink="/home" routerLinkActive="active" i18n="home link|home link@@HomeLink">Home</a>
+        <a routerLink="/services" routerLinkActive="active" i18n="Services link|Services link@@ServicesLink">Services</a>
+        <a routerLink="/careers" routerLinkActive="active" i18n="Careers link|Careers link@@CareersLink">Careers</a>
+        <a href="#" i18n="Media link|Media link@@MediaLink">Media</a>
+        <a routerLink="/contact" routerLinkActive="active" i18n="Contact link|Contact link@@ContactLink">Contact</a>
       </nav>
   </section>
   <nav class="terms">
-    <a href="#">All rights reserved to Yuxi Global 2017</a>
-    <a href="#">Terms</a>
-    <a href="#">Privacy</a>
+    <a href="#" i18n="rights text|rights text@@rightsText">All rights reserved to Yuxi Global 2017</a>
+    <a href="#" i18n="@@terms">Terms</a>
+    <a href="#" i18n="@@privacy">Privacy</a>
   </nav>
 </footer>

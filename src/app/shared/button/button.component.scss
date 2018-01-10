@@ -1,15 +1,20 @@
 @import '~styles/variables';
 
+a {
+  text-decoration: none;
+}
+
 .primaryButton {
   background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
   padding: 3px;
   border-radius: 10px;
   background-size: 200% 200%;
-  
+  cursor: pointer;
+
   -webkit-animation: AnimationName 6s ease infinite;
   -moz-animation: AnimationName 6s ease infinite;
   animation: AnimationName 6s ease infinite;
-  
+
   @-webkit-keyframes AnimationName {
       0%{background-position:0% 84%}
       50%{background-position:100% 17%}
@@ -20,7 +25,7 @@
       50%{background-position:100% 17%}
       100%{background-position:0% 84%}
   }
-  @keyframes AnimationName { 
+  @keyframes AnimationName {
       0%{background-position:0% 84%}
       50%{background-position:100% 17%}
       100%{background-position:0% 84%}
@@ -40,6 +45,7 @@
 .secondaryInnerBackground {
   background: $turquoiseBlue;
   color: $rusianViolet;
+  cursor: pointer;
   &:hover {
     background: linear-gradient(60deg, $turquoiseBlue, $brightLilac);
     color: $rusianViolet;
@@ -51,9 +57,7 @@
   padding: 16px 16px;
   font-family: $fontFamilyPrimary;
   font-weight: bold;
-  -webkit-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
-  -moz-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
-  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.45);
+  @include mid-shadow;
 
     h5 {
       margin: 0;

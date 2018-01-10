@@ -19,7 +19,7 @@ footer {
     top: 0;
     left: 0;
     height: 3px;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
   }
 }
@@ -42,7 +42,7 @@ footer {
 }
 
 .media-items {
-  border-left: 2px solid #fff;
+  border-left: 2px solid $white;
   display: inline-block;
   margin-left: 16px;
   padding-left: 15px;
@@ -54,7 +54,10 @@ footer {
 
   a {
     display: inline-block;
-    width: 25px;
+    text-decoration: none;
+    color: $white;
+    font-size: 1.5rem;
+    padding: 0 2px;
   }
 }
 
@@ -67,6 +70,9 @@ footer {
       margin: 0 19px;
       text-decoration: none;
       color: $white;
+      &.active {
+          color: $turquoiseBlue;
+      }
       &:hover {
         color: $turquoiseBlue;
       }
@@ -89,6 +95,12 @@ footer {
     text-decoration: none;
     color: $white;
     margin: 5px;
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      border-right: 1px solid $white;
+      padding-right: 9px;
+    }
   }
 }
 
@@ -97,7 +109,7 @@ footer {
   position: absolute;
   top: -40px;
   right: 20px;
-  border: 2px solid white;
+  border: 2px solid $white;
   border-radius: 5px;
   background: $rusianViolet;
   width: 90px;
@@ -106,8 +118,9 @@ footer {
   }
 
   a {
+    font-size: .8rem;
     display: block;
-    padding: 8px 0;
+    padding: 15px 0;
     margin: 0;
     background: linear-gradient(90deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
     background-size: 80%;

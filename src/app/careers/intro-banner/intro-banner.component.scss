@@ -1,0 +1,41 @@
+@import '~styles/variables';
+ngx-carousel {
+    background-color: $rusianViolet;
+    height: 100vh;
+    color: $white;
+    font-family: $fontFamilyPrimary;
+}
+ngx-item {
+   height: 80vh;
+   h1 {
+    padding-top: 35vh;
+    text-align: center;
+   }
+}
+button.leftRs {
+    display: none !important;
+}
+button.rightRs {
+    display: none !important;
+}
+
+.image-banner {
+    display: block;
+    padding-top: 35vh;
+    display: flex;
+    justify-content: center;
+    @media (min-width: 1024px) {
+        display: none;
+    }
+}
+.image-banner-desktop {
+    display: none;
+    @media (min-width: 1024px) {
+        display: block;
+        padding-top: 33vh;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+

@@ -12,14 +12,15 @@
     }
     .image-medellin,
     .image-armenia,
-    .image-manson {
+    .image-mason {
         background-size: cover;
         border-radius: 10px;
-        height: 300px;
+        height: 400px;
         margin-bottom: 50px;
         position: relative;
         z-index: 1;
         width: 100%;
+        @include dark-shadow;
         &:after {
             position: absolute;
             content: "";
@@ -28,6 +29,7 @@
             width: 100%;
             height: 100%;
             opacity: 0;
+            border-radius: 10px;
         }
         &:hover:after {
             opacity: .8;
@@ -41,7 +43,7 @@
     .image-armenia {
         background-image: url("/../../assets/images/armenia.jpg");
     }
-    .image-manson {
+    .image-mason {
         background-image: url("/../../assets/images/manson.jpg");
     }
     .open-info {
@@ -60,7 +62,7 @@
         }
     }
     .info-city-copy {
-        padding: 20px;
+        padding-top: 95px;
         text-align: center;
         color: $rusianViolet;
         h2 {
@@ -70,7 +72,8 @@
             font-family: $fontFamilySecondary;
             margin-bottom: 0;
             margin-top: 0.3rem;
-            color: #515151;
+            color: $medium-gray;
+            font-weight: 300;
         }
     }
     .show-desktop {
@@ -81,19 +84,19 @@
         z-index: 0;
         top: 0px;
         position: absolute;
-        height: 300px;
+        height: 310px;
         width: 80%;
         left: calc(50% - 400px);
-        border-radius: 0 0 6px 6px;
+        border-radius: 0 0 10px 10px;
         margin: 0 auto;
-        color: #000;
-        background: #fefefe;
+        color: $black;
+        background: $white;
     }
     .city:hover {
-        margin-bottom: 230px;
+        margin-bottom: 260px;
         transition: margin-bottom 0.8s ease;
         .info-city {
-            transform: translateY(98%);
+            transform: translateY(100%);
         }
     }
 }

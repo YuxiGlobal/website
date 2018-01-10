@@ -1,0 +1,214 @@
+@import '~styles/variables';
+
+.offer-detail-container {
+    background-color: $rusianViolet;
+    color: $white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: $fontFamilyPrimary;
+    @media (min-width: 1024px) {
+        padding-top: 182px;
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}
+.job-position {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.title2 {
+    background: -webkit-linear-gradient(330deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 9px;
+}
+.underline {
+    border-top: 1.5px solid $white;
+    margin-bottom: 1.5rem;
+    width: 60px;
+}
+ul {
+    font-family: $fontFamilySecondary;
+    font-size:  0.9rem;
+    list-style-image: url(/../../../assets/icons/PUNTICOS.svg);
+    padding-left: 16px;
+}
+li {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.description {
+    font-family: $fontFamilySecondary;
+    font-size:  0.9rem;
+    line-height: 1.5;
+}
+
+
+//form styles
+
+form {
+  align-items: center;
+  background: linear-gradient(60deg, $fandango, $ciberGrape);
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  font-family: $fontFamilyPrimary;
+  label {
+    padding: 10px 0;
+    color: $brightLilac;
+  }
+  textarea {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: grey;
+    font-family: $fontFamilySecondary;
+    height: 14vh;
+  }
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    line-height: .9;
+  }
+  .subtitle {
+    margin-top: 0;
+    font-size: 0.8rem;
+    span {
+      color: $turquoiseBlue;
+    }
+  }
+  @media (min-width: 1024px) {
+    border-radius: 15px 0 0 15px;
+  }
+}
+
+form>* {
+  width: 80%;
+}
+
+.mat-form-field {
+  font-family: $fontFamilyPrimary;
+}
+
+.submit-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  p {
+    font-family: $fontFamilySecondary;
+    font-size: 0.7rem;
+    width: 50%;
+  }
+  a {
+    text-decoration: none;
+    color: $turquoiseBlue;
+  }
+  .button-wrapper {
+    text-align: center;
+    width: 130px;
+    margin-top: 1rem;
+  }
+}
+.contact-information {
+  display: none;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-name {
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+#custom-file-upload {
+  color: $white;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: -21px;
+  &:hover {
+    color: $turquoiseBlue;
+  }
+  p {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+}
+.type-file-upload {
+  font-size: 0.7rem;
+  font-family: $fontFamilySecondary;
+}
+
+#jobs-mail {
+  font-weight: 300;
+}
+
+//desktop view
+  @media (min-width: 1024px) {
+
+    .contact-information {
+      background-color: $white;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background: linear-gradient(to top, $ciberGrape 53%, $rusianViolet 53%);
+    }
+
+    .form-container {
+      width: 60%;
+    }
+
+    .contact-information {
+      border-radius: 0 15px 15px 0;
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        font-family: $fontFamilyPrimary;
+        color: $rusianViolet;
+        font-size: 1.4rem;
+      }
+      p {
+        font-family: $fontFamilySecondary;
+        margin-bottom: 0;
+        margin-top: 0.3rem;
+      }
+      a {
+        text-decoration: none;
+        color: $fandango;
+        font-weight: 700;
+        font-family: $fontFamilySecondary;
+      }
+    }
+
+
+    .media-items {
+      display: inline-block;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: $rusianViolet;
+        font-size: 2rem;
+        padding: 0 2px;
+      }
+    }
+  }
+
+
