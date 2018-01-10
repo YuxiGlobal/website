@@ -613,7 +613,7 @@
       </trans-unit>
       <trans-unit id="WhoWeAreTitle" datatype="html">
         <source>WHO WE ARE</source>
-        <target>QUIENES SOMOS</target>
+        <target>QUIÉNES SOMOS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
           <context context-type="linenumber">4</context>
