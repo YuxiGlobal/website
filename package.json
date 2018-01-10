@@ -13,8 +13,8 @@
     "deploy": "npm run build:ghpages && npm run ghpages:github",
     "ngrok": "ngrok http --host-header=rewrite 4200",
     "build": "npm run build-en && npm run build-es",
-    "build-en": "ng build --prod --aot -op docs/en -bh ./en",
-    "build-es": "ng build --prod --aot -op docs/es -bh ./es --i18nFile=src/locale/messages.es.xlf --i18nFormat=xlf --locale=es"
+    "build-en": "ng build --prod --aot -op dist/en -bh ./en",
+    "build-es": "ng build --prod --aot -op dist/es -bh ./es --i18nFile=src/locale/messages.es.xlf --i18nFormat=xlf --locale=es"
   },
   "private": true,
   "dependencies": {
