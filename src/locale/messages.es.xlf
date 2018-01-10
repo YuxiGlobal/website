@@ -1186,7 +1186,7 @@
        <!-- OUR CULTURE BANNERS -->
       <trans-unit id="banner1Mobile" datatype="html">
         <source>/../../../assets/images/BANNER1_MOBILE.png</source>
-        <target>/../../../assets/images/BANNER2_MOBILE.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPAÑOL1.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -1194,7 +1194,7 @@
       </trans-unit>
       <trans-unit id="banner1Desktop" datatype="html">
         <source>/../../../assets/images/BANNER1_DESKTOP.png</source>
-        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPANOL_DESKTOP1.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -1202,7 +1202,7 @@
       </trans-unit>
       <trans-unit id="banner2Mobile" datatype="html">
         <source>/../../../assets/images/BANNER2_MOBILE.png</source>
-        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPAÑOL2.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -1210,7 +1210,7 @@
       </trans-unit>
       <trans-unit id="banner2Desktop" datatype="html">
         <source>/../../../assets/images/BANNER2_DESKTOP.png</source>
-        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPANOL_DESKTOP2.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">17</context>
@@ -1218,7 +1218,7 @@
       </trans-unit>
       <trans-unit id="banner3Mobile" datatype="html">
         <source>/../../../assets/images/BANNER3_MOBILE.png</source>
-        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPAÑOL3.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">22</context>
@@ -1226,7 +1226,7 @@
       </trans-unit>
       <trans-unit id="banner3Desktop" datatype="html">
         <source>/../../../assets/images/BANNER3_DESKTOP.png</source>
-        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPANOL_DESKTOP3.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -1234,7 +1234,7 @@
       </trans-unit>
       <trans-unit id="banner4Mobile" datatype="html">
         <source>/../../../assets/images/BANNER4_MOBILE.png</source>
-        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPAÑOL4.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">30</context>
@@ -1242,7 +1242,7 @@
       </trans-unit>
       <trans-unit id="banner4Desktop" datatype="html">
         <source>/../../../assets/images/BANNER4_DESKTOP.png</source>
-        <target>/../../../assets/images/BANNER1_DESKTOP.png</target>
+        <target>/../../../assets/images/BANNERS_CAREERS_ESPANOL_DESKTOP4.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
           <context context-type="linenumber">33</context>
