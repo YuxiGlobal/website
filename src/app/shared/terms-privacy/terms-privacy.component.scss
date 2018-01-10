@@ -1,0 +1,25 @@
+@import '~styles/variables';
+
+article {
+  background-color: $japaneseViolet;
+  padding: 150px 12%;
+  color: $white;
+  font-family: $fontFamilySecondary;
+  font-size: 1.1rem;
+  h1 {
+    font-family: $fontFamilyPrimary;
+  }
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+span {
+  color: $brightLilac;
+  font-weight: 600;
+}
+.colorTitle {
+  background: -webkit-linear-gradient(330deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue 87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
