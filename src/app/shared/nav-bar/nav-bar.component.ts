@@ -3,6 +3,19 @@ import { ShowOverlayService } from './../services/show-overlay.service';
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
+const hot_stuff_info = [
+  {
+    id: 1,
+    title: 'staff augmentation',
+    url: 'http://yuxiglobal.com/'
+  },
+  {
+    id: 2,
+    title: 'specialized projects',
+    url: 'http://yuxiglobal.com/'
+  }
+]
+
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
@@ -12,6 +25,9 @@ export class NavBarComponent {
 
   hideNav = false;
   showOverlay = false;
+  showHotStuff = false;
+
+
 
   constructor(
     private showOverlayService: ShowOverlayService,
@@ -51,5 +67,9 @@ export class NavBarComponent {
       this.hideNav = true;
       this.navigationService.resetNav = true;
     }
+  }
+
+  openHotStuff() {
+    this.showHotStuff = !this.showHotStuff;
   }
 }

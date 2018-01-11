@@ -94,6 +94,7 @@
 .hot-stuff-wrapper {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .pulsating-circle {
@@ -205,5 +206,28 @@
 .menu-visible {
   &.container {
     background: transparent;
+  }
+}
+
+
+//HOT STUFF LIST OF POSTS
+
+.hot-stuff-list {
+  width: 250px;
+  position: absolute;
+  top: 56px;
+  right: 105px;
+}
+.hot-stuff-inner-title {
+  width: 96%;
+  height: 32px;
+  background: $white;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 0.8rem;
+    color: black;
   }
 }

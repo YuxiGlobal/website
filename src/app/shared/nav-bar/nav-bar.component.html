@@ -18,13 +18,25 @@
     <img id="logo-yuxi" class="yuxi-logo yuxi-logo--color" src="assets/icons/YUXI_LOGO_COLOR.svg">
   </a>
   <div class="hot-stuff">
-    <div class="hot-stuff-wrapper"
-    [class.hidden]="showOverlay">
+    <div
+      class="hot-stuff-wrapper"
+      [class.hidden]="showOverlay"
+      (click)="openHotStuff()">
       <span id="hot-stuff-text" class="hot-stuff-text">
         h<span>o</span>t stuff
       </span>
       <div id="hot-stuff-button" class="hot-stuff-button">
         <span class="pulsating-circle"></span>
+      </div>
+    </div>
+    <div class="hot-stuff-list" *ngIf="showHotStuff">
+      <div class="hot-stuff-inner-title">
+        <p>The most recent entries on our blog.</p>
+      </div>
+      <div class="hot-stuff-list-items" *ngFor="let item of hot_stuff_info">
+        <a>
+          {{hot_stuff_info.title}}
+        </a>
       </div>
     </div>
     <app-burger-menu (click)="handleMenuClick()"></app-burger-menu>
