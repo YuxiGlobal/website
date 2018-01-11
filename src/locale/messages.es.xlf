@@ -661,7 +661,7 @@
           <x id="START_TAG_SPAN" ctype="x-span"/>WELCOME<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, LET’S MAKE CONTACT.
         </source>
         <target>
-          <x id="START_TAG_SPAN" ctype="x-span"/>BIENVENIDOS<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, CONTÁCTANOS.
+          <x id="START_TAG_SPAN" ctype="x-span"/>HOLA<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, ESTO TE INTERESA.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact-hero/contact-hero.component.ts</context>

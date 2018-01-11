@@ -47,5 +47,7 @@
     margin-right: auto;
     @media (min-width: 1024px) {
         margin-right: calc(50% - 80px);
+        position: relative;
+        z-index: 3;
     }
 }
