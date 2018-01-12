@@ -11,7 +11,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background: linear-gradient(to top, $japaneseViolet 32%, $ciberGrape 32%);
+      background: linear-gradient(to top, $japaneseViolet 60%, $ciberGrape 60%);
     }
   }
   .title {
@@ -113,15 +113,16 @@
   @media (min-width: 1024px) {
     .container-advantages{
       display: flex;
-      position: absolute;
-      top: 28rem;
+      position: relative;
+      top: -13rem;
       border-radius: 10px;
       @include dark-shadow;
     }
 
     .title {
       background: $white;
-      width: 85%;
+      max-width: 1200px;
+      width: 100%;
       height: 500px;
       border-radius: 15px;
       padding-bottom: 0;
