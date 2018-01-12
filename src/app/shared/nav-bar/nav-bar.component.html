@@ -33,9 +33,9 @@
       <div class="hot-stuff-inner-title">
         <p>The most recent entries on our blog.</p>
       </div>
-      <div class="hot-stuff-list-items" *ngFor="let item of hot_stuff_info">
-        <a>
-          {{hot_stuff_info.title}}
+      <div class="hot-stuff-list-items" *ngFor="let item of hotStuffItems">
+        <a [href]="item.fields.url" target="_blank">
+          {{item.fields.title}}
         </a>
       </div>
     </div>

@@ -24,14 +24,14 @@ export class OffersComponent implements OnInit {
       .getCareers()
       .subscribe((data: any) => {
         const items = data.items;
-        
+
         this.offerInfo = items.map(item => {
           const id = item.sys.id;
           const title = item.fields.title;
           const title2 = item.fields.title2;
           const description = item.fields.description;
           const requirements = item.fields.requirements;
-          
+
           return {
             id,
             title,
