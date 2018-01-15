@@ -1,3 +1,5 @@
+  // One of these objects are useless, because in the implementation of internationalization, the elements with ng for wouldn't work for translation
+
 export const BANNERS_INFO = [
     {
       id: 1,
@@ -157,4 +159,6 @@ export const BANNERS_INFO = [
       class: 'lifestyle'
     }
   ]
+
+
 
