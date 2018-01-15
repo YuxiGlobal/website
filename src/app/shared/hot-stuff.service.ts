@@ -19,7 +19,6 @@ constructor(private http: HttpClient) { }
   return this.http
     .get(HOT_STUFF_URL)
     .map((response: any) => {
-      console.log(response);
       return response.items;
     });
 }
