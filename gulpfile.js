@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 	path = require('path');
 const rootFolder = path.join(__dirname);
 const distFolder = path.join(rootFolder, 'dist');
-const binDistFolder = path.join(rootFolder, 'bin');
+const binDistFolder = path.join(distFolder, 'bin');
 
 // define tasks here
 
