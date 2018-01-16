@@ -15,20 +15,20 @@
             font-size: 3rem;
         }
         a {
-          text-decoration: none;
-          color: $white;
+            text-decoration: none;
+            color: $white;
         }
         li {
-        margin-bottom: 15px;
-        position: relative;
-        overflow: hidden;
-        cursor: pointer;
-        @media only screen and (orientation: landscape) {
-            margin-bottom: 1px;
-        }
-        @media (min-width: 768px){
-            margin-bottom: 20px;
-        }
+            margin-bottom: 15px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            @media only screen and (orientation: landscape) {
+                margin-bottom: 1px;
+            }
+            @media (min-width: 768px) {
+                margin-bottom: 20px;
+            }
             &:hover:before {
                 left: 0;
             }
@@ -53,12 +53,12 @@
     flex-direction: row;
     margin-bottom: 10px;
     a {
-    margin: 0 5px;
-    text-decoration: none;
-    color: $white;
-    &:hover {
-      color: $turquoiseBlue;
-      }
+        margin: 0 5px;
+        text-decoration: none;
+        color: $white;
+        &:hover {
+            color: $turquoiseBlue;
+        }
     }
 }
 
