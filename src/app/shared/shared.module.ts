@@ -22,6 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
 import { FormsUrls } from 'app/config';
 import { environment } from 'environments/environment';
+import { TermsPrivacyComponent } from './terms-privacy/terms-privacy.component';
+import { HotStuffService } from 'app/shared/hot-stuff.service';
 
 @NgModule({
   imports: [
@@ -43,7 +45,8 @@ import { environment } from 'environments/environment';
     AboveTheFoldDirective,
     ScrollTopDirective,
     CollapsibleComponent,
-    IsVisibleDirective
+    IsVisibleDirective,
+    TermsPrivacyComponent
   ],
   exports: [
     NavBarComponent,
@@ -60,6 +63,7 @@ import { environment } from 'environments/environment';
     NavigationService,
     CareersService,
     SubmissionsService,
+    HotStuffService,
     {
       provide: FormsUrls,
       useValue: environment

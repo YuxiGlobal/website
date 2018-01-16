@@ -31,7 +31,6 @@ export class BusinessFormComponent {
   ) { }
 
   resolved(captchaResponse: string) {
-    console.log(`Resolved captcha with response ${captchaResponse}:`);
     this.recaptchaResponse = captchaResponse;
 
   }
@@ -43,7 +42,6 @@ export class BusinessFormComponent {
   }
 
   submitForm() {
-    console.log('Is form invalid? ', this.businessForm.invalid);
 
     if (this.recaptchaResponse) {
       const data = {

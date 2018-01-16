@@ -2,6 +2,16 @@
 .services-items {
     width: 100%;
     background-color: $japaneseViolet;
+    &:before {
+      content: '';
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 4px;
+      // width: 100vw; fix for firefox
+      background: linear-gradient(60deg, $fandango, $brightLilac, $mediumSlateBlue, $turquoiseBlue);
+    }
 }
 
 .title {

@@ -97,6 +97,10 @@
       min-width: 70%;
       margin-top: -40%;
       animation-name: none;
+      @supports (-ms-accelerator:true) {
+        min-width: 55%;
+        margin-top: -57%;
+      }
   }
 
   &.banner-image-3 {
@@ -106,7 +110,10 @@
     @media (min-width: 1024px) and ( min-height: 900px ){
       margin-top: -18%;
       right: 0px;
-     }
+      .fallbackImage {
+        margin-top: -10%;
+      }
+    }
   }
 }
 
@@ -150,6 +157,20 @@
   display: none;
 }
 
+@media (min-width: 1024px) {
+  .banner-image-1 .fallbackImage img {
+    margin-right: 10%;
+    width: 82%;
+    @supports (-ms-accelerator:true) {
+      margin-right: 44%;
+    }
+  }
+  .banner-image-3 .fallbackImage img {
+    max-width: 80%;
+  }
+}
+
+
 .fallbackImage {
   display: none;
 
@@ -162,10 +183,20 @@
     align-items: center;
     justify-content: center;
     margin-top: 10%;
-
     img {
       height: auto;
       max-width: 100%;
     }
   }
+}
+
+.arrow-down {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }

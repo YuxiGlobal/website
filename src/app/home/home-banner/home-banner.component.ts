@@ -26,7 +26,7 @@ export class HomeBannerComponent implements OnChanges {
    * Check if the browser is SAFARI
    * If it is, set this to true
    */
-  isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  isSafariOrEdge = /^((?!chrome|android).)*safari/i.test(navigator.userAgent) || /Edge\/\d./i.test(navigator.userAgent);
 
   @Input() title: string;
   @Input() subtitle: string;

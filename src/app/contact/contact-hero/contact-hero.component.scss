@@ -1,6 +1,6 @@
 @import '~styles/variables';
 .contact-hero {
-  background: url("/../../assets/images/MAPA.jpg") no-repeat center center;
+  background: url("/../../assets/images/map.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,18 +31,33 @@
 
 .title {
   margin: 0;
-  padding-top: 60vh;
+  padding-top: 45vh;
   width: 201px;
   @media only screen and (orientation: landscape) {
     padding-top: 37vh;
   }
-  
+
   @media (min-width: 1024px) {
     padding-top: 0;
     width: 358px;
+    line-height: 1;
   }
 
   span {
     color: $turquoiseBlue;
   }
 }
+
+
+
+.arrow-down {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+

@@ -1,9 +1,11 @@
+  // One of these objects are useless, because in the implementation of internationalization, the elements with ng for wouldn't work for translation
+
 export const BANNERS_INFO = [
     {
       id: 1,
       title: 'discover real innovation.',
       subtitle: 'Find out more about our software development services.',
-      image: 'assets/images/cellphone.png',
+      image: 'assets/images/home-cellphone.png',
       video: 'assets/videos/cellphone.webm',
       video2: 'assets/videos/cellphone.mp4',
       class: 'banner-image-1'
@@ -12,7 +14,7 @@ export const BANNERS_INFO = [
       id: 2,
       title: 'explore inventive technologies.',
       subtitle: 'See how our solutions can get you ahead of your competition.',
-      image: 'assets/images/goggles.png',
+      image: 'assets/images/home-goggles.png',
       video: 'assets/videos/goggles.webm',
       video2: 'assets/videos/goggles.mp4',
       class: 'banner-image-2'
@@ -21,7 +23,7 @@ export const BANNERS_INFO = [
       id: 3,
       title: 'devise groundbreaking improvements.',
       subtitle: 'Learn how your company can evolve via digital transformation.',
-      image: 'assets/images/robot.png',
+      image: 'assets/images/home-robot.png',
       video: 'assets/videos/robot.webm',
       video2: 'assets/videos/robot.mp4',
       class: 'banner-image-3'
@@ -137,7 +139,7 @@ export const BANNERS_INFO = [
       title: 'GOOD WORK ENVIRONMENT.',
       subtitle: 'MEANS HAPPY EMPLOYESS',
       text: 'Having a good work environment is having happy employees. This accounts for both location and ambience: Yuxians have access to free fruit, cereals, coffee, and snacks. We host activities like guided active pauses and monthly massages. Our offices are spaces designed to be both comfortable and inspiring, letting creativity flow freely.',
-      image: 'assets/images/cereal.png',
+      image: 'assets/images/cereal-icon.png',
       class: 'enviroment'
     },
     {
@@ -153,8 +155,10 @@ export const BANNERS_INFO = [
       title: 'MORE THAN A LIFESTYLE.',
       subtitle: 'IT’S OUR WORKSTYLE',
       text: 'You don’t only work to live: life also happens inside the office. For many years society has thought that work is a hindrance that stops us from living our actual life, something so drudging that you actually get paid for it. It’s time to change that: #YuxiLife is our way of creating conditions where people can feel happy, encouraged, and motivated about going to work. #YuxiLife is, more than a lifestyle, our workstyle.',
-      image: 'assets/images/control.png',
+      image: 'assets/images/control-icon.png',
       class: 'lifestyle'
     }
   ]
+
+
 

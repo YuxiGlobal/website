@@ -13,6 +13,7 @@ import { ContactModule } from 'app/contact/contact.module';
 import { CareersComponent } from 'app/careers/careers.component';
 import { CareersModule } from 'app/careers/careers.module';
 import { OfferDetailComponent } from 'app/careers/offer-detail/offer-detail.component';
+import { TermsPrivacyComponent } from 'app/shared/terms-privacy/terms-privacy.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'contact/:formType', component: ContactComponent },
   { path: 'careers', component: CareersComponent },
   { path: 'careers/:id', component: OfferDetailComponent },
+  { path: 'terms-privacy', component: TermsPrivacyComponent },
   {
     path: '',
     redirectTo: '/home',

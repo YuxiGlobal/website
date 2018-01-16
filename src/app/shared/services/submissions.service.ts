@@ -26,7 +26,7 @@ export class SubmissionsService {
     const options = new RequestOptions();
     options.headers = new Headers();
     options.headers.append('Content-Type', 'application/x-www-form-urlencoded');
-    console.log(data);
+
 
     const formData: FormData = new FormData();
     formData.append('FullName', data.FullName);
@@ -51,7 +51,6 @@ export class SubmissionsService {
     const options = new RequestOptions();
     options.headers = new Headers();
     options.headers.append('Content-Type', 'application/x-www-form-urlencoded');
-    console.log(data);
 
     const formData: FormData = new FormData();
     formData.append('FullName', data.FullName);
@@ -74,7 +73,6 @@ export class SubmissionsService {
     const options = new RequestOptions();
     options.headers = new Headers();
     options.headers.append('Content-Type', 'application/x-www-form-urlencoded');
-    console.log(data);
 
     const formData: FormData = new FormData();
     formData.append('FullName', data.FullName);

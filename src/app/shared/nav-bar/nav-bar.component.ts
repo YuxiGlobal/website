@@ -2,6 +2,7 @@ import { NavigationService } from './../services/navigation.service';
 import { ShowOverlayService } from './../services/show-overlay.service';
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { HotStuffService } from 'app/shared/hot-stuff.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -9,14 +10,16 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent {
-
+  hotStuffItems = null;
   hideNav = false;
   showOverlay = false;
+  showHotStuff = false;
 
   constructor(
     private showOverlayService: ShowOverlayService,
     private navigationService: NavigationService,
-    private router: Router
+    private router: Router,
+    private hotStuffService: HotStuffService
   ) {
     router.events.subscribe(() => {
       this.showOverlay = this.navigationService.resetNav;
@@ -25,6 +28,12 @@ export class NavBarComponent {
       // This fixes the bug where the nav was sticky after navigating from the burger overlay
       this.showOverlayService.preventScroll = false;
     });
+
+    this.hotStuffService
+      .getHotStuffItems()
+      .subscribe((items) => {
+        this.hotStuffItems = items;
+      });
    }
 
   handleMenuClick() {
@@ -51,5 +60,9 @@ export class NavBarComponent {
       this.hideNav = true;
       this.navigationService.resetNav = true;
     }
+  }
+
+  openHotStuff() {
+    this.showHotStuff = !this.showHotStuff;
   }
 }

@@ -180,19 +180,11 @@
         <note priority="1" from="meaning">rights text</note>
       </trans-unit>
       <trans-unit id="terms" datatype="html">
-        <source>Terms</source>
-        <target>Términos</target>
+        <source>Terms and Privacy</source>
+        <target>Términos y Privacidad</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
           <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="privacy" datatype="html">
-        <source>Privacy</source>
-        <target>Privacidad</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
-          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <!-- GET IN TOUCH OPTIONS -->
@@ -621,7 +613,7 @@
       </trans-unit>
       <trans-unit id="WhoWeAreTitle" datatype="html">
         <source>WHO WE ARE</source>
-        <target>QUIENES SOMOS</target>
+        <target>QUIÉNES SOMOS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -669,7 +661,7 @@
           <x id="START_TAG_SPAN" ctype="x-span"/>WELCOME<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, LET’S MAKE CONTACT.
         </source>
         <target>
-          <x id="START_TAG_SPAN" ctype="x-span"/>BIENVENIDOS<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, CONTÁCTANOS.
+          <x id="START_TAG_SPAN" ctype="x-span"/>HOLA<x id="CLOSE_TAG_SPAN" ctype="x-span"/>, ESTO TE INTERESA.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact-hero/contact-hero.component.ts</context>
@@ -1191,7 +1183,538 @@
         <note priority="1" from="description">not your profile description</note>
         <note priority="1" from="meaning">not your profile</note>
       </trans-unit>
+       <!-- OUR CULTURE BANNERS -->
+      <trans-unit id="banner1Mobile" datatype="html">
+        <source>/../../../assets/images/banner_mobile1.png</source>
+        <target>/../../../assets/images/banner_careers_español1.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner1Desktop" datatype="html">
+        <source>/../../../assets/images/banner_desktop1.png</source>
+        <target>/../../../assets/images/banner_careers_espanol_desktop1.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner2Mobile" datatype="html">
+        <source>/../../../assets/images/banner_mobile2.png</source>
+        <target>/../../../assets/images/banner_careers_español2.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner2Desktop" datatype="html">
+        <source>/../../../assets/images/banner_desktop2.png</source>
+        <target>/../../../assets/images/banner_careers_espanol_desktop2.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner3Mobile" datatype="html">
+        <source>/../../../assets/images/banner_mobile3.png</source>
+        <target>/../../../assets/images/banner_careers_español3.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner3Desktop" datatype="html">
+        <source>/../../../assets/images/banner_desktop3.png</source>
+        <target>/../../../assets/images/banner_careers_espanol_desktop3.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner4Mobile" datatype="html">
+        <source>/../../../assets/images/banner_mobile4.png</source>
+        <target>/../../../assets/images/banner_careers_español4.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="banner4Desktop" datatype="html">
+        <source>/../../../assets/images/banner_desktop4.png</source>
+        <target>/../../../assets/images/banner_careers_espanol_desktop4.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/intro-banner/intro-banner.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <!-- TERMS AND CONDITIONS -->
+      <trans-unit id="TermsAndConditions" datatype="html">
+        <source>
+          <x id="START_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;h1&gt;"/>TERMS AND <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>CONDITIONS<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;/h1&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Please take the time to read and understand these TERMS AND CONDITIONS OF USE (hereinafter referred to as &quot;TERMS AND CONDITIONS&quot;) before using this Site. Access and use of the Site indicates that you accept and freely agree to comply with these TERMS AND CONDITIONS on how you can access and use this Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            The PRIVACY POLICY of the Site is an integral part of these TERMS AND CONDITIONS. Therefore, whenever reference to the TERMS AND CONDITIONS  is made in this text, it will also be referencing to the PRIVACY POLICY of Yuxi Global S.A.S
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            1. This Site is operated by Yuxi Global S.A.S, a company validly incorporated in Colombia, dedicated to providing ________________. This Site contains general information about Yuxi Global S.A.S. The address in which you can contact us is the following: ___________________.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            2. Age requirement: You may access and use this Site if you are of legal age, in accordance with applicable laws. If you are not of legal age or do not have the legal authorizations and capacity required to access and use this site, please refrain from using it, abandon it, and do not access its functionalities. In any case, we recommend parents and guardians of minors to supervise the access of their children to the site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            3. These TERMS AND CONDITIONS may change, Yuxi Global S.A.S reserves the right to modify, change or terminate these TERMS AND CONDITIONS at any time and in its sole discretion, without prior notice to you.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            At any time, and without prior notice, Yuxi Global S.A.S may modify, add, delete, suppress, amend, and in any way change the Content of this Site including any document, data, testimony, review, reference or information included in the Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>a. Ownership of the contents:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The portal may contain texts, notices, images, videos, animations, cartoons, graphics, databases, applications, demonstrations of applications and, in general, a series of legal assets protected by national and international regulations that regulate intellectual property. Unless otherwise stated, all content is property of YUXI GLOBAL S.A.S. In the sections that include interaction, such as comments, articles and others, that are owned by the user or by third parties, they will be responsible for their authorship, respecting the forecasts that are subsequently made.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            No authorization is granted for the total or partial reproduction, translation, inclusion, transmission, storage or access through analog, digital or any other system or technology created, or to be created, without prior written authorization of its owner, if required by YUXI GLOBAL SAS, of all those contents that are the property of YUXI GLOBAL or of third parties that have granted a license for its use on the portal.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            It is allowed, in a non-transferable and limited way, access to the portal only for its use or that of its staff,without any commercial purpose, provided that the contents are not modified and the notices of reservation of ownership, authorship or proprietorship remain intact. In the events in which downloads are permitted, such situation will be expressly indicated, pointing out the specific terms of use for them.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Any violation of these restrictions implies the cancellation without prior notice of the permits granted and the consequent obligation of the user to destroy those goods downloaded or accessed by any means. Except for the limited permission indicated previously, YUXI GLOBAL S.A.S. does not grant the user, not even tacitly, neither right nor license on any patent, trademark, copyright or other intellectual property rights. The user may not duplicate any part of the content of this site on another website or on any other channel. In the events in which the user includes in the interaction sites any material of their authorship, it guarantees to YUXI GLOBAL S.A.S. that they were created or acquired, without violating any third party&apos;s right, allowing YUXI GLOBAL S.A.S. the verification of it. The user, by the mere fact of uploading, assembling, including or attaching any content, grants to YUXI GLOBAL S.A.S. the necessary licenses or authorizations so that, free of charge and not exclusively, it may reproduce, adapt, compile, store and distribute the contents provided by it through this website. This free license includes authorization to YUXI GLOBAL S.A.S. to publish the contents in any medium, electronic or physical and to sublicense it to any parent, subsidiary or affiliate of it. If the user violates any third party right, he / she commits to indemnify YUXI GLOBAL S.A.S. in the face of any claim raised by the person claiming to be the legitimate owner.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Modification, reproduction, publication or transfer of any Content to other people, or its use for any purpose is prohibited. Except to the extent permitted by current law, it is forbidden to disassemble, decompile, apply reverse engineering or try by any means to break the protection of the content. All content, elements and information on this Site including all text, format, images, music, brands, logos, trademarks, trade names, sounds, graphics, videos, animation, and other materials on this Site (the &quot;Content&quot;) are property of Yuxi Global SA, its subsidiaries and affiliates and controllers, and those of third party contractors, licensors or grantor that corresponds. Some of the Contents are protected by the laws of copyright and trademark. Any unauthorized use of the Site Content that violates the property and intellectual property rights of Yuxi Global S.A.S may imply the initiation of the corresponding legal actions by the holders of the rights. Access to or use of this Site will not imply in any way the granting or denial of any license, concession or right of use over any of the brands, names, logos, designs or Content protected by the intellectual property right of Yuxi Global SAS or of any third party, as appropriate. The creation of web pages, Internet sites, electronic documents, computer programs or computer applications of any type that contain hyperlinks or marks that redirect the user to any Content of this Site is not allowed.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>b. Referral to and from other portals:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> In the events in which YUXI GLOBAL SAS, users or third parties include links or references to other internet pages that can be accessed from the portal, and that do not belong to YUXI GLOBAL SAS, its parent companies, subsidiaries or affiliates, YUXI GLOBAL does not make nor will it be responsible, nor does it exercise or will exercise control over them and their content .Therefore, technical suitability, including security, or the quality of the information that lies on them will not be guaranteed. In the events in which these links lead to sites belonging to allies or products in alliance between YUXI GLOBAL S.A.S., with third parties, such situation will be expressly indicated. All links to this website must be approved in writing by YUXI GLOBAL SAS, and, in any case, the links will be accepted provided they do not imply misleading advertising, or may cause confusion, in terms of approving or recommending a product or service of any kind, or that imply the creation of frames or modify the contents in any way. The user, in any case accepts that if PRAGMA YUXI GLOBAL S.A.S., considers it so, it may revoke the permission granted in writing, being the user&apos;s obligation to remove them from their pages or portals.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>c. Privacy Policy:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> When the user accesses the portal, it is possible that YUXI GLOBAL SAS, request some data about personal information or property of the user, which from now on will be called &quot;the data&quot; and will be taken by YUXI GLOBAL SAS, with the exclusive purpose of:
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Storing them.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Maintain and improve the conditions in which the services are provided as well as their maintenance, management, administration, provision and expansion.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Generate a community of people.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Optimize the use of services by the user.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Offer new transactions associated with your operation, including promotions, offers, business opportunities, etc. By accepting this privacy policy, the user expressly authorizes YUXI GLOBAL S.A.S., so that through the electronic or physical address registered in the portal, it receives commercial information from the portal or from third parties.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The data will be processed automatically by the portal directly or through a secure hosting provider, which will incorporate them into the corresponding automated files and which will be the responsibility of YUXI GLOBAL S.A.S.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL guarantees total privacy in the data related to the transaction, integrity in the messages exchanged and mechanisms that allow that once a transaction is made, it is recorded.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL S.A.S. has adopted adequate security levels to protect the data provided through the services it provides and has taken technical measures at its disposal to prevent loss, misuse, alteration, unauthorized access or theft of data. However, given that the nature of the data mobilized by the platform are neither private nor confidential, security measures are associated with the level of risk that is generated by information considered to be of low impact.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL S.A.S. can send &quot;cookies&quot; to the user (text file that is sent to the user&apos;s hard drive when entering the portal and that contains information, usually provided by the user when opening the site). The cookies sent by the portal are intended exclusively to facilitate the user browsing the sites and web pages of the services and make them more friendly to access these services. Thanks to cookies, the portal can be recognized by the registered user, who is registered at each visit, to access the areas and services selected by the user.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>Participation in spaces of interaction:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Participation in user interaction spaces, blogs, chats, etc. presupposes knowledge of these terms of use and their acceptance. In each space of this nature, the user will be identified in an alternative way or the mechanisms will be used to do so, seeking, mainly, that in the events in which a user damages a third party, the user comes out in defense of any claim made to YUXI GLOBAL S.A.S. The specific rules of participation in this type of space are the following:
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              The password and other security elements provided are of your sole responsibility, so that any activity that takes place under the user&apos;s identification data will be considered your responsibility.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Any activity that violates the Colombian legal norms will imply the termination of the rights of use in the interaction spaces, the removal of the content included by the user and, in the case that, in the opinion of Yuxi Global or its consultants, it is determined, notice will be given to the authorities of the possible commission of crimes, including the data of identity that the company has. This implies the total respect of users for the rights of third parties over the material they publish.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The publication of content that imply or suggest discrimination for any reason, or that threatens the good name, honor or image and, in general, against any right of any person is prohibited.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The use of vulgar, defamatory, threatening, denigrating, false, fraudulent, inaccurate or offensive language against any person, individual or community is prohibited.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            It is not allowed to intimidate other users, or perform any activity that may involve persecution or discrimination of a user or a third party.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The use of interaction spaces prohibits activities of political or religious proselytization, without it being understood that the freedom with which the user can expose their ideas according to their beliefs and convictions is restricted.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The use of interaction spaces for activities of diffusion, promotion or commercialization of any product or service is prohibited.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Only personal, and not collective, use is allowed in any of the recognized forms of association and to be recognized by national legislation.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Sending mass emails to other users of this page is not allowed, as well as it is forbidden to transmit viruses or any code of a destructive nature.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            The violation of these provisions implies the removal of the user from the interaction spaces. The comments and opinions emitted are susceptible to being moderated or validated with the purpose of preserving what is established in the practices of use. In any case, YUXI GLOBAL S.A.S. reserves the right to include, or not, the material received by users to the portal. The design, management, purpose and characteristics of the different areas of participation of the portal are at the discretion of YUXI GLOBAL S.A.S. which may at any time change or eliminate them, or determine the number of participants admitted in each one of them.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>e. Exclusions of liability:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> YUXI GLOBAL S.A.S. does not guarantee the availability and continuity of the functioning of the portal, but will try, when it is possible, to warn of interruptions within. Neither does it guarantee the usefulness of the portal to perform any particular activity, nor the infallibility of the information that rests on it, nor that the information is correct, updated or complete, and warns that this site may contain technical inaccuracies or typographical errors. Therefore, the user must confirm that the published information is accurate and complete before making any decision related to any service, product or topic described on this site. Neither does it guarantee that an error reported will be repaired or corrected in a certain amount of time. YUXI GLOBAL S.A.S. is not responsible for damages of any nature that may arise due to the lack of availability or continuity of the operation of the portal, to the disappointment of the utility that users may have attributed to the portal and its services, to the fallibility of the portal and, in particular, though not exclusively, to failures in accessing the different web pages or sections of the portal. YUXI GLOBAL S.A.S. is not liable to any party for any damage, in any of its types, arising or derived from the portal, or its use or any site or resource linked to the portal or referred to or accessed through it, nor of the use, download or access to any material, information, products or services included. YUXI GLOBAL S.A.S. does not control nor guarantee and, therefore, is not responsible for the presence of viruses or other elements in the contents of the portal that may cause alterations in the computer system (software and hardware) of the user or in electronic documents and files stored in the user&apos;s computer system.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>F. Limitation of guarantee:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The use of this site will be carried out under the responsibility of the user, without it being understood that any guarantee is granted on the contents, since this is NOT a marketing channel. All content is delivered &quot;as is&quot; or &quot;in the conditions in which they are found&quot; and without any guarantee. The user accepts that if he / she obtains contents of the portal by any means, he / she does it under his / her commitment, being the only one responsible for the damages that may be generated.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>G. Any violation by you of these:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> TERMS AND CONDITIONS, or any complaint or information that Yuxi Global SAS receives from third parties about the breach, abuse or misuse of these TERMS AND CONDITIONS, may be investigated by Yuxi Global SAS, who may take all the corresponding measures and initiate all the legal and extra legal actions against you, to achieve the cessation of the conducts or the remedies and compensations that may take place under the applicable law. The violation of these TERMS AND CONDITIONS may result in civil or criminal liability on your part. If you are not sure that your actions regarding the access and use of this Site, its Contents and the information mentioned therein, constitute a violation or abuse of these TERMS AND CONDITIONS, please do not hesitate to previously consult us. We will gladly attend your inquiry. You are solely responsible for the access and use that you, with or without intention, knowledge or consent, make of this Site, the Contents and the information contained in the Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/> H. No interference with the Site:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Any act including the use of hardware and software, which has as its objective or effect the damage, interference, affectation of the integrity, or the interception of the systems that support this Site, its operation or the contents is prohibited.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Acts that impose unreasonable or disproportionate burdens on the Site&apos;s network systems or any other network infrastructure that uses the Site are prohibited.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>i. Applicable Law:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> These TERMS AND CONDITIONS will be interpreted and executed exclusively according to the laws of the Republic of Colombia, without prejudice to the provisions on conflict of laws of any country.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>j. Modifications:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> No section of these TERMS AND CONDITIONS may be modified, deleted or added unilaterally by the user of the Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>k. Applicability:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> If any section or part of these TERMS AND CONDITIONS can not be applied or is invalid, in whole or in part, under any law, or is sentenced as such by judicial decision, that part will be interpreted in accordance with the applicable law and its lack of applicability or invalidity will not cause these TERMS AND CONDITIONS in general and the remaining provisions or portions of them to be inapplicable or invalid or ineffective in its entirety and, in such event, these dispositions will be changed and interpreted in such a way that the objectives of such provisions that are not applicable or that are invalid are achieved in the best possible way, within the limits of the applicable law or the applicable decisions of the court.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>l. Integrity:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> These TERMS AND CONDITIONS constitute the only terms between Yuxi Global S.A.S and you. The acceptance of these TERMS AND CONDITIONS repeal any prior or contemporaneous agreement, covenant, declaration, understanding and previous guarantee with respect to this Site, the Content, the information contained in this Site, and the purpose of these Terms of Use. In case of any conflict between these TERMS AND CONDITIONS and any verbal, written or prior agreement or understanding, these TERMS AND CONDITIONS shall prevail.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>M. Waiver:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The non-application of Yuxi Global S.A.S of any of the conditions, terms and rights included in these TERMS AND CONDITIONS will not be construed as withdrawal or waiver of the right of Yuxi Global S.A.S in the future to enforce or execute such provisions.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          </source>
+          <source>
+          <x id="START_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;h1&gt;"/>TERMS AND <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>CONDITIONS<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;/h1&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Please take the time to read and understand these TERMS AND CONDITIONS OF USE (hereinafter referred to as &quot;TERMS AND CONDITIONS&quot;) before using this Site. Access and use of the Site indicates that you accept and freely agree to comply with these TERMS AND CONDITIONS on how you can access and use this Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            The PRIVACY POLICY of the Site is an integral part of these TERMS AND CONDITIONS. Therefore, whenever reference to the TERMS AND CONDITIONS  is made in this text, it will also be referencing to the PRIVACY POLICY of Yuxi Global S.A.S
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            1. This Site is operated by Yuxi Global S.A.S, a company validly incorporated in Colombia, dedicated to providing ________________. This Site contains general information about Yuxi Global S.A.S. The address in which you can contact us is the following: ___________________.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            2. Age requirement: You may access and use this Site if you are of legal age, in accordance with applicable laws. If you are not of legal age or do not have the legal authorizations and capacity required to access and use this site, please refrain from using it, abandon it, and do not access its functionalities. In any case, we recommend parents and guardians of minors to supervise the access of their children to the site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            3. These TERMS AND CONDITIONS may change, Yuxi Global S.A.S reserves the right to modify, change or terminate these TERMS AND CONDITIONS at any time and in its sole discretion, without prior notice to you.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            At any time, and without prior notice, Yuxi Global S.A.S may modify, add, delete, suppress, amend, and in any way change the Content of this Site including any document, data, testimony, review, reference or information included in the Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>a. Ownership of the contents:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The portal may contain texts, notices, images, videos, animations, cartoons, graphics, databases, applications, demonstrations of applications and, in general, a series of legal assets protected by national and international regulations that regulate intellectual property. Unless otherwise stated, all content is property of YUXI GLOBAL S.A.S. In the sections that include interaction, such as comments, articles and others, that are owned by the user or by third parties, they will be responsible for their authorship, respecting the forecasts that are subsequently made.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            No authorization is granted for the total or partial reproduction, translation, inclusion, transmission, storage or access through analog, digital or any other system or technology created, or to be created, without prior written authorization of its owner, if required by YUXI GLOBAL SAS, of all those contents that are the property of YUXI GLOBAL or of third parties that have granted a license for its use on the portal.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            It is allowed, in a non-transferable and limited way, access to the portal only for its use or that of its staff,without any commercial purpose, provided that the contents are not modified and the notices of reservation of ownership, authorship or proprietorship remain intact. In the events in which downloads are permitted, such situation will be expressly indicated, pointing out the specific terms of use for them.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Any violation of these restrictions implies the cancellation without prior notice of the permits granted and the consequent obligation of the user to destroy those goods downloaded or accessed by any means. Except for the limited permission indicated previously, YUXI GLOBAL S.A.S. does not grant the user, not even tacitly, neither right nor license on any patent, trademark, copyright or other intellectual property rights. The user may not duplicate any part of the content of this site on another website or on any other channel. In the events in which the user includes in the interaction sites any material of their authorship, it guarantees to YUXI GLOBAL S.A.S. that they were created or acquired, without violating any third party&apos;s right, allowing YUXI GLOBAL S.A.S. the verification of it. The user, by the mere fact of uploading, assembling, including or attaching any content, grants to YUXI GLOBAL S.A.S. the necessary licenses or authorizations so that, free of charge and not exclusively, it may reproduce, adapt, compile, store and distribute the contents provided by it through this website. This free license includes authorization to YUXI GLOBAL S.A.S. to publish the contents in any medium, electronic or physical and to sublicense it to any parent, subsidiary or affiliate of it. If the user violates any third party right, he / she commits to indemnify YUXI GLOBAL S.A.S. in the face of any claim raised by the person claiming to be the legitimate owner.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Modification, reproduction, publication or transfer of any Content to other people, or its use for any purpose is prohibited. Except to the extent permitted by current law, it is forbidden to disassemble, decompile, apply reverse engineering or try by any means to break the protection of the content. All content, elements and information on this Site including all text, format, images, music, brands, logos, trademarks, trade names, sounds, graphics, videos, animation, and other materials on this Site (the &quot;Content&quot;) are property of Yuxi Global SA, its subsidiaries and affiliates and controllers, and those of third party contractors, licensors or grantor that corresponds. Some of the Contents are protected by the laws of copyright and trademark. Any unauthorized use of the Site Content that violates the property and intellectual property rights of Yuxi Global S.A.S may imply the initiation of the corresponding legal actions by the holders of the rights. Access to or use of this Site will not imply in any way the granting or denial of any license, concession or right of use over any of the brands, names, logos, designs or Content protected by the intellectual property right of Yuxi Global SAS or of any third party, as appropriate. The creation of web pages, Internet sites, electronic documents, computer programs or computer applications of any type that contain hyperlinks or marks that redirect the user to any Content of this Site is not allowed.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>b. Referral to and from other portals:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> In the events in which YUXI GLOBAL SAS, users or third parties include links or references to other internet pages that can be accessed from the portal, and that do not belong to YUXI GLOBAL SAS, its parent companies, subsidiaries or affiliates, YUXI GLOBAL does not make nor will it be responsible, nor does it exercise or will exercise control over them and their content .Therefore, technical suitability, including security, or the quality of the information that lies on them will not be guaranteed. In the events in which these links lead to sites belonging to allies or products in alliance between YUXI GLOBAL S.A.S., with third parties, such situation will be expressly indicated. All links to this website must be approved in writing by YUXI GLOBAL SAS, and, in any case, the links will be accepted provided they do not imply misleading advertising, or may cause confusion, in terms of approving or recommending a product or service of any kind, or that imply the creation of frames or modify the contents in any way. The user, in any case accepts that if PRAGMA YUXI GLOBAL S.A.S., considers it so, it may revoke the permission granted in writing, being the user&apos;s obligation to remove them from their pages or portals.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>c. Privacy Policy:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> When the user accesses the portal, it is possible that YUXI GLOBAL SAS, request some data about personal information or property of the user, which from now on will be called &quot;the data&quot; and will be taken by YUXI GLOBAL SAS, with the exclusive purpose of:
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Storing them.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Maintain and improve the conditions in which the services are provided as well as their maintenance, management, administration, provision and expansion.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Generate a community of people.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Optimize the use of services by the user.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Offer new transactions associated with your operation, including promotions, offers, business opportunities, etc. By accepting this privacy policy, the user expressly authorizes YUXI GLOBAL S.A.S., so that through the electronic or physical address registered in the portal, it receives commercial information from the portal or from third parties.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The data will be processed automatically by the portal directly or through a secure hosting provider, which will incorporate them into the corresponding automated files and which will be the responsibility of YUXI GLOBAL S.A.S.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL guarantees total privacy in the data related to the transaction, integrity in the messages exchanged and mechanisms that allow that once a transaction is made, it is recorded.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL S.A.S. has adopted adequate security levels to protect the data provided through the services it provides and has taken technical measures at its disposal to prevent loss, misuse, alteration, unauthorized access or theft of data. However, given that the nature of the data mobilized by the platform are neither private nor confidential, security measures are associated with the level of risk that is generated by information considered to be of low impact.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL S.A.S. can send &quot;cookies&quot; to the user (text file that is sent to the user&apos;s hard drive when entering the portal and that contains information, usually provided by the user when opening the site). The cookies sent by the portal are intended exclusively to facilitate the user browsing the sites and web pages of the services and make them more friendly to access these services. Thanks to cookies, the portal can be recognized by the registered user, who is registered at each visit, to access the areas and services selected by the user.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>Participation in spaces of interaction:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Participation in user interaction spaces, blogs, chats, etc. presupposes knowledge of these terms of use and their acceptance. In each space of this nature, the user will be identified in an alternative way or the mechanisms will be used to do so, seeking, mainly, that in the events in which a user damages a third party, the user comes out in defense of any claim made to YUXI GLOBAL S.A.S. The specific rules of participation in this type of space are the following:
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              The password and other security elements provided are of your sole responsibility, so that any activity that takes place under the user&apos;s identification data will be considered your responsibility.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Any activity that violates the Colombian legal norms will imply the termination of the rights of use in the interaction spaces, the removal of the content included by the user and, in the case that, in the opinion of Yuxi Global or its consultants, it is determined, notice will be given to the authorities of the possible commission of crimes, including the data of identity that the company has. This implies the total respect of users for the rights of third parties over the material they publish.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The publication of content that imply or suggest discrimination for any reason, or that threatens the good name, honor or image and, in general, against any right of any person is prohibited.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The use of vulgar, defamatory, threatening, denigrating, false, fraudulent, inaccurate or offensive language against any person, individual or community is prohibited.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            It is not allowed to intimidate other users, or perform any activity that may involve persecution or discrimination of a user or a third party.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The use of interaction spaces prohibits activities of political or religious proselytization, without it being understood that the freedom with which the user can expose their ideas according to their beliefs and convictions is restricted.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            The use of interaction spaces for activities of diffusion, promotion or commercialization of any product or service is prohibited.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Only personal, and not collective, use is allowed in any of the recognized forms of association and to be recognized by national legislation.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Sending mass emails to other users of this page is not allowed, as well as it is forbidden to transmit viruses or any code of a destructive nature.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            The violation of these provisions implies the removal of the user from the interaction spaces. The comments and opinions emitted are susceptible to being moderated or validated with the purpose of preserving what is established in the practices of use. In any case, YUXI GLOBAL S.A.S. reserves the right to include, or not, the material received by users to the portal. The design, management, purpose and characteristics of the different areas of participation of the portal are at the discretion of YUXI GLOBAL S.A.S. which may at any time change or eliminate them, or determine the number of participants admitted in each one of them.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>e. Exclusions of liability:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> YUXI GLOBAL S.A.S. does not guarantee the availability and continuity of the functioning of the portal, but will try, when it is possible, to warn of interruptions within. Neither does it guarantee the usefulness of the portal to perform any particular activity, nor the infallibility of the information that rests on it, nor that the information is correct, updated or complete, and warns that this site may contain technical inaccuracies or typographical errors. Therefore, the user must confirm that the published information is accurate and complete before making any decision related to any service, product or topic described on this site. Neither does it guarantee that an error reported will be repaired or corrected in a certain amount of time. YUXI GLOBAL S.A.S. is not responsible for damages of any nature that may arise due to the lack of availability or continuity of the operation of the portal, to the disappointment of the utility that users may have attributed to the portal and its services, to the fallibility of the portal and, in particular, though not exclusively, to failures in accessing the different web pages or sections of the portal. YUXI GLOBAL S.A.S. is not liable to any party for any damage, in any of its types, arising or derived from the portal, or its use or any site or resource linked to the portal or referred to or accessed through it, nor of the use, download or access to any material, information, products or services included. YUXI GLOBAL S.A.S. does not control nor guarantee and, therefore, is not responsible for the presence of viruses or other elements in the contents of the portal that may cause alterations in the computer system (software and hardware) of the user or in electronic documents and files stored in the user&apos;s computer system.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>F. Limitation of guarantee:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The use of this site will be carried out under the responsibility of the user, without it being understood that any guarantee is granted on the contents, since this is NOT a marketing channel. All content is delivered &quot;as is&quot; or &quot;in the conditions in which they are found&quot; and without any guarantee. The user accepts that if he / she obtains contents of the portal by any means, he / she does it under his / her commitment, being the only one responsible for the damages that may be generated.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>G. Any violation by you of these:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> TERMS AND CONDITIONS, or any complaint or information that Yuxi Global SAS receives from third parties about the breach, abuse or misuse of these TERMS AND CONDITIONS, may be investigated by Yuxi Global SAS, who may take all the corresponding measures and initiate all the legal and extra legal actions against you, to achieve the cessation of the conducts or the remedies and compensations that may take place under the applicable law. The violation of these TERMS AND CONDITIONS may result in civil or criminal liability on your part. If you are not sure that your actions regarding the access and use of this Site, its Contents and the information mentioned therein, constitute a violation or abuse of these TERMS AND CONDITIONS, please do not hesitate to previously consult us. We will gladly attend your inquiry. You are solely responsible for the access and use that you, with or without intention, knowledge or consent, make of this Site, the Contents and the information contained in the Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/> H. No interference with the Site:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Any act including the use of hardware and software, which has as its objective or effect the damage, interference, affectation of the integrity, or the interception of the systems that support this Site, its operation or the contents is prohibited.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Acts that impose unreasonable or disproportionate burdens on the Site&apos;s network systems or any other network infrastructure that uses the Site are prohibited.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>i. Applicable Law:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> These TERMS AND CONDITIONS will be interpreted and executed exclusively according to the laws of the Republic of Colombia, without prejudice to the provisions on conflict of laws of any country.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>j. Modifications:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> No section of these TERMS AND CONDITIONS may be modified, deleted or added unilaterally by the user of the Site.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>k. Applicability:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> If any section or part of these TERMS AND CONDITIONS can not be applied or is invalid, in whole or in part, under any law, or is sentenced as such by judicial decision, that part will be interpreted in accordance with the applicable law and its lack of applicability or invalidity will not cause these TERMS AND CONDITIONS in general and the remaining provisions or portions of them to be inapplicable or invalid or ineffective in its entirety and, in such event, these dispositions will be changed and interpreted in such a way that the objectives of such provisions that are not applicable or that are invalid are achieved in the best possible way, within the limits of the applicable law or the applicable decisions of the court.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>l. Integrity:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> These TERMS AND CONDITIONS constitute the only terms between Yuxi Global S.A.S and you. The acceptance of these TERMS AND CONDITIONS repeal any prior or contemporaneous agreement, covenant, declaration, understanding and previous guarantee with respect to this Site, the Content, the information contained in this Site, and the purpose of these Terms of Use. In case of any conflict between these TERMS AND CONDITIONS and any verbal, written or prior agreement or understanding, these TERMS AND CONDITIONS shall prevail.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>M. Waiver:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The non-application of Yuxi Global S.A.S of any of the conditions, terms and rights included in these TERMS AND CONDITIONS will not be construed as withdrawal or waiver of the right of Yuxi Global S.A.S in the future to enforce or execute such provisions.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          </source>
+          <target>
+          <x id="START_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;h1&gt;"/>TÉRMINOS Y <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>CONDICIONES<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_HEADING_LEVEL1" ctype="x-h1" equiv-text="&lt;/h1&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Por favor dedique algún tiempo para leer y comprender estos TÉRMINOS Y CONDICIONES DE USO (en adelante los “TÉRMINOS Y CONDICIONES”) antes de usar este Sitio. El acceso y uso del Sitio indica que usted acepta y se obliga libremente al cumplimiento de estos TÉRMINOS Y CONDICIONES sobre la forma en la que usted puede acceder y usar este Sitio.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            La POLÍTICA DE PRIVACIDAD del Sitio hace parte integral de estos TÉRMINOS Y CONDICIONES. Por lo tanto, siempre que se haga en este texto referencia a los TÉRMINOS Y CONDICIONES, se estará haciendo también referencia a la POLÍTICA DE PRIVACIDAD de Yuxi Global S.A.S
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            1. Este Sitio es operado por Yuxi Global S.A.S, empresa válidamente constituida en Colombia, dedicada a la prestación de________________. Este Sitio contiene información general sobre Yuxi Global S.A.S. La dirección en la cual usted puede contactarnos es la siguiente: ___________________.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            2. Requisito de edad Usted podrá acceder y usar este Sitio si usted es mayor de edad, de conformidad con las leyes aplicables. Si usted no es mayor de edad o no cuenta con las autorizaciones legales y capacidad requeridas para acceder y usar este Sitio, por favor absténgase de usarlo, abandónelo, y no acceda a sus funcionalidades. En todo caso, recomendamos a los padres y tutores de los menores supervisar el acceso de sus hijos al Sitio.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            3. Estos TÉRMINOS Y CONDICIONES pueden cambiar, Yuxi Global S.A.S se reserva el derecho de modificar, cambiar o terminar estos TÉRMINOS Y CONDICIONES en cualquier momento y bajo su total discreción, sin necesidad de notificarle a usted previamente.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+           En cualquier momento, y sin previo aviso, Yuxi Global S.A.S podrá modificar, adicionar, eliminar, suprimir, enmendar, y en cualquier forma cambiar los Contenidos de este Sitio incluyendo cualquier documento, dato, testimonio, reseña, referencia o información incluida en el Sitio.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>a. Propiedad de los contenidos:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> El portal puede contener textos, avisos, imágenes, videos, animaciones, caricaturas, gráficos, bases de datos, aplicaciones, demostraciones de aplicaciones y, en general, una serie de bienes jurídicos protegidos por las normas nacionales e internacionales que regulan la propiedad intelectual.  Siempre que no se exprese lo contrario, todos los contenidos son de propiedad de YUXI GLOBAL S.A.S.  En las secciones que incluyan interacción, tales como comentarios, artículos y demás, que sean propiedad del usuario o de terceros, estos serán responsables de su autoría, respetando las previsiones que posteriormente se hacen.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            No se concede autorización alguna para la reproducción total o parcial, la traducción, la inclusión, la transmisión, el almacenamiento o el acceso a través de medios analógicos, digitales o de cualquier otro sistema o tecnología creada, o por crearse, sin la autorización previa y escrita de su titular, si así lo requiere YUXI GLOBAL S.A.S., de todos aquellos contenidos que son propiedad de YUXI GLOBAL o de terceros que han concedido licencia para su utilización en el portal.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Está permitido, de manera intransferible y limitada, el acceso al portal únicamente para su uso o el de su personal, sin ningún fin comercial, siempre que los contenidos no sean modificados y se mantengan intactos los avisos de reserva de propiedad, autoría o titularidad.  En los eventos en que se permitan descargas, se indicará expresamente tal situación, señalando los términos de uso específicos para ellas.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Cualquier violación a estas restricciones implica la cancelación sin previo aviso de los permisos concedidos y la consiguiente obligación del usuario de destruir aquellos bienes descargados o a los que se accedió por cualquier medio.
+            Excepto por el permiso limitado indicado anteriormente, YUXI GLOBAL S.A.S. no otorga al usuario, ni siquiera tácitamente, ni derecho ni licencia sobre patente alguna, marca registrada, copyright u otros derechos de propiedad intelectual. El usuario tampoco podrá duplicar ninguna parte del contenido de este sitio en otro sitio web ni en ningún otro soporte.
+            En los eventos en que el usuario incluya en los sitios de interacción cualquier material de su autoría, garantiza a YUXI GLOBAL S.A.S. que los mismos fueron creados o fueron adquiridos, sin violar derecho alguno de tercero, permitiéndole a YUXI GLOBAL S.A.S. la verificación de ello.  El usuario, por el solo hecho de subir, montar, incluir o adosar cualquier contenido, concede a YUXI GLOBAL S.A.S. las licencias o autorizaciones necesarias para  que, de manera gratuita y no exclusiva, realice la reproducción, adaptación, compilación, almacenamiento y distribución de los contenidos por él suministrados a través de esta página de internet.  Esta licencia gratuita incluye la autorización a YUXI GLOBAL S.A.S. para que publique los contenidos en cualquier medio, electrónico o físico y para que lo sublicencie a cualquier matriz, filial o subsidiaria de esta.  Si el usuario viola cualquier derecho de tercero, se compromete a mantener indemne a YUXI GLOBAL S.A.S. frente a cualquier reclamación que eleve quien se pretenda o repute legítimo titular.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Se prohíbe la modificación, reproducción, publicación o transferencia de cualquier Contenido a otras personas, o su uso para cualquier fin. Excepto en la medida en que la ley vigente lo permita, está prohibido desensamblar, descompilar, aplicar ingeniería inversa o intentar por cualquier medio romper la protección del contenido. Todos los contenidos, elementos e información de este Sitio incluyendo todo texto, formato, imágenes, música, marcas, logotipos, enseñas, nombres comerciales, sonidos, gráficos, videos, animación, y demás materiales de este Sitio (los “Contenidos”) son de propiedad de Yuxi Global S.A., sus filiales y afiliadas y controlantes, y aquellos de terceros contratistas, licenciantes o cedentes que corresponda. Algunos de los Contenidos están protegidos por las leyes de derechos de autor y de marca registrada. Cualquier uso no autorizado sobre los Contenidos del Sitio que viole los derechos de propiedad y de propiedad intelectual de Yuxi Global S.A.S, podrá implicar el inicio de las acciones legales correspondientes por parte de los titulares de los derechos. El acceso a o uso de este Sitio no implicará de ninguna manera la concesión o negación de cualquier licencia, concesión o derecho de uso sobre cualquiera de las marcas, nombres, logotipos, diseños o Contenidos protegidos por el derecho de propiedad intelectual de Yuxi Global S.A.S o de cualquier tercero, según corresponda. No se permite la creación de páginas web, Sitios de Internet, documentos electrónicos o programas de computador o aplicaciones informáticas de cualquier tipo que contengan hiper-vínculos o marcas que redirijan al navegante a cualquier Contenido de este Sitio.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>b. Remisión a y desde otros portales:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> En los eventos en que YUXI GLOBAL S.A.S., usuarios o terceros incluyan enlaces o referencias a otras páginas de internet que puedan accederse desde el portal, y que NO pertenezcan a YUXI GLOBAL S.A.S., sus matrices, filiales o subsidiarias, YUXI GLOBAL  no se hace ni se hará responsable, ni ejerce ni ejercerá control sobre los mismos y sus contenidos.  Por lo anterior, no se garantizará la idoneidad técnica, incluyendo la seguridad, ni la calidad de la información que en ellos repose.
+            En los eventos en que dichos enlaces lleven a sitos pertenecientes a aliados o a productos de alianza de YUXI GLOBAL S.A.S., con terceros, se indicará expresamente tal situación.
+            Todos los enlaces con este sitio web deben ser aprobados por escrito por YUXI GLOBAL S.A.S.,  y, en todo caso, los enlaces serán aceptados siempre que no impliquen publicidad engañosa, o puedan generar confusión, en cuanto a que se apruebe o recomiende producto o servicio alguno, o que impliquen la creación de marcos o modifiquen de cualquier modo los contenidos.  El usuario, en todo caso acepta que si PRAGMA YUXI GLOBAL S.A.S.,  así lo considera, podrá revocar el permiso concedido por escrito, siendo obligación del usuario retirarlos de sus páginas o portarles.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>c. Política de privacidad:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Cuando el usuario acceda al portal, es posible que YUXI GLOBAL S.A.S., solicite algunos datos sobre información personal o de bienes del usuario, que en adelante serán llamados "los datos" y serán tomados por YUXI GLOBAL S.A.S., con el propósito exclusivo de:
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Almacenarlos.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Mantener y mejorar las condiciones en que se prestan los servicios así como su mantenimiento, gestión, administración, prestación y ampliación.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Generar una comunidad de personas.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Optimizar el uso de los servicios por parte del usuario.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Ofrecer nuevas transacciones asociadas con su operación, incluyendo promociones, ofertas, oportunidades comerciales, etc.  Al aceptar esta política de privacidad, el usuario expresamente autoriza a YUXI GLOBAL S.A.S., para que a través de la dirección electrónica o física registrada en el portal reciba información comercial del portal o de terceros.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Los datos serán objeto de tratamiento automatizado por parte del portal directamente o a través de un proveedor de hospedaje seguro, que los incorporará a los correspondientes archivos automatizados y que serán responsabilidad de YUXI GLOBAL S.A.S.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL garantiza privacidad total en los datos relativos a la transaccionalidad, integridad en los mensajes intercambiados y mecanismos que permitan que una vez realizada una transacción, quede constancia de ello.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL S.A.S.ha adoptado niveles de seguridad adecuados para proteger los datos suministrados a través de los servicios que suministra y ha tomado medidas técnicas a su alcance para evitar la pérdida, mal uso, alteración, acceso no autorizado o hurto de los datos. Con todo, y dado que el carácter de los datos que se movilizan por la plataforma no son privados ni confidenciales, las medidas de seguridad están asociadas al nivel de riego que genera información considerada como de bajo impacto.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            YUXI GLOBAL S.A.S. podrá enviar "cookies" al usuario (archivo de texto que se remite al disco duro del usuario al entrar al portal y que contiene cierta información, generalmente suministrada por el usuario mismo cuando abre tal sitio). Las cookies enviadas por el portal tienen la finalidad exclusiva de facilitar al usuario navegar por los sitios y páginas web de los servicios y hacerle más amable su acceso a dichos servicios. Gracias a las cookies, el portal podrá reconocer al usuario registrado, sin que tenga que registrarse en cada visita, para acceder a las áreas y servicios seleccionados libremente por el usuario.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>d. Participación en los espacios de interacción:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> La participación en los espacios de interacción de los usuarios, tales como foros, blogs, chats, etcétera, presuponen el conocimiento de estos términos de uso y la aceptación de los mismos. En cada espacio de esta naturaleza se identificará verazmente al usuario o se tendrán los mecanismos para hacerlo, buscando, principalmente, que en los eventos en los cuales un usuario le infiera daño a un tercero, el usuario salga en defensa de cualquier reclamación que se haga a YUXI GLOBAL S.A.S. Las reglas específicas de participación en este tipo de espacio son las siguientes:
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              La contraseña y demás elementos de seguridad suministrados son de su exclusiva responsabilidad, con lo que cualquier actividad que se realice bajo los datos de identificación del usuario se considerarán de su responsabilidad.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Cualquier actividad que atente contra las normas jurídicas colombianas implicará la terminación de los derechos de uso en los espacios de interacción, el retiro del contenido incluido por el usuario y, en caso de que a juicio de Yuxi Global o sus consultores se determine, se dará aviso a las autoridades de la posible comisión de delitos, incluyendo los datos de identidad con que cuente aquella. Ello implica el total respeto de los usuarios por los derechos de terceros sobre el material que publiquen.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            No se permite la publicación de contenidos que impliquen o sugieran discriminación por cualquier causa, o que atenten contra el buen nombre, el honor o la imagen y, en general, contra cualquier derecho de cualquier persona.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            No se permite la utilización de lenguaje vulgar, difamatorio, amenazante, denigrante, falso, fraudulento, inexacto u ofensivo contra cualquier persona, individuo o comunidad.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            No se permite intimidar a otros usuarios, o realizar cualquier actividad que pueda implicar persecución o discriminación de un usuario o de un tercero.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            No se permite el uso de los espacios de interacción para actividades de proselitismo político o religioso, sin que por ello se pueda entender que se coarte la libertad con la que cuenta el usuario para exponer sus ideas conforme a sus creencias y convicciones.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            No se permite el uso de los espacios de interacción para actividades de difusión, promoción o comercialización de cualquier producto o servicio.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            Se permite solo el uso personal, y no colectivo, en cualquiera de las formas de asociación reconocidas y por reconocer por la legislación nacional.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+            No se permite el envío de correos masivos a otros usuarios de esta página, así como también está prohibido transmitir virus o cualquier código de naturaleza destructiva.
+          <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            La violación de estas disposiciones implica el retiro del usuario de los espacios de interacción. Los comentarios y opiniones emitidas son susceptibles de ser moderados o validados con el propósito de preservar lo establecido en estas prácticas de uso. En todo caso, YUXI GLOBAL S.A.S. se reserva el derecho a incluir, o no, en el portal el material recibido por los usuarios.
+            El diseño, el manejo, la finalidad y las características de los diferentes espacios de participación del portal quedan a discreción de YUXI GLOBAL S.A.S. que podrá en cualquier momento cambiarlos o eliminarlos, o determinar la cantidad de participantes admitidos en cada uno de ellos.
+
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>e. Exclusiones de responsabilidad:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> YUXI GLOBAL S.A.S. no garantiza la disponibilidad y continuidad del funcionamiento del portal, pero intentará, cuando ello sea posible, advertir las interrupciones en el mismo. Tampoco garantiza la utilidad del portal para la realización de ninguna actividad en particular, ni la infalibilidad de la información que en él reposa, ni que la información sea correcta, esté actualizada ni sea completa, y advierte que este sitio puede contener imprecisiones técnicas o errores tipográficos.
+
+Por lo tanto, el usuario debe confirmar que la información publicada sea precisa y completa antes de tomar alguna decisión relacionada con cualquier servicio, producto o tema descrito en este sitio.
+
+Tampoco se garantiza que reportado un error, el mismo vaya a ser reparado o corregido en un tiempo determinado.
+
+YUXI GLOBAL S.A.S. no se hace responsable por los daños y perjuicios de toda naturaleza que puedan deberse a la falta de disponibilidad o de continuidad del funcionamiento del portal, a la defraudación de la utilidad que los usuarios hubieran podido atribuir al portal y a los servicios, a la falibilidad del portal y, en particular, aunque no de modo exclusivo, a las fallas en el acceso a las distintas páginas web o secciones del portal.
+
+YUXI GLOBAL S.A.S. no se hace responsable ante parte alguna por cualquier daño, en cualquiera de sus tipos, surgido o derivado del portal, o con su uso o de cualquier sitio o recurso enlazado al portal o al que se haga referencia o se acceda a través del mismo, ni del uso, descarga ni acceso a ningún material, información, productos o servicios incluidos.
+
+YUXI GLOBAL S.A.S. no controla ni garantiza y, por lo tanto, no se hace responsable de la presencia de virus ni de otros elementos en los contenidos del portal que puedan producir alteraciones en el sistema informático (software y hardware) del usuario o en los documentos electrónicos y ficheros almacenados en el sistema informático del usuario.
+
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>F. Limitación de garantía:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> El uso de este sitio se realizará bajo la responsabilidad del usuario, sin que se entienda que se conceda ninguna garantía sobre los contenidos, dado que este NO es un canal de comercialización. Todos los contenidos se entregan “como están” o “en las condiciones en que se encuentran” y sin garantía alguna.
+            El usuario acepta que si obtiene por cualquier medio contenidos del portal, lo hace bajo su compromiso, siendo el único responsable por los daños que se le puedan generar.
+
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>G. Consecuencias por el uso del Sitio:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Cualquier violación por parte de usted de estos TÉRMINOS Y CONDICIONES, o cualquier queja o información que Yuxi Global S.A.S reciba de terceros sobre el incumplimiento, abuso o mal uso de estos TÉRMINOS Y CONDICIONES, podrá ser investigada por Yuxi Global S.A.S, quien podrá tomar todas las medidas e iniciar todas las acciones legales y extra legales en contra de usted, para obtener la cesación de las conductas o los remedios e indemnizaciones a que haya lugar bajo la ley aplicable. La violación de estos TÉRMINOS Y CONDICIONES puede resultar en responsabilidad civil o penal de parte de usted. Si usted no está seguro de que sus acciones respecto del acceso y uso de este Sitio, sus Contenidos y la información en él mencionada, constituyen una violación o abuso de estos TÉRMINOS Y CONDICIONES, por favor no dude en consultarnos previamente. Gustosos atenderemos su consulta. Usted es el único responsable del acceso y uso que usted, con o sin intención, conocimiento o consentimiento, haga de este Sitio, los Contenidos y la información contenida en el Sitio.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/> H.No interferencia con el Sitio:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Está prohibido cualquier acto, incluyendo el uso de hardware y software, que tenga por objeto o como efecto el daño, la interferencia, la afectación de la integridad, o la interceptación de los sistemas que soportan este Sitio, su funcionamiento o los Contenidos.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            Están prohibidos los actos que imponen cargas irrazonables o desproporcionadas sobre los sistemas de red del Sitio o cualquier otra infraestructura de red que utilice el Sitio.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+            <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>i. Ley aplicable:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Estos TÉRMINOS Y CONDICIONES serán interpretados y ejecutados exclusivamente de acuerdo a las leyes de la República de Colombia, sin perjuicio de las provisiones sobre conflicto de leyes de cualquier país.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>j. Modificaciones:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ninguna sección de estos TÉRMINOS Y CONDICIONES podrá ser modificada, suprimida o agregada por el usuario del Sitio unilateralmente.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>k. Aplicabilidad:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Si cualquier sección o parte de estos TÉRMINOS Y CONDICIONES no se puede aplicar o resulta inválida, en su totalidad o en parte, bajo cualquier ley, o sea sentenciada como tal por decisión judicial, dicha parte será interpretada de conformidad con la ley aplicable y su falta de aplicabilidad o invalidez no hará que estos TÉRMINOS Y CONDICIONES en general y las disposiciones remanentes o porciones de ellas sean inaplicables o inválidas o ineficaces en su totalidad y, en tal evento, dichas disposiciones serán cambiadas e interpretadas de tal manera que se logren de la mejor manera posible los objetivos de tales disposiciones no aplicables o inválidas, dentro de los límites de la ley aplicable o las decisiones aplicables de la corte.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>l. Integridad:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Estos TÉRMINOS Y CONDICIONES constituyen los únicos términos entre Yuxi Global S.A.S y usted. La aceptación de estos TÉRMINOS Y CONDICIONES derogan cualquier acuerdo, pacto, declaración, entendimiento y garantía anterior o contemporáneo con respecto a este Sitio, el Contenido, la información contenida en este Sitio, y el objeto de estos Términos de Uso. En caso de cualquier conflicto entre estos TÉRMINOS Y CONDICIONES y cualquier acuerdo o entendimiento verbal, escrito o previo, prevalecerán estos TÉRMINOS Y CONDICIONES.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+              <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>M. No renuncia:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> La no aplicación de Yuxi Global S.A.S de alguna de las condiciones, términos y derechos incluidos en estos TÉRMINOS Y CONDICIONES no será interpretada como desistimiento o renuncia del derecho de Yuxi Global S.A.S en lo sucesivo de hacer cumplir o ejecutar dichas disposiciones.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          </target>
+          <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/terms-privacy/terms-privacy.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

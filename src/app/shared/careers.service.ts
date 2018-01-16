@@ -5,9 +5,9 @@ import { IOffersInfo } from 'app/shared/ioffers-info';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
-const CONTENTFUL_API = 'https://cdn.contentful.com/spaces/0mhvte2or8yk';
-const ACCESS_TOKEN = '?access_token=e50872701dd8b070ace6ce3e8beaa69e3ae8f1f1e473a1632c5ed296280ff9c8';
-const CAREERS_URL = `${CONTENTFUL_API}/entries${ACCESS_TOKEN}`;
+const CONTENTFUL_API = 'https://cdn.contentful.com/spaces/x3r1tbrol9cy';
+const ACCESS_TOKEN = '?access_token=d2e70c94ca95cab9905d91458f3f2946bf51dbc3d9e170b4a01e44aec514ad81';
+const CAREERS_URL = `${CONTENTFUL_API}/entries${ACCESS_TOKEN}&content_type=offers`;
 const CAREER_URL = jobId => `${CONTENTFUL_API}/entries/${jobId}/${ACCESS_TOKEN}`;
 
 @Injectable()

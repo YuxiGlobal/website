@@ -18,12 +18,15 @@
     </div>
     <div class="image-banner-container" [ngClass]="info.class">
         <img class="banner-image" [ngClass]="info.class" [src]="info.image"/>
-        <div [ngClass]="{fallbackImage: isSafari, fallbackImageHide: !isSafari}">
+        <div [ngClass]="{fallbackImage: isSafariOrEdge, fallbackImageHide: !isSafariOrEdge}">
           <img [src]="info.image" alt="Banner!" />
         </div>
         <video class="banner-video" autoplay loop [ngClass]="info.class" #videoElement>
           <source src="{{info.video}}" type="video/webm" />
         </video>
+    </div>
+    <div class="arrow-down">
+      <img src="assets/icons/arrow-down.svg" />
     </div>
   </div>
 </div>

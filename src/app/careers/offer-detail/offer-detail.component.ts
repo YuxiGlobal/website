@@ -52,7 +52,6 @@ export class OfferDetailComponent implements OnInit {
   }
 
   resolved(captchaResponse: string) {
-    console.log(`Resolved captcha with response ${captchaResponse}:`);
     this.recaptchaResponse = captchaResponse;
   }
 
@@ -84,7 +83,6 @@ export class OfferDetailComponent implements OnInit {
   submitForm() {
 
     if (this.recaptchaResponse) {
-      console.log(this.offerForm);
       const data = {
         FullName: this.offerForm.value.name,
         Email: this.offerForm.value.email,

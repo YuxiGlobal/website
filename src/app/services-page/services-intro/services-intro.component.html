@@ -1,5 +1,8 @@
 <div class="services-intro">
   <div *ngIf="play">
+    <video class="short-video" autoplay loop>
+      <source src="assets/videos/services_cover_video.mp4" type="video/mp4" />
+    </video>
    <div class="video-cover">
     <div class="video-title">
       <h1
@@ -15,6 +18,9 @@
     <button class="playServicesVideo" (click)="playVideo()">
       <img src="../../../assets/icons/ICONO_PLAY.svg" alt="">
     </button>
+    <div class="arrow-down">
+      <img src="assets/icons/arrow-down.svg" />
+    </div>
    </div>
   </div>
   <iframe
@@ -22,7 +28,7 @@
     width="700"
     height="500"
     style="border:none"
-    src="https://www.youtube.com/embed/uzHjrURYT4w?rel=0&autoplay=1"
+    src="https://www.youtube.com/embed/81I44oXzr_U?rel=0&autoplay=1"
     allowfullscreen
   >
   </iframe>

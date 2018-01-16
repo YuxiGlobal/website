@@ -5,27 +5,30 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-decoration: none;  
+    text-decoration: none;
     ul {
         margin: 0;
         list-style: none;
         font-size: 1.8rem;
-        padding: 0; 
+        padding: 0;
         @media (min-width: 768px) {
             font-size: 3rem;
         }
-        
+        a {
+            text-decoration: none;
+            color: $white;
+        }
         li {
-        margin-bottom: 15px;
-        position: relative;
-        overflow: hidden;
-        cursor: pointer;
-        @media only screen and (orientation: landscape) {
-            margin-bottom: 1px;   
-        }
-        @media (min-width: 768px){
-            margin-bottom: 20px;   
-        }
+            margin-bottom: 15px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            @media only screen and (orientation: landscape) {
+                margin-bottom: 1px;
+            }
+            @media (min-width: 768px) {
+                margin-bottom: 20px;
+            }
             &:hover:before {
                 left: 0;
             }
@@ -47,14 +50,19 @@
 
 .languages {
     display: flex;
-    flex-direction: row; 
-    margin-bottom: 10px; 
-    p {
-    margin: 0 5px;
-    }  
+    flex-direction: row;
+    margin-bottom: 10px;
+    a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: $white;
+        &:hover {
+            color: $turquoiseBlue;
+        }
+    }
 }
 
-.media-items { 
+.media-items {
     display: inline-block;
     margin: 5px;
     a {

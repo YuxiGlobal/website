@@ -29,7 +29,6 @@ export class GeneralFormComponent {
   ) { }
 
   resolved(captchaResponse: string) {
-    console.log(`Resolved captcha with response ${captchaResponse}:`);
     this.recaptchaResponse = captchaResponse;
   }
 
