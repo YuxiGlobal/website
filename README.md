@@ -13,7 +13,7 @@ Run `yarn start` for a dev server. Navigate to `http://localhost:4200/`. The app
  This package was used in home page to build the 
  vertical slider. It is just a Angular 2 directive wrapper for the fullpage.js library.
 
-`http://meiblorn.github.io/ngx-fullpage/`
+(http://meiblorn.github.io/ngx-fullpage/)
 
 * **Angular Material:** 
 This one was used to create some elements in the website like Material tabs to organize content into separate views where only one view can be visible at a time, some buttons and icons.
