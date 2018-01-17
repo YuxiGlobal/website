@@ -1,28 +1,38 @@
 # YuxiGlobalNewSite
 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `yarn start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+##Packages
+* **ngx-fullpage:** 
+ This package was used in home page to build the 
+ vertical slider. It is just a Angular 2 directive wrapper for the fullpage.js library.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+`http://meiblorn.github.io/ngx-fullpage/`
 
-## Build
+* **Angular Material:** 
+This one was used to create some elements in the website like Material tabs to organize content into separate views where only one view can be visible at a time, some buttons and icons.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* **ngx-carousel:**
+Was used to create the horizontal slider/banner in Careers page.
 
-## Running unit tests
+##Architecture
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The project has 6 modules, 4 of these are for each page (Home, Services, Careers and Contact), the Shared module is for shared components like, the footer, navbar, menu burger, get in touch, services and directives.
 
-## Running end-to-end tests
+Each component has its own scss file, and inside the Styles folder are the global styles and variables.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+In the Assets folder are the images, icons, fonts, and videos.
 
-## Further help
+In the Locale folder are the translation files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Internationalization(i18n) from Angular was used for the spanish translation.
+
+The backend was developed using Node.js and is being deployed to Azure. It was created to send emails via contact/offer forms to the assigned areas.
+
+_Contentful_ is content infrastructure, lets you create, manage and distribute content to any platform. It was used to manage and publish the latest offers in the company and manage the blog posts for hot stuff section.
