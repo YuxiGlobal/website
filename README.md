@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `yarn start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-##Packages
+## Packages
 * **ngx-fullpage:** 
  This package was used in home page to build the 
  vertical slider. It is just a Angular 2 directive wrapper for the fullpage.js library.
@@ -21,7 +21,7 @@ This one was used to create some elements in the website like Material tabs to o
 * **ngx-carousel:**
 Was used to create the horizontal slider/banner in Careers page.
 
-##Architecture
+## Architecture
 
 The project has 6 modules, 4 of these are for each page (Home, Services, Careers and Contact), the Shared module is for shared components like, the footer, navbar, menu burger, get in touch, services and directives.
 
