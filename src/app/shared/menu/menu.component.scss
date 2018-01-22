@@ -23,6 +23,9 @@
             position: relative;
             overflow: hidden;
             cursor: pointer;
+            &:focus {
+              outline: none;
+            }
             @media only screen and (orientation: landscape) {
                 margin-bottom: 1px;
             }
