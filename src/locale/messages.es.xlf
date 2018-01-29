@@ -586,7 +586,7 @@
           Spanish– and work 45 hours a week. We are not working for you, we are working with you!
         </source>
         <target>
-          Creemos en la proactividad, la responsabilidad y la comunicación. Somos bilingües (inglés y español) y trabajamos 45 horas a la semana. Nos gusta el trabajo en equipo y hacer las cosas bien: si creemos que algo que su compañía hace puede mejorarse, se lo diremos.
+          Creemos en la proactividad, la responsabilidad y la comunicación. Somos bilingües (español-inglés), y trabajamos 45 horas a la semana. Nos gusta el trabajo en equipo y hacer las cosas bien. Si creemos que algo que su compañía hace puede mejorarse, se lo diremos.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
@@ -602,7 +602,7 @@
             and are supported by our UX/UI, QA and DevOps practices. Our solutions accommodate to your needs, not otherwise.
           </source>
           <target>
-            Estamos al tanto de las tecnologías y prácticas más modernas del mercado. Nuestros equipos son versátiles, se adaptan con facilidad y tienen experticia en un rango amplio de lenguajes de programación, bases de datos y frameworks. Nuestros proyectos funcionan bajo metodologías Agile y tradicionales y se apoyan en las áreas de UX/UI, QA y DevOps.
+            Estamos al tanto de las tecnologías y prácticas más modernas del mercado. Nuestros equipos son versátiles, se adaptan con facilidad y tienen experticia en un rango amplio de lenguajes de programación, bases de datos y frameworks. Nuestros proyectos funcionan bajo metodologías ágiles y tradicionales y se apoyan en las áreas de UX/UI, QA y DevOps.
           </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
@@ -629,7 +629,7 @@
         were moved to Medellín.
       </source>
       <target>
-        Yuxi Global (entonces llamada Yuxi Pacific) fue fundada en 2005 en Pennsylvania, Estados Unidos por el emprendedor Michael Puscar. En el 2011 abrimos una oficina pequeña de Investigación y Desarrollo en Medellín, Colombia. Gracias a la calidad del talento local, nuestras ventas y número de empleados comenzaron a duplicarse anualmente.
+        Yuxi Global (entonces llamada Yuxi Pacific) fue fundada en el 2005, en Pennsylvania, Estados Unidos por el emprendedor Michael Puscar. En el 2011, abrimos una oficina pequeña de Investigación y Desarrollo en Medellín, Colombia y al igual gracias a la calidad del talento local, nuestras ventas y número de empleados comenzaron a duplicarse anualmente.
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
@@ -646,7 +646,7 @@
           over the world.
         </source>
         <target>
-          En el 2013 la compañía fue adquirida por Blue Loop Capital, una firma de inversión de Estados Unidos con un único accionista: el inventor y emprendedor Kent Savage. En el 2016 nos relanzamos como Yuxi Global, adoptando una imagen más moderna, que refleja la madurez que hemos alcanzado como compañía y nuestra capacidad para afrontar retos que vengan de cualquier parte del mundo.
+          En el 2013, la compañía fue adquirida por Blue Loop Capital, una firma de inversión de Estados Unidos con un único accionista; el inventor y emprendedor Kent Savage. En el 2016 nos relanzamos como Yuxi Global, adoptando una imagen más moderna, que refleja la madurez que hemos alcanzado como compañía y nuestra capacidad para afrontar los retos que lleguen de cualquier parte del mundo.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
@@ -1025,7 +1025,7 @@
           offices are spaces designed to be both comfortable and inspiring, letting creativity flow freely.
         </source>
         <target>
-          Tener un buen ambiente de trabajo es tener empleados felices. Tanto en la ubicación como en el ambiente: los Yuxians tienen acceso a frutas, cereales, café y snacks gratis. Organizamos actividades como pausas activas y masajes mensuales. Nuestras oficinas son espacios diseñados para ser cómodos e inspiradores, permitiendo que la creatividad fluya libremente.
+          Tener un buen ambiente de trabajo es tener empleados felices. Tanto en la ubicación como en el ambiente, los Yuxians tienen acceso a frutas, cereales, café y snacks gratis. Organizamos actividades como pausas activas y masajes mensuales. Nuestras oficinas son espacios diseñados para ser cómodos e inspiradores, permitiendo que la creatividad fluya libremente.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
@@ -1076,7 +1076,7 @@
           healthcare, vehicle insurance, savings programs, food or gas passes, education aids, etc.
         </source>
         <target>
-          Un fuerte y completo paquete de beneficios que lo podrás utilizar cuando lo desees. Nuestros empleados pueden mezclar los beneficios, como membresías en gimnasios, cuidado de salud premium, seguro de vehículos, programas de ahorro, pases de comida o gas, ayudas educativas, etc.
+          Un completo y fuerte paquete de beneficios que podrás utilizar cuando lo desees. Nuestros empleados pueden mezclar los beneficios como: membresías en gimnasios, cuidado de salud premium, seguro de vehículos, programas de ahorro, pases de comida o gasolina, y ayudas educativas, etc.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
@@ -1133,7 +1133,7 @@
           to work. #YuxiLife is, more than a lifestyle, our workstyle.
         </source>
         <target>
-          No solo trabajas para vivir: la vida también sucede dentro de la oficina. Durante muchos años la sociedad ha pensado que el trabajo es un obstáculo que nos impide vivir nuestra vida real, algo tan pesado que en realidad se les paga por ello. Es hora de cambiar eso: #YuxiLife es nuestra forma de crear condiciones en las que las personas pueden sentirse felices, alentadas y motivadas para ir a trabajar. #YuxiLife es, más que un estilo de vida, nuestro estilo de trabajo.
+          No solo trabajas para vivir, la vida también sucede dentro de la oficina. Durante muchos años la sociedad ha pensado que el trabajo es un obstáculo que nos impide vivir nuestra vida real, lo cual ha sido algo tan pesado que incluso se paga por ello. Es hora de cambiar eso: #YuxiLife es nuestra forma de crear condiciones, en las que las personas pueden sentirse felices, alentadas y motivadas para ir a trabajar. #YuxiLife es, más que un estilo de vida, nuestro estilo de trabajo.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
