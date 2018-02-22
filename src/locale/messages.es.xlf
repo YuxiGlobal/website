@@ -432,7 +432,7 @@
       </trans-unit>
       <trans-unit id="ServicesStaffAugmentationTitle" datatype="html">
         <source>STAFF <x id="LINE_BREAK" ctype="lb"/>AUGMENTATION</source>
-        <target>SERVICIOS DE NEARSHORE</target>
+        <target>SERVICIOS DE<x id="LINE_BREAK" ctype="lb"/> NEARSHORE</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
           <context context-type="linenumber">23</context>
@@ -465,7 +465,8 @@
           Innovation is more than having a great software product. It requires you to constantly be on the lookout for new technologies, opportunities, and features to be implemented. Our teams can cover your R&amp;D regarding:
         </source>
         <target>
-          Innovar es más que tener un gran producto de software. Requiere una actitud constante de búsqueda para encontrar nuevas oportunidades o tecnologías para adoptar. Nuestros equipos pueden cubrir sus necesidades de I+D en:
+          Innovar requiere tener problemas reales para poder ser resueltos de manera ingeniosa. Tal vez tu compañía sepa lo que quiere hacer, pero no está seguro de cómo hacerlo. Pero en Yuxi estamos especializados en ayudar a las empresas a alcanzar sus objetivos de transformación digital.
+Nuestros equipos están preparados para cubrir tu I+D cn respecto a:
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -521,7 +522,7 @@
           Innovation requires real problems to be solved with ingenious solutions. Perhaps your company knows what it wants to do but is unsure of how to do it. We specialize in helping companies achieve their digital transformation goals.
         </source>
         <target>
-          Innovar es resolver  un problema real de una manera ingeniosa. Por eso, si tu compañía sabe qué quiere lograr pero no sabe cómo hacerlo, ¡nosotros te ayudamos! Nos especializamos en apoyar y asesorar a las empresas para que alcancen sus objetivos de transformación digital.
+          Después de trabajar para diferentes compañías, hemos desarrollado una serie de componentes de software que nos permiten ser ágiles y eficientes.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -535,7 +536,7 @@
           After working for different industries we’ve deve- loped a series of software components that let us be agile and efficient. We’re also flexible regarding the Intellectual Property of these projects: we can work as a joint venture, or your company can keep the rights to what is developed.
         </source>
         <target>
-          Al tener una experiencia junto a diferentes industrias, hemos desarrollado una serie de softwares que nos facilitan ser más ágiles y eficientes que otros, además somos flexibles respecto a la propiedad intelectual de los proyectos, es decir, podemos trabajar con un joint venture, o tu compañía puede conservar los derechos de la solución desarrollada.
+           También somos flexibles con respecto a la propiedad intelectual de estos proyectos dado que podemos trabajar como una empresa conjunta y tu empresa puede mantener los derechos de lo que se ha desarrollado.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -629,7 +630,7 @@
         were moved to Medellín.
       </source>
       <target>
-        Yuxi Global (entonces llamada Yuxi Pacific) fue fundada en el 2005, en Pennsylvania, Estados Unidos por el emprendedor Michael Puscar. En el 2011, abrimos una oficina pequeña de Investigación y Desarrollo en Medellín, Colombia y al igual gracias a la calidad del talento local, nuestras ventas y número de empleados comenzaron a duplicarse anualmente.
+        Somos una compañía de tecnología con 13 años de experiencia que brinda soluciones digitales para ayudarte a resolver tus desafíos comerciales, ya que nos enfocamos en el ser humano y en su viaje de transformación digital. Las empresas pueden contar con nosotros para externalizar el desarrollo de software y servicios especializados como aplicaciones móviles, Internet de cosas, realidad virtual y / o aumentada, big data y aprendizaje automático.
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/who-we-are/who-we-are.component.ts</context>
