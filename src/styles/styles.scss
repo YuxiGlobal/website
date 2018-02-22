@@ -320,14 +320,16 @@ a {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
   }
-  40% {
-    transform: translateY(-30px);
+  50% {
+    opacity: 1;
   }
-  60% {
-    transform: translateY(-15px);
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
   }
 }
 
