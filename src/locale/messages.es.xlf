@@ -5,7 +5,7 @@
     <!-- HOME PAGE -->
     <trans-unit id="Banner1Title" datatype="html">
         <source>discover real innovation.</source>
-        <target>DESCUBRE CÓMO INNOVAMOS</target>
+        <target>DESCUBRE NUESTROS SERVICIOS DE NEARSHORE</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">15</context>
@@ -13,9 +13,9 @@
         <note priority="1" from="description"> My Firts Description</note>
         <note priority="1" from="meaning">Banner Discover Real Innovation </note>
       </trans-unit>
-      <trans-unit id="95531e654c7ba6675905cee6e5c3791dfc9050da" datatype="html">
+      <trans-unit id="Banner1Subtitle" datatype="html">
         <source>Find out more about our software development services.</source>
-        <target>Entérate sobre nuestros servicios de desarrollo de software.</target>
+        <target>Mira cómo tus soluciones te llevan más allá de tu competencia.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="Banner2Title" datatype="html">
         <source>explore inventive technologies.</source>
-        <target>EXPLORA TECNOLOGÍAS INGENIOSAS</target>
+        <target>EXPLORA NUEVAS SOLUCIONES DIGITALES.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">24</context>
@@ -32,9 +32,9 @@
         <note priority="1" from="description"> My second Description</note>
         <note priority="1" from="meaning">Banner explore inventive technologies. </note>
       </trans-unit>
-      <trans-unit id="33c55f56dc2b453b50e3fa5b6c2bd5c8828a5b96" datatype="html">
+      <trans-unit id="Banner2Subtitle" datatype="html">
          <source>See how our solutions can get you ahead of your competition.</source>
-        <target>Descubre cómo nuestras soluciones te permiten adelantarse a su competencia.</target>
+        <target>Soluciona tus retos de negocios a través de nuevas tecnologías y lenguajes de programación.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="Banner3Title" datatype="html">
         <source>devise groundbreaking improvements.</source>
-        <target>CONOCE LOS ÚLTIMOS AVANCES</target>
+        <target>CREA NUEVOS PRODUCTOS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">33</context>
@@ -51,9 +51,9 @@
         <note priority="1" from="description"> My third Description</note>
         <note priority="1" from="meaning">Banner devise groundbreaking improvements. </note>
       </trans-unit>
-      <trans-unit id="d82953cc84fb9b04c3804839041d1b5f99fb1dfd" datatype="html">
+      <trans-unit id="Banner3Subtitle" datatype="html">
         <source>Learn how your company can evolve via digital transformation.</source>
-        <target>Aprende cómo tu compañía puede evolucionar mediante la transformación digital.</target>
+        <target>Aprende cómo tu compañía puede evolucionar a través de la transformación digital.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">34</context>
@@ -91,7 +91,7 @@
       <!-- FOOTER LINKS AND BUTTONS -->
       <trans-unit id="getInTouchButton" datatype="html">
         <source>GET IN TOUCH</source>
-        <target>COMUNÍCATE AQUÍ</target>
+        <target>HABLA CON NOSOTROS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -129,7 +129,7 @@
       </trans-unit>
       <trans-unit id="CareersLink" datatype="html">
         <source>Careers</source>
-        <target>CARRERAS</target>
+        <target>TALENTO</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/shared/footer/footer.component.ts</context>
           <context context-type="linenumber">24</context>
@@ -230,7 +230,7 @@
       </trans-unit>
       <trans-unit id="StaffAugmentationTitle" datatype="html">
         <source>STAFF AUGMENTATION</source>
-        <target>OUTSOURCING<x id="LINE_BREAK" ctype="lb"/> </target>
+        <target>SERVICIOS<x id="LINE_BREAK" ctype="lb"/> DE NEARSHORE</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -289,7 +289,7 @@
       </trans-unit>
       <trans-unit id="SpecializedProjectsTitle" datatype="html">
         <source>SPECIALIZED PROJECTS</source>
-        <target>SERVICIOS <x id="LINE_BREAK" ctype="lb"/>ESPECIALIZADOS</target>
+        <target>SOLUCIONES <x id="LINE_BREAK" ctype="lb"/>DIGITALES</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -319,7 +319,7 @@
       </trans-unit>
       <trans-unit id="ProductDevelopmentSubtitle" datatype="html">
         <source>Short-cycle MVP’s for rapid market validation and feature implementation.</source>
-        <target>MVP de ciclo corto para la validación rápida del mercado y la implementación de características.</target>
+        <target>MVP de ciclo corto que facilita la validación rápida del mercado, y la implementación de sus características.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/services/services.component.ts</context>
           <context context-type="linenumber">47</context>
@@ -343,7 +343,7 @@
       </trans-unit>
       <trans-unit id="homeLocationSubtitle" datatype="html">
         <source>UTC-5:00, direct flights, and a US-based support office.</source>
-        <target>UTC-5:00, vuelos directos y una oficina de soporte con sede en EE.UU.</target>
+        <target>Vuelos directos a Colombia, y una oficina de soporte con sede en Estados Unidos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -367,7 +367,7 @@
       </trans-unit>
       <trans-unit id="homeCulturalFitSubtitle" datatype="html">
         <source>Western culture, mentality, and bilingualism.</source>
-        <target>Cultura occidental, mentalidad y bilingüismo.</target>
+        <target>Cultura occidental y comunicación con el mundo gracias a que somos bilingües.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
           <context context-type="linenumber">43</context>
@@ -391,7 +391,7 @@
       </trans-unit>
       <trans-unit id="homeFlexibilitySubtitle" datatype="html">
         <source>Expertise in diverse languages, databases, and frameworks.</source>
-        <target>Expertos en diversos idiomas, bases de datos y frameworks.</target>
+        <target>Expertos en lenguajes de programación, Frameworks, y bases de datos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/advantages/advantages.component.ts</context>
           <context context-type="linenumber">73</context>
@@ -432,7 +432,7 @@
       </trans-unit>
       <trans-unit id="ServicesStaffAugmentationTitle" datatype="html">
         <source>STAFF <x id="LINE_BREAK" ctype="lb"/>AUGMENTATION</source>
-        <target>OUTSOURCING</target>
+        <target>SERVICIOS DE NEARSHORE</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
           <context context-type="linenumber">23</context>
@@ -442,7 +442,7 @@
       </trans-unit>
       <trans-unit id="ServicesStaffAugmentationSubtitle" datatype="html">
         <source>Innovation requires great minds working together. Our developers, quality analysts, and designers are ready to work with, complement, and boost our customers’ teams, letting them pursue more aggressive deadlines and overcome tricky obstacles.</source>
-        <target>Innovar requiere que grandes mentes trabajen juntas. Nuestros desarrolladores, analistas de calidad y diseñadores están listos para trabajar, complementar y potenciar los equipos de nuestros clientes, permitiéndoles perseguir plazos más agresivos y superar obstáculos complejos.</target>
+        <target>¡Innovar es trabajar con grandes mentes! Nuestros desarrolladores, analistas de calidad y diseñadores están listos para trabajar, complementar y potenciar los equipos de nuestros clientes, permitiéndoles siempre superar obstáculos complejos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
           <context context-type="linenumber">30</context>
@@ -452,7 +452,7 @@
       </trans-unit>
       <trans-unit id="ServicesSpecializedServicesTitle" datatype="html">
         <source>SPECIALIZED <x id="LINE_BREAK" ctype="lb"/>SERVICES</source>
-        <target>SERVICIOS <x id="LINE_BREAK" ctype="lb"/>ESPECIALIZADOS</target>
+        <target>SOLUCIONES <x id="LINE_BREAK" ctype="lb"/>DIGITALES</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
           <context context-type="linenumber">43</context>
@@ -521,7 +521,7 @@
           Innovation requires real problems to be solved with ingenious solutions. Perhaps your company knows what it wants to do but is unsure of how to do it. We specialize in helping companies achieve their digital transformation goals.
         </source>
         <target>
-          Innovar requiere resolver problemas reales de formas ingeniosas. Si su compañía sabe qué quiere lograr, pero no sabe cómo hacerlo, nos especializamos en apoyar y asesorar a las empresas para que alcancen sus objetivos de transformación digital.
+          Innovar es resolver  un problema real de una manera ingeniosa. Por eso, si tu compañía sabe qué quiere lograr pero no sabe cómo hacerlo, ¡nosotros te ayudamos! Nos especializamos en apoyar y asesorar a las empresas para que alcancen sus objetivos de transformación digital.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -535,7 +535,7 @@
           After working for different industries we’ve deve- loped a series of software components that let us be agile and efficient. We’re also flexible regarding the Intellectual Property of these projects: we can work as a joint venture, or your company can keep the rights to what is developed.
         </source>
         <target>
-          Después de haber trabajado para diferentes industrias hemos desarrollado una serie de componentes de software que nos permiten ser más ágiles y eficientes que otros. También, somos flexibles respecto a la Propiedad intelectual de los proyectos: podemos trabajar como un joint venture, o su compañía puede conservar los derechos de la solución desarrollada.
+          Al tener una experiencia junto a diferentes industrias, hemos desarrollado una serie de softwares que nos facilitan ser más ágiles y eficientes que otros, además somos flexibles respecto a la propiedad intelectual de los proyectos, es decir, podemos trabajar con un joint venture, o tu compañía puede conservar los derechos de la solución desarrollada.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -570,7 +570,7 @@
           is facilitated by Medellín’s proximity to the U.S. –direct flights to and from NY, Miami &amp; Boston– and our U.S. based office.
         </source>
         <target>
-          Trabajamos mientras usted trabaja. Nuestra ubicación estratégica -seis meses en horario EST y seis en CST— dinamiza las sinergias y las comunicaciones. La colaboración entre equipos es fácil gracias a nuestra oficina en Estados Unidos y a la cercanía de Medellín con Centro y Suramérica.
+          Trabajamos al mismo tiempo debido a nuestra ubicación: seis meses en EST y seis meses en CST dinamizando las sinergias y las comunicaciones, lo que permite que la colaboración entre equipos sea más fácil gracias a nuestra oficina en Estados Unidos, y a la cercanía de Medellín con Centro y Suramérica.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-advantages/services-advantages.component.ts</context>
@@ -740,7 +740,7 @@
       </trans-unit>
       <trans-unit id="GoToCareers" datatype="html">
         <source>Go to careers</source>
-        <target>Ir a carreras</target>
+        <target>Ir a talento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -967,7 +967,7 @@
       </trans-unit>
       <trans-unit id="ContactCareersTitle" datatype="html">
         <source>CAREERS</source>
-        <target>CARRERAS</target>
+        <target>TALENTO</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact-forms/contact-forms.component.ts</context>
           <context context-type="linenumber">17</context>
@@ -1076,7 +1076,7 @@
           healthcare, vehicle insurance, savings programs, food or gas passes, education aids, etc.
         </source>
         <target>
-          Un completo y fuerte paquete de beneficios que podrás utilizar cuando lo desees. Nuestros empleados pueden mezclar los beneficios como: membresías en gimnasios, cuidado de salud premium, seguro de vehículos, programas de ahorro, pases de comida o gasolina, y ayudas educativas, etc.
+          Un completo y fuerte paquete de beneficios que podrás utilizar cuando lo desees. Nuestros empleados pueden mezclar los beneficios como: membresías en gimnasios, cuidado de salud premium, seguro de vehículos, programas de ahorro, pases de comida o gasolina, ayudas educativas, etc.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/our-culture-mobile/our-culture.component.ts</context>
