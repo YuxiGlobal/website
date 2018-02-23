@@ -26,6 +26,9 @@
             &:focus {
               outline: none;
             }
+            &.active {
+                color: $turquoiseBlue;
+            }
             @media only screen and (orientation: landscape) {
                 margin-bottom: 1px;
             }
