@@ -1,5 +1,32 @@
 <div class="show-mobile">
   <div class="overlay-purple">
+    <div class="image-mason" [class.hide]="hideImageMason">
+      <div class="open-info">
+        <h1>MASON</h1>
+        <h3>OHIO</h3>
+        <app-button
+          i18n="BUTTON view info|button view info@@ViewInfo"
+          type="secondary" size="small"
+          (click)="toggleHideImageMason()">
+          View info
+        </app-button>
+      </div>
+    </div>
+    <div class="info-city" [class.showContent]="hideImageMason">
+      <div class="info-city-copy">
+        <button class="close-button" (click)="toggleHideImageMason()" type="button">
+          <mat-icon class="md-24">close</mat-icon>
+        </button>
+        <h1>MASON</h1>
+        <h3>OHIO</h3>
+        <p>4393 Digital Way.</p>
+        <p>Mason, OH. 45040</p>
+        <p>(+1) 513 348 8265</p>
+      </div>
+    </div>
+  </div>
+    
+  <div class="overlay-purple">
     <div class="image-medellin" [class.hide]="hideImageMed">
       <div class="open-info">
         <h1>MEDELLÍN</h1>
@@ -51,35 +78,8 @@
         <h1>ARMENIA</h1>
         <h3>COLOMBIA</h3>
         <p>Cra 14 # 23 - 15.</p>
-        <p>Camara de Comercio.</p>
+        <p>Cámara de Comercio.</p>
         <p>Armenia, Quindio.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="overlay-purple">
-    <div class="image-mason" [class.hide]="hideImageMason">
-      <div class="open-info">
-        <h1>MASON</h1>
-        <h3>OHIO</h3>
-        <app-button
-          i18n="BUTTON view info|button view info@@ViewInfo"
-          type="secondary" size="small"
-          (click)="toggleHideImageMason()">
-          View info
-        </app-button>
-      </div>
-    </div>
-    <div class="info-city" [class.showContent]="hideImageMason">
-      <div class="info-city-copy">
-        <button class="close-button" (click)="toggleHideImageMason()" type="button">
-          <mat-icon class="md-24">close</mat-icon>
-        </button>
-        <h1>MASON</h1>
-        <h3>OHIO</h3>
-        <p>4393 Digital Way.</p>
-        <p>Mason, OH. 45040</p>
-        <p>(+1) 513 348 8265</p>
       </div>
     </div>
   </div>
