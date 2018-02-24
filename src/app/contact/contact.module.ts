@@ -18,6 +18,7 @@ import { FormsMobileComponent } from './forms-mobile/forms-mobile.component';
 import { FormsDesktopComponent } from './forms-desktop/forms-desktop.component';
 import { RouterModule } from '@angular/router';
 import { RecaptchaModule } from 'ng-recaptcha';
+import { AngularSvgIconModule } from 'angular-svg-icon';
 
 @NgModule({
   imports: [
@@ -31,6 +32,7 @@ import { RecaptchaModule } from 'ng-recaptcha';
     ReactiveFormsModule,
     MatInputModule,
     BrowserAnimationsModule,
+    AngularSvgIconModule,
     RecaptchaModule.forRoot()
   ],
   declarations: [

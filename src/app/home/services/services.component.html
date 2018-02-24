@@ -1,5 +1,5 @@
 <div class="container_service">
-  <div class="service">
+  <div class="service service-one" (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
     <img src="assets/icons/staff_augmentation.svg" alt="">
     <h4 class="title"
      i18n="STAFF AUGMENTATION TITLE|staff augmentation@@StaffAugmentationTitle">
@@ -20,7 +20,7 @@
 </div>
 
 <div class="container_service">
-  <div class="service">
+  <div class="service service-two" [class.active]="isActive">
     <img src="assets/icons/specialized_projects.svg" alt="">
     <h4 class="title"
      i18n="SPECIALIZED PROJECTS TITLE|specialized projects@@SpecializedProjectsTitle"
@@ -39,7 +39,7 @@
 </div>
 
 <div class="container_service">
-  <div class="service">
+  <div class="service service-three" (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
     <img src="assets/icons/product_development.svg" alt="">
     <h4
     i18n="PRODUCT DEVELOPMENT TITLE|product development@@ProductDevelopmentTitle"

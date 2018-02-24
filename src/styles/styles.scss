@@ -18,6 +18,18 @@
     font-size: 4rem;
   }
 }
+.location-map {
+  width: 1rem;
+  fill: $japaneseViolet;
+  cursor: pointer;
+
+  &:hover {
+    fill: $turquoiseBlue;
+  }
+}
+.icon-map {
+  margin-top: 1rem;
+}
 
 
 // FONTS ICONS TECNOLOGIES AND SOCIAL MEDIA
