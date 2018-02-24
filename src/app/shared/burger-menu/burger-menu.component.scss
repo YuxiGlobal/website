@@ -69,3 +69,13 @@
     background: $white;
   }
 }
+
+:host-context(.pass-the-fold.menu-visible) {
+  .menu-button {
+    background: $white;
+  }
+
+  .menu-line {
+    background: $rusianViolet;
+  }
+}
