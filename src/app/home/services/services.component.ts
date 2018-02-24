@@ -9,4 +9,12 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ServicesComponent {
   @Input() info: IServiceInfo;  
 
+  isActive = true;
+
+  mouseEnter() {
+    this.isActive = false;
+  }
+  mouseLeave() {
+    this.isActive = true;
+  }
 }
