@@ -41,9 +41,12 @@ export class NavBarComponent {
     this.showOverlayService.preventScroll = !this.showOverlayService.preventScroll;
     this.hideNav = false;
     this.navigationService.resetNav = false;
+    this.hideHotStuff();
   }
 
   mouseWheelUpFunc(event: any) {
+    // Hide hot stuff when scrolling
+    this.hideHotStuff();
     // When overlay is open:
     // 1. show navigation
     // 2. Reset navigation to its default state (always show)
@@ -54,6 +57,8 @@ export class NavBarComponent {
   }
 
   mouseWheelDownFunc(event: any) {
+    // Hide hot stuff when scrolling
+    this.hideHotStuff();
     // When user scroll down and the overlay is open
     // prevent navigation to show/hide
     if (!this.showOverlayService.preventScroll) {
@@ -64,5 +69,9 @@ export class NavBarComponent {
 
   openHotStuff() {
     this.showHotStuff = !this.showHotStuff;
+  }
+
+  hideHotStuff() {
+    this.showHotStuff = false;
   }
 }
