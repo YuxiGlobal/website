@@ -7,8 +7,8 @@
     <li routerLink="/contact" routerLinkActive="active" i18n="Contact link|Contact link@@ContactLink">CONTACT</li>
   </ul>
   <div class="languages">
-    <a href="/" routerLinkActive="active">English</a>
-    <a href="/es" routerLinkActive="active">Español</a>
+    <a href="/" [class.activeLanguage]="!language">English</a>
+    <a href="/es" [class.activeLanguage]="language">Español</a>
   </div>
   <nav class="media-items">
     <a target="_blank" href="https://twitter.com/YuxiGlobal">
