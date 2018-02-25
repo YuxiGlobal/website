@@ -65,6 +65,9 @@
         &:hover {
             color: $turquoiseBlue;
         }
+        &.activeLanguage {
+          color: $turquoiseBlue;
+        }
     }
 }
 
