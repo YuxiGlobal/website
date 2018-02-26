@@ -6,7 +6,7 @@ import { ServicesIntroComponent } from './services-intro/services-intro.componen
 import { ServicesItemsComponent } from './services-items/services-items.component';
 import { ServicesAdvantagesComponent } from './services-advantages/services-advantages.component';
 import { ProgrammingLanguagesComponent } from './programming-languages/programming-languages.component';
-import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
+
 import { MatTabsModule } from '@angular/material';
 import { SkylineComponent } from './skyline/skyline.component';
 
@@ -22,7 +22,6 @@ import { SkylineComponent } from './skyline/skyline.component';
     ServicesItemsComponent,
     ServicesAdvantagesComponent,
     ProgrammingLanguagesComponent,
-    WhoWeAreComponent,
     SkylineComponent
   ],
   exports: [ServicesPageComponent]
