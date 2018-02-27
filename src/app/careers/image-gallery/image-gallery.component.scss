@@ -1,7 +1,26 @@
 @import '~styles/variables';
 .gallery {
+    font-family: $fontFamilyPrimary;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: $ciberGrape;
+    padding-bottom: 0rem;
+    @media (min-width: 1024px) {
+        background: linear-gradient(to top, $white 67%, $ciberGrape 67%);
+        padding-bottom: 7rem;
+    }
+    .yuxi-life-title {
+        text-align: center;
+        color: $white;
+        margin: 4rem 0;
+        @media (min-width: 1024px) {
+            margin: 6rem 0; 
+        }
+    }
+    h1 {
+        margin: 0 0 0.5rem 0;
+    }
 }
 
 /deep/ .ngx-gallery-thumbnail{  
@@ -11,17 +30,25 @@
     // }
     &:after {
         position: absolute;
-        content: "";
+        content: "\f06e";
+        font-family: FontAwesome;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         opacity: 0;
         border-radius: 10px;
+        text-align: center;
+        padding-top: 46%;
+        font-size: 1.7rem;
+        color: #f6f4f4;
     }
     &:hover:after {
         opacity: .8;
         background-color: $fandango;
         transition: background-color 0.5s ease;
     }
+}
+ngx-gallery /deep/ .ngx-gallery-arrow {
+    font-size: 33px;
 }

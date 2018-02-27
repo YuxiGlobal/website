@@ -33,7 +33,7 @@ export class ImageGalleryComponent implements OnInit {
       {
         breakpoint: 800,
         width: '100%',
-        height: '600px',
+        height: '100vw',
         imagePercent: 80,
         thumbnailsPercent: 20,
         thumbnailsMargin: 0,
@@ -42,7 +42,7 @@ export class ImageGalleryComponent implements OnInit {
       // max-width 400
       {
         breakpoint: 400,
-        preview: false
+        preview: true
       }
     ];
 
