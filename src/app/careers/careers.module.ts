@@ -15,6 +15,8 @@ import { RecaptchaModule } from 'ng-recaptcha';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import 'hammerjs';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import { NgxGalleryModule } from 'ngx-gallery';
+import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 
 @NgModule({
   imports: [
@@ -27,8 +29,9 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
+    NgxGalleryModule,
     RecaptchaModule.forRoot()
   ],
-  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent, IntroBannerComponent]
+  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent, IntroBannerComponent, ImageGalleryComponent]
 })
 export class CareersModule { }
