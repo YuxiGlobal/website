@@ -1147,6 +1147,43 @@ Nuestros equipos están preparados para cubrir tu I+D cn respecto a:
         <note priority="1" from="description">lifestyle Description</note>
         <note priority="1" from="meaning">lifestyle Description</note>
       </trans-unit>
+      <!-- TESTIMONIALS -->
+      <trans-unit id="TestimonialOne" datatype="html">
+        <source>MEET <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>BEN <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>SAVAGE.</source>
+        <target>CONOCE A<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> BEN <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>SAVAGE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="TestimonialSubtitleOne" datatype="html">
+        <source>Chief Innovation Officer.</source>
+        <target>Jefe de innovacion</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="watch" datatype="html">
+        <source>
+          Watch
+        </source>
+        <target>Ver</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description">button watch</note>
+        <note priority="1" from="meaning">BUTTON WATCH</note>
+      </trans-unit>
       <!-- OPEN SPOTS SECTION -->
       <trans-unit id="OpenSpotsTitle" datatype="html">
         <source>
