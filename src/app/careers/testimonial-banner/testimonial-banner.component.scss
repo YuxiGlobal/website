@@ -6,18 +6,27 @@ ngx-carousel {
     font-family: $fontFamilyPrimary;
 }
 ngx-item {
-//    height: 100%;
    h1 {
-    padding-top: 35vh;
-    text-align: center;
+    margin: 0;
+    text-align: left;  
    }
+   p {
+       font-family: $fontFamilySecondary
+;   }
+}
+.banner-info {
+    margin-left: 50%;
+}
+.button {
+    width: 106px;
 }
 
 .image-banner {
-    // display: flex;
-    // justify-content: center;
     width: 100%;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .leftRs {
