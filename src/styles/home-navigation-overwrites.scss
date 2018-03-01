@@ -7,6 +7,7 @@
 
 .fp-viewing-3 #navigation {
   background-color: $white;
+  @include light-shadow;
   #hot-stuff-button {
     background: $rusianViolet;
     border: 2px solid $rusianViolet;
@@ -44,6 +45,7 @@
 
 .fp-viewing-3 #navigation.menu-visible {
   background: transparent;
+  box-shadow: none;
   #menu-button {
     background: $white;
   }
