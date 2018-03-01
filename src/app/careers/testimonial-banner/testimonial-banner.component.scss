@@ -80,11 +80,19 @@ ngx-item {
     }
 }
 .img2 {
-    background-image: url("/../../../assets/images/testimonio-ben.jpg");
+    background-image: url("/../../../assets/images/testimonio-michael.jpg");
     background-size: cover;
+    background-position: 30%;
+    @media (min-width: 1024px) {
+       background-position: 0%;
+    }
 }
 .img3 {
     background-image: url("/../../../assets/images/testimonio-ben.jpg");
     background-size: cover;
+    background-position: 30%;
+    @media (min-width: 1024px) {
+       background-position: 0%;
+    }
 }
 

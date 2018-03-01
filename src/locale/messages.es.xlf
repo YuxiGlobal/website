@@ -1164,6 +1164,22 @@
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="TestimonialTwo" datatype="html">
+        <source>MEET <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>MICHAEL <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>FERIOLI.</source>
+        <target>CONOCE A<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> MICHAEL <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>FERIOLI.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="TestimonialSubtitleTwo" datatype="html">
+        <source>Brainshark - VP of Engineering</source>
+        <target>Brainshark - VP de Ingeniería</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="watch" datatype="html">
         <source>
           Watch
