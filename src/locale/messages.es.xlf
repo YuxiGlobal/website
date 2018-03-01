@@ -465,8 +465,8 @@
           Innovation is more than having a great software product. It requires you to constantly be on the lookout for new technologies, opportunities, and features to be implemented. Our teams can cover your R&amp;D regarding:
         </source>
         <target>
-          Innovar requiere tener problemas reales para poder ser resueltos de manera ingeniosa. Estamos especializados en ayudar a las empresas a alcanzar sus objetivos de transformación digital.
-Nuestros equipos están preparados para cubrir tu I+D cn respecto a:
+          En Yuxi estamos especializados en ayudar a las empresas a alcanzar sus objetivos de transformación digital.
+          Nuestros equipos están preparados para cubrir tu I+D cn respecto a:
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
