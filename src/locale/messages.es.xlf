@@ -5,7 +5,7 @@
     <!-- HOME PAGE -->
     <trans-unit id="Banner1Title" datatype="html">
         <source>discover real innovation.</source>
-        <target>DESCUBRE NUESTROS SERVICIOS DE NEARSHORE</target>
+        <target>DESCUBRE NUESTROS SERVICIOS NEARSHORE.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">15</context>
@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="Banner3Title" datatype="html">
         <source>devise groundbreaking improvements.</source>
-        <target>CREA NUEVOS PRODUCTOS</target>
+        <target>CREA NUEVOS PRODUCTOS.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">33</context>
