@@ -1158,7 +1158,7 @@
       </trans-unit>
       <trans-unit id="TestimonialSubtitleOne" datatype="html">
         <source>Chief Innovation Officer.</source>
-        <target>Jefe de innovacion</target>
+        <target>Director de innovación</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -1178,6 +1178,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
           <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Testimonialthree" datatype="html">
+        <source>MEET <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>IMS <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>TEAM.</source>
+        <target>CONOCE Al<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> EQUIPO <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>IMS.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="TestimonialSubtitleThree" datatype="html">
+        <source>Jay Rice &amp; Brian Kimmel</source>
+        <target>Jay Rice y Brian Kimmel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="watch" datatype="html">
