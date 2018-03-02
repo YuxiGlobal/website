@@ -184,6 +184,7 @@
 .pass-the-fold {
   &.container {
     background: $white;
+    @include light-shadow;
   }
 
   .yuxi-logo--white {
@@ -206,6 +207,7 @@
 .menu-visible {
   &.container {
     background: transparent;
+    box-shadow: none;
   }
 }
 

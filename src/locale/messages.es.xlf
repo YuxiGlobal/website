@@ -465,8 +465,8 @@
           Innovation is more than having a great software product. It requires you to constantly be on the lookout for new technologies, opportunities, and features to be implemented. Our teams can cover your R&amp;D regarding:
         </source>
         <target>
-          Innovar requiere tener problemas reales para poder ser resueltos de manera ingeniosa. Estamos especializados en ayudar a las empresas a alcanzar sus objetivos de transformación digital.
-Nuestros equipos están preparados para cubrir tu I+D cn respecto a:
+          En Yuxi estamos especializados en ayudar a las empresas a alcanzar sus objetivos de transformación digital.
+          Nuestros equipos están preparados para cubrir tu I+D cn respecto a:
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/services-page/services-items/services-items.component.ts</context>
@@ -1146,6 +1146,75 @@ Nuestros equipos están preparados para cubrir tu I+D cn respecto a:
         </context-group>
         <note priority="1" from="description">lifestyle Description</note>
         <note priority="1" from="meaning">lifestyle Description</note>
+      </trans-unit>
+      <!-- TESTIMONIALS -->
+      <trans-unit id="TestimonialOne" datatype="html">
+        <source>MEET <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>BEN <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>SAVAGE.</source>
+        <target>CONOCE A<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> BEN <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>SAVAGE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="TestimonialSubtitleOne" datatype="html">
+        <source>Chief Innovation Officer.</source>
+        <target>Director de innovación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="TestimonialTwo" datatype="html">
+        <source>MEET <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>MICHAEL <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>FERIOLI.</source>
+        <target>CONOCE A<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> MICHAEL <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>FERIOLI.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="TestimonialSubtitleTwo" datatype="html">
+        <source>Brainshark - VP of Engineering</source>
+        <target>Brainshark - VP de Ingeniería</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Testimonialthree" datatype="html">
+        <source>MEET <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>IMS <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>TEAM.</source>
+        <target>CONOCE Al<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> EQUIPO <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>IMS.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="TestimonialSubtitleThree" datatype="html">
+        <source>Jay Rice &amp; Brian Kimmel</source>
+        <target>Jay Rice y Brian Kimmel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="watch" datatype="html">
+        <source>
+          Watch
+        </source>
+        <target>Ver</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/careers/testimonial-banner/testimonial-banner.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description">button watch</note>
+        <note priority="1" from="meaning">BUTTON WATCH</note>
       </trans-unit>
       <!-- OPEN SPOTS SECTION -->
       <trans-unit id="OpenSpotsTitle" datatype="html">
