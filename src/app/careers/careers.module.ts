@@ -17,7 +17,7 @@ import 'hammerjs';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
-import { TestimonialBannerComponent } from './testimonial-banner/testimonial-banner.component';
+
 
 @NgModule({
   imports: [
@@ -33,6 +33,6 @@ import { TestimonialBannerComponent } from './testimonial-banner/testimonial-ban
     NgxGalleryModule,
     RecaptchaModule.forRoot()
   ],
-  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent, IntroBannerComponent, ImageGalleryComponent, TestimonialBannerComponent]
+  declarations: [CareersComponent, OurCultureComponent, OurCultureDesktopComponent, OffersComponent, OfferComponent, OfferDetailComponent, IntroBannerComponent, ImageGalleryComponent]
 })
 export class CareersModule { }
