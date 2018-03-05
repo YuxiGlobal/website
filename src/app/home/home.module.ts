@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
+import { AlliesComponent } from './allies/allies.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
     HomeBannerComponent, 
     ServicesComponent, 
     AdvantagesComponent,
-    WhoWeAreComponent],
+    WhoWeAreComponent,
+    AlliesComponent],
   exports: [HomeComponent]
 })
 export class HomeModule { }
