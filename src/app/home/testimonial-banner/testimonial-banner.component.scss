@@ -13,6 +13,7 @@ ngx-item {
    }
    p {
        font-family: $fontFamilySecondary;   
+       text-align: left;
     }
 }
 .banner-info {
@@ -56,6 +57,7 @@ ngx-item {
 }
 .arrow-banner-left {
     transform: rotate(90deg);
+    cursor: pointer;
 }
 
 .rightRs {
@@ -73,6 +75,7 @@ ngx-item {
 
 .arrow-banner-right {
     transform: rotate(-90deg);
+    cursor: pointer;
 }
 
 .img1 {

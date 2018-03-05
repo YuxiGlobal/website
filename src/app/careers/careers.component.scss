@@ -21,6 +21,9 @@
 }
 .title {
     padding: 3rem 0;
+    @media (min-width: 1024px) {
+        padding: 7rem 0;
+    }
 }
 
 app-our-culture {

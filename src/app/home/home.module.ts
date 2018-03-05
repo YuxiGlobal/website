@@ -11,6 +11,9 @@ import {MatButtonModule} from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
+import { AlliesComponent } from './allies/allies.component';
+import { TestimonialBannerComponent } from './testimonial-banner/testimonial-banner.component';
+import { NgxCarouselModule } from 'ngx-carousel';
 
 
 @NgModule({
@@ -21,6 +24,7 @@ import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
     MatButtonModule,
     MatIconModule,
     RouterModule,
+    NgxCarouselModule,
     MnFullpageModule.forRoot()
   ],
   declarations: [
@@ -28,7 +32,9 @@ import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
     HomeBannerComponent, 
     ServicesComponent, 
     AdvantagesComponent,
-    WhoWeAreComponent],
+    WhoWeAreComponent,
+    AlliesComponent,
+    TestimonialBannerComponent],
   exports: [HomeComponent]
 })
 export class HomeModule { }
