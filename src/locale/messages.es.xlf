@@ -187,6 +187,16 @@
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
+      <!-- OUR ALLIES -->
+      <trans-unit id="1f37ffbca0516e05ed950315e1c231d2a277a769" datatype="html">
+        <source>OUR ALLIES</source>
+        <target>NUESTROS ALIADOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/allies/allies.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">@OurAllies</note>
+      </trans-unit>
       <!-- GET IN TOUCH OPTIONS -->
       <trans-unit id="getInTouchTitle" datatype="html">
         <source>GET IN<x id="LINE_BREAK" ctype="lb"/> TOUCH</source>
