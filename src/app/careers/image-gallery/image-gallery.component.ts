@@ -48,9 +48,39 @@ export class ImageGalleryComponent implements OnInit {
 
     this.galleryImages = [
       {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
+        small: 'assets/images/gallery1.jpg',
+        medium: 'assets/images/gallery1.jpg',
+        big: 'assets/images/gallery1.jpg'
+      },
+      {
+        small: 'assets/images/gallery2.jpg',
+        medium: 'assets/images/gallery2.jpg',
+        big: 'assets/images/gallery2.jpg'
+      },
+      {
+        small: 'assets/images/gallery3.jpg',
+        medium: 'assets/images/gallery3.jpg',
+        big: 'assets/images/gallery3.jpg'
+      },
+      {
+        small: 'assets/images/gallery4.jpg',
+        medium: 'assets/images/gallery4.jpg',
+        big: 'assets/images/gallery4.jpg'
+      },
+      {
+        small: 'assets/images/gallery5.jpg',
+        medium: 'assets/images/gallery5.jpg',
+        big: 'assets/images/gallery5.jpg'
+      },
+      {
+        small: 'assets/images/gallery6.jpg',
+        medium: 'assets/images/gallery6.jpg',
+        big: 'assets/images/gallery6.jpg'
+      },
+      {
+        small: 'assets/images/gallery7.jpg',
+        medium: 'assets/images/gallery7.jpg',
+        big: 'assets/images/gallery7.jpg'
       },
       {
         small: 'assets/images/gallery8.jpeg',
@@ -58,39 +88,9 @@ export class ImageGalleryComponent implements OnInit {
         big: 'assets/images/gallery8.jpeg'
       },
       {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
-      },
-      {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
-      },
-      {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
-      },
-      {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
-      },
-      {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
-      },
-      {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
-      },
-      {
-        small: 'assets/images/gallery8.jpeg',
-        medium: 'assets/images/gallery8.jpeg',
-        big: 'assets/images/gallery8.jpeg'
+        small: 'assets/images/gallery10.jpg',
+        medium: 'assets/images/gallery10.jpg',
+        big: 'assets/images/gallery10.jpg'
       }
     ];
   }
