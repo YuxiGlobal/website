@@ -14,10 +14,13 @@
     "ngrok": "ngrok http --host-header=rewrite 4200",
     "build": "npm run build-en && npm run build-es && gulp copy:config",
     "build-en": "ng build --prod --aot -op dist -bh /",
+    "build-es": "ng build --prod --aot -op dist/es -bh /es/ --i18nFile=src/locale/messages.es.xlf --i18nFormat=xlf --locale=es",
     "copy-handler": "mkdir dist\\bin && copy src\\bin\\Yuxi.HttpModules.dll dist\\bin ",
     "copy-config": "copy src\\web.config dist ",
-    "build-es": "ng build --prod --aot -op dist/es -bh /es/ --i18nFile=src/locale/messages.es.xlf --i18nFormat=xlf --locale=es",
-    "image-optimization": "imagemin src/assets/images/* --out-dir=src/assets/images"
+    "image-optimization": "imagemin src/assets/images/* --out-dir=src/assets/images",
+    "build-qa": "npm run build-en-qa && npm run build-es-qa && gulp copy:config",
+    "build-en-qa": "ng build  --aot -op dist -bh /",
+    "build-es-qa": "ng build --aot -op dist/es -bh /es/ --i18nFile=src/locale/messages.es.xlf --i18nFormat=xlf --locale=es",
   },
   "private": true,
   "dependencies": {
