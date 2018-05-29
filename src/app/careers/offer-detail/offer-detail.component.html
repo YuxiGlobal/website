@@ -58,7 +58,7 @@
           <button
             class="button-form"
             type="submit"
-            [disabled]="offerForm.invalid || !fileName.length || !recaptchaResponse.length"
+            [disabled]="offerForm.invalid || !fileName.length || !recaptchaResponse || !recaptchaResponse.length"
             (click)="submitForm()">
             {{ buttonTitle }}
         </button>

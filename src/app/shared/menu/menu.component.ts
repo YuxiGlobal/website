@@ -17,6 +17,5 @@ export class MenuComponent implements OnInit {
   checkLanguage() {
     const spanish = this.el.nativeElement.querySelector(".spanish");  
     this.language = window.location.pathname.split("/").includes("es");
-    console.log(this.language);
   }
 }
