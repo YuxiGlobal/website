@@ -39,7 +39,7 @@
       <button
         type="submit"
         class="button-form"
-        [disabled]="businessForm.invalid || !recaptchaResponse.length"
+        [disabled]="businessForm.invalid || !recaptchaResponse || !recaptchaResponse.length"
         (click)="submitForm()"
       >
         {{ buttonTitle }}

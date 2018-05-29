@@ -2,6 +2,7 @@ import { HomeComponent } from './home/home.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
 
+
 import { AppComponent } from './app.component';
 import { SharedModule } from 'app/shared/shared.module';
 import { HomeModule } from './home/home.module';
@@ -14,6 +15,7 @@ import { CareersComponent } from 'app/careers/careers.component';
 import { CareersModule } from 'app/careers/careers.module';
 import { OfferDetailComponent } from 'app/careers/offer-detail/offer-detail.component';
 import { TermsPrivacyComponent } from 'app/shared/terms-privacy/terms-privacy.component';
+import { WindowRefService } from './services-page/window-ref.service';
 
 
 const routes: Routes = [
@@ -44,7 +46,7 @@ const routes: Routes = [
     CareersModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [{ provide: LOCALE_ID, useValue: 'es' }],
+  providers: [WindowRefService, { provide: LOCALE_ID, useValue: 'es' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
