@@ -3,6 +3,7 @@ import { Component, Input } from '@angular/core';
 import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { MatFormFieldControl } from '@angular/material';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
+import { ICustomWindow, WindowRefService } from '../../services-page/window-ref.service';
 
 @Component({
   selector: 'app-business-form',
@@ -11,7 +12,7 @@ import { SubmissionsService } from 'app/shared/services/submissions.service';
 })
 export class BusinessFormComponent {
   @Input() showCaptcha: boolean;
-
+  private _window: ICustomWindow;
   buttonTitle = 'Submit';
 
   businessForm = new FormGroup({
@@ -27,12 +28,14 @@ export class BusinessFormComponent {
   recaptchaResponse: string;
 
   constructor(
+    private windowRef: WindowRefService,
     private submissions: SubmissionsService
-  ) { }
+  ) { 
+    this._window = windowRef.nativeWindow;    
+  }
 
   resolved(captchaResponse: string) {
     this.recaptchaResponse = captchaResponse;
-
   }
 
   getErrorMessage() {
@@ -59,10 +62,15 @@ export class BusinessFormComponent {
       this.submissions
         .sendBusinessForm(data)
         .subscribe(
-          () => this.buttonTitle = 'Sent!',
+          () => {
+            this._window.dataLayer.push({
+              'event': 'registrationComplete'
+             });
+            this.buttonTitle = 'Sent!';
+            
+          },
           () => this.buttonTitle = 'Error. Please reload the page'
         );
-
     }
   }
 }

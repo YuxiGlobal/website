@@ -55,6 +55,7 @@ export class GeneralFormComponent {
         Country: this.generalForm.value.country,
         'g-recaptcha-response': this.recaptchaResponse
       };
+      this.buttonTitle = 'Sending...';
 
       this.submissions
         .sendGeneralForm(data)

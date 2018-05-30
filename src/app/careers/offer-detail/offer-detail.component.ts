@@ -9,6 +9,7 @@ import { environment } from './../../../environments/environment';
 import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { MatFormFieldControl } from '@angular/material';
 import { SubmissionsService } from 'app/shared/services/submissions.service';
+import { ICustomWindow, WindowRefService } from '../../services-page/window-ref.service';
 
 @Component({
   selector: 'app-offer-detail',
@@ -30,6 +31,7 @@ export class OfferDetailComponent implements OnInit {
     message: new FormControl(''),
     offer: new FormControl('oferta', [Validators.required])
   });
+  private _window: ICustomWindow;  
 
   recaptchaKey = environment.recapchaKey;
   recaptchaResponse = '';
@@ -40,8 +42,11 @@ export class OfferDetailComponent implements OnInit {
     private careersService: CareersService,
     private showOverlayService: ShowOverlayService,
     private navigationService: NavigationService,
-    private submissions: SubmissionsService
-  ) { }
+    private submissions: SubmissionsService,
+    private windowRef: WindowRefService    
+  ) { 
+    this._window = windowRef.nativeWindow;      
+  }
 
   ngOnInit() {
     this.route.params
@@ -93,11 +98,17 @@ export class OfferDetailComponent implements OnInit {
         Offer: `${this.offerInfo.title} ${this.offerInfo.title2}`,
         'g-recaptcha-response': this.recaptchaResponse
       };
-
+      this.buttonTitle = 'Sending...';
+      
       this.submissions
         .sendOfferForm(data)
         .subscribe(
-          () => this.buttonTitle = 'Sent!',
+          () => {
+            this._window.dataLayer.push({
+              'event': 'registrationComplete'
+             });
+            this.buttonTitle = 'Sent!';
+          },
           () => this.buttonTitle = 'Error. Please reload the page'
         );
 
